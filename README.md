@@ -3,4 +3,4 @@
 
 인생업적 - 페이커 솔킬 faker solo kill
 
-<img src="https://s1.gifyu.com/images/faker_last_AdobeExpress-1.gif" style="width:200px; height:200px;" />
+<img alt="..." src="http://s1.gifyu.com/images/faker_last_AdobeExpress-1.gif" style="width:200px; height:200px;" />
