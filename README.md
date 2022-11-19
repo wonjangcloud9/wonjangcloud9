@@ -5,7 +5,7 @@
 인생업적 - 페이커 솔킬 faker solo kill
   </p>
   <p align="center">
-<img alt="..." src="https://postfiles.pstatic.net/MjAyMjExMTlfMTMw/MDAxNjY4ODM2ODM5NDI3.Oh7lSMu1t7r0b2uggnQlmdVdNzfRqXWFrBL3plAXmCQg.xYeHOgcNOn1Do1CqA6Hh_gzSLZd9BWwv7zJCzp4gtIYg.GIF.venuscwj/faker_short_AdobeExpress.gif?type=w966" style="width:200px; height:200px;" />
+<img alt="..." src="https://user-images.githubusercontent.com/48057918/202836555-ad0093e2-523a-4742-b280-f48f59518906.gif" style="width:200px; height:200px;" />
   </p>
 <p align="center">
 그리고 귀여운 강아지
