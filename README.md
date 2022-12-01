@@ -8,8 +8,3 @@
 <img alt="..." src="https://user-images.githubusercontent.com/48057918/202836555-ad0093e2-523a-4742-b280-f48f59518906.gif" style="width:80vw;" />
   </p>
 <p align="center">
-그리고 귀여운 강아지
-  </p>
-<p align="center">
-<img alt="..." src="http://cdn.dealbada.com/data/editor/1612/6f85152fb00f5b5b97f600c298ab7baf_1481465583_7866.gif" style="width:80vw;" />
-</p>
