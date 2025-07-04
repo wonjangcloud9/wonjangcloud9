@@ -52,31 +52,31 @@ These days, I’m especially focused on exploring and building with **AI technol
 
 ## 💼 Experience (Chronological)
 
-**2025.06 ~ Present | GS Neotek (Freelancer)**  
+**2025.06 ~ Present | GS Neotek **  
 - Improving in-house services & FastAPI backend development  
 - Back-office system development
 
-**2025.04 ~ 2025.05 | BankX (Freelancer)**
+**2025.04 ~ 2025.05 | BankX **
 - Developed data collection pipeline using Airflow and FastAPI
 - Dockerized and automated the process
 - Stack: Python, FastAPI, Docker, Airflow
 
-**2025.02 ~ 2025.04 | Moving University (Freelancer)**  
+**2025.02 ~ 2025.04 | Moving University **  
 - Led full-cycle service development (Flutter + FastAPI)  
 - Designed service architecture, UI/UX, prototypes 
 
-**2024.05 ~ 2025.01 | MyCarPage (Freelancer)**  
+**2024.05 ~ 2025.01 | MyCarPage **  
 - Built LangChain-based RAG vehicle search  
 - Developed AI-driven vehicle data crawler  
 
-**2021.12 ~ 2024.01 | MyCarPage (Full-time)**  
+**2021.12 ~ 2024.01 | MyCarPage **  
 - Automated vehicle photo system (Patent pending)  
 - Developed AI, WebRTC, and video services for car marketplace  
 
-**2021.05 ~ 2021.10 | SpikeGroup (Full-time)**  
+**2021.05 ~ 2021.10 | SpikeGroup **  
 - Backend development for internal services (FastAPI & AWS)  
 
-**2019.12 ~ 2021.02 | Sandle Networks (Full-time)**  
+**2019.12 ~ 2021.02 | Sandle Networks **  
 - SK Broadband STB firmware deployment & emergency issue handling  
 
 ---
