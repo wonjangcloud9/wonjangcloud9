@@ -53,8 +53,8 @@ These days, I’m especially focused on exploring and building with **AI technol
 ## 💼 Experience (Chronological)
 
 **2025.06 ~ Present | GS Neotek **  
-- Improving in-house services & FastAPI backend development  
-- Back-office system development
+- Improving in-house services using Next.js frontend and Flask backend
+- Developing back-office systems with Next.js and Flask
 
 **2025.04 ~ 2025.05 | BankX **
 - Developed data collection pipeline using Airflow and FastAPI
