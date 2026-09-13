@@ -2,7 +2,7 @@
   <style>
     text{font-feature-settings:'tnum' 1}
     .h1{font-size:20px;font-weight:700;fill:#1f2328;letter-spacing:-.2px}
-    .live{font-size:10px;font-weight:700;fill:#3fb950;letter-spacing:.8px}
+    .live{font-size:11px;font-weight:600;fill:#656d76;letter-spacing:.3px}
     .big{font-size:34px;font-weight:800;fill:#1f2328;letter-spacing:-1px}
     .cap{font-size:12px;fill:#656d76}
     .sec{font-size:11px;font-weight:700;fill:#656d76;letter-spacing:1.4px}
@@ -12,21 +12,18 @@
     .legend{font-size:11.5px;fill:#656d76}
     .tick{font-size:10.5px;fill:#656d76}
     .foot{font-size:11.5px;fill:#656d76}
-    .pulse{animation:p 2.4s ease-in-out infinite}
-    @keyframes p{0%,100%{opacity:1}50%{opacity:.2}}
   </style>
   <rect x="0.5" y="0.5" width="879" height="655" rx="16" fill="#ffffff" stroke="#d8dee4"/>
 
   <text x="48" y="52" class="h1">원장 실험실 · WONJANG LAB</text>
-  <circle cx="736" cy="46" r="4" fill="#3fb950" class="pulse"/>
-  <text x="748" y="50" class="live">LIVE · 매일 갱신</text>
+  <text x="832" y="50" class="live" text-anchor="end">2026-09-13 기준</text>
   <line x1="48" y1="76" x2="832" y2="76" stroke="#d8dee4"/>
 
-  <text x="48" y="134" class="big">345</text>
-  <text x="48" y="157" class="cap">레포 · 공개 156</text>
-  <text x="182" y="134" class="big">7,790</text>
+  <text x="48" y="134" class="big">346</text>
+  <text x="48" y="157" class="cap">레포 · 공개 157</text>
+  <text x="182" y="134" class="big">7,791</text>
   <text x="182" y="157" class="cap">커밋 · 비공개 포함</text>
-  <text x="316" y="134" class="big" fill="#D97757">2,163</text>
+  <text x="316" y="134" class="big" fill="#D97757">2,164</text>
   <text x="316" y="157" class="cap">올해 커밋</text>
   <text x="450" y="134" class="big" fill="#3fb950">7</text>
   <text x="450" y="157" class="cap">연속 기록 · 일</text>
@@ -155,5 +152,5 @@
     <text x="634" y="577.5" class="rownum" text-anchor="end" fill="#78D3F8">3</text>
     <text x="656" y="577.5" class="rowsub">2023년부터</text>
 
-  <text x="48" y="630" class="foot">최장 연속 123일  ·  마지막 갱신 2026-09-13  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>
+  <text x="48" y="630" class="foot">최장 연속 123일  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>
 </svg>

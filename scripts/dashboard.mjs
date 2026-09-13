@@ -245,7 +245,7 @@ function svg(mode) {
   <style>
     text{font-feature-settings:'tnum' 1}
     .h1{font-size:20px;font-weight:700;fill:${t.text};letter-spacing:-.2px}
-    .live{font-size:10px;font-weight:700;fill:#3fb950;letter-spacing:.8px}
+    .live{font-size:11px;font-weight:600;fill:${t.dim};letter-spacing:.3px}
     .big{font-size:34px;font-weight:800;fill:${t.text};letter-spacing:-1px}
     .cap{font-size:12px;fill:${t.dim}}
     .sec{font-size:11px;font-weight:700;fill:${t.dim};letter-spacing:1.4px}
@@ -255,14 +255,11 @@ function svg(mode) {
     .legend{font-size:11.5px;fill:${t.dim}}
     .tick{font-size:10.5px;fill:${t.dim}}
     .foot{font-size:11.5px;fill:${t.dim}}
-    .pulse{animation:p 2.4s ease-in-out infinite}
-    @keyframes p{0%,100%{opacity:1}50%{opacity:.2}}
   </style>
   <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.bg}" stroke="${t.line}"/>
 
   <text x="${PAD}" y="${TITLE_Y}" class="h1">원장 실험실 · WONJANG LAB</text>
-  <circle cx="${W - PAD - 96}" cy="${TITLE_Y - 6}" r="4" fill="#3fb950" class="pulse"/>
-  <text x="${W - PAD - 84}" y="${TITLE_Y - 2}" class="live">LIVE · 매일 갱신</text>
+  <text x="${W - PAD}" y="${TITLE_Y - 2}" class="live" text-anchor="end">${new Date().toISOString().slice(0, 10)} 기준</text>
   ${rule(RULE1_Y)}
 
   <text x="${STAT_X[0]}" y="${STAT_NUM_Y}" class="big">${fmt(repos.length)}</text>
@@ -286,7 +283,7 @@ function svg(mode) {
   <text x="${PAD}" y="${THEME_LABEL_Y}" class="sec">오래 파고든 주제</text>
   ${bars}
 
-  <text x="${PAD}" y="${FOOT_Y}" class="foot">최장 연속 ${longestStreak}일  ·  마지막 갱신 ${new Date().toISOString().slice(0, 10)}  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>
+  <text x="${PAD}" y="${FOOT_Y}" class="foot">최장 연속 ${longestStreak}일  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>
 </svg>
 `;
 }

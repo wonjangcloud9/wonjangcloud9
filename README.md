@@ -12,13 +12,13 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-45ceacf065.svg">
-  <img src="./assets/dashboard-light-45ceacf065.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-86c8758afd.svg">
+  <img src="./assets/dashboard-light-86c8758afd.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
 <div align="center">
-<sub>매일 새벽 <a href="scripts/dashboard.mjs">직접 그리는 스크립트</a>가 다시 그립니다. 남의 서비스는 죽으니까요.</sub>
+<sub>남의 통계 서비스에 얹지 않고 <a href="scripts/dashboard.mjs">직접 그리는 스크립트</a>로 만듭니다.</sub>
 </div>
 
 <br>
@@ -106,7 +106,7 @@ React·Next.js·Django. 당근마켓, 에어비앤비, 트위터를 클론하며
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 중고차를 네 번 더 다시 만들고, 건강·운동 앱을 다섯 개. 후반엔 에이전트를 <b>직접 짜기 시작</b>했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 35</sub><br><sub>커밋 2,163</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 36</sub><br><sub>커밋 2,164</sub></td><td>
 AI 코딩 에이전트를 위한 CLI·평가·가드레일을 npm과 PyPI에 올렸습니다. <b>역대 최다 커밋, 아직 9월입니다.</b>
 </td></tr>
 </table>

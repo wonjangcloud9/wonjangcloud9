@@ -12,13 +12,13 @@ Building things in Seoul · [GS Neotek](https://www.gsneotek.co.kr)
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-45ceacf065.svg">
-  <img src="./assets/dashboard-light-45ceacf065.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-86c8758afd.svg">
+  <img src="./assets/dashboard-light-86c8758afd.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
 <div align="center">
-<sub>Redrawn every night by <a href="scripts/dashboard.mjs">a script I wrote</a>. Third-party stat services go down; this one can't.</sub>
+<sub>Drawn by <a href="scripts/dashboard.mjs">a script I wrote</a> instead of a third-party stats service.</sub>
 </div>
 
 <br>
@@ -106,7 +106,7 @@ I narrowed down to one subject: <b>used cars</b> — an Encar crawler, a damage-
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Four more used-car rebuilds and five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>35 repos</sub><br><sub>2,163 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>36 repos</sub><br><sub>2,164 commits</sub></td><td>
 Shipped CLIs, evaluators and guardrails for AI coding agents to npm and PyPI. <b>My highest-commit year, and it's only September.</b>
 </td></tr>
 </table>
