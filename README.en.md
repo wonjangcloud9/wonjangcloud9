@@ -12,8 +12,8 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-20260913.svg">
-  <img src="./assets/dashboard-light-20260913.svg" alt="Wonjang Lab dashboard — repos, commits, languages, rebuild counts" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-b2b7fa5689.svg">
+  <img src="./assets/dashboard-light-b2b7fa5689.svg" alt="Wonjang Lab dashboard — repos, commits, languages, rebuild counts" width="100%">
 </picture>
 </div>
 

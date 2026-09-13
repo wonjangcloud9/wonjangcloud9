@@ -297,10 +297,17 @@ function svg(mode) {
 // 그래서 SVG를 쓴 뒤 README의 <img src>도 같이 고친다.
 const { writeFileSync, readFileSync, readdirSync, unlinkSync } = await import('node:fs');
 
-const stamp = new Date().toISOString().slice(0, 10).replace(/-/g, '');
-const names = { light: `dashboard-light-${stamp}.svg`, dark: `dashboard-dark-${stamp}.svg` };
+// 날짜가 아니라 *내용 해시*를 쓴다. 같은 날 두 번 고치면 날짜는 그대로라
+// 캐시가 또 옛 이미지를 내주기 때문이다. 내용이 같으면 파일명도 같아서
+// 쓸데없는 커밋이 생기지 않는 장점도 있다.
+const { createHash } = await import('node:crypto');
+const light = svg('light');
+const dark = svg('dark');
+const hash = createHash('sha1').update(light).digest('hex').slice(0, 10);
+const names = { light: `dashboard-light-${hash}.svg`, dark: `dashboard-dark-${hash}.svg` };
 
-for (const [mode, name] of Object.entries(names)) writeFileSync(`assets/${name}`, svg(mode));
+writeFileSync(`assets/${names.light}`, light);
+writeFileSync(`assets/${names.dark}`, dark);
 
 // 지난 날짜의 현황판은 지운다 (레포가 SVG 무덤이 되지 않도록)
 for (const f of readdirSync('assets')) {
