@@ -95,7 +95,7 @@ if (!repos.some((r) => r.isPrivate)) {
   process.exit(0);
 }
 
-// ── 3. "같은 걸 몇 번 다시 만들었나" 집계 ────────────────────
+// ── 3. 주제별 레포 수 — 오래 파고든 순서 ─────────────────────
 const THEMES = [
   ['에이전트·LLM', /agent|gpt|langchain|crewAI|RAG|LLM|guardrail|harness|(?<!life-save-with-)claude|mcp/i, '#D97757'],
   ['중고차', /^car(?!rot)|encar|dealer-joes|woncha|norica|jungochagg|mycarpage|usedcar|usedCar|used-car/i, '#5B8FF9'],
@@ -176,7 +176,7 @@ const fmt = (n) => n.toLocaleString('en-US');
 function svg(mode) {
   const t = THEME_COLORS[mode];
 
-  // 다시 만들기 막대
+  // 주제별 막대
   const bars = counted
     .map((c, i) => {
       const y = THEME_BAR_Y0 + i * THEME_STEP;
@@ -283,7 +283,7 @@ function svg(mode) {
   ${langLegend}
 
   ${rule(RULE3_Y)}
-  <text x="${PAD}" y="${THEME_LABEL_Y}" class="sec">같은 걸 몇 번 다시 만들었나</text>
+  <text x="${PAD}" y="${THEME_LABEL_Y}" class="sec">오래 파고든 주제</text>
   ${bars}
 
   <text x="${PAD}" y="${FOOT_Y}" class="foot">최장 연속 ${longestStreak}일  ·  마지막 갱신 ${new Date().toISOString().slice(0, 10)}  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>

@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=700&color=D97757&center=true&vCenter=true&width=700&height=70&lines=I+built+a+used-car+app+24+times.;All+24+failed.;So+I+started+building+tools+instead.;Now+I'm+prepping+attempt+%2325." alt="I built a used-car app 24 times / All 24 failed / So I started building tools instead / Now I'm prepping attempt #25" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=700&size=26&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=700&height=70&lines=I%20spent%20four%20years%20on%20used%20cars%3BNow%20I%20build%20tools%20for%20AI%20agents%3BFour%20packages%20on%20npm%20and%20PyPI" alt="I spent four years on used cars / Now I build tools for AI agents / Four packages on npm and PyPI" />
 
 Building things in Seoul · [GS Neotek](https://www.gsneotek.co.kr)
 
@@ -12,8 +12,8 @@ Building things in Seoul · [GS Neotek](https://www.gsneotek.co.kr)
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-b2b7fa5689.svg">
-  <img src="./assets/dashboard-light-b2b7fa5689.svg" alt="Wonjang Lab dashboard — repos, commits, languages, rebuild counts" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-7a989cf8c1.svg">
+  <img src="./assets/dashboard-light-7a989cf8c1.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -85,57 +85,57 @@ A CLI that scores **harness engineering** quality and generates benchmarks from 
 
 ---
 
-## 📖 Seven years of failing forward
+## 📖 The path so far
 
 <table>
 <tr><td width="92" align="center"><b>2019</b><br><sub>3 repos</sub></td><td>
-🐣 <b>First commit.</b> I had no idea what the web was, so I started by <b>cloning</b> — KakaoTalk, Netflix.
+First commit. I started by <b>cloning</b> — KakaoTalk, Netflix.
 </td></tr>
 <tr><td align="center"><b>2020–21</b><br><sub>389 commits</sub></td><td>
-💤 <b>The years I didn't use GitHub.</b> I didn't know it mattered, so the code just piled up on my laptop. <b>Zero commits in 2020.</b>
+The years I didn't use GitHub. I didn't know it mattered, so the code stayed on my laptop. <b>Zero commits in 2020.</b>
 </td></tr>
 <tr><td align="center"><b>2022</b><br><sub>94 repos</sub><br><sub>1,184 commits</sub></td><td>
-📚 <b>The year syntax became muscle memory.</b> React, Next.js and Django — cloning Karrot Market, Airbnb and Twitter at eight repos a month.
+React, Next.js and Django — cloning Karrot Market, Airbnb and Twitter at eight repos a month.
 </td></tr>
 <tr><td align="center"><b>2023</b><br><sub>127 repos</sub><br><sub>1,955 commits</sub></td><td>
-📱 <b>The year I went mobile — my busiest ever.</b> Flutter, React Native and Jetpack Compose at once. My first attempts at things <i>someone might actually use</i>, almost all of which died before launch.
+<b>My busiest year.</b> Flutter, React Native and Jetpack Compose at once, plus my first real product attempts — a toilet finder, an education LMS, a complaint tracker, an AI companion.
 </td></tr>
 <tr><td align="center"><b>2024</b><br><sub>48 repos</sub><br><sub>1,355 commits</sub></td><td>
-🚗 <b>The year I picked a domain.</b> Everything converged on <b>used cars</b> — an Encar crawler, a damage-detection FastAPI, mycarpageGPT. LangChain and RAG put an LLM in a product for the first time.
+I narrowed down to one subject: <b>used cars</b> — an Encar crawler, a damage-detection FastAPI, mycarpageGPT. LangChain and RAG put an LLM in a product for the first time.
 </td></tr>
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>907 commits</sub></td><td>
-🔁 <b>The year of rebuilding.</b> Four more used-car rewrites and five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
+Four more used-car rebuilds and five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
 <tr><td align="center"><b>2026</b><br><sub>35 repos</sub><br><sub>2,100+ commits</sub></td><td>
-🛠️ <b>From tool user to toolmaker.</b> I shipped CLIs, evaluators and guardrails for AI coding agents to npm and PyPI. <b>My highest-commit year ever, and it's only September.</b>
+Shipped CLIs, evaluators and guardrails for AI coding agents to npm and PyPI. <b>My highest-commit year, and it's only September.</b>
 </td></tr>
 </table>
 
 ---
 
-## 🪦 The repo graveyard
+## 📌 Subjects I kept coming back to
 
 <details>
-<summary><b>Things that never made it — open and laugh</b></summary>
+<summary><b>How many repos each, and how far they got</b></summary>
 
 <br>
 
-| What | Attempts | Cause of death |
+| Subject | Repos | How far it got |
 |---|---|---|
-| 🚗 **Used cars** | 24 | Damage-detection API, crawlers, GPT search, four MVPs. **Every time I thought "this one's different."** |
-| 🚽 **Toilet finder** | 3 | Web, native, Flutter — one each. All three died at the maps API. |
-| ⏱️ **Pomodoro** | 6 | I have a condition where I build a pomodoro timer to learn any new framework. |
-| 🎵 **TikTok clone** | 4 | At least I genuinely learned Flutter animations. |
-| 😴 **Sleep apps** | 3 | Only [Jammanbo](https://life-save-with-claude-code-multi-se.vercel.app) survived. |
-| 🎤 **Vocal trainer** | 1 | Created the repo. **Zero commits.** My most honest failure. |
-| 👻 **Named and abandoned** | **34** | Repos without a single commit. `myApp Dream`, `real-final-usedCar-search`… |
+| 🤖 **Agents & LLMs** | 26 | Following courses → writing my own → **four packages on npm and PyPI** |
+| 🚗 **Used cars** | 24 | Encar crawler → damage-detection API → GPT search → four MVPs. Since 2022 |
+| 🏃 **Weight & fitness** | 11 | The eleventh is vibing. The first ten taught me what to cut |
+| 🎌 **Fandom & Japanese** | 7 | Consolidated into [custo](https://wonjangcloud9.github.io/custo/) |
+| ⏱️ **Pomodoro** | 6 | One per new framework I picked up |
+| 🎵 **TikTok clones** | 4 | Where I actually learned Flutter animations |
+| 😴 **Sleep** | 3 | [Jammanbo](https://life-save-with-claude-code-multi-se.vercel.app) is the one that stuck |
 
-<b>I've never failed for lack of an idea. I've failed, every time, by failing to cut scope.</b> Which is why what I build now never exceeds five screens.
+I tend to stay on one subject for a long time. What I've changed is scope — nothing I build now goes past five screens.
 
 </details>
 
 <details>
-<summary><b>🎮 Side quests — these actually run</b></summary>
+<summary><b>🎮 Other things that actually run</b></summary>
 
 <br>
 
@@ -179,5 +179,5 @@ A CLI that scores **harness engineering** quality and generates benchmarks from 
 ---
 
 <div align="center">
-<sub><b>189 of my 361 repos are private.</b> Only the ones that made it all the way go public.</sub>
+<sub><b>189 of my 361 repos are private</b> — they hold keys or personal data. The numbers above include private commits.</sub>
 </div>

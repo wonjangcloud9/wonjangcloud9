@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto%20Sans%20KR&weight=700&size=26&duration=2600&pause=700&color=D97757&center=true&vCenter=true&width=700&height=70&lines=%EC%A4%91%EA%B3%A0%EC%B0%A8%20%EC%95%B1%EC%9D%84%2024%EB%B2%88%20%EB%A7%8C%EB%93%A4%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4%3B24%EB%B2%88%20%EB%8B%A4%20%EC%9E%98%20%EC%95%88%20%EB%90%90%EC%8A%B5%EB%8B%88%EB%8B%A4%3B%EA%B7%B8%EB%9E%98%EC%84%9C%20%EB%8F%84%EA%B5%AC%EB%A5%BC%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20%EC%8B%9C%EC%9E%91%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4%3B%EC%A7%80%EA%B8%88%EC%9D%80%2025%EB%B2%88%EC%A7%B8%EB%A5%BC%20%EC%A4%80%EB%B9%84%20%EC%A4%91%EC%9E%85%EB%8B%88%EB%8B%A4" alt="중고차 앱을 24번 만들었습니다 / 24번 다 잘 안 됐습니다 / 그래서 도구를 만들기 시작했습니다 / 지금은 25번째를 준비 중입니다" />
+<img src="https://readme-typing-svg.demolab.com?font=Noto%20Sans%20KR&weight=700&size=26&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=700&height=70&lines=%EC%A4%91%EA%B3%A0%EC%B0%A8%EB%A5%BC%204%EB%85%84%EA%B0%84%20%ED%8C%8C%EA%B3%A0%EB%93%A4%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4%3B%EC%9D%B4%EC%A0%9C%EB%8A%94%20AI%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%20%EB%8F%84%EA%B5%AC%EB%A5%BC%20%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4%3Bnpm%EA%B3%BC%20PyPI%EC%97%90%204%EA%B0%9C%EB%A5%BC%20%EC%98%AC%EB%A0%B8%EC%8A%B5%EB%8B%88%EB%8B%A4" alt="중고차를 4년간 파고들었습니다 / 이제는 AI 에이전트 도구를 만듭니다 / npm과 PyPI에 4개를 올렸습니다" />
 
 서울에서 만듭니다 · [GS Neotek](https://www.gsneotek.co.kr)
 
@@ -12,8 +12,8 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-b2b7fa5689.svg">
-  <img src="./assets/dashboard-light-b2b7fa5689.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·다시 만든 횟수" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-7a989cf8c1.svg">
+  <img src="./assets/dashboard-light-7a989cf8c1.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -32,7 +32,7 @@
 
 ---
 
-## 🔨 지금 손에 잡고 있는 것
+## 🔨 지금 만드는 것
 
 <table>
 <tr>
@@ -85,57 +85,57 @@ LLM 앱용 가드레일 엔진. 프롬프트 인젝션·PII(26개 지역)·GDPR�
 
 ---
 
-## 📖 7년치 삽질 연대기
+## 📖 지나온 길
 
 <table>
 <tr><td width="92" align="center"><b>2019</b><br><sub>레포 3</sub></td><td>
-🐣 <b>첫 커밋.</b> 웹을 몰라서 <b>클론 코딩</b>부터 — 코코아톡, 넷플릭스.
+첫 커밋. 클론 코딩으로 시작했습니다 — 코코아톡, 넷플릭스.
 </td></tr>
 <tr><td align="center"><b>2020–21</b><br><sub>커밋 389</sub></td><td>
-💤 <b>깃허브를 안 쓰던 해.</b> 중요한 줄 몰라서 코드가 로컬에만 쌓였습니다. 2020년 커밋 <b>0개</b>.
+깃허브를 쓰지 않던 시기. 중요한 줄 몰라서 코드가 로컬에만 쌓였습니다. 2020년 커밋 <b>0개</b>.
 </td></tr>
 <tr><td align="center"><b>2022</b><br><sub>레포 94</sub><br><sub>커밋 1,184</sub></td><td>
-📚 <b>문법이 손에 붙던 해.</b> React·Next.js·Django로 당근마켓, 에어비앤비, 트위터를 클론하며 한 달에 8개씩 레포를 열었습니다.
+React·Next.js·Django. 당근마켓, 에어비앤비, 트위터를 클론하며 한 달에 8개씩 레포를 열었습니다.
 </td></tr>
 <tr><td align="center"><b>2023</b><br><sub>레포 127</sub><br><sub>커밋 1,955</sub></td><td>
-📱 <b>앱으로 넓힌 해 — 역대 최다 레포.</b> Flutter·React Native·Jetpack Compose를 동시에. 처음으로 <i>쓸 사람이 있는 것</i>을 시도했지만 거의 다 런칭 전에 멈췄습니다.
+<b>역대 최다 레포.</b> Flutter·React Native·Jetpack Compose를 동시에 다뤘고, 처음으로 제품을 시도했습니다 — 화장실 찾기, 교육 LMS, 민원 처리, AI 컴패니언.
 </td></tr>
 <tr><td align="center"><b>2024</b><br><sub>레포 48</sub><br><sub>커밋 1,355</sub></td><td>
-🚗 <b>도메인으로 좁힌 해.</b> 전부 <b>중고차</b>로 모였습니다 — 엔카 크롤러, 손상 판별 FastAPI, mycarpageGPT. LangChain·RAG로 LLM을 처음 붙였습니다.
+주제를 <b>중고차</b>로 좁혔습니다 — 엔카 크롤러, 손상 판별 FastAPI, mycarpageGPT. LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 </td></tr>
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 907</sub></td><td>
-🔁 <b>다시 만들며 배운 해.</b> 중고차를 네 번 더 갈아엎고, 건강·운동 앱을 다섯 개. 후반엔 에이전트를 <b>직접 짜기 시작</b>했습니다.
+중고차를 네 번 더 다시 만들고, 건강·운동 앱을 다섯 개. 후반엔 에이전트를 <b>직접 짜기 시작</b>했습니다.
 </td></tr>
 <tr><td align="center"><b>2026</b><br><sub>레포 35</sub><br><sub>커밋 2,100+</sub></td><td>
-🛠️ <b>도구를 만드는 쪽으로.</b> AI 코딩 에이전트를 위한 CLI·평가·가드레일을 npm과 PyPI에 올렸습니다. <b>역대 최다 커밋인데 아직 9월입니다.</b>
+AI 코딩 에이전트를 위한 CLI·평가·가드레일을 npm과 PyPI에 올렸습니다. <b>역대 최다 커밋, 아직 9월입니다.</b>
 </td></tr>
 </table>
 
 ---
 
-## 🪦 레포 무덤
+## 📌 오래 매달렸던 주제
 
 <details>
-<summary><b>끝까지 못 간 것들 — 펼쳐서 비웃어 주세요</b></summary>
+<summary><b>주제별로 몇 개, 어디까지 갔나</b></summary>
 
 <br>
 
-| 무엇 | 시도 | 사인(死因) |
+| 주제 | 레포 | 어디까지 갔나 |
 |---|---|---|
-| 🚗 **중고차** | 24번 | 손상 판별 API, 크롤러, GPT 검색, MVP 네 번. **매번 "이번엔 다르다"고 생각했습니다** |
-| 🚽 **화장실 찾기** | 3번 | 웹·앱·Flutter로 각각. 셋 다 지도 API 앞에서 멈췄습니다 |
-| ⏱️ **포모도로** | 6번 | 새 프레임워크를 배울 때마다 포모도로를 만드는 병이 있습니다 |
-| 🎵 **틱톡 클론** | 4번 | 대신 Flutter 애니메이션은 확실히 배웠습니다 |
-| 😴 **수면 앱** | 3번 | [잠만보](https://life-save-with-claude-code-multi-se.vercel.app)만 겨우 살아남았습니다 |
-| 🎤 **보컬 트레이너** | 1번 | 레포만 만들고 커밋 **0개**. 가장 정직한 실패 |
-| 👻 **이름만 지은 것들** | **34개** | 커밋이 하나도 없는 빈 레포. `myApp Dream`, `real-final-usedCar-search`… |
+| 🤖 **에이전트·LLM** | 26개 | 강의 따라하기 → 직접 짜기 → **npm·PyPI 배포 4개** |
+| 🚗 **중고차** | 24개 | 엔카 크롤러 → 손상 판별 API → GPT 검색 → MVP 네 번. 2022년부터 |
+| 🏃 **감량·운동** | 11개 | 열한 번째가 vibing. 앞의 열 개가 뭘 빼야 하는지 알려줬습니다 |
+| 🎌 **덕질·일본어** | 7개 | [custo](https://wonjangcloud9.github.io/custo/)로 정리됐습니다 |
+| ⏱️ **포모도로** | 6개 | 새 프레임워크를 배울 때마다 하나씩 |
+| 🎵 **틱톡 클론** | 4개 | Flutter 애니메이션은 여기서 익혔습니다 |
+| 😴 **수면** | 3개 | [잠만보](https://life-save-with-claude-code-multi-se.vercel.app)가 남았습니다 |
 
-<b>아이디어가 없어서 망한 적은 없습니다. 전부 범위를 못 줄여서 망했습니다.</b> 그래서 요즘 만드는 건 화면이 다섯 개를 안 넘습니다.
+한 주제를 오래 붙잡는 편입니다. 대신 요즘은 범위를 좁게 잡습니다 — 만드는 것이 화면 다섯 개를 넘기지 않습니다.
 
 </details>
 
 <details>
-<summary><b>🎮 딴짓 모음 — 이건 그래도 돌아갑니다</b></summary>
+<summary><b>🎮 그 외 — 돌아가는 것들</b></summary>
 
 <br>
 
@@ -154,7 +154,7 @@ LLM 앱용 가드레일 엔진. 프롬프트 인젝션·PII(26개 지역)·GDPR�
 
 <div align="center">
 
-<img src="./assets/storm.webp" width="420" alt="Higgsfield로 만든 영상 — 다들 인사하는 컷">
+<img src="./assets/storm.webp" width="420" alt="Higgsfield로 만든 영상">
 
 <sub>코드 안 쓸 땐 <b>Higgsfield</b>로 이런 걸 만듭니다 🫡</sub>
 
@@ -179,5 +179,5 @@ LLM 앱용 가드레일 엔진. 프롬프트 인젝션·PII(26개 지역)·GDPR�
 ---
 
 <div align="center">
-<sub>레포 361개 중 <b>189개가 비공개</b>입니다. 끝까지 간 것만 공개로 올립니다.</sub>
+<sub>레포 361개 중 <b>189개는 비공개</b>입니다 — 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
 </div>

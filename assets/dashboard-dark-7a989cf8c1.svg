@@ -1,64 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="656" viewBox="0 0 880 656" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Pretendard','Malgun Gothic','Segoe UI',sans-serif">
   <style>
     text{font-feature-settings:'tnum' 1}
-    .h1{font-size:20px;font-weight:700;fill:#1f2328;letter-spacing:-.2px}
+    .h1{font-size:20px;font-weight:700;fill:#e6edf3;letter-spacing:-.2px}
     .live{font-size:10px;font-weight:700;fill:#3fb950;letter-spacing:.8px}
-    .big{font-size:34px;font-weight:800;fill:#1f2328;letter-spacing:-1px}
-    .cap{font-size:12px;fill:#656d76}
-    .sec{font-size:11px;font-weight:700;fill:#656d76;letter-spacing:1.4px}
-    .rowlbl{font-size:13.5px;font-weight:600;fill:#1f2328}
+    .big{font-size:34px;font-weight:800;fill:#e6edf3;letter-spacing:-1px}
+    .cap{font-size:12px;fill:#8b949e}
+    .sec{font-size:11px;font-weight:700;fill:#8b949e;letter-spacing:1.4px}
+    .rowlbl{font-size:13.5px;font-weight:600;fill:#e6edf3}
     .rownum{font-size:15px;font-weight:800}
-    .rowsub{font-size:11.5px;fill:#656d76}
-    .legend{font-size:11.5px;fill:#656d76}
-    .tick{font-size:10.5px;fill:#656d76}
-    .foot{font-size:11.5px;fill:#656d76}
+    .rowsub{font-size:11.5px;fill:#8b949e}
+    .legend{font-size:11.5px;fill:#8b949e}
+    .tick{font-size:10.5px;fill:#8b949e}
+    .foot{font-size:11.5px;fill:#8b949e}
     .pulse{animation:p 2.4s ease-in-out infinite}
     @keyframes p{0%,100%{opacity:1}50%{opacity:.2}}
   </style>
-  <rect x="0.5" y="0.5" width="879" height="655" rx="16" fill="#ffffff" stroke="#d8dee4"/>
+  <rect x="0.5" y="0.5" width="879" height="655" rx="16" fill="#0d1117" stroke="#2a3038"/>
 
   <text x="48" y="52" class="h1">원장 실험실 · WONJANG LAB</text>
   <circle cx="736" cy="46" r="4" fill="#3fb950" class="pulse"/>
   <text x="748" y="50" class="live">LIVE · 매일 갱신</text>
-  <line x1="48" y1="76" x2="832" y2="76" stroke="#d8dee4"/>
+  <line x1="48" y1="76" x2="832" y2="76" stroke="#2a3038"/>
 
   <text x="48" y="134" class="big">361</text>
   <text x="48" y="157" class="cap">레포 · 공개 172</text>
-  <text x="182" y="134" class="big">7,997</text>
+  <text x="182" y="134" class="big">7,998</text>
   <text x="182" y="157" class="cap">커밋 · 비공개 포함</text>
-  <text x="316" y="134" class="big" fill="#D97757">2,185</text>
+  <text x="316" y="134" class="big" fill="#D97757">2,186</text>
   <text x="316" y="157" class="cap">올해 커밋</text>
   <text x="450" y="134" class="big" fill="#3fb950">7</text>
   <text x="450" y="157" class="cap">연속 기록 · 일</text>
 
   <text x="596" y="104" class="sec">연도별 커밋</text>
   
-    <rect x="596" y="178" width="23" height="4" rx="3" fill="#d8dee4">
+    <rect x="596" y="178" width="23" height="4" rx="3" fill="#2a3038">
       <animate attributeName="height" values="0;4" dur="0.7s" begin="0s" fill="freeze"/>
       <animate attributeName="y" values="182;178" dur="0.7s" begin="0s" fill="freeze"/>
     </rect>
     <text x="607.5" y="199" class="tick" text-anchor="middle">'19</text>
-    <rect x="629" y="170" width="23" height="12" rx="3" fill="#d8dee4">
+    <rect x="629" y="170" width="23" height="12" rx="3" fill="#2a3038">
       <animate attributeName="height" values="0;12" dur="0.7s" begin="0.12s" fill="freeze"/>
       <animate attributeName="y" values="182;170" dur="0.7s" begin="0.12s" fill="freeze"/>
     </rect>
     <text x="640.5" y="199" class="tick" text-anchor="middle">'21</text>
-    <rect x="662" y="146" width="23" height="36" rx="3" fill="#d8dee4">
+    <rect x="662" y="146" width="23" height="36" rx="3" fill="#2a3038">
       <animate attributeName="height" values="0;36" dur="0.7s" begin="0.24s" fill="freeze"/>
       <animate attributeName="y" values="182;146" dur="0.7s" begin="0.24s" fill="freeze"/>
     </rect>
     <text x="673.5" y="199" class="tick" text-anchor="middle">'22</text>
-    <rect x="695" y="123" width="23" height="59" rx="3" fill="#d8dee4">
+    <rect x="695" y="123" width="23" height="59" rx="3" fill="#2a3038">
       <animate attributeName="height" values="0;59" dur="0.7s" begin="0.36s" fill="freeze"/>
       <animate attributeName="y" values="182;123" dur="0.7s" begin="0.36s" fill="freeze"/>
     </rect>
     <text x="706.5" y="199" class="tick" text-anchor="middle">'23</text>
-    <rect x="728" y="141" width="23" height="41" rx="3" fill="#d8dee4">
+    <rect x="728" y="141" width="23" height="41" rx="3" fill="#2a3038">
       <animate attributeName="height" values="0;41" dur="0.7s" begin="0.48s" fill="freeze"/>
       <animate attributeName="y" values="182;141" dur="0.7s" begin="0.48s" fill="freeze"/>
     </rect>
     <text x="739.5" y="199" class="tick" text-anchor="middle">'24</text>
-    <rect x="761" y="155" width="23" height="27" rx="3" fill="#d8dee4">
+    <rect x="761" y="155" width="23" height="27" rx="3" fill="#2a3038">
       <animate attributeName="height" values="0;27" dur="0.7s" begin="0.6s" fill="freeze"/>
       <animate attributeName="y" values="182;155" dur="0.7s" begin="0.6s" fill="freeze"/>
     </rect>
@@ -69,7 +69,7 @@
     </rect>
     <text x="805.5" y="199" class="tick" text-anchor="middle">'26</text>
 
-  <line x1="48" y1="224" x2="832" y2="224" stroke="#d8dee4"/>
+  <line x1="48" y1="224" x2="832" y2="224" stroke="#2a3038"/>
   <text x="48" y="252" class="sec">주력 언어 · 레포 292개 기준</text>
   
     <rect x="48" y="266" width="237" height="14" rx="3" fill="#3178c6">
@@ -109,46 +109,46 @@
     <circle cx="602.4999999999999" cy="302" r="4" fill="#b07219"/>
     <text x="613.4999999999999" y="306" class="legend">Java 14</text>
 
-  <line x1="48" y1="334" x2="832" y2="334" stroke="#d8dee4"/>
-  <text x="48" y="362" class="sec">같은 걸 몇 번 다시 만들었나</text>
+  <line x1="48" y1="334" x2="832" y2="334" stroke="#2a3038"/>
+  <text x="48" y="362" class="sec">오래 파고든 주제</text>
   
     <text x="48" y="397.5" class="rowlbl">에이전트·LLM</text>
-    <rect x="180" y="384" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="384" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="384" width="420" height="18" rx="9" fill="#D97757">
       <animate attributeName="width" values="0;420" dur="1s" begin="0.3s" fill="freeze"/>
     </rect>
     <text x="634" y="397.5" class="rownum" text-anchor="end" fill="#D97757">26</text>
     <text x="656" y="397.5" class="rowsub">2022년부터</text>
     <text x="48" y="433.5" class="rowlbl">중고차</text>
-    <rect x="180" y="420" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="420" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="420" width="388" height="18" rx="9" fill="#5B8FF9">
       <animate attributeName="width" values="0;388" dur="1s" begin="0.4s" fill="freeze"/>
     </rect>
     <text x="634" y="433.5" class="rownum" text-anchor="end" fill="#5B8FF9">24</text>
     <text x="656" y="433.5" class="rowsub">2022년부터</text>
     <text x="48" y="469.5" class="rowlbl">감량·운동</text>
-    <rect x="180" y="456" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="456" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="456" width="178" height="18" rx="9" fill="#61DDAA">
       <animate attributeName="width" values="0;178" dur="1s" begin="0.5s" fill="freeze"/>
     </rect>
     <text x="634" y="469.5" class="rownum" text-anchor="end" fill="#61DDAA">11</text>
     <text x="656" y="469.5" class="rowsub">2023년부터</text>
     <text x="48" y="505.5" class="rowlbl">덕질·일본어</text>
-    <rect x="180" y="492" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="492" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="492" width="113" height="18" rx="9" fill="#F6BD16">
       <animate attributeName="width" values="0;113" dur="1s" begin="0.6000000000000001s" fill="freeze"/>
     </rect>
     <text x="634" y="505.5" class="rownum" text-anchor="end" fill="#F6BD16">7</text>
     <text x="656" y="505.5" class="rowsub">2024년부터</text>
     <text x="48" y="541.5" class="rowlbl">포모도로</text>
-    <rect x="180" y="528" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="528" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="528" width="97" height="18" rx="9" fill="#9270CA">
       <animate attributeName="width" values="0;97" dur="1s" begin="0.7s" fill="freeze"/>
     </rect>
     <text x="634" y="541.5" class="rownum" text-anchor="end" fill="#9270CA">6</text>
     <text x="656" y="541.5" class="rowsub">2023년부터</text>
     <text x="48" y="577.5" class="rowlbl">틱톡 클론</text>
-    <rect x="180" y="564" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="564" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="564" width="65" height="18" rx="9" fill="#78D3F8">
       <animate attributeName="width" values="0;65" dur="1s" begin="0.8s" fill="freeze"/>
     </rect>
