@@ -12,8 +12,8 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg">
-  <img src="./assets/dashboard-light.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·다시 만든 횟수" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg?v=2">
+  <img src="./assets/dashboard-light.svg?v=2" alt="원장 실험실 현황판 — 레포·커밋·언어·다시 만든 횟수" width="100%">
 </picture>
 </div>
 
