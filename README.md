@@ -12,8 +12,8 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg?v=3">
-  <img src="./assets/dashboard-light.svg?v=3" alt="원장 실험실 현황판 — 레포·커밋·언어·다시 만든 횟수" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-20260913.svg">
+  <img src="./assets/dashboard-light-20260913.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·다시 만든 횟수" width="100%">
 </picture>
 </div>
 
@@ -101,19 +101,19 @@ LLM 앱용 가드레일 엔진. 프롬프트 인젝션·PII(26개 지역)·GDPR�
 <tr><td width="80" align="center"><b>2019</b><br><sub>레포 3</sub></td><td>
 🐣 <b>첫 커밋.</b> 웹이 뭔지 몰라서 <b>클론 코딩</b>부터. 코코아톡, 넷플릭스를 그대로 따라 그렸습니다.
 </td></tr>
-<tr><td align="center"><b>2022</b><br><sub>레포 94<br>커밋 1,184</sub></td><td>
+<tr><td align="center"><b>2022</b><br><sub>레포 94</sub><br><sub>커밋 1,184</sub></td><td>
 📚 <b>문법을 손에 붙이던 해.</b> React · Next.js · Django. 당근마켓, 에어비앤비, 트위터를 클론하며 한 달에 8개씩 레포를 열었습니다. 레포 이름 뒤에 🔥🚀🇰🇷를 붙이던 시절.
 </td></tr>
-<tr><td align="center"><b>2023</b><br><sub>레포 127<br>커밋 1,955</sub></td><td>
+<tr><td align="center"><b>2023</b><br><sub>레포 127</sub><br><sub>커밋 1,955</sub></td><td>
 📱 <b>앱으로 넓힌 해 — 역대 최다 레포.</b> Flutter · React Native · Jetpack Compose를 <i>동시에</i> 붙잡았습니다. 그리고 처음으로 <i>쓸 사람이 있는 것</i>을 시도했습니다: 화장실 찾기, 교육 LMS, 민원 처리, AI 컴패니언. <b>거의 다 런칭 전에 멈췄습니다.</b>
 </td></tr>
-<tr><td align="center"><b>2024</b><br><sub>레포 48<br>커밋 1,355</sub></td><td>
+<tr><td align="center"><b>2024</b><br><sub>레포 48</sub><br><sub>커밋 1,355</sub></td><td>
 🚗 <b>도메인으로 좁힌 해.</b> 만들고 싶은 게 <b>중고차</b> 하나로 모였습니다 — 엔카 크롤러, 차량 손상 판별 FastAPI(385MB짜리 레포), mycarpageGPT. 동시에 LangChain · RAG · CrewAI로 LLM을 처음 제품에 붙여봤습니다.
 </td></tr>
-<tr><td align="center"><b>2025</b><br><sub>레포 45<br>커밋 907</sub></td><td>
+<tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 907</sub></td><td>
 🔁 <b>다시 만들며 배운 해.</b> 중고차를 네 번 더 갈아엎고(wonjang-usedcar → woncha → norica → dealer-joes), 건강·운동 앱을 다섯 개 만들었습니다. 후반부터 남이 만든 에이전트를 쓰는 대신 <b>직접 짜기 시작</b>했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 35<br>커밋 2,183<br><i>아직 9월</i></sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 35</sub><br><sub>커밋 2,183</sub><br><sub><i>아직 9월</i></sub></td><td>
 🛠️ <b>도구를 만드는 쪽으로.</b> 도구를 <i>쓰는</i> 사람에서 <b>만드는</b> 사람으로 옮겼습니다. AI 코딩 에이전트를 위한 CLI·평가·가드레일을 npm과 PyPI에 올렸고, 감량 앱 vibing을 매일 고칩니다. <b>역대 가장 많이 커밋한 해인데 아직 안 끝났습니다.</b>
 </td></tr>
 </table>
@@ -164,7 +164,9 @@ LLM 앱용 가드레일 엔진. 프롬프트 인젝션·PII(26개 지역)·GDPR�
 
 <img src="./assets/storm.webp" width="420" alt="Higgsfield로 만든 영상 — 다들 인사하는 컷">
 
-<sub>코드 안 쓸 땐 <b>Higgsfield</b>로 이런 걸 만듭니다.<br>중고차 25번째를 준비하는 사람의 자기 위로 🫡</sub>
+<sub>코드 안 쓸 땐 <b>Higgsfield</b>로 이런 걸 만듭니다.</sub>
+
+<sub>중고차 25번째를 준비하는 사람의 자기 위로 🫡</sub>
 
 </div>
 
@@ -191,14 +193,13 @@ LLM 앱용 가드레일 엔진. 프롬프트 인젝션·PII(26개 지역)·GDPR�
 ---
 
 <div align="center">
-<sub>
 
-레포 361개 중 **189개가 비공개**입니다 — 위 숫자는 비공개 커밋을 포함합니다.<br>
-**끝까지 간 것만 공개로 올립니다.** 그래서 공개 레포가 172개뿐입니다.
+<sub>레포 361개 중 <b>189개가 비공개</b>입니다 — 위 숫자는 비공개 커밋을 포함합니다.</sub>
+
+<sub><b>끝까지 간 것만 공개로 올립니다.</b> 그래서 공개 레포가 172개뿐입니다.</sub>
 
 <br>
 
-*"아이디어가 없어서 망한 적은 없다. 전부 범위를 못 줄여서 망했다."*
+<sub><i>"아이디어가 없어서 망한 적은 없다. 전부 범위를 못 줄여서 망했다."</i></sub>
 
-</sub>
 </div>

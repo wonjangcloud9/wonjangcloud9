@@ -260,8 +260,30 @@ function svg(mode) {
 `;
 }
 
-const { writeFileSync } = await import('node:fs');
-writeFileSync('assets/dashboard-light.svg', svg('light'));
-writeFileSync('assets/dashboard-dark.svg', svg('dark'));
+// ── 5. 파일로 쓰기 ──────────────────────────────────────────
+// 파일명에 날짜를 박는다. GitHub raw는 ?v= 쿼리를 무시하고 옛 이미지를
+// 계속 내주기 때문에, URL 자체가 매일 바뀌어야 갱신이 보인다.
+// 그래서 SVG를 쓴 뒤 README의 <img src>도 같이 고친다.
+const { writeFileSync, readFileSync, readdirSync, unlinkSync } = await import('node:fs');
+
+const stamp = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+const names = { light: `dashboard-light-${stamp}.svg`, dark: `dashboard-dark-${stamp}.svg` };
+
+for (const [mode, name] of Object.entries(names)) writeFileSync(`assets/${name}`, svg(mode));
+
+// 지난 날짜의 현황판은 지운다 (레포가 SVG 무덤이 되지 않도록)
+for (const f of readdirSync('assets')) {
+  if (/^dashboard-.*\.svg$/.test(f) && f !== names.light && f !== names.dark) unlinkSync(`assets/${f}`);
+}
+
+for (const readme of ['README.md', 'README.en.md']) {
+  const before = readFileSync(readme, 'utf8');
+  const after = before
+    .replace(/\.\/assets\/dashboard-light[^"]*/g, `./assets/${names.light}`)
+    .replace(/\.\/assets\/dashboard-dark[^"]*/g, `./assets/${names.dark}`);
+  if (after !== before) writeFileSync(readme, after);
+}
+
 console.log(`레포 ${repos.length} (공개 ${publicRepos}) · 커밋 ${totalCommits} · 올해 ${commitsByYear[THIS_YEAR]}`);
 console.log(counted.map((c) => `${c.label} ${c.n}`).join(' / '));
+console.log(`→ assets/${names.light}, assets/${names.dark}`);

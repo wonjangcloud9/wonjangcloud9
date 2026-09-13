@@ -24,9 +24,9 @@
 
   <text x="48" y="134" class="big">361</text>
   <text x="48" y="157" class="cap">레포 · 공개 172</text>
-  <text x="226" y="134" class="big">7,996</text>
+  <text x="226" y="134" class="big">7,997</text>
   <text x="226" y="157" class="cap">커밋 · 비공개 포함</text>
-  <text x="404" y="134" class="big" fill="#D97757">2,184</text>
+  <text x="404" y="134" class="big" fill="#D97757">2,185</text>
   <text x="404" y="157" class="cap">올해 커밋</text>
 
   <text x="596" y="104" class="sec">연도별 커밋</text>

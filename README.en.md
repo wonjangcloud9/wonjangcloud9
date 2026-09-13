@@ -12,8 +12,8 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg?v=3">
-  <img src="./assets/dashboard-light.svg?v=3" alt="Wonjang Lab dashboard — repos, commits, languages, rebuild counts" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-20260913.svg">
+  <img src="./assets/dashboard-light-20260913.svg" alt="Wonjang Lab dashboard — repos, commits, languages, rebuild counts" width="100%">
 </picture>
 </div>
 
@@ -101,19 +101,19 @@ A CLI that scores **harness engineering** quality and generates benchmark tasks 
 <tr><td width="80" align="center"><b>2019</b><br><sub>3 repos</sub></td><td>
 🐣 <b>First commit.</b> I had no idea what the web was, so I started by <b>cloning</b> — KakaoTalk, Netflix, pixel by pixel.
 </td></tr>
-<tr><td align="center"><b>2022</b><br><sub>94 repos<br>1,184 commits</sub></td><td>
+<tr><td align="center"><b>2022</b><br><sub>94 repos</sub><br><sub>1,184 commits</sub></td><td>
 📚 <b>The year syntax became muscle memory.</b> React · Next.js · Django. Cloned Karrot Market, Airbnb, Twitter — opening eight repos a month. I was still putting 🔥🚀🇰🇷 in repo descriptions.
 </td></tr>
-<tr><td align="center"><b>2023</b><br><sub>127 repos<br>1,955 commits</sub></td><td>
+<tr><td align="center"><b>2023</b><br><sub>127 repos</sub><br><sub>1,955 commits</sub></td><td>
 📱 <b>The year I went mobile — my busiest ever.</b> Flutter, React Native, and Jetpack Compose <i>at the same time</i>. Also my first attempts at things <i>someone might actually use</i>: a toilet finder, an education LMS, a complaint tracker, an AI companion. <b>Almost all died before launch.</b>
 </td></tr>
-<tr><td align="center"><b>2024</b><br><sub>48 repos<br>1,355 commits</sub></td><td>
+<tr><td align="center"><b>2024</b><br><sub>48 repos</sub><br><sub>1,355 commits</sub></td><td>
 🚗 <b>The year I picked a domain.</b> Everything converged on <b>used cars</b> — an Encar crawler, a damage-detection FastAPI (a 385MB repo), mycarpageGPT. Meanwhile LangChain, RAG and CrewAI put an LLM in a product for the first time.
 </td></tr>
-<tr><td align="center"><b>2025</b><br><sub>45 repos<br>907 commits</sub></td><td>
+<tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>907 commits</sub></td><td>
 🔁 <b>The year of rebuilding.</b> Four more used-car rewrites (wonjang-usedcar → woncha → norica → dealer-joes) and five health/fitness apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>35 repos<br>2,183 commits<br><i>and it's only September</i></sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>35 repos</sub><br><sub>2,183 commits</sub><br><sub><i>and it's only September</i></sub></td><td>
 🛠️ <b>From tool user to toolmaker.</b> I shipped CLIs, evaluators and guardrails for AI coding agents to npm and PyPI — and I ship to vibing every day. <b>My highest-commit year ever, with three months left.</b>
 </td></tr>
 </table>
@@ -164,7 +164,9 @@ Which is why the things I build now never exceed five screens.
 
 <img src="./assets/storm.webp" width="420" alt="A clip I made with Higgsfield">
 
-<sub>When I'm not writing code, I make things like this with <b>Higgsfield</b>.<br>Self-consolation for a man prepping used-car attempt #25 🫡</sub>
+<sub>When I'm not writing code, I make things like this with <b>Higgsfield</b>.</sub>
+
+<sub>Self-consolation for a man prepping used-car attempt #25 🫡</sub>
 
 </div>
 
@@ -191,14 +193,13 @@ Which is why the things I build now never exceed five screens.
 ---
 
 <div align="center">
-<sub>
 
-**189 of my 361 repos are private** — the numbers above include private commits.<br>
-**Only the ones that made it all the way go public.** That's why just 172 are.
+<sub><b>189 of my 361 repos are private</b> — the numbers above include private commits.</sub>
+
+<sub><b>Only the ones that made it all the way go public.</b> That's why just 172 are.</sub>
 
 <br>
 
-*"I've never failed for lack of an idea. I've failed, every time, by failing to cut scope."*
+<sub><i>"I've never failed for lack of an idea. I've failed, every time, by failing to cut scope."</i></sub>
 
-</sub>
 </div>
