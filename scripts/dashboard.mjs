@@ -26,7 +26,7 @@ const yearQuery = years
   .map(
     (y) => `y${y}: contributionsCollection(from:"${y}-01-01T00:00:00Z",to:"${
       y === THIS_YEAR ? new Date().toISOString() : `${y}-12-31T23:59:59Z`
-    }"){ totalCommitContributions restrictedContributionsCount }`
+    }"){ totalCommitContributions restrictedContributionsCount contributionCalendar{ weeks{ contributionDays{ date contributionCount } } } }`
   )
   .join('\n');
 
@@ -39,6 +39,35 @@ for (const y of years) {
   commitsByYear[y] = c.totalCommitContributions + c.restrictedContributionsCount;
 }
 const totalCommits = Object.values(commitsByYear).reduce((a, b) => a + b, 0);
+
+// 연속 기록 — 달력을 하루 단위로 펴서 현재/최장 연속을 센다.
+const dayMap = new Map();
+for (const y of years) {
+  for (const w of user[`y${y}`].contributionCalendar.weeks) {
+    // 달력은 주 단위로 오므로 연 경계의 날짜가 범위 밖이면 0으로 온다.
+    // 덮어쓰면 연말연시 스트릭이 끊기니 큰 값을 남긴다.
+    for (const d of w.contributionDays) {
+      dayMap.set(d.date, Math.max(dayMap.get(d.date) ?? 0, d.contributionCount));
+    }
+  }
+}
+const days = [...dayMap.entries()].sort((a, b) => (a[0] < b[0] ? -1 : 1));
+
+let longestStreak = 0;
+let run = 0;
+for (const [, n] of days) {
+  run = n > 0 ? run + 1 : 0;
+  if (run > longestStreak) longestStreak = run;
+}
+
+// 현재 연속: 오늘부터 거슬러 센다. 오늘이 아직 0이면 어제부터 시작.
+let currentStreak = 0;
+for (let i = days.length - 1; i >= 0; i--) {
+  const n = days[i][1];
+  if (n > 0) currentStreak++;
+  else if (i === days.length - 1) continue; // 오늘은 아직 안 끝났다
+  else break;
+}
 
 // 안전장치 1: 비공개 기여가 안 보이는 토큰이면 커밋 수가 실제의 5분의 1로 잡힌다.
 if (restrictedTotal === 0) {
@@ -108,7 +137,7 @@ const RULE1_Y = 76;
 
 const STAT_NUM_Y = 134;  // 큰 숫자 베이스라인
 const STAT_CAP_Y = 157;  // 그 아래 설명
-const STAT_X = [PAD, PAD + 178, PAD + 356];
+const STAT_X = [PAD, PAD + 134, PAD + 268, PAD + 402];
 
 const SPARK_X = 596;
 const SPARK_LABEL_Y = 104;
@@ -217,7 +246,7 @@ function svg(mode) {
     text{font-feature-settings:'tnum' 1}
     .h1{font-size:20px;font-weight:700;fill:${t.text};letter-spacing:-.2px}
     .live{font-size:10px;font-weight:700;fill:#3fb950;letter-spacing:.8px}
-    .big{font-size:38px;font-weight:800;fill:${t.text};letter-spacing:-1.2px}
+    .big{font-size:34px;font-weight:800;fill:${t.text};letter-spacing:-1px}
     .cap{font-size:12px;fill:${t.dim}}
     .sec{font-size:11px;font-weight:700;fill:${t.dim};letter-spacing:1.4px}
     .rowlbl{font-size:13.5px;font-weight:600;fill:${t.text}}
@@ -242,6 +271,8 @@ function svg(mode) {
   <text x="${STAT_X[1]}" y="${STAT_CAP_Y}" class="cap">커밋 · 비공개 포함</text>
   <text x="${STAT_X[2]}" y="${STAT_NUM_Y}" class="big" fill="#D97757">${fmt(commitsByYear[THIS_YEAR] || 0)}</text>
   <text x="${STAT_X[2]}" y="${STAT_CAP_Y}" class="cap">올해 커밋</text>
+  <text x="${STAT_X[3]}" y="${STAT_NUM_Y}" class="big" fill="#3fb950">${currentStreak}</text>
+  <text x="${STAT_X[3]}" y="${STAT_CAP_Y}" class="cap">연속 기록 · 일</text>
 
   <text x="${SPARK_X}" y="${SPARK_LABEL_Y}" class="sec">연도별 커밋</text>
   ${spark}
@@ -255,7 +286,7 @@ function svg(mode) {
   <text x="${PAD}" y="${THEME_LABEL_Y}" class="sec">같은 걸 몇 번 다시 만들었나</text>
   ${bars}
 
-  <text x="${PAD}" y="${FOOT_Y}" class="foot">마지막 갱신 ${new Date().toISOString().slice(0, 10)}  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>
+  <text x="${PAD}" y="${FOOT_Y}" class="foot">최장 연속 ${longestStreak}일  ·  마지막 갱신 ${new Date().toISOString().slice(0, 10)}  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>
 </svg>
 `;
 }
@@ -286,4 +317,5 @@ for (const readme of ['README.md', 'README.en.md']) {
 
 console.log(`레포 ${repos.length} (공개 ${publicRepos}) · 커밋 ${totalCommits} · 올해 ${commitsByYear[THIS_YEAR]}`);
 console.log(counted.map((c) => `${c.label} ${c.n}`).join(' / '));
+console.log(`연속 기록 현재 ${currentStreak}일 · 최장 ${longestStreak}일`);
 console.log(`→ assets/${names.light}, assets/${names.dark}`);

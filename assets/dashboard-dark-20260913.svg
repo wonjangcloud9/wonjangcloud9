@@ -3,7 +3,7 @@
     text{font-feature-settings:'tnum' 1}
     .h1{font-size:20px;font-weight:700;fill:#e6edf3;letter-spacing:-.2px}
     .live{font-size:10px;font-weight:700;fill:#3fb950;letter-spacing:.8px}
-    .big{font-size:38px;font-weight:800;fill:#e6edf3;letter-spacing:-1.2px}
+    .big{font-size:34px;font-weight:800;fill:#e6edf3;letter-spacing:-1px}
     .cap{font-size:12px;fill:#8b949e}
     .sec{font-size:11px;font-weight:700;fill:#8b949e;letter-spacing:1.4px}
     .rowlbl{font-size:13.5px;font-weight:600;fill:#e6edf3}
@@ -24,10 +24,12 @@
 
   <text x="48" y="134" class="big">361</text>
   <text x="48" y="157" class="cap">레포 · 공개 172</text>
-  <text x="226" y="134" class="big">7,997</text>
-  <text x="226" y="157" class="cap">커밋 · 비공개 포함</text>
-  <text x="404" y="134" class="big" fill="#D97757">2,185</text>
-  <text x="404" y="157" class="cap">올해 커밋</text>
+  <text x="182" y="134" class="big">7,997</text>
+  <text x="182" y="157" class="cap">커밋 · 비공개 포함</text>
+  <text x="316" y="134" class="big" fill="#D97757">2,185</text>
+  <text x="316" y="157" class="cap">올해 커밋</text>
+  <text x="450" y="134" class="big" fill="#3fb950">7</text>
+  <text x="450" y="157" class="cap">연속 기록 · 일</text>
 
   <text x="596" y="104" class="sec">연도별 커밋</text>
   
@@ -153,5 +155,5 @@
     <text x="634" y="577.5" class="rownum" text-anchor="end" fill="#78D3F8">4</text>
     <text x="656" y="577.5" class="rowsub">2023년부터</text>
 
-  <text x="48" y="630" class="foot">마지막 갱신 2026-09-13  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>
+  <text x="48" y="630" class="foot">최장 연속 123일  ·  마지막 갱신 2026-09-13  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>
 </svg>

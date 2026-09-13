@@ -184,9 +184,6 @@ Which is why the things I build now never exceed five screens.
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 
-<br>
-
-<img src="https://streak-stats.demolab.com?user=wonjangcloud9&theme=transparent&hide_border=true&border_radius=10&ring=D97757&fire=D97757&currStreakLabel=D97757" alt="streak" />
 
 </div>
 
