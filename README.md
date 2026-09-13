@@ -17,9 +17,6 @@
 </picture>
 </div>
 
-<div align="center">
-<sub>남의 통계 서비스에 얹지 않고 <a href="scripts/dashboard.mjs">직접 그리는 스크립트</a>로 만듭니다.</sub>
-</div>
 
 <br>
 

@@ -17,9 +17,6 @@ Building things in Seoul · [GS Neotek](https://www.gsneotek.co.kr)
 </picture>
 </div>
 
-<div align="center">
-<sub>Drawn by <a href="scripts/dashboard.mjs">a script I wrote</a> instead of a third-party stats service.</sub>
-</div>
 
 <br>
 
