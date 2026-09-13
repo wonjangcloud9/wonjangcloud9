@@ -135,7 +135,7 @@ A CLI that scores **harness engineering** quality and generates benchmark tasks 
 | 🎵 **TikTok clone** | 4 | At least I genuinely learned Flutter animations. |
 | 😴 **Sleep apps** | 3 | Only [Jammanbo](https://life-save-with-claude-code-multi-se.vercel.app) survived. |
 | 🎤 **Vocal trainer** | 1 | Created the repo. **Zero commits.** My most honest failure. |
-| 👻 **Named and abandoned** | **41** | Repos with not a single commit. `myApp Dream`, `nevergiveup`, `real-final-usedCar-search`… |
+| 👻 **Named and abandoned** | **34** | Repos with not a single commit. `myApp Dream`, `your_vocal_trainer`, `real-final-usedCar-search`… |
 
 <b>What I learned:</b> I have never failed for lack of an idea. I have failed, every single time, by <i>failing to cut scope</i>.
 Which is why the things I build now never exceed five screens.

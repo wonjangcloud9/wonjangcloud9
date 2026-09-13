@@ -40,10 +40,9 @@ for (const y of years) {
 }
 const totalCommits = Object.values(commitsByYear).reduce((a, b) => a + b, 0);
 
-// 안전장치: 레포 대부분이 비공개라 read:user 권한이 없는 토큰으로는
-// 커밋 수가 실제의 5분의 1로 잡힌다. 그럴 땐 그리지 않고 기존 SVG를 둔다.
+// 안전장치 1: 비공개 기여가 안 보이는 토큰이면 커밋 수가 실제의 5분의 1로 잡힌다.
 if (restrictedTotal === 0) {
-  console.error('비공개 기여가 0으로 잡혔다 — read:user 스코프가 있는 LAB_TOKEN이 필요하다. 갱신을 건너뛴다.');
+  console.error('비공개 기여가 0 — read:user 스코프가 있는 LAB_TOKEN이 필요하다. 갱신을 건너뛴다.');
   process.exit(0);
 }
 
@@ -58,6 +57,13 @@ for (;;) {
   repos.push(...r.nodes);
   if (!r.pageInfo.hasNextPage) break;
   cursor = r.pageInfo.endCursor;
+}
+
+// 안전장치 2: 레포 361개 중 절반 이상이 비공개다. 비공개가 하나도 안 보이면
+// repo 스코프가 없는 토큰이라 레포 수·언어·다시 만든 횟수가 전부 반토막 난다.
+if (!repos.some((r) => r.isPrivate)) {
+  console.error(`비공개 레포가 하나도 안 보인다(총 ${repos.length}개) — repo 스코프가 있는 LAB_TOKEN이 필요하다. 갱신을 건너뛴다.`);
+  process.exit(0);
 }
 
 // ── 3. "같은 걸 몇 번 다시 만들었나" 집계 ────────────────────

@@ -135,7 +135,7 @@ LLM 앱용 가드레일 엔진. 프롬프트 인젝션·PII(26개 지역)·GDPR�
 | 🎵 **틱톡 클론** | 4번 | 대신 Flutter 애니메이션은 확실히 배웠습니다 |
 | 😴 **수면 앱** | 3번 | [잠만보](https://life-save-with-claude-code-multi-se.vercel.app)만 겨우 살아남았습니다 |
 | 🎤 **보컬 트레이너** | 1번 | 레포만 만들고 커밋 **0개**. 가장 정직한 실패 |
-| 👻 **이름만 지은 것들** | **41개** | 커밋이 단 하나도 없는 빈 레포. `myApp Dream`, `nevergiveup`, `real-final-usedCar-search`… |
+| 👻 **이름만 지은 것들** | **34개** | 커밋이 단 하나도 없는 빈 레포. `myApp Dream`, `your_vocal_trainer`, `real-final-usedCar-search`… |
 
 <b>배운 것:</b> 아이디어가 없어서 망한 적은 한 번도 없습니다. 전부 <i>범위를 못 줄여서</i> 망했습니다.
 그래서 요즘 만드는 건 화면이 다섯 개를 안 넘습니다.
