@@ -12,8 +12,8 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg?v=2">
-  <img src="./assets/dashboard-light.svg?v=2" alt="Wonjang Lab dashboard — repos, commits, languages, rebuild counts" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg?v=3">
+  <img src="./assets/dashboard-light.svg?v=3" alt="Wonjang Lab dashboard — repos, commits, languages, rebuild counts" width="100%">
 </picture>
 </div>
 
@@ -157,6 +157,16 @@ Which is why the things I build now never exceed five screens.
 </details>
 
 ---
+
+## 🎬 What I do for fun
+
+<div align="center">
+
+<img src="./assets/storm.webp" width="420" alt="A clip I made with Higgsfield">
+
+<sub>When I'm not writing code, I make things like this with <b>Higgsfield</b>.<br>Self-consolation for a man prepping used-car attempt #25 🫡</sub>
+
+</div>
 
 ## 🧰 What I reach for
 

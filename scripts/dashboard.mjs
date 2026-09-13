@@ -98,114 +98,164 @@ const langs = Object.entries(langCount).sort((a, b) => b[1] - a[1]).slice(0, 7);
 const langTotal = langs.reduce((a, [, n]) => a + n, 0);
 
 // ── 4. SVG 그리기 ────────────────────────────────────────────
-const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-const fmt = (n) => n.toLocaleString('en-US');
-const W = 860;
-const H = 510;
+// 수직 리듬을 상수로 못박아 둔다. 눈대중으로 고치지 말 것.
+const W = 880;
+const PAD = 48;          // 좌우 여백
+const INNER = W - PAD * 2;
 
-const THEME = {
-  light: { bg: '#ffffff', panel: '#f6f8fa', line: '#d0d7de', text: '#1f2328', dim: '#59636e', track: '#e6eaef' },
-  dark: { bg: '#0d1117', panel: '#161b22', line: '#30363d', text: '#e6edf3', dim: '#8b949e', track: '#21262d' },
+const TITLE_Y = 52;
+const RULE1_Y = 76;
+
+const STAT_NUM_Y = 134;  // 큰 숫자 베이스라인
+const STAT_CAP_Y = 157;  // 그 아래 설명
+const STAT_X = [PAD, PAD + 178, PAD + 356];
+
+const SPARK_X = 596;
+const SPARK_LABEL_Y = 104;
+const SPARK_BASE_Y = 182;
+const SPARK_MAX_H = 66;
+const SPARK_TICK_Y = 199;
+
+const RULE2_Y = 224;
+const LANG_LABEL_Y = 252;
+const LANG_BAR_Y = 266;
+const LANG_BAR_H = 14;
+const LANG_LEG_Y = 306;
+
+const RULE3_Y = 334;
+const THEME_LABEL_Y = 362;
+const THEME_BAR_Y0 = 384;
+const THEME_STEP = 36;
+const THEME_BAR_H = 18;
+const THEME_LABEL_X = PAD;
+const THEME_TRACK_X = PAD + 132;
+const THEME_TRACK_W = 420;
+const THEME_NUM_X = THEME_TRACK_X + THEME_TRACK_W + 34; // 오른쪽 정렬 기준
+const THEME_YEAR_X = THEME_NUM_X + 22;
+
+const FOOT_Y = THEME_BAR_Y0 + THEME_STEP * counted.length + 30;
+const H = FOOT_Y + 26;
+
+const THEME_COLORS = {
+  light: { bg: '#ffffff', line: '#d8dee4', text: '#1f2328', dim: '#656d76', track: '#eaeef2' },
+  dark: { bg: '#0d1117', line: '#2a3038', text: '#e6edf3', dim: '#8b949e', track: '#21262d' },
 };
 
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const fmt = (n) => n.toLocaleString('en-US');
+
 function svg(mode) {
-  const t = THEME[mode];
+  const t = THEME_COLORS[mode];
+
+  // 다시 만들기 막대
   const bars = counted
     .map((c, i) => {
-      const y = 272 + i * 34;
-      const full = 430;
-      const w = Math.max(6, Math.round((c.n / maxN) * full));
+      const y = THEME_BAR_Y0 + i * THEME_STEP;
+      const w = Math.max(8, Math.round((c.n / maxN) * THEME_TRACK_W));
+      const mid = y + THEME_BAR_H / 2 + 4.5; // 시각적 중앙 정렬
       return `
-    <text x="40" y="${y + 13}" class="lbl">${esc(c.label)}</text>
-    <rect x="168" y="${y}" width="${full}" height="18" rx="9" fill="${t.track}"/>
-    <rect x="168" y="${y}" width="${w}" height="18" rx="9" fill="${c.color}" opacity="0.9">
-      <animate attributeName="width" from="0" to="${w}" dur="1.1s" begin="${0.25 + i * 0.12}s" fill="freeze" calcMode="spline" keySplines="0.2 0.9 0.2 1" keyTimes="0;1" values="0;${w}"/>
+    <text x="${THEME_LABEL_X}" y="${mid}" class="rowlbl">${esc(c.label)}</text>
+    <rect x="${THEME_TRACK_X}" y="${y}" width="${THEME_TRACK_W}" height="${THEME_BAR_H}" rx="${THEME_BAR_H / 2}" fill="${t.track}"/>
+    <rect x="${THEME_TRACK_X}" y="${y}" width="${w}" height="${THEME_BAR_H}" rx="${THEME_BAR_H / 2}" fill="${c.color}">
+      <animate attributeName="width" values="0;${w}" dur="1s" begin="${0.3 + i * 0.1}s" fill="freeze"/>
     </rect>
-    <text x="${168 + full + 14}" y="${y + 13}" class="num" fill="${c.color}">${c.n}</text>
-    <text x="${168 + full + 58}" y="${y + 13}" class="sub">${c.first}~</text>`;
+    <text x="${THEME_NUM_X}" y="${mid}" class="rownum" text-anchor="end" fill="${c.color}">${c.n}</text>
+    <text x="${THEME_YEAR_X}" y="${mid}" class="rowsub">${c.first}년부터</text>`;
     })
     .join('');
 
   // 연도별 커밋 스파크라인
   const ys = years.filter((y) => commitsByYear[y] > 0);
   const maxC = Math.max(...ys.map((y) => commitsByYear[y]));
+  const slot = Math.floor((W - PAD - SPARK_X) / ys.length);
+  const bw = slot - 10;
   const spark = ys
     .map((y, i) => {
-      const bw = 30;
-      const gap = 12;
-      const x = 560 + i * (bw + gap);
-      const h = Math.max(4, Math.round((commitsByYear[y] / maxC) * 86));
-      const yy = 176 - h;
-      const isNow = y === THIS_YEAR;
+      const x = SPARK_X + i * slot;
+      const h = Math.max(4, Math.round((commitsByYear[y] / maxC) * SPARK_MAX_H));
+      const yy = SPARK_BASE_Y - h;
+      const now = y === THIS_YEAR;
       return `
-    <rect x="${x}" y="${yy}" width="${bw}" height="${h}" rx="4" fill="${isNow ? '#D97757' : t.line}" opacity="${isNow ? 1 : 0.75}">
-      <animate attributeName="height" values="0;${h}" dur="0.8s" begin="${0.15 * i}s" fill="freeze"/>
-      <animate attributeName="y" values="176;${yy}" dur="0.8s" begin="${0.15 * i}s" fill="freeze"/>
+    <rect x="${x}" y="${yy}" width="${bw}" height="${h}" rx="3" fill="${now ? '#D97757' : t.line}">
+      <animate attributeName="height" values="0;${h}" dur="0.7s" begin="${0.12 * i}s" fill="freeze"/>
+      <animate attributeName="y" values="${SPARK_BASE_Y};${yy}" dur="0.7s" begin="${0.12 * i}s" fill="freeze"/>
     </rect>
-    <text x="${x + bw / 2}" y="192" class="tick" text-anchor="middle">'${String(y).slice(2)}</text>`;
+    <text x="${x + bw / 2}" y="${SPARK_TICK_Y}" class="tick" text-anchor="middle">'${String(y).slice(2)}</text>`;
     })
     .join('');
 
-  // 언어 스택 바 + 범례
-  let lx = 40;
-  const LW = 470;
+  // 언어 스택 바 + 범례 (범례는 글자 폭에 맞춰 한 줄로 흘린다)
+  let bx = PAD;
   const langBar = langs
     .map(([name, n], i) => {
-      const w = Math.round((n / langTotal) * LW);
-      const x = lx;
-      lx += w + 2;
-      const color = LANG_COLOR[name] || t.dim;
-      const legendX = 40 + (i % 4) * 120;
-      const legendY = 202 + Math.floor(i / 4) * 18;
+      const w = Math.round((n / langTotal) * INNER) - 2;
+      const x = bx;
+      bx += w + 2;
       return `
-    <rect x="${x}" y="${172}" width="${w}" height="14" rx="3" fill="${color}">
-      <animate attributeName="width" values="0;${w}" dur="0.7s" begin="${0.1 * i}s" fill="freeze"/>
-    </rect>
-    <circle cx="${legendX + 4}" cy="${legendY - 4}" r="4" fill="${color}"/>
-    <text x="${legendX + 14}" y="${legendY}" class="sub">${esc(name)} ${n}</text>`;
+    <rect x="${x}" y="${LANG_BAR_Y}" width="${w}" height="${LANG_BAR_H}" rx="3" fill="${LANG_COLOR[name] || t.dim}">
+      <animate attributeName="width" values="0;${w}" dur="0.6s" begin="${0.08 * i}s" fill="freeze"/>
+    </rect>`;
     })
     .join('');
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',Segoe UI,sans-serif">
+  let lx = PAD;
+  const langLegend = langs
+    .map(([name, n]) => {
+      const label = `${name} ${n}`;
+      const x = lx;
+      lx += 16 + label.length * 6.3 + 18; // 점 + 글자 + 항목 간격
+      return `
+    <circle cx="${x + 4}" cy="${LANG_LEG_Y - 4}" r="4" fill="${LANG_COLOR[name] || t.dim}"/>
+    <text x="${x + 15}" y="${LANG_LEG_Y}" class="legend">${esc(label)}</text>`;
+    })
+    .join('');
+
+  const rule = (y) => `<line x1="${PAD}" y1="${y}" x2="${W - PAD}" y2="${y}" stroke="${t.line}"/>`;
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Pretendard','Malgun Gothic','Segoe UI',sans-serif">
   <style>
-    .h1{font-size:19px;font-weight:700;fill:${t.text}}
-    .live{font-size:10px;font-weight:700;fill:#3fb950;letter-spacing:1px}
-    .big{font-size:34px;font-weight:800;fill:${t.text}}
-    .cap{font-size:11px;fill:${t.dim};letter-spacing:.4px}
-    .lbl{font-size:13px;font-weight:600;fill:${t.text}}
-    .num{font-size:14px;font-weight:800}
-    .sub{font-size:11px;fill:${t.dim}}
-    .tick{font-size:10px;fill:${t.dim}}
-    .sec{font-size:12px;font-weight:700;fill:${t.dim};letter-spacing:1.2px}
-    .foot{font-size:11px;fill:${t.dim}}
-    .pulse{animation:p 2s ease-in-out infinite}
-    @keyframes p{0%,100%{opacity:1}50%{opacity:.25}}
+    text{font-feature-settings:'tnum' 1}
+    .h1{font-size:20px;font-weight:700;fill:${t.text};letter-spacing:-.2px}
+    .live{font-size:10px;font-weight:700;fill:#3fb950;letter-spacing:.8px}
+    .big{font-size:38px;font-weight:800;fill:${t.text};letter-spacing:-1.2px}
+    .cap{font-size:12px;fill:${t.dim}}
+    .sec{font-size:11px;font-weight:700;fill:${t.dim};letter-spacing:1.4px}
+    .rowlbl{font-size:13.5px;font-weight:600;fill:${t.text}}
+    .rownum{font-size:15px;font-weight:800}
+    .rowsub{font-size:11.5px;fill:${t.dim}}
+    .legend{font-size:11.5px;fill:${t.dim}}
+    .tick{font-size:10.5px;fill:${t.dim}}
+    .foot{font-size:11.5px;fill:${t.dim}}
+    .pulse{animation:p 2.4s ease-in-out infinite}
+    @keyframes p{0%,100%{opacity:1}50%{opacity:.2}}
   </style>
-  <rect width="${W}" height="${H}" rx="14" fill="${t.bg}" stroke="${t.line}"/>
+  <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.bg}" stroke="${t.line}"/>
 
-  <text x="40" y="46" class="h1">원장 실험실 · WONJANG LAB</text>
-  <circle cx="${W - 108}" cy="41" r="4" fill="#3fb950" class="pulse"/>
-  <text x="${W - 96}" y="45" class="live">LIVE · 매일 갱신</text>
-  <line x1="40" y1="62" x2="${W - 40}" y2="62" stroke="${t.line}"/>
+  <text x="${PAD}" y="${TITLE_Y}" class="h1">원장 실험실 · WONJANG LAB</text>
+  <circle cx="${W - PAD - 96}" cy="${TITLE_Y - 6}" r="4" fill="#3fb950" class="pulse"/>
+  <text x="${W - PAD - 84}" y="${TITLE_Y - 2}" class="live">LIVE · 매일 갱신</text>
+  ${rule(RULE1_Y)}
 
-  <text x="40" y="108" class="big">${fmt(repos.length)}</text>
-  <text x="40" y="128" class="cap">레포 (공개 ${publicRepos})</text>
-  <text x="200" y="108" class="big">${fmt(totalCommits)}</text>
-  <text x="200" y="128" class="cap">커밋 (비공개 포함)</text>
-  <text x="380" y="108" class="big" fill="#D97757">${fmt(commitsByYear[THIS_YEAR] || 0)}</text>
-  <text x="380" y="128" class="cap">올해 커밋</text>
+  <text x="${STAT_X[0]}" y="${STAT_NUM_Y}" class="big">${fmt(repos.length)}</text>
+  <text x="${STAT_X[0]}" y="${STAT_CAP_Y}" class="cap">레포 · 공개 ${publicRepos}</text>
+  <text x="${STAT_X[1]}" y="${STAT_NUM_Y}" class="big">${fmt(totalCommits)}</text>
+  <text x="${STAT_X[1]}" y="${STAT_CAP_Y}" class="cap">커밋 · 비공개 포함</text>
+  <text x="${STAT_X[2]}" y="${STAT_NUM_Y}" class="big" fill="#D97757">${fmt(commitsByYear[THIS_YEAR] || 0)}</text>
+  <text x="${STAT_X[2]}" y="${STAT_CAP_Y}" class="cap">올해 커밋</text>
 
-  <text x="40" y="162" class="sec">주력 언어 (레포 ${langTotal}개 기준)</text>
-  ${langBar}
-
-  <text x="560" y="108" class="sec">연도별 커밋</text>
+  <text x="${SPARK_X}" y="${SPARK_LABEL_Y}" class="sec">연도별 커밋</text>
   ${spark}
 
-  <line x1="40" y1="252" x2="${W - 40}" y2="252" stroke="${t.line}"/>
-  <text x="40" y="268" class="sec">같은 걸 몇 번 다시 만들었나</text>
+  ${rule(RULE2_Y)}
+  <text x="${PAD}" y="${LANG_LABEL_Y}" class="sec">주력 언어 · 레포 ${langTotal}개 기준</text>
+  ${langBar}
+  ${langLegend}
+
+  ${rule(RULE3_Y)}
+  <text x="${PAD}" y="${THEME_LABEL_Y}" class="sec">같은 걸 몇 번 다시 만들었나</text>
   ${bars}
 
-  <text x="40" y="${H - 22}" class="foot">마지막 갱신 ${new Date().toISOString().slice(0, 10)} · 지금 만드는 것: vibing (칼로리 적자 감량 PWA)</text>
+  <text x="${PAD}" y="${FOOT_Y}" class="foot">마지막 갱신 ${new Date().toISOString().slice(0, 10)}  ·  지금 만드는 것 — vibing, 칼로리 적자 감량 PWA</text>
 </svg>
 `;
 }

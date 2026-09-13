@@ -12,8 +12,8 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg?v=2">
-  <img src="./assets/dashboard-light.svg?v=2" alt="원장 실험실 현황판 — 레포·커밋·언어·다시 만든 횟수" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark.svg?v=3">
+  <img src="./assets/dashboard-light.svg?v=3" alt="원장 실험실 현황판 — 레포·커밋·언어·다시 만든 횟수" width="100%">
 </picture>
 </div>
 
@@ -157,6 +157,16 @@ LLM 앱용 가드레일 엔진. 프롬프트 인젝션·PII(26개 지역)·GDPR�
 </details>
 
 ---
+
+## 🎬 요즘 노는 것
+
+<div align="center">
+
+<img src="./assets/storm.webp" width="420" alt="Higgsfield로 만든 영상 — 다들 인사하는 컷">
+
+<sub>코드 안 쓸 땐 <b>Higgsfield</b>로 이런 걸 만듭니다.<br>중고차 25번째를 준비하는 사람의 자기 위로 🫡</sub>
+
+</div>
 
 ## 🧰 쓰는 것
 
