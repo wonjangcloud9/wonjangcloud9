@@ -141,7 +141,6 @@ AI 코딩 에이전트를 위한 CLI·평가·가드레일을 npm과 PyPI에 올
 - 🎮 **[mobily](https://github.com/wonjangcloud9/mobily)** — 로그인 없는 모바일 RPG 데일리 체크리스트
 - 🛏️ **[잠만보](https://life-save-with-claude-code-multi-se.vercel.app)** — XP·레벨업 붙인 수면 트래커 PWA
 - 🧱 **[flutter_riverpod_architecture_example](https://github.com/wonjangcloud9/flutter_riverpod_architecture_example)** — Flutter + Riverpod 클린 아키텍처
-- 📷 **[react-native-compact-camera](https://github.com/wonjangcloud9/react-native-compact-camera)** — 가벼운 RN 카메라 컴포넌트
 
 </details>
 

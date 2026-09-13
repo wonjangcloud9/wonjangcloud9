@@ -141,7 +141,6 @@ I tend to stay on one subject for a long time. What I've changed is scope — no
 - 🎮 **[mobily](https://github.com/wonjangcloud9/mobily)** — a login-free daily checklist for mobile RPG players
 - 🛏️ **[Jammanbo](https://life-save-with-claude-code-multi-se.vercel.app)** — a sleep tracker PWA with XP and levels
 - 🧱 **[flutter_riverpod_architecture_example](https://github.com/wonjangcloud9/flutter_riverpod_architecture_example)** — Flutter + Riverpod clean architecture
-- 📷 **[react-native-compact-camera](https://github.com/wonjangcloud9/react-native-compact-camera)** — a minimal RN camera component
 
 </details>
 
