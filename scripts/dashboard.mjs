@@ -314,11 +314,46 @@ for (const f of readdirSync('assets')) {
   if (/^dashboard-.*\.svg$/.test(f) && f !== names.light && f !== names.dark) unlinkSync(`assets/${f}`);
 }
 
+// 연대기 표의 연도별 레포/커밋 수도 여기서 고친다. README에 손으로 박아두면
+// 레포를 지우거나 커밋이 쌓일 때마다 조용히 틀려진다.
+const reposByYear = {};
+for (const r of repos) {
+  const y = r.createdAt.slice(0, 4);
+  reposByYear[y] = (reposByYear[y] || 0) + 1;
+}
+const n = (x) => (x || 0).toLocaleString('en-US');
+
+// 2020–21은 레포 수가 아니라 커밋만 보여준다(깃허브를 안 쓰던 시기라서).
+const early = (commitsByYear[2020] || 0) + (commitsByYear[2021] || 0);
+
+const cells = {
+  'README.md': [
+    [/(<b>2019<\/b><br><sub>레포 )\d+(<\/sub>)/, `$1${n(reposByYear[2019])}$2`],
+    [/(<b>2020–21<\/b><br><sub>커밋 )[\d,]+(<\/sub>)/, `$1${n(early)}$2`],
+    ...[2022, 2023, 2024, 2025, 2026].map((y) => [
+      new RegExp(`(<b>${y}</b><br><sub>레포 )\\d+(</sub><br><sub>커밋 )[\\d,+]+(</sub>)`),
+      `$1${n(reposByYear[y])}$2${n(commitsByYear[y])}$3`,
+    ]),
+  ],
+  'README.en.md': [
+    [/(<b>2019<\/b><br><sub>)\d+( repos<\/sub>)/, `$1${n(reposByYear[2019])}$2`],
+    [/(<b>2020–21<\/b><br><sub>)[\d,]+( commits<\/sub>)/, `$1${n(early)}$2`],
+    ...[2022, 2023, 2024, 2025, 2026].map((y) => [
+      new RegExp(`(<b>${y}</b><br><sub>)\\d+( repos</sub><br><sub>)[\\d,+]+( commits</sub>)`),
+      `$1${n(reposByYear[y])}$2${n(commitsByYear[y])}$3`,
+    ]),
+  ],
+};
+
 for (const readme of ['README.md', 'README.en.md']) {
   const before = readFileSync(readme, 'utf8');
-  const after = before
+  let after = before
     .replace(/\.\/assets\/dashboard-light[^"]*/g, `./assets/${names.light}`)
     .replace(/\.\/assets\/dashboard-dark[^"]*/g, `./assets/${names.dark}`);
+  for (const [re, rep] of cells[readme]) {
+    if (!re.test(after)) console.error(`경고: ${readme}에서 ${re} 를 못 찾았다`);
+    after = after.replace(re, rep);
+  }
   if (after !== before) writeFileSync(readme, after);
 }
 

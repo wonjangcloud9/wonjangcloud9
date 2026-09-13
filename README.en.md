@@ -12,8 +12,8 @@ Building things in Seoul · [GS Neotek](https://www.gsneotek.co.kr)
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-7a989cf8c1.svg">
-  <img src="./assets/dashboard-light-7a989cf8c1.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-45ceacf065.svg">
+  <img src="./assets/dashboard-light-45ceacf065.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -88,25 +88,25 @@ A CLI that scores **harness engineering** quality and generates benchmarks from 
 ## 📖 The path so far
 
 <table>
-<tr><td width="92" align="center"><b>2019</b><br><sub>3 repos</sub></td><td>
+<tr><td width="92" align="center"><b>2019</b><br><sub>2 repos</sub></td><td>
 First commit. I started by <b>cloning</b> — KakaoTalk, Netflix.
 </td></tr>
-<tr><td align="center"><b>2020–21</b><br><sub>389 commits</sub></td><td>
+<tr><td align="center"><b>2020–21</b><br><sub>385 commits</sub></td><td>
 The years I didn't use GitHub. I didn't know it mattered, so the code stayed on my laptop. <b>Zero commits in 2020.</b>
 </td></tr>
-<tr><td align="center"><b>2022</b><br><sub>94 repos</sub><br><sub>1,184 commits</sub></td><td>
+<tr><td align="center"><b>2022</b><br><sub>91 repos</sub><br><sub>1,160 commits</sub></td><td>
 React, Next.js and Django — cloning Karrot Market, Airbnb and Twitter at eight repos a month.
 </td></tr>
-<tr><td align="center"><b>2023</b><br><sub>127 repos</sub><br><sub>1,955 commits</sub></td><td>
+<tr><td align="center"><b>2023</b><br><sub>116 repos</sub><br><sub>1,894 commits</sub></td><td>
 <b>My busiest year.</b> Flutter, React Native and Jetpack Compose at once, plus my first real product attempts — a toilet finder, an education LMS, a complaint tracker, an AI companion.
 </td></tr>
-<tr><td align="center"><b>2024</b><br><sub>48 repos</sub><br><sub>1,355 commits</sub></td><td>
+<tr><td align="center"><b>2024</b><br><sub>48 repos</sub><br><sub>1,314 commits</sub></td><td>
 I narrowed down to one subject: <b>used cars</b> — an Encar crawler, a damage-detection FastAPI, mycarpageGPT. LangChain and RAG put an LLM in a product for the first time.
 </td></tr>
-<tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>907 commits</sub></td><td>
+<tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Four more used-car rebuilds and five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>35 repos</sub><br><sub>2,100+ commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>35 repos</sub><br><sub>2,163 commits</sub></td><td>
 Shipped CLIs, evaluators and guardrails for AI coding agents to npm and PyPI. <b>My highest-commit year, and it's only September.</b>
 </td></tr>
 </table>
@@ -123,11 +123,11 @@ Shipped CLIs, evaluators and guardrails for AI coding agents to npm and PyPI. <b
 | Subject | Repos | How far it got |
 |---|---|---|
 | 🤖 **Agents & LLMs** | 26 | Following courses → writing my own → **four packages on npm and PyPI** |
-| 🚗 **Used cars** | 24 | Encar crawler → damage-detection API → GPT search → four MVPs. Since 2022 |
+| 🚗 **Used cars** | 23 | Encar crawler → damage-detection API → GPT search → four MVPs. Since 2022 |
 | 🏃 **Weight & fitness** | 11 | The eleventh is vibing. The first ten taught me what to cut |
 | 🎌 **Fandom & Japanese** | 7 | Consolidated into [custo](https://wonjangcloud9.github.io/custo/) |
 | ⏱️ **Pomodoro** | 6 | One per new framework I picked up |
-| 🎵 **TikTok clones** | 4 | Where I actually learned Flutter animations |
+| 🎵 **TikTok clones** | 3 | Where I actually learned Flutter animations |
 | 😴 **Sleep** | 3 | [Jammanbo](https://life-save-with-claude-code-multi-se.vercel.app) is the one that stuck |
 
 I tend to stay on one subject for a long time. What I've changed is scope — nothing I build now goes past five screens.
@@ -179,5 +179,5 @@ I tend to stay on one subject for a long time. What I've changed is scope — no
 ---
 
 <div align="center">
-<sub><b>189 of my 361 repos are private</b> — they hold keys or personal data. The numbers above include private commits.</sub>
+<sub><b>189 of my 345 repos are private</b> — they hold keys or personal data. The numbers above include private commits.</sub>
 </div>

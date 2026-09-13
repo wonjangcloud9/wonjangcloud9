@@ -12,8 +12,8 @@
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-7a989cf8c1.svg">
-  <img src="./assets/dashboard-light-7a989cf8c1.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-45ceacf065.svg">
+  <img src="./assets/dashboard-light-45ceacf065.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -88,25 +88,25 @@ LLM 앱용 가드레일 엔진. 프롬프트 인젝션·PII(26개 지역)·GDPR�
 ## 📖 지나온 길
 
 <table>
-<tr><td width="92" align="center"><b>2019</b><br><sub>레포 3</sub></td><td>
+<tr><td width="92" align="center"><b>2019</b><br><sub>레포 2</sub></td><td>
 첫 커밋. 클론 코딩으로 시작했습니다 — 코코아톡, 넷플릭스.
 </td></tr>
-<tr><td align="center"><b>2020–21</b><br><sub>커밋 389</sub></td><td>
+<tr><td align="center"><b>2020–21</b><br><sub>커밋 385</sub></td><td>
 깃허브를 쓰지 않던 시기. 중요한 줄 몰라서 코드가 로컬에만 쌓였습니다. 2020년 커밋 <b>0개</b>.
 </td></tr>
-<tr><td align="center"><b>2022</b><br><sub>레포 94</sub><br><sub>커밋 1,184</sub></td><td>
+<tr><td align="center"><b>2022</b><br><sub>레포 91</sub><br><sub>커밋 1,160</sub></td><td>
 React·Next.js·Django. 당근마켓, 에어비앤비, 트위터를 클론하며 한 달에 8개씩 레포를 열었습니다.
 </td></tr>
-<tr><td align="center"><b>2023</b><br><sub>레포 127</sub><br><sub>커밋 1,955</sub></td><td>
+<tr><td align="center"><b>2023</b><br><sub>레포 116</sub><br><sub>커밋 1,894</sub></td><td>
 <b>역대 최다 레포.</b> Flutter·React Native·Jetpack Compose를 동시에 다뤘고, 처음으로 제품을 시도했습니다 — 화장실 찾기, 교육 LMS, 민원 처리, AI 컴패니언.
 </td></tr>
-<tr><td align="center"><b>2024</b><br><sub>레포 48</sub><br><sub>커밋 1,355</sub></td><td>
+<tr><td align="center"><b>2024</b><br><sub>레포 48</sub><br><sub>커밋 1,314</sub></td><td>
 주제를 <b>중고차</b>로 좁혔습니다 — 엔카 크롤러, 손상 판별 FastAPI, mycarpageGPT. LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 </td></tr>
-<tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 907</sub></td><td>
+<tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 중고차를 네 번 더 다시 만들고, 건강·운동 앱을 다섯 개. 후반엔 에이전트를 <b>직접 짜기 시작</b>했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 35</sub><br><sub>커밋 2,100+</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 35</sub><br><sub>커밋 2,163</sub></td><td>
 AI 코딩 에이전트를 위한 CLI·평가·가드레일을 npm과 PyPI에 올렸습니다. <b>역대 최다 커밋, 아직 9월입니다.</b>
 </td></tr>
 </table>
@@ -123,11 +123,11 @@ AI 코딩 에이전트를 위한 CLI·평가·가드레일을 npm과 PyPI에 올
 | 주제 | 레포 | 어디까지 갔나 |
 |---|---|---|
 | 🤖 **에이전트·LLM** | 26개 | 강의 따라하기 → 직접 짜기 → **npm·PyPI 배포 4개** |
-| 🚗 **중고차** | 24개 | 엔카 크롤러 → 손상 판별 API → GPT 검색 → MVP 네 번. 2022년부터 |
+| 🚗 **중고차** | 23개 | 엔카 크롤러 → 손상 판별 API → GPT 검색 → MVP 네 번. 2022년부터 |
 | 🏃 **감량·운동** | 11개 | 열한 번째가 vibing. 앞의 열 개가 뭘 빼야 하는지 알려줬습니다 |
 | 🎌 **덕질·일본어** | 7개 | [custo](https://wonjangcloud9.github.io/custo/)로 정리됐습니다 |
 | ⏱️ **포모도로** | 6개 | 새 프레임워크를 배울 때마다 하나씩 |
-| 🎵 **틱톡 클론** | 4개 | Flutter 애니메이션은 여기서 익혔습니다 |
+| 🎵 **틱톡 클론** | 3개 | Flutter 애니메이션은 여기서 익혔습니다 |
 | 😴 **수면** | 3개 | [잠만보](https://life-save-with-claude-code-multi-se.vercel.app)가 남았습니다 |
 
 한 주제를 오래 붙잡는 편입니다. 대신 요즘은 범위를 좁게 잡습니다 — 만드는 것이 화면 다섯 개를 넘기지 않습니다.
@@ -179,5 +179,5 @@ AI 코딩 에이전트를 위한 CLI·평가·가드레일을 npm과 PyPI에 올
 ---
 
 <div align="center">
-<sub>레포 361개 중 <b>189개는 비공개</b>입니다 — 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
+<sub>레포 345개 중 <b>189개는 비공개</b>입니다 — 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
 </div>
