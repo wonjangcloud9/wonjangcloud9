@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="620" viewBox="0 0 880 620" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Pretendard','Malgun Gothic','Segoe UI',sans-serif">
+  <style>
+    text{font-feature-settings:'tnum' 1}
+    .h1{font-size:20px;font-weight:700;fill:#1f2328;letter-spacing:-.2px}
+    .live{font-size:11px;font-weight:600;fill:#656d76;letter-spacing:.3px}
+    .big{font-size:34px;font-weight:800;fill:#1f2328;letter-spacing:-1px}
+    .cap{font-size:12px;fill:#656d76}
+    .sec{font-size:11px;font-weight:700;fill:#656d76;letter-spacing:1.4px}
+    .rowlbl{font-size:13.5px;font-weight:600;fill:#1f2328}
+    .rownum{font-size:15px;font-weight:800}
+    .rowsub{font-size:11.5px;fill:#656d76}
+    .legend{font-size:11.5px;fill:#656d76}
+    .tick{font-size:10.5px;fill:#656d76}
+    .foot{font-size:11.5px;fill:#656d76}
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="619" rx="16" fill="#ffffff" stroke="#d8dee4"/>
+
+  <text x="48" y="52" class="h1">원장 실험실 · WONJANG LAB</text>
+  <text x="832" y="50" class="live" text-anchor="end">2026-09-24 기준</text>
+  <line x1="48" y1="76" x2="832" y2="76" stroke="#d8dee4"/>
+
+  <text x="48" y="134" class="big">346</text>
+  <text x="48" y="157" class="cap">레포 · 공개 157</text>
+  <text x="182" y="134" class="big">7,977</text>
+  <text x="182" y="157" class="cap">커밋 · 비공개 포함</text>
+  <text x="316" y="134" class="big" fill="#D97757">2,350</text>
+  <text x="316" y="157" class="cap">올해 커밋</text>
+  <text x="450" y="134" class="big" fill="#3fb950">1</text>
+  <text x="450" y="157" class="cap">연속 기록 · 일</text>
+
+  <text x="596" y="104" class="sec">연도별 커밋</text>
+  
+    <rect x="596" y="178" width="23" height="4" rx="3" fill="#d8dee4">
+      <animate attributeName="height" values="0;4" dur="0.7s" begin="0s" fill="freeze"/>
+      <animate attributeName="y" values="182;178" dur="0.7s" begin="0s" fill="freeze"/>
+    </rect>
+    <text x="607.5" y="199" class="tick" text-anchor="middle">'19</text>
+    <rect x="629" y="171" width="23" height="11" rx="3" fill="#d8dee4">
+      <animate attributeName="height" values="0;11" dur="0.7s" begin="0.12s" fill="freeze"/>
+      <animate attributeName="y" values="182;171" dur="0.7s" begin="0.12s" fill="freeze"/>
+    </rect>
+    <text x="640.5" y="199" class="tick" text-anchor="middle">'21</text>
+    <rect x="662" y="149" width="23" height="33" rx="3" fill="#d8dee4">
+      <animate attributeName="height" values="0;33" dur="0.7s" begin="0.24s" fill="freeze"/>
+      <animate attributeName="y" values="182;149" dur="0.7s" begin="0.24s" fill="freeze"/>
+    </rect>
+    <text x="673.5" y="199" class="tick" text-anchor="middle">'22</text>
+    <rect x="695" y="129" width="23" height="53" rx="3" fill="#d8dee4">
+      <animate attributeName="height" values="0;53" dur="0.7s" begin="0.36s" fill="freeze"/>
+      <animate attributeName="y" values="182;129" dur="0.7s" begin="0.36s" fill="freeze"/>
+    </rect>
+    <text x="706.5" y="199" class="tick" text-anchor="middle">'23</text>
+    <rect x="728" y="145" width="23" height="37" rx="3" fill="#d8dee4">
+      <animate attributeName="height" values="0;37" dur="0.7s" begin="0.48s" fill="freeze"/>
+      <animate attributeName="y" values="182;145" dur="0.7s" begin="0.48s" fill="freeze"/>
+    </rect>
+    <text x="739.5" y="199" class="tick" text-anchor="middle">'24</text>
+    <rect x="761" y="158" width="23" height="24" rx="3" fill="#d8dee4">
+      <animate attributeName="height" values="0;24" dur="0.7s" begin="0.6s" fill="freeze"/>
+      <animate attributeName="y" values="182;158" dur="0.7s" begin="0.6s" fill="freeze"/>
+    </rect>
+    <text x="772.5" y="199" class="tick" text-anchor="middle">'25</text>
+    <rect x="794" y="116" width="23" height="66" rx="3" fill="#D97757">
+      <animate attributeName="height" values="0;66" dur="0.7s" begin="0.72s" fill="freeze"/>
+      <animate attributeName="y" values="182;116" dur="0.7s" begin="0.72s" fill="freeze"/>
+    </rect>
+    <text x="805.5" y="199" class="tick" text-anchor="middle">'26</text>
+
+  <line x1="48" y1="224" x2="832" y2="224" stroke="#d8dee4"/>
+  <text x="48" y="252" class="sec">주력 언어 · 레포 292개 기준</text>
+  
+    <rect x="48" y="266" width="237" height="14" rx="3" fill="#3178c6">
+      <animate attributeName="width" values="0;237" dur="0.6s" begin="0s" fill="freeze"/>
+    </rect>
+    <rect x="287" y="266" width="215" height="14" rx="3" fill="#f1e05a">
+      <animate attributeName="width" values="0;215" dur="0.6s" begin="0.08s" fill="freeze"/>
+    </rect>
+    <rect x="504" y="266" width="119" height="14" rx="3" fill="#3572A5">
+      <animate attributeName="width" values="0;119" dur="0.6s" begin="0.16s" fill="freeze"/>
+    </rect>
+    <rect x="625" y="266" width="68" height="14" rx="3" fill="#00B4AB">
+      <animate attributeName="width" values="0;68" dur="0.6s" begin="0.24s" fill="freeze"/>
+    </rect>
+    <rect x="695" y="266" width="52" height="14" rx="3" fill="#f34b7d">
+      <animate attributeName="width" values="0;52" dur="0.6s" begin="0.32s" fill="freeze"/>
+    </rect>
+    <rect x="749" y="266" width="44" height="14" rx="3" fill="#e34c26">
+      <animate attributeName="width" values="0;44" dur="0.6s" begin="0.4s" fill="freeze"/>
+    </rect>
+    <rect x="795" y="266" width="36" height="14" rx="3" fill="#b07219">
+      <animate attributeName="width" values="0;36" dur="0.6s" begin="0.48s" fill="freeze"/>
+    </rect>
+  
+    <circle cx="52" cy="302" r="4" fill="#3178c6"/>
+    <text x="63" y="306" class="legend">TypeScript 89</text>
+    <circle cx="167.89999999999998" cy="302" r="4" fill="#f1e05a"/>
+    <text x="178.89999999999998" y="306" class="legend">JavaScript 81</text>
+    <circle cx="283.79999999999995" cy="302" r="4" fill="#3572A5"/>
+    <text x="294.79999999999995" y="306" class="legend">Python 45</text>
+    <circle cx="374.49999999999994" cy="302" r="4" fill="#00B4AB"/>
+    <text x="385.49999999999994" y="306" class="legend">Dart 26</text>
+    <circle cx="452.5999999999999" cy="302" r="4" fill="#f34b7d"/>
+    <text x="463.5999999999999" y="306" class="legend">C++ 20</text>
+    <circle cx="524.3999999999999" cy="302" r="4" fill="#e34c26"/>
+    <text x="535.3999999999999" y="306" class="legend">HTML 17</text>
+    <circle cx="602.4999999999999" cy="302" r="4" fill="#b07219"/>
+    <text x="613.4999999999999" y="306" class="legend">Java 14</text>
+
+  <line x1="48" y1="334" x2="832" y2="334" stroke="#d8dee4"/>
+  <text x="48" y="362" class="sec">오래 파고든 주제</text>
+  
+    <text x="48" y="397.5" class="rowlbl">에이전트·LLM</text>
+    <rect x="180" y="384" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="384" width="420" height="18" rx="9" fill="#D97757">
+      <animate attributeName="width" values="0;420" dur="1s" begin="0.3s" fill="freeze"/>
+    </rect>
+    <text x="634" y="397.5" class="rownum" text-anchor="end" fill="#D97757">26</text>
+    <text x="656" y="397.5" class="rowsub">2022년부터</text>
+    <text x="48" y="433.5" class="rowlbl">감량·운동</text>
+    <rect x="180" y="420" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="420" width="178" height="18" rx="9" fill="#61DDAA">
+      <animate attributeName="width" values="0;178" dur="1s" begin="0.4s" fill="freeze"/>
+    </rect>
+    <text x="634" y="433.5" class="rownum" text-anchor="end" fill="#61DDAA">11</text>
+    <text x="656" y="433.5" class="rowsub">2023년부터</text>
+    <text x="48" y="469.5" class="rowlbl">덕질·일본어</text>
+    <rect x="180" y="456" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="456" width="113" height="18" rx="9" fill="#F6BD16">
+      <animate attributeName="width" values="0;113" dur="1s" begin="0.5s" fill="freeze"/>
+    </rect>
+    <text x="634" y="469.5" class="rownum" text-anchor="end" fill="#F6BD16">7</text>
+    <text x="656" y="469.5" class="rowsub">2024년부터</text>
+    <text x="48" y="505.5" class="rowlbl">포모도로</text>
+    <rect x="180" y="492" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="492" width="97" height="18" rx="9" fill="#9270CA">
+      <animate attributeName="width" values="0;97" dur="1s" begin="0.6000000000000001s" fill="freeze"/>
+    </rect>
+    <text x="634" y="505.5" class="rownum" text-anchor="end" fill="#9270CA">6</text>
+    <text x="656" y="505.5" class="rowsub">2023년부터</text>
+    <text x="48" y="541.5" class="rowlbl">틱톡 클론</text>
+    <rect x="180" y="528" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="528" width="48" height="18" rx="9" fill="#78D3F8">
+      <animate attributeName="width" values="0;48" dur="1s" begin="0.7s" fill="freeze"/>
+    </rect>
+    <text x="634" y="541.5" class="rownum" text-anchor="end" fill="#78D3F8">3</text>
+    <text x="656" y="541.5" class="rowsub">2023년부터</text>
+
+  <text x="48" y="594" class="foot">최장 연속 123일  ·  지금 만드는 것 — vibing, 사진으로 같이 보는 감량 앱</text>
+</svg>

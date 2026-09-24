@@ -1,0 +1,31 @@
+name: 잔디 뱀 갱신
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # 매일 03:00 KST
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 잔디에서 뱀 SVG 만들기
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: output 브랜치로 밀어넣기
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
