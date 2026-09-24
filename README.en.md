@@ -28,7 +28,17 @@
 
 ## What I'm building now
 
-🐢 **vibing** — A weight-loss app where you snap what you eat and share it with friends. A turtle coach named Bibi nags you. Getting ready for the app stores.
+<p align="center">
+  <img src="./assets/vibing/banner.jpg" width="100%" alt="vibing — snap your meal, see it together">
+</p>
+
+🐢 **vibing** — Snap a photo of what you eat and a turtle coach named **Bibi** logs the calories; you and your friends see each other's meals. Getting ready for the App Store and Google Play.
+
+<p align="center">
+  <img src="./assets/vibing/today.jpg" width="31%" alt="One photo, and Bibi logs the calories">
+  <img src="./assets/vibing/food.jpg" width="31%" alt="Calories left, meal by meal">
+  <img src="./assets/vibing/friends.jpg" width="31%" alt="See each other's meals with friends">
+</p>
 
 <details>
 <summary><b>Things I've built</b></summary>

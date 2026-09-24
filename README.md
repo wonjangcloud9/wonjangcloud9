@@ -28,7 +28,17 @@
 
 ## 지금 만드는 것
 
-🐢 **vibing** — 먹은 걸 사진으로 남기고 친구와 같이 보는 감량 앱. 거북이 코치 "비비"가 잔소리를 합니다. 앱스토어 출시 준비 중.
+<p align="center">
+  <img src="./assets/vibing/banner.jpg" width="100%" alt="vibing — 밥 찍고, 같이 봐요">
+</p>
+
+🐢 **vibing** — 먹은 걸 사진 한 장으로 남기면 거북이 코치 **비비**가 칼로리를 적어 주고, 친구와 서로의 끼니를 같이 보는 감량 앱. 앱스토어·구글 플레이 출시 준비 중.
+
+<p align="center">
+  <img src="./assets/vibing/today.jpg" width="31%" alt="사진 한 장이면 비비가 칼로리를 적어요">
+  <img src="./assets/vibing/food.jpg" width="31%" alt="끼니마다 남은 칼로리가 한눈에">
+  <img src="./assets/vibing/friends.jpg" width="31%" alt="친구와 서로의 끼니를 같이 봐요">
+</p>
 
 <details>
 <summary><b>만들어 둔 것</b></summary>
