@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=700&size=26&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=700&height=70&lines=Now%20building%20MetricFlow%20and%20vibing%3BOpened%20eight%20web%20services%20in%20four%20days%3BBuilding%20since%202019" alt="Now building MetricFlow and vibing / Opened eight web services in four days / Building since 2019" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&weight=700&size=26&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=700&height=70&lines=vibing%20is%20out%20on%20the%20App%20Store%3BOpened%20eight%20web%20services%20in%20four%20days%3BBuilding%20since%202019" alt="vibing is out on the App Store / Opened eight web services in four days / Building since 2019" />
 
 [한국어](README.md) · English
 
@@ -9,6 +9,24 @@
 <br>
 
 ## What I'm building now
+
+### vibing
+
+<p align="center">
+  <img src="./assets/vibing/banner.jpg" width="100%" alt="vibing — snap your meal, see it together">
+</p>
+
+Snap a photo of what you eat and a turtle coach named **Bibi** logs the calories and protein. Bibi also plans the day's gym session — it sets the weights from your sex, muscle mass and a photo of your InBody sheet, tells you the next set while you rest, and remembers the exercises you'd rather skip. You and your friends see each other's meals. It's my eleventh weight-loss or fitness app, and the first one to reach a store.
+
+<p align="center">
+  <img src="./assets/vibing/home.jpg" width="31%" alt="One photo, and calories left update right away">
+  <img src="./assets/vibing/meal.jpg" width="31%" alt="Bibi logs calories and protein for every meal">
+  <img src="./assets/vibing/coach.jpg" width="31%" alt="Bibi picks today's workout, weights included">
+</p>
+
+<p align="center"><sub><a href="https://apps.apple.com/kr/app/id6815520523">On the App Store</a> since October 2026 · Google Play in closed testing · Next.js · Supabase · Capacitor · records on screen are from a test account</sub></p>
+
+<br>
 
 ### MetricFlow
 
@@ -27,24 +45,6 @@ When I closed nanika and went through the records, I had no visitor counts per s
 </p>
 
 <p align="center"><sub>Started October 2026 · Next.js · PostgreSQL · Claude · numbers on screen are synthetic demo data</sub></p>
-
-<br>
-
-### vibing
-
-<p align="center">
-  <img src="./assets/vibing/banner.jpg" width="100%" alt="vibing — snap your meal, see it together">
-</p>
-
-Snap a photo of what you eat and a turtle coach named **Bibi** logs the calories; you and your friends see each other's meals. It's my eleventh weight-loss or fitness app.
-
-<p align="center">
-  <img src="./assets/vibing/today.jpg" width="31%" alt="One photo, and Bibi logs the calories">
-  <img src="./assets/vibing/food.jpg" width="31%" alt="Calories left, meal by meal">
-  <img src="./assets/vibing/friends.jpg" width="31%" alt="See each other's meals with friends">
-</p>
-
-<p align="center"><sub>Next.js · Supabase · getting ready for the App Store and Google Play</sub></p>
 
 <br>
 
@@ -76,7 +76,7 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 <br>
 
 - **[notdone](https://github.com/wonjangcloud9/notdone)** A Claude Code skill that asks for evidence when an agent says "done" without ever looking at the screen
-- **[wj-mods](https://github.com/wonjangcloud9/wj-mods)** Claude Code mods that put per-session progress, usage and long-turn alerts in the terminal
+- **[wj-mods](https://github.com/wonjangcloud9/wj-mods)** Claude Code mods that put per-session progress, usage, long-turn alerts and session nicknames in the terminal
 - **[claude-tree](https://github.com/wonjangcloud9/claude-tree)** Runs several Claude Code sessions in parallel, each in its own git worktree
 - **[open-guardrail](https://github.com/wonjangcloud9/open-guardrail)** Guardrails for LLM apps. Zero API calls, under 0.1ms
 - **[wonjangAgent](https://github.com/wonjangcloud9/wonjangAgent)** A Korean-first autonomous AI agent. Single Rust binary
@@ -90,8 +90,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-3ce2964fe4.svg">
-  <img src="./assets/dashboard-light-3ce2964fe4.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-98a7590bc5.svg">
+  <img src="./assets/dashboard-light-98a7590bc5.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -116,8 +116,8 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>41 repos</sub><br><sub>2,728 commits</sub></td><td>
-Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; now I'm building MetricFlow and vibing. <b>My highest-commit year, and it's only October.</b>
+<tr><td align="center"><b>2026</b><br><sub>44 repos</sub><br><sub>3,640 commits</sub></td><td>
+Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
 
@@ -131,7 +131,7 @@ Shipped agent tools to npm and PyPI. In September I opened eight web services in
 | Subject | Repos | How far it got |
 |---|---|---|
 | 🤖 **Agents & LLMs** | 26 | Following courses → writing my own → **four packages on npm and PyPI** |
-| 🏃 **Weight & fitness** | 11 | The eleventh is vibing. The first ten taught me what to cut |
+| 🏃 **Weight & fitness** | 11 | The eleventh, vibing, is the first to reach the App Store. The first ten taught me what to cut |
 | 🎌 **Fandom & Japanese** | 7 | Consolidated into [custo](https://wonjangcloud9.github.io/custo/) |
 | ⏱️ **Pomodoro** | 6 | One per new framework I picked up |
 | 🎵 **TikTok clones** | 3 | Where I actually learned Flutter animations |
@@ -143,7 +143,7 @@ I tend to stay on one subject for a long time.
 
 ## Tools
 
-TypeScript · Next.js · React · Python · Rust · Flutter · Supabase · PostgreSQL · three.js · Claude Code
+TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supabase · PostgreSQL · three.js · Claude Code
 
 <br>
 
@@ -153,5 +153,5 @@ TypeScript · Next.js · React · Python · Rust · Flutter · Supabase · Postg
   <img src="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-light.svg" alt="A snake eating my contribution graph">
 </picture>
 
-<sub><b>192 of my 351 repos are private</b> — they hold keys or personal data. The numbers above include private commits.</sub>
+<sub><b>195 of my 354 repos are private</b> — they hold keys or personal data. The numbers above include private commits.</sub>
 </div>

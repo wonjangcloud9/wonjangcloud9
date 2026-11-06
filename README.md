@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto%20Sans%20KR&weight=700&size=26&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=700&height=70&lines=%EC%A7%80%EA%B8%88%EC%9D%80%20MetricFlow%EC%99%80%20vibing%EC%9D%84%20%EB%A7%8C%EB%93%AD%EB%8B%88%EB%8B%A4%3B9%EC%9B%94%EC%97%94%20%EB%82%98%ED%9D%98%20%EB%8F%99%EC%95%88%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%97%AC%EB%8D%9F%20%EA%B0%9C%EB%A5%BC%20%EC%97%B4%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4%3B2019%EB%85%84%EB%B6%80%ED%84%B0%20%EA%B3%84%EC%86%8D%20%EB%A7%8C%EB%93%A4%EC%96%B4%20%EC%99%94%EC%8A%B5%EB%8B%88%EB%8B%A4" alt="지금은 MetricFlow와 vibing을 만듭니다 / 9월엔 나흘 동안 서비스 여덟 개를 열었습니다 / 2019년부터 계속 만들어 왔습니다" />
+<img src="https://readme-typing-svg.demolab.com?font=Noto%20Sans%20KR&weight=700&size=26&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=700&height=70&lines=vibing%EC%9D%B4%20%EC%95%B1%EC%8A%A4%ED%86%A0%EC%96%B4%EC%97%90%20%EB%82%98%EC%99%94%EC%8A%B5%EB%8B%88%EB%8B%A4%3B9%EC%9B%94%EC%97%94%20%EB%82%98%ED%9D%98%20%EB%8F%99%EC%95%88%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%97%AC%EB%8D%9F%20%EA%B0%9C%EB%A5%BC%20%EC%97%B4%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4%3B2019%EB%85%84%EB%B6%80%ED%84%B0%20%EA%B3%84%EC%86%8D%20%EB%A7%8C%EB%93%A4%EC%96%B4%20%EC%99%94%EC%8A%B5%EB%8B%88%EB%8B%A4" alt="vibing이 앱스토어에 나왔습니다 / 9월엔 나흘 동안 서비스 여덟 개를 열었습니다 / 2019년부터 계속 만들어 왔습니다" />
 
 한국어 · [English](README.en.md)
 
@@ -9,6 +9,24 @@
 <br>
 
 ## 지금 만드는 것
+
+### vibing
+
+<p align="center">
+  <img src="./assets/vibing/banner.jpg" width="100%" alt="vibing — 밥 찍고, 같이 봐요">
+</p>
+
+먹은 걸 사진 한 장으로 남기면 거북이 코치 **비비**가 칼로리와 단백질을 적어 주는 감량 앱입니다. 비비는 그날 헬스도 짜 줍니다 — 성별·근육량·인바디 사진을 보고 무게를 정하고, 운동 중엔 쉬는 동안 다음 세트를 알려 주고, 하기 싫다는 운동은 기억했다가 뺍니다. 친구와는 서로의 끼니를 같이 봅니다. 감량·운동 앱으로는 열한 번째이고, 스토어까지 간 건 처음입니다.
+
+<p align="center">
+  <img src="./assets/vibing/home.jpg" width="31%" alt="사진 한 장이면 남은 칼로리가 바로">
+  <img src="./assets/vibing/meal.jpg" width="31%" alt="끼니마다 칼로리·단백질을 비비가 적어요">
+  <img src="./assets/vibing/coach.jpg" width="31%" alt="오늘 헬스는 비비가 무게까지 정해 줘요">
+</p>
+
+<p align="center"><sub>2026년 10월 <a href="https://apps.apple.com/kr/app/id6815520523">앱스토어 출시</a> · 구글 플레이는 비공개 테스트 중 · Next.js · Supabase · Capacitor · 화면 속 기록은 테스트 계정</sub></p>
+
+<br>
 
 ### MetricFlow
 
@@ -27,24 +45,6 @@ nanika를 닫고 기록을 정리해 보니 서비스별 방문자 수가 없었
 </p>
 
 <p align="center"><sub>2026년 10월 시작 · Next.js · PostgreSQL · Claude · 화면 속 숫자는 데모용 합성 데이터</sub></p>
-
-<br>
-
-### vibing
-
-<p align="center">
-  <img src="./assets/vibing/banner.jpg" width="100%" alt="vibing — 밥 찍고, 같이 봐요">
-</p>
-
-먹은 걸 사진 한 장으로 남기면 거북이 코치 **비비**가 칼로리를 적어 주고, 친구와 서로의 끼니를 같이 보는 감량 앱입니다. 감량·운동 앱으로는 열한 번째입니다.
-
-<p align="center">
-  <img src="./assets/vibing/today.jpg" width="31%" alt="사진 한 장이면 비비가 칼로리를 적어요">
-  <img src="./assets/vibing/food.jpg" width="31%" alt="끼니마다 남은 칼로리가 한눈에">
-  <img src="./assets/vibing/friends.jpg" width="31%" alt="친구와 서로의 끼니를 같이 봐요">
-</p>
-
-<p align="center"><sub>Next.js · Supabase · 앱스토어·구글 플레이 출시 준비 중</sub></p>
 
 <br>
 
@@ -76,7 +76,7 @@ nanika를 닫고 기록을 정리해 보니 서비스별 방문자 수가 없었
 <br>
 
 - **[notdone](https://github.com/wonjangcloud9/notdone)** 에이전트가 화면을 보지도 않고 "다 했어요"라고 할 때 증거를 요구하는 Claude Code 스킬
-- **[wj-mods](https://github.com/wonjangcloud9/wj-mods)** 세션별 진행 상황, 사용량, 긴 작업 알림을 터미널에 붙이는 Claude Code 모드 모음
+- **[wj-mods](https://github.com/wonjangcloud9/wj-mods)** 세션별 진행 상황, 사용량, 긴 작업 알림, 세션 별명을 터미널에 붙이는 Claude Code 모드 모음
 - **[claude-tree](https://github.com/wonjangcloud9/claude-tree)** Claude Code 세션을 git worktree로 나눠 여러 개 동시에 굴리는 CLI
 - **[open-guardrail](https://github.com/wonjangcloud9/open-guardrail)** LLM 앱용 가드레일. API 호출 없이 0.1ms 안에
 - **[wonjangAgent](https://github.com/wonjangcloud9/wonjangAgent)** 한국어 우선 자율 AI 에이전트. Rust 단일 바이너리
@@ -90,8 +90,8 @@ nanika를 닫고 기록을 정리해 보니 서비스별 방문자 수가 없었
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-3ce2964fe4.svg">
-  <img src="./assets/dashboard-light-3ce2964fe4.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-98a7590bc5.svg">
+  <img src="./assets/dashboard-light-98a7590bc5.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -116,8 +116,8 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 <b>직접 짜기 시작</b>했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 41</sub><br><sub>커밋 2,728</sub></td><td>
-에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 지금은 MetricFlow와 vibing을 만듭니다. <b>역대 최다 커밋, 아직 10월입니다.</b>
+<tr><td align="center"><b>2026</b><br><sub>레포 44</sub><br><sub>커밋 3,640</sub></td><td>
+에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
 
@@ -131,7 +131,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 | 주제 | 레포 | 어디까지 갔나 |
 |---|---|---|
 | 🤖 **에이전트·LLM** | 26개 | 강의 따라하기 → 직접 짜기 → **npm·PyPI 배포 4개** |
-| 🏃 **감량·운동** | 11개 | 열한 번째가 vibing. 앞의 열 개가 뭘 빼야 하는지 알려줬습니다 |
+| 🏃 **감량·운동** | 11개 | 열한 번째 vibing이 처음으로 앱스토어까지 갔습니다. 앞의 열 개가 뭘 빼야 하는지 알려줬습니다 |
 | 🎌 **덕질·일본어** | 7개 | [custo](https://wonjangcloud9.github.io/custo/)로 정리됐습니다 |
 | ⏱️ **포모도로** | 6개 | 새 프레임워크를 배울 때마다 하나씩 |
 | 🎵 **틱톡 클론** | 3개 | Flutter 애니메이션은 여기서 익혔습니다 |
@@ -143,7 +143,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 
 ## 쓰는 것
 
-TypeScript · Next.js · React · Python · Rust · Flutter · Supabase · PostgreSQL · three.js · Claude Code
+TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supabase · PostgreSQL · three.js · Claude Code
 
 <br>
 
@@ -153,5 +153,5 @@ TypeScript · Next.js · React · Python · Rust · Flutter · Supabase · Postg
   <img src="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-light.svg" alt="잔디를 먹어치우는 뱀">
 </picture>
 
-<sub>레포 351개 중 <b>192개는 비공개</b>입니다 — 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
+<sub>레포 354개 중 <b>195개는 비공개</b>입니다 — 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
 </div>
