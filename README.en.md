@@ -89,8 +89,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-98a7590bc5.svg">
-  <img src="./assets/dashboard-light-98a7590bc5.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-c2a65be5b3.svg">
+  <img src="./assets/dashboard-light-c2a65be5b3.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>44 repos</sub><br><sub>3,640 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>46 repos</sub><br><sub>4,091 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened six of them. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
@@ -247,5 +247,5 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
   <img src="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-light.svg" alt="A snake eating my contribution graph">
 </picture>
 
-<sub>195 of my 354 repos are private because they hold keys or personal data. The numbers above include private commits.</sub>
+<sub>195 of my 356 repos are private because they hold keys or personal data. The numbers above include private commits.</sub>
 </div>

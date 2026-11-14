@@ -89,8 +89,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-98a7590bc5.svg">
-  <img src="./assets/dashboard-light-98a7590bc5.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-c2a65be5b3.svg">
+  <img src="./assets/dashboard-light-c2a65be5b3.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 44</sub><br><sub>커밋 3,640</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 46</sub><br><sub>커밋 4,091</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 여섯 개를 열었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
@@ -247,5 +247,5 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
   <img src="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-light.svg" alt="잔디를 먹어치우는 뱀">
 </picture>
 
-<sub>레포 354개 중 195개는 비공개입니다. 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
+<sub>레포 356개 중 195개는 비공개입니다. 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
 </div>

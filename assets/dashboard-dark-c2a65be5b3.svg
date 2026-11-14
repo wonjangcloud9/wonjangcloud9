@@ -1,63 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="620" viewBox="0 0 880 620" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Pretendard','Malgun Gothic','Segoe UI',sans-serif">
   <style>
     text{font-feature-settings:'tnum' 1}
-    .h1{font-size:20px;font-weight:700;fill:#1f2328;letter-spacing:-.2px}
-    .live{font-size:11px;font-weight:600;fill:#656d76;letter-spacing:.3px}
-    .big{font-size:34px;font-weight:800;fill:#1f2328;letter-spacing:-1px}
-    .cap{font-size:12px;fill:#656d76}
-    .sec{font-size:11px;font-weight:700;fill:#656d76;letter-spacing:1.4px}
-    .rowlbl{font-size:13.5px;font-weight:600;fill:#1f2328}
+    .h1{font-size:20px;font-weight:700;fill:#e6edf3;letter-spacing:-.2px}
+    .live{font-size:11px;font-weight:600;fill:#8b949e;letter-spacing:.3px}
+    .big{font-size:34px;font-weight:800;fill:#e6edf3;letter-spacing:-1px}
+    .cap{font-size:12px;fill:#8b949e}
+    .sec{font-size:11px;font-weight:700;fill:#8b949e;letter-spacing:1.4px}
+    .rowlbl{font-size:13.5px;font-weight:600;fill:#e6edf3}
     .rownum{font-size:15px;font-weight:800}
-    .rowsub{font-size:11.5px;fill:#656d76}
-    .legend{font-size:11.5px;fill:#656d76}
-    .tick{font-size:10.5px;fill:#656d76}
-    .foot{font-size:11.5px;fill:#656d76}
+    .rowsub{font-size:11.5px;fill:#8b949e}
+    .legend{font-size:11.5px;fill:#8b949e}
+    .tick{font-size:10.5px;fill:#8b949e}
+    .foot{font-size:11.5px;fill:#8b949e}
   </style>
-  <rect x="0.5" y="0.5" width="879" height="619" rx="16" fill="#ffffff" stroke="#d8dee4"/>
+  <rect x="0.5" y="0.5" width="879" height="619" rx="16" fill="#0d1117" stroke="#2a3038"/>
 
   <text x="48" y="52" class="h1">원장 실험실 · WONJANG LAB</text>
-  <text x="832" y="50" class="live" text-anchor="end">2026-11-06 기준</text>
-  <line x1="48" y1="76" x2="832" y2="76" stroke="#d8dee4"/>
+  <text x="832" y="50" class="live" text-anchor="end">2026-11-14 기준</text>
+  <line x1="48" y1="76" x2="832" y2="76" stroke="#2a3038"/>
 
-  <text x="48" y="134" class="big">354</text>
-  <text x="48" y="157" class="cap">레포 · 공개 159</text>
-  <text x="182" y="134" class="big">9,267</text>
+  <text x="48" y="134" class="big">356</text>
+  <text x="48" y="157" class="cap">레포 · 공개 161</text>
+  <text x="182" y="134" class="big">9,718</text>
   <text x="182" y="157" class="cap">커밋 · 비공개 포함</text>
-  <text x="316" y="134" class="big" fill="#D97757">3,640</text>
+  <text x="316" y="134" class="big" fill="#D97757">4,091</text>
   <text x="316" y="157" class="cap">올해 커밋</text>
-  <text x="450" y="134" class="big" fill="#3fb950">7</text>
+  <text x="450" y="134" class="big" fill="#3fb950">15</text>
   <text x="450" y="157" class="cap">연속 기록 · 일</text>
 
   <text x="596" y="104" class="sec">연도별 커밋</text>
   
-    <rect x="596" y="178" width="23" height="4" rx="3" fill="#d8dee4">
+    <rect x="596" y="178" width="23" height="4" rx="3" fill="#2a3038">
       <animate attributeName="height" values="0;4" dur="0.7s" begin="0s" fill="freeze"/>
       <animate attributeName="y" values="182;178" dur="0.7s" begin="0s" fill="freeze"/>
     </rect>
     <text x="607.5" y="199" class="tick" text-anchor="middle">'19</text>
-    <rect x="629" y="175" width="23" height="7" rx="3" fill="#d8dee4">
-      <animate attributeName="height" values="0;7" dur="0.7s" begin="0.12s" fill="freeze"/>
-      <animate attributeName="y" values="182;175" dur="0.7s" begin="0.12s" fill="freeze"/>
+    <rect x="629" y="176" width="23" height="6" rx="3" fill="#2a3038">
+      <animate attributeName="height" values="0;6" dur="0.7s" begin="0.12s" fill="freeze"/>
+      <animate attributeName="y" values="182;176" dur="0.7s" begin="0.12s" fill="freeze"/>
     </rect>
     <text x="640.5" y="199" class="tick" text-anchor="middle">'21</text>
-    <rect x="662" y="161" width="23" height="21" rx="3" fill="#d8dee4">
-      <animate attributeName="height" values="0;21" dur="0.7s" begin="0.24s" fill="freeze"/>
-      <animate attributeName="y" values="182;161" dur="0.7s" begin="0.24s" fill="freeze"/>
+    <rect x="662" y="163" width="23" height="19" rx="3" fill="#2a3038">
+      <animate attributeName="height" values="0;19" dur="0.7s" begin="0.24s" fill="freeze"/>
+      <animate attributeName="y" values="182;163" dur="0.7s" begin="0.24s" fill="freeze"/>
     </rect>
     <text x="673.5" y="199" class="tick" text-anchor="middle">'22</text>
-    <rect x="695" y="148" width="23" height="34" rx="3" fill="#d8dee4">
-      <animate attributeName="height" values="0;34" dur="0.7s" begin="0.36s" fill="freeze"/>
-      <animate attributeName="y" values="182;148" dur="0.7s" begin="0.36s" fill="freeze"/>
+    <rect x="695" y="151" width="23" height="31" rx="3" fill="#2a3038">
+      <animate attributeName="height" values="0;31" dur="0.7s" begin="0.36s" fill="freeze"/>
+      <animate attributeName="y" values="182;151" dur="0.7s" begin="0.36s" fill="freeze"/>
     </rect>
     <text x="706.5" y="199" class="tick" text-anchor="middle">'23</text>
-    <rect x="728" y="158" width="23" height="24" rx="3" fill="#d8dee4">
-      <animate attributeName="height" values="0;24" dur="0.7s" begin="0.48s" fill="freeze"/>
-      <animate attributeName="y" values="182;158" dur="0.7s" begin="0.48s" fill="freeze"/>
+    <rect x="728" y="161" width="23" height="21" rx="3" fill="#2a3038">
+      <animate attributeName="height" values="0;21" dur="0.7s" begin="0.48s" fill="freeze"/>
+      <animate attributeName="y" values="182;161" dur="0.7s" begin="0.48s" fill="freeze"/>
     </rect>
     <text x="739.5" y="199" class="tick" text-anchor="middle">'24</text>
-    <rect x="761" y="167" width="23" height="15" rx="3" fill="#d8dee4">
-      <animate attributeName="height" values="0;15" dur="0.7s" begin="0.6s" fill="freeze"/>
-      <animate attributeName="y" values="182;167" dur="0.7s" begin="0.6s" fill="freeze"/>
+    <rect x="761" y="168" width="23" height="14" rx="3" fill="#2a3038">
+      <animate attributeName="height" values="0;14" dur="0.7s" begin="0.6s" fill="freeze"/>
+      <animate attributeName="y" values="182;168" dur="0.7s" begin="0.6s" fill="freeze"/>
     </rect>
     <text x="772.5" y="199" class="tick" text-anchor="middle">'25</text>
     <rect x="794" y="116" width="23" height="66" rx="3" fill="#D97757">
@@ -66,37 +66,37 @@
     </rect>
     <text x="805.5" y="199" class="tick" text-anchor="middle">'26</text>
 
-  <line x1="48" y1="224" x2="832" y2="224" stroke="#d8dee4"/>
-  <text x="48" y="252" class="sec">주력 언어 · 레포 299개 기준</text>
+  <line x1="48" y1="224" x2="832" y2="224" stroke="#2a3038"/>
+  <text x="48" y="252" class="sec">주력 언어 · 레포 301개 기준</text>
   
-    <rect x="48" y="266" width="242" height="14" rx="3" fill="#3178c6">
-      <animate attributeName="width" values="0;242" dur="0.6s" begin="0s" fill="freeze"/>
+    <rect x="48" y="266" width="240" height="14" rx="3" fill="#3178c6">
+      <animate attributeName="width" values="0;240" dur="0.6s" begin="0s" fill="freeze"/>
     </rect>
-    <rect x="292" y="266" width="213" height="14" rx="3" fill="#f1e05a">
-      <animate attributeName="width" values="0;213" dur="0.6s" begin="0.08s" fill="freeze"/>
+    <rect x="290" y="266" width="214" height="14" rx="3" fill="#f1e05a">
+      <animate attributeName="width" values="0;214" dur="0.6s" begin="0.08s" fill="freeze"/>
     </rect>
-    <rect x="507" y="266" width="116" height="14" rx="3" fill="#3572A5">
-      <animate attributeName="width" values="0;116" dur="0.6s" begin="0.16s" fill="freeze"/>
+    <rect x="506" y="266" width="118" height="14" rx="3" fill="#3572A5">
+      <animate attributeName="width" values="0;118" dur="0.6s" begin="0.16s" fill="freeze"/>
     </rect>
-    <rect x="625" y="266" width="66" height="14" rx="3" fill="#00B4AB">
+    <rect x="626" y="266" width="66" height="14" rx="3" fill="#00B4AB">
       <animate attributeName="width" values="0;66" dur="0.6s" begin="0.24s" fill="freeze"/>
     </rect>
-    <rect x="693" y="266" width="50" height="14" rx="3" fill="#f34b7d">
+    <rect x="694" y="266" width="50" height="14" rx="3" fill="#f34b7d">
       <animate attributeName="width" values="0;50" dur="0.6s" begin="0.32s" fill="freeze"/>
     </rect>
-    <rect x="745" y="266" width="48" height="14" rx="3" fill="#e34c26">
-      <animate attributeName="width" values="0;48" dur="0.6s" begin="0.4s" fill="freeze"/>
+    <rect x="746" y="266" width="47" height="14" rx="3" fill="#e34c26">
+      <animate attributeName="width" values="0;47" dur="0.6s" begin="0.4s" fill="freeze"/>
     </rect>
-    <rect x="795" y="266" width="35" height="14" rx="3" fill="#b07219">
-      <animate attributeName="width" values="0;35" dur="0.6s" begin="0.48s" fill="freeze"/>
+    <rect x="795" y="266" width="34" height="14" rx="3" fill="#b07219">
+      <animate attributeName="width" values="0;34" dur="0.6s" begin="0.48s" fill="freeze"/>
     </rect>
   
     <circle cx="52" cy="302" r="4" fill="#3178c6"/>
     <text x="63" y="306" class="legend">TypeScript 93</text>
     <circle cx="167.89999999999998" cy="302" r="4" fill="#f1e05a"/>
-    <text x="178.89999999999998" y="306" class="legend">JavaScript 82</text>
+    <text x="178.89999999999998" y="306" class="legend">JavaScript 83</text>
     <circle cx="283.79999999999995" cy="302" r="4" fill="#3572A5"/>
-    <text x="294.79999999999995" y="306" class="legend">Python 45</text>
+    <text x="294.79999999999995" y="306" class="legend">Python 46</text>
     <circle cx="374.49999999999994" cy="302" r="4" fill="#00B4AB"/>
     <text x="385.49999999999994" y="306" class="legend">Dart 26</text>
     <circle cx="452.5999999999999" cy="302" r="4" fill="#f34b7d"/>
@@ -106,39 +106,39 @@
     <circle cx="602.4999999999999" cy="302" r="4" fill="#b07219"/>
     <text x="613.4999999999999" y="306" class="legend">Java 14</text>
 
-  <line x1="48" y1="334" x2="832" y2="334" stroke="#d8dee4"/>
+  <line x1="48" y1="334" x2="832" y2="334" stroke="#2a3038"/>
   <text x="48" y="362" class="sec">오래 파고든 주제</text>
   
     <text x="48" y="397.5" class="rowlbl">에이전트·LLM</text>
-    <rect x="180" y="384" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="384" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="384" width="420" height="18" rx="9" fill="#D97757">
       <animate attributeName="width" values="0;420" dur="1s" begin="0.3s" fill="freeze"/>
     </rect>
     <text x="634" y="397.5" class="rownum" text-anchor="end" fill="#D97757">26</text>
     <text x="656" y="397.5" class="rowsub">2022년부터</text>
     <text x="48" y="433.5" class="rowlbl">감량·운동</text>
-    <rect x="180" y="420" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="420" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="420" width="178" height="18" rx="9" fill="#61DDAA">
       <animate attributeName="width" values="0;178" dur="1s" begin="0.4s" fill="freeze"/>
     </rect>
     <text x="634" y="433.5" class="rownum" text-anchor="end" fill="#61DDAA">11</text>
     <text x="656" y="433.5" class="rowsub">2023년부터</text>
     <text x="48" y="469.5" class="rowlbl">덕질·일본어</text>
-    <rect x="180" y="456" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="456" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="456" width="113" height="18" rx="9" fill="#F6BD16">
       <animate attributeName="width" values="0;113" dur="1s" begin="0.5s" fill="freeze"/>
     </rect>
     <text x="634" y="469.5" class="rownum" text-anchor="end" fill="#F6BD16">7</text>
     <text x="656" y="469.5" class="rowsub">2024년부터</text>
     <text x="48" y="505.5" class="rowlbl">포모도로</text>
-    <rect x="180" y="492" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="492" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="492" width="97" height="18" rx="9" fill="#9270CA">
       <animate attributeName="width" values="0;97" dur="1s" begin="0.6000000000000001s" fill="freeze"/>
     </rect>
     <text x="634" y="505.5" class="rownum" text-anchor="end" fill="#9270CA">6</text>
     <text x="656" y="505.5" class="rowsub">2023년부터</text>
     <text x="48" y="541.5" class="rowlbl">틱톡 클론</text>
-    <rect x="180" y="528" width="420" height="18" rx="9" fill="#eaeef2"/>
+    <rect x="180" y="528" width="420" height="18" rx="9" fill="#21262d"/>
     <rect x="180" y="528" width="48" height="18" rx="9" fill="#78D3F8">
       <animate attributeName="width" values="0;48" dur="1s" begin="0.7s" fill="freeze"/>
     </rect>
