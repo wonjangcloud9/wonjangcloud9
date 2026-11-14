@@ -162,6 +162,21 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 
 <br>
 
+## 남의 오픈소스에 머지된 PR
+
+직접 쓰다가 걸린 문제를 고쳐서 보낸 것들입니다. 머지된 것만 적습니다.
+
+- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7700](https://github.com/heygen-com/hyperframes/pull/7700) fix(lint): say the audio overlap warning is about a shared Studio lane
+- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7699](https://github.com/heygen-com/hyperframes/pull/7699) fix(check): name a color-graded video by its own selector in layout findings
+- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7697](https://github.com/heygen-com/hyperframes/pull/7697) fix(cli): the render header names the quality preset and CRF it encodes with
+- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7689](https://github.com/heygen-com/hyperframes/pull/7689) fix(cli): stop the CLI build looking for the removed gsap skill
+- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7608](https://github.com/heygen-com/hyperframes/pull/7608) fix(cli): quote the project name in init's printed `cd` commands
+- `2023-12-10` **[nlutter-study/nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)** [#4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
+
+<sub>머지 6개 · <a href="https://github.com/pulls?q=is%3Apr+author%3Awonjangcloud9+is%3Aopen+-user%3Awonjangcloud9">리뷰를 기다리는 PR</a>은 따로 있습니다 (hyperframes, validator.js, Fuse 등)</sub>
+
+<br>
+
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-dark.svg">
