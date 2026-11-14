@@ -1,0 +1,15 @@
+{
+  "heygen-com/hyperframes": {"ko": "HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript)", "en": "Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript)"},
+  "NousResearch/hermes-agent": {"ko": "터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python)", "en": "Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python)"},
+  "amosblomqvist/learnharness": {"ko": "어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript)", "en": "Agent harness for learning difficult things (TypeScript)"},
+  "krisk/Fuse": {"ko": "오타가 있어도 찾아 주는 가벼운 퍼지 검색 라이브러리 (JavaScript)", "en": "Lightweight fuzzy-search library (JavaScript)"},
+  "sveltejs/kit": {"ko": "Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다", "en": "Svelte's full-stack web framework: routing, SSR, redirects"},
+  "toss/es-toolkit": {"ko": "토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript)", "en": "Toss's small, fast utility library that replaces lodash (TypeScript)"},
+  "validatorjs/validator.js": {"ko": "이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript)", "en": "String validation library: emails, passport numbers and so on (JavaScript)"},
+  "composio-community/awesome-claude-plugins": {"ko": "Claude Code 플러그인을 모아 둔 목록", "en": "Curated list of Claude Code plugins"},
+  "safety-research/bloom": {"ko": "LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python)", "en": "Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python)"},
+  "expo/expo": {"ko": "React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스", "en": "Framework and build service for Android, iOS and web apps in React"},
+  "ant-media/Ant-Media-Server": {"ko": "WebRTC로 0.5초 지연 방송을 하는 스트리밍 서버 (Java)", "en": "Streaming server with ~0.5 s latency over WebRTC (Java)"},
+  "sampotts/plyr": {"ko": "HTML5·유튜브·비메오 영상 플레이어 (JavaScript)", "en": "HTML5, YouTube and Vimeo media player (JavaScript)"},
+  "nlutter-study/nlutter-study-2nd": {"ko": "Flutter 스터디 모임의 과제 저장소", "en": "Homework repo of a Flutter study group"}
+}

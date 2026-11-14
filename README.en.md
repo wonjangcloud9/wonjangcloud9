@@ -151,6 +151,22 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 
 Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 37 pull requests and 14 issues across 13 projects, 6 merged so far.
 
+| Project | What it is | Mine |
+|---|---|---|
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 84k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR 24 (5 merged)<br>8 issues |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 263k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR 5 |
+| **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2 issues |
+| **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Homework repo of a Flutter study group | PR 2 (1 merged) |
+| **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2 issues |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.4k</sub> | Agent harness for learning difficult things (TypeScript) | PR 1 |
+| **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR 1 |
+| **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1 issue |
+| **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR 1 |
+| **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1 issue |
+| **[kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR 1 |
+| **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR 1 |
+| **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR 1 |
+
 **Merged**
 
 - [hyperframes #7700](https://github.com/heygen-com/hyperframes/pull/7700) fix(lint): say the audio overlap warning is about a shared Studio lane

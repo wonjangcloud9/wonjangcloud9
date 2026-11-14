@@ -151,6 +151,22 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 
 쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 13곳에 PR 37개와 이슈 14개를 냈고, 그중 6개가 머지됐습니다.
 
+| 프로젝트 | 어떤 저장소인가 | 낸 것 |
+|---|---|---|
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 84k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR 24 (머지 5)<br>이슈 8 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 263k</sub> | 터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python) | PR 5 |
+| **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | WebRTC로 0.5초 지연 방송을 하는 스트리밍 서버 (Java) | 이슈 2 |
+| **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Flutter 스터디 모임의 과제 저장소 | PR 2 (머지 1) |
+| **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python) | 이슈 2 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.4k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR 1 |
+| **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Claude Code 플러그인을 모아 둔 목록 | PR 1 |
+| **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스 | 이슈 1 |
+| **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | 오타가 있어도 찾아 주는 가벼운 퍼지 검색 라이브러리 (JavaScript) | PR 1 |
+| **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5·유튜브·비메오 영상 플레이어 (JavaScript) | 이슈 1 |
+| **[kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다 | PR 1 |
+| **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | 토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript) | PR 1 |
+| **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | 이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript) | PR 1 |
+
 **머지된 것**
 
 - [hyperframes #7700](https://github.com/heygen-com/hyperframes/pull/7700) 소리 겹침 경고가 무슨 뜻인지 알 수 있게
