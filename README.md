@@ -163,7 +163,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스 | 이슈 1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | 오타가 있어도 찾아 주는 가벼운 퍼지 검색 라이브러리 (JavaScript) | PR 1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5·유튜브·비메오 영상 플레이어 (JavaScript) | 이슈 1 |
-| **[kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다 | PR 1 |
+| **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다 | PR 1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | 토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript) | PR 1 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | 이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript) | PR 1 |
 
@@ -203,7 +203,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [hermes-agent #153677](https://github.com/NousResearch/hermes-agent/pull/153677) 팀원 답장의 한글이 `\uXXXX`로 깨져 나오던 것
 - [hyperframes #7559](https://github.com/heygen-com/hyperframes/pull/7559) UTF-8이 아닌 자막 파일은 깨진 글자로 들여오지 않고 거절하게
 - [hyperframes #7558](https://github.com/heygen-com/hyperframes/pull/7558) 타이핑·떨어지는 글자 효과에서 이모지와 한글이 깨지지 않게
-- [kit #17717](https://github.com/sveltejs/kit/pull/17717) 이동할 주소에 한글이 있으면 깨지던 것
+- [sveltejs/kit #17717](https://github.com/sveltejs/kit/pull/17717) 이동할 주소에 한글이 있으면 깨지던 것
 - [hermes-agent #152043](https://github.com/NousResearch/hermes-agent/pull/152043) 토큰에 한글이 들어오면 서버가 죽던 것을 정상 거절로
 - [hermes-agent #152042](https://github.com/NousResearch/hermes-agent/pull/152042) 칸반에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게
 - [hermes-agent #152023](https://github.com/NousResearch/hermes-agent/pull/152023) 대시보드에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게

@@ -52,14 +52,14 @@ def repo_table(rows, ko, about):
         if n_is:
             mine.append(f"이슈 {n_is}" if ko else f"{n_is} issue" + ("s" if n_is > 1 else ""))
         what = about.get(repo, {}).get("ko" if ko else "en", "")
-        name = repo.split("/")[1]
+        name = repo if len(repo.split("/")[1]) < 4 else repo.split("/")[1]
         out.append(f'| **[{name}](https://github.com/{repo})**<br><sub>★ {stars(repo)}</sub> | {what} | {"<br>".join(mine)} |')
     return out + [""]
 
 
 def line(r, ko, texts):
     text = (texts.get(f'{r["repo"]}#{r["number"]}') if ko else None) or r["title"]
-    name = r["repo"].split("/")[1]
+    name = r["repo"] if len(r["repo"].split("/")[1]) < 4 else r["repo"].split("/")[1]
     return f'- [{name} #{r["number"]}]({r["url"]}) {text}'
 
 

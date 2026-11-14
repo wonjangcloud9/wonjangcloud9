@@ -163,7 +163,7 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1 issue |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR 1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1 issue |
-| **[kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR 1 |
+| **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR 1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR 1 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR 1 |
 
@@ -203,7 +203,7 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [hermes-agent #153677](https://github.com/NousResearch/hermes-agent/pull/153677) fix(bot-mode): print a teammate's reply as text, not \uXXXX escapes
 - [hyperframes #7559](https://github.com/heygen-com/hyperframes/pull/7559) fix(cli): refuse SRT and VTT files that are not UTF-8 instead of importing mojibake
 - [hyperframes #7558](https://github.com/heygen-com/hyperframes/pull/7558) fix(registry): split typed and falling text by grapheme, not UTF-16 unit
-- [kit #17717](https://github.com/sveltejs/kit/pull/17717) fix: percent-encode non-ASCII characters in redirect locations
+- [sveltejs/kit #17717](https://github.com/sveltejs/kit/pull/17717) fix: percent-encode non-ASCII characters in redirect locations
 - [hermes-agent #152043](https://github.com/NousResearch/hermes-agent/pull/152043) fix(a2a): reject a non-ASCII bearer token with 401 instead of crashing
 - [hermes-agent #152042](https://github.com/NousResearch/hermes-agent/pull/152042) fix(kanban): leave Enter and Escape to an in-flight IME composition
 - [hermes-agent #152023](https://github.com/NousResearch/hermes-agent/pull/152023) fix(dashboard): leave Enter and Escape to an in-flight IME composition
