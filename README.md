@@ -162,18 +162,154 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 
 <br>
 
-## 남의 오픈소스에 머지된 PR
+<!-- contributions:start -->
+## 오픈소스에 보탠 것
 
-직접 쓰다가 걸린 문제를 고쳐서 보낸 것들입니다. 머지된 것만 적습니다.
+직접 쓰다가 걸린 문제를 고쳐서 보내거나 알린 것들입니다. PR 37개(머지 6개) · 이슈 14개.
 
-- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7700](https://github.com/heygen-com/hyperframes/pull/7700) fix(lint): say the audio overlap warning is about a shared Studio lane
-- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7699](https://github.com/heygen-com/hyperframes/pull/7699) fix(check): name a color-graded video by its own selector in layout findings
-- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7697](https://github.com/heygen-com/hyperframes/pull/7697) fix(cli): the render header names the quality preset and CRF it encodes with
-- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7689](https://github.com/heygen-com/hyperframes/pull/7689) fix(cli): stop the CLI build looking for the removed gsap skill
-- `2026-11-14` **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** [#7608](https://github.com/heygen-com/hyperframes/pull/7608) fix(cli): quote the project name in init's printed `cd` commands
-- `2023-12-10` **[nlutter-study/nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)** [#4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
+<details open>
+<summary><b><a href="https://github.com/heygen-com/hyperframes">heygen-com/hyperframes</a></b> — PR 24 · 머지 5 · 이슈 8</summary>
 
-<sub>머지 6개 · <a href="https://github.com/pulls?q=is%3Apr+author%3Awonjangcloud9+is%3Aopen+-user%3Awonjangcloud9">리뷰를 기다리는 PR</a>은 따로 있습니다 (hyperframes, validator.js, Fuse 등)</sub>
+
+- **머지** [#7700](https://github.com/heygen-com/hyperframes/pull/7700) 소리 겹침 경고가 무슨 뜻인지 알 수 있게
+- **머지** [#7699](https://github.com/heygen-com/hyperframes/pull/7699) 색 보정한 영상의 경고가 내가 붙인 이름으로 나오게
+- **머지** [#7697](https://github.com/heygen-com/hyperframes/pull/7697) 렌더를 시작할 때 실제로 쓰는 화질 설정을 보여 주게
+- **머지** [#7689](https://github.com/heygen-com/hyperframes/pull/7689) 없어진 스킬을 찾다가 빌드가 멈추던 것
+- **머지** [#7608](https://github.com/heygen-com/hyperframes/pull/7608) 띄어쓰기 있는 폴더 이름도 안내된 `cd` 명령 그대로 되게
+- 리뷰 중 [#7752](https://github.com/heygen-com/hyperframes/pull/7752) 경고인데 오류 표시(✗)로 나오던 것, 어떤 글자인지도 같이 보여 주게
+- 리뷰 중 [#7705](https://github.com/heygen-com/hyperframes/pull/7705) 문장 안에 든 다른 문장의 글자를 섞어 세던 것
+- 리뷰 중 [#7704](https://github.com/heygen-com/hyperframes/pull/7704) 다음 장면까지 이어지는 문장을 한 문장으로 재게
+- 리뷰 중 [#7703](https://github.com/heygen-com/hyperframes/pull/7703) '자막을 읽을 시간이 없다'는 경고에 예외로 두는 방법을 알려 주게
+- 리뷰 중 [#7701](https://github.com/heygen-com/hyperframes/pull/7701) 서로 다른 숫자 올라가기 효과를 같은 것으로 착각하던 것
+- 리뷰 중 [#7698](https://github.com/heygen-com/hyperframes/pull/7698) 글자 테두리가 있으면 '잘 안 보인다'고 잘못 경고하던 것
+- 리뷰 중 [#7696](https://github.com/heygen-com/hyperframes/pull/7696) 영상 칸이 원본 영상보다 길면 미리 경고하게
+- 리뷰 중 [#7695](https://github.com/heygen-com/hyperframes/pull/7695) 디스크가 모자라 렌더를 못 할 때 무엇을 지우면 되는지 알려 주게
+- 리뷰 중 [#7694](https://github.com/heygen-com/hyperframes/pull/7694) 한국 지도 블록에 빠져 있던 지도 출처(OpenStreetMap·CARTO) 표기
+- 리뷰 중 [#7693](https://github.com/heygen-com/hyperframes/pull/7693) 문서: 변수는 먼저 선언해야 화면에 붙는다는 것
+- 리뷰 중 [#7692](https://github.com/heygen-com/hyperframes/pull/7692) 문서: 같은 요소를 두 번 움직일 때 필요한 설정 한 줄
+- 리뷰 중 [#7691](https://github.com/heygen-com/hyperframes/pull/7691) 새 프로젝트를 만들 때 스킬이 컴퓨터 전체에 깔린다는 것과 건너뛰는 법을 알려 주게
+- 리뷰 중 [#7690](https://github.com/heygen-com/hyperframes/pull/7690) 자막 컴포넌트에 내 대본을 넣으면 죽던 것
+- 리뷰 중 [#7688](https://github.com/heygen-com/hyperframes/pull/7688) 점검 명령이 선택 항목만 없을 때는 '실패'라고 하지 않게
+- 리뷰 중 [#7564](https://github.com/heygen-com/hyperframes/pull/7564) 내보낸 자막 한 줄 길이를 화면 폭으로 재서, 한글도 영어처럼 딱 맞게
+- 리뷰 중 [#7559](https://github.com/heygen-com/hyperframes/pull/7559) UTF-8이 아닌 자막 파일은 깨진 글자로 들여오지 않고 거절하게
+- 리뷰 중 [#7558](https://github.com/heygen-com/hyperframes/pull/7558) 타이핑·떨어지는 글자 효과에서 이모지와 한글이 깨지지 않게
+- 리뷰 중 [#7449](https://github.com/heygen-com/hyperframes/pull/7449) 스튜디오에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게
+- 리뷰 중 [#7409](https://github.com/heygen-com/hyperframes/pull/7409) 한국어 단어 한가운데서 줄이 끊기면 경고해 줍니다
+- 이슈 [#7753](https://github.com/heygen-com/hyperframes/issues/7753) 경고가 가리키는 글자 이름이 너무 길어 찾기 어렵습니다
+- 이슈 [#7713](https://github.com/heygen-com/hyperframes/issues/7713) 긴 렌더가 95% 끝났는데 진행 막대는 77%에 서 있습니다
+- 이슈 [#7712](https://github.com/heygen-com/hyperframes/issues/7712) 화면에선 멀쩡한 제목에 '칸보다 넓다'는 경고가 뜹니다
+- 이슈 [#7711](https://github.com/heygen-com/hyperframes/issues/7711) 가려진 글자가 두 가지 경고로 두 번 나옵니다
+- 이슈 [#7710](https://github.com/heygen-com/hyperframes/issues/7710) 작은 글씨 경고 하나가 74번 반복됩니다
+- 이슈 [#7709](https://github.com/heygen-com/hyperframes/issues/7709) 마지막 카드의 글자 조각마다 '마지막 문장' 경고가 뜹니다
+- 이슈 [#7707](https://github.com/heygen-com/hyperframes/issues/7707) 새 프로젝트 안내문이 문서에서 하지 말라는 명령을 시킵니다
+- 이슈 [#7706](https://github.com/heygen-com/hyperframes/issues/7706) 같은 검사를 두 번 돌리면 결과가 달라집니다
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></b> — PR 5</summary>
+
+
+- 리뷰 중 [#153803](https://github.com/NousResearch/hermes-agent/pull/153803) 로그·페이지 검색창에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게
+- 리뷰 중 [#153677](https://github.com/NousResearch/hermes-agent/pull/153677) 팀원 답장의 한글이 `\uXXXX`로 깨져 나오던 것
+- 리뷰 중 [#152043](https://github.com/NousResearch/hermes-agent/pull/152043) 토큰에 한글이 들어오면 서버가 죽던 것을 정상 거절로
+- 리뷰 중 [#152042](https://github.com/NousResearch/hermes-agent/pull/152042) 칸반에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게
+- 리뷰 중 [#152023](https://github.com/NousResearch/hermes-agent/pull/152023) 대시보드에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/safety-research/bloom">safety-research/bloom</a></b> — 이슈 2</summary>
+
+
+- 이슈 · 닫힘 [#28](https://github.com/safety-research/bloom/issues/28) 디버그 메시지가 결과 화면을 뒤덮습니다
+- 이슈 · 닫힘 [#27](https://github.com/safety-research/bloom/issues/27) API 키가 없으면 아무 말 없이 멈춥니다
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/nlutter-study/nlutter-study-2nd">nlutter-study/nlutter-study-2nd</a></b> — PR 2 · 머지 1</summary>
+
+
+- **머지** [#4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) Flutter 스터디 저장소에 `.gitignore` 추가
+- 리뷰 중 [#9](https://github.com/nlutter-study/nlutter-study-2nd/pull/9) Flutter 스터디 12일차 과제
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/ant-media/Ant-Media-Server">ant-media/Ant-Media-Server</a></b> — 이슈 2</summary>
+
+
+- 이슈 [#3989](https://github.com/ant-media/Ant-Media-Server/issues/3989) 블루투스 이어폰으로 통화를 연결하면 마이크와 스피커가 휴대폰으로 넘어갑니다
+- 이슈 · 닫힘 [#4267](https://github.com/ant-media/Ant-Media-Server/issues/4267) 통화 중에 앞·뒤 카메라를 바꾸는 방법
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/amosblomqvist/learnharness">amosblomqvist/learnharness</a></b> — PR 1</summary>
+
+
+- 리뷰 중 [#698](https://github.com/amosblomqvist/learnharness/pull/698) 이름 바꾸기·폴더 입력칸에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/composio-community/awesome-claude-plugins">composio-community/awesome-claude-plugins</a></b> — PR 1</summary>
+
+
+- 리뷰 중 [#571](https://github.com/composio-community/awesome-claude-plugins/pull/571) 제가 만든 wj-mods를 플러그인 목록에 추가
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/krisk/Fuse">krisk/Fuse</a></b> — PR 1</summary>
+
+
+- 리뷰 중 [#861](https://github.com/krisk/Fuse/pull/861) 악센트 무시 옵션을 켜면 한글 검색이 안 되던 것
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/sveltejs/kit">sveltejs/kit</a></b> — PR 1</summary>
+
+
+- 리뷰 중 [#17717](https://github.com/sveltejs/kit/pull/17717) 이동할 주소에 한글이 있으면 깨지던 것
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/toss/es-toolkit">toss/es-toolkit</a></b> — PR 1</summary>
+
+
+- 리뷰 중 [#2209](https://github.com/toss/es-toolkit/pull/2209) 글자 수를 자를 때 가족 이모지 같은 묶음 이모지를 한 글자로 세게
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/validatorjs/validator.js">validatorjs/validator.js</a></b> — PR 1</summary>
+
+
+- 리뷰 중 [#2962](https://github.com/validatorjs/validator.js/pull/2962) 한국의 새 여권번호를 '틀린 번호'라고 하던 것
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/expo/expo">expo/expo</a></b> — 이슈 1</summary>
+
+
+- 이슈 · 닫힘 [#25561](https://github.com/expo/expo/issues/25561) 빌드한 안드로이드 앱에서 서버 호출이 안 됩니다
+
+</details>
+
+<details>
+<summary><b><a href="https://github.com/sampotts/plyr">sampotts/plyr</a></b> — 이슈 1</summary>
+
+
+- 이슈 · 닫힘 [#2434](https://github.com/sampotts/plyr/issues/2434) 모바일에서 플레이어가 오류를 냅니다
+
+</details>
+
+<!-- contributions:end -->
 
 <br>
 
