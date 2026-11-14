@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto%20Sans%20KR&weight=700&size=26&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=700&height=70&lines=vibing%EC%9D%B4%20%EC%95%B1%EC%8A%A4%ED%86%A0%EC%96%B4%EC%97%90%20%EB%82%98%EC%99%94%EC%8A%B5%EB%8B%88%EB%8B%A4%3B9%EC%9B%94%EC%97%94%20%EB%82%98%ED%9D%98%20%EB%8F%99%EC%95%88%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%97%AC%EB%8D%9F%20%EA%B0%9C%EB%A5%BC%20%EC%97%B4%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4%3B2019%EB%85%84%EB%B6%80%ED%84%B0%20%EA%B3%84%EC%86%8D%20%EB%A7%8C%EB%93%A4%EC%96%B4%20%EC%99%94%EC%8A%B5%EB%8B%88%EB%8B%A4" alt="vibing이 앱스토어에 나왔습니다 / 9월엔 나흘 동안 서비스 여덟 개를 열었습니다 / 2019년부터 계속 만들어 왔습니다" />
+<img src="https://readme-typing-svg.demolab.com?font=Noto%20Sans%20KR&weight=700&size=26&duration=2800&pause=800&color=D97757&center=true&vCenter=true&width=700&height=70&lines=vibing%EC%9D%B4%20%EC%95%B1%EC%8A%A4%ED%86%A0%EC%96%B4%EC%97%90%20%EB%82%98%EC%99%94%EC%8A%B5%EB%8B%88%EB%8B%A4%3B11%EC%9B%94%EC%97%94%20AI%EC%97%90%EA%B2%8C%20%EA%B2%8C%EC%9E%84%EC%9D%84%20%EB%A7%8C%EB%93%A4%EA%B2%8C%20%ED%95%98%EA%B3%A0%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4%3B9%EC%9B%94%EC%97%94%20%EB%82%98%ED%9D%98%20%EB%8F%99%EC%95%88%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%97%AC%EB%8D%9F%20%EA%B0%9C%EB%A5%BC%20%EC%97%B4%EC%97%88%EC%8A%B5%EB%8B%88%EB%8B%A4%3B2019%EB%85%84%EB%B6%80%ED%84%B0%20%EA%B3%84%EC%86%8D%20%EB%A7%8C%EB%93%A4%EC%96%B4%20%EC%99%94%EC%8A%B5%EB%8B%88%EB%8B%A4" alt="vibing이 앱스토어에 나왔습니다 / 11월엔 AI에게 게임을 만들게 하고 있습니다 / 9월엔 나흘 동안 서비스 여덟 개를 열었습니다 / 2019년부터 계속 만들어 왔습니다" />
 
 한국어 · [English](README.en.md)
 
@@ -28,23 +28,38 @@
 
 <br>
 
-### MetricFlow
+### AI 게임 대결
 
-<p align="center">
-  <img src="./assets/metricflow/banner.jpg" width="100%" alt="MetricFlow — 숫자 보고, 하나만 고쳐요">
-</p>
+AI에게 부탁 몇 줄만 주고 게임을 만들게 한 뒤, 제가 직접 해 보고 유튜브에 올립니다. 같은 한 줄을 두 AI에게 주고 겨루게 하기도 하고, 이긴 쪽에게 하루를 더 주기도 합니다. 게임은 AI가 만든 그대로 열어 두었으니 그림을 눌러 브라우저에서 바로 해 보세요.
 
-혼자 제품을 만드는 사람을 위한 성장 운영 도구입니다. 목표를 한 문장으로 적으면 지켜볼 숫자 다섯 개를 고르고, 쌓인 데이터만큼만 진단하고, 이번 주에 해 볼 실험 하나를 건넵니다. 데이터가 없으면 없다고 말합니다.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/aurora-fall-2.jpg" width="100%" alt="오로라 폴 2 — 3D 배틀로얄"></a>
+<b>오로라 폴 2</b> · 3D 배틀로얄<br>
+<sub>클로드 Fable 5.2 · 13시간 · 13,359줄 · 탈것과 봇 스쿼드</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/sundrift-gp.jpg" width="100%" alt="선드리프트 GP — 3D 카트 레이싱"></a>
+<b>선드리프트 GP</b> · 3D 카트 레이싱<br>
+<sub>클로드 Fable 5.2 · 92분 · 5,620줄 · 드리프트로 부스터 충전</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/lens-answer.jpg" width="100%" alt="렌즈 속 정답 — AI 안경 끼고 시험 보기"></a>
+<b>렌즈 속 정답</b> · AI 안경 끼고 시험 보기<br>
+<sub>클로드 Fable 5.2 · 9시간 48분 · 10,294줄 · 엔딩 10개 · 가상 상황</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/seoul-632.jpg" width="100%" alt="서울 632년 — 1394년부터 자라는 서울 3D"></a>
+<b>서울 632년</b> · 1394년부터 자라는 서울 3D<br>
+<sub>클로드 Opus 5.5 · 3,253줄 · 건축물대장 32만 8천 줄 + OpenStreetMap</sub>
+</td>
+</tr>
+</table>
 
-nanika를 닫고 기록을 정리해 보니 서비스별 방문자 수가 없었습니다. 여덟 개 중 무엇이 통했는지 답할 수 없었고, 그래서 이걸 만들기 시작했습니다. 첫 사용자는 저입니다.
-
-<p align="center">
-  <img src="./assets/metricflow/metrics.jpg" width="31%" alt="목표 한 문장이면 지켜볼 숫자를 골라 줘요">
-  <img src="./assets/metricflow/diagnosis.jpg" width="31%" alt="모르는 건 모른다고 말해요">
-  <img src="./assets/metricflow/experiment.jpg" width="31%" alt="이번 주에 할 일은 실험 딱 하나">
-</p>
-
-<p align="center"><sub>2026년 10월 시작 · Next.js · PostgreSQL · Claude · 화면 속 숫자는 데모용 합성 데이터</sub></p>
+<p align="center"><sub>2026년 11월 · <a href="https://wonjangcloud9.github.io/ai-game-battle/">전체 목록</a>에 GPT-6가 만든 쪽도 있습니다 · 빌드 없는 HTML · 게임 세 개는 외부 라이브러리 0개 (서울은 three.js) · PC 키보드 + 마우스 · <a href="https://github.com/wonjangcloud9/ai-game-battle">코드</a></sub></p>
 
 <br>
 
@@ -117,7 +132,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 <b>직접 짜기 시작</b>했습니다.
 </td></tr>
 <tr><td align="center"><b>2026</b><br><sub>레포 44</sub><br><sub>커밋 3,640</sub></td><td>
-에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
+에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 여섯 개를 열었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
 
