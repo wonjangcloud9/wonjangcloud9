@@ -282,7 +282,7 @@ function svg(mode) {
   <text x="${PAD}" y="${THEME_LABEL_Y}" class="sec">오래 파고든 주제</text>
   ${bars}
 
-  <text x="${PAD}" y="${FOOT_Y}" class="foot">최장 연속 ${longestStreak}일  ·  지금 만드는 것 — MetricFlow, vibing</text>
+  <text x="${PAD}" y="${FOOT_Y}" class="foot">최장 연속 ${longestStreak}일  ·  지금 만드는 것 · vibing, AI 게임 대결</text>
 </svg>
 `;
 }

@@ -29,46 +29,39 @@ def search(kind):
     return rows
 
 
-LABEL = {
-    True: {("prs", "merged"): "**머지**", ("prs", "open"): "리뷰 중", ("prs", "closed"): "닫힘",
-           ("issues", "open"): "이슈", ("issues", "closed"): "이슈 · 닫힘"},
-    False: {("prs", "merged"): "**merged**", ("prs", "open"): "in review", ("prs", "closed"): "closed",
-            ("issues", "open"): "issue", ("issues", "closed"): "issue · closed"},
-}
-ORDER = {("prs", "merged"): 0, ("prs", "open"): 1, ("prs", "closed"): 2, ("issues", "open"): 3, ("issues", "closed"): 4}
+def line(r, ko, texts):
+    text = (texts.get(f'{r["repo"]}#{r["number"]}') if ko else None) or r["title"]
+    name = r["repo"].split("/")[1]
+    return f'- [{name} #{r["number"]}]({r["url"]}) {text}'
+
+
+def fold(title, items, ko, texts):
+    if not items:
+        return []
+    return ["<details>", f"<summary><b>{title}</b></summary>", "", "<br>", ""] + [line(r, ko, texts) for r in items] + ["", "</details>", ""]
 
 
 def block(rows, ko, texts):
+    rows = sorted(rows, key=lambda r: r["createdAt"], reverse=True)
     prs = [r for r in rows if r["kind"] == "prs"]
-    merged = sum(r["state"] == "merged" for r in prs)
-    issues = len(rows) - len(prs)
+    merged = [r for r in prs if r["state"] == "merged"]
+    waiting = [r for r in prs if r["state"] == "open"]
+    closed = [r for r in prs if r["state"] == "closed"]
+    issues = [r for r in rows if r["kind"] == "issues"]
+    repos = len({r["repo"] for r in rows})
     out = [START]
     if ko:
         out += ["## 오픈소스에 보탠 것", "",
-                f"직접 쓰다가 걸린 문제를 고쳐서 보내거나 알린 것들입니다. PR {len(prs)}개(머지 {merged}개) · 이슈 {issues}개.", ""]
+                f"쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 {repos}곳에 PR {len(prs)}개와 이슈 {len(issues)}개를 냈고, 그중 {len(merged)}개가 머지됐습니다.", "",
+                "**머지된 것**", ""]
     else:
         out += ["## Contributions to other people's projects", "",
-                f"Problems I ran into while using a tool, fixed or reported. {len(prs)} pull requests ({merged} merged) · {issues} issues.", ""]
-    repos = {}
-    for r in rows:
-        repos.setdefault(r["repo"], []).append(r)
-    ranked = sorted(repos.items(), key=lambda kv: (-len(kv[1]), -max(int(r["createdAt"][:4]) for r in kv[1]), kv[0]))
-    for i, (repo, items) in enumerate(ranked):
-        n_pr = sum(r["kind"] == "prs" for r in items)
-        n_merged = sum(r["state"] == "merged" for r in items)
-        n_is = len(items) - n_pr
-        parts = []
-        if n_pr:
-            parts.append((f"PR {n_pr}" + (f" · 머지 {n_merged}" if n_merged else "")) if ko
-                         else (f"{n_pr} PR" + ("s" if n_pr > 1 else "") + (f" · {n_merged} merged" if n_merged else "")))
-        if n_is:
-            parts.append(f"이슈 {n_is}" if ko else f"{n_is} issue" + ("s" if n_is > 1 else ""))
-        out += [f"<details{' open' if i == 0 else ''}>",
-                f'<summary><b><a href="https://github.com/{repo}">{repo}</a></b> — {" · ".join(parts)}</summary>', "", ""]
-        for r in sorted(items, key=lambda r: (ORDER[(r["kind"], r["state"])], -r["number"])):
-            text = texts.get(f'{repo}#{r["number"]}') if ko else None
-            out.append(f'- {LABEL[ko][(r["kind"], r["state"])]} [#{r["number"]}]({r["url"]}) {text or r["title"]}')
-        out += ["", "</details>", ""]
+                f"Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. {len(prs)} pull requests and {len(issues)} issues across {repos} projects, {len(merged)} merged so far.", "",
+                "**Merged**", ""]
+    out += [line(r, ko, texts) for r in merged] + [""]
+    out += fold(f"리뷰를 기다리는 PR {len(waiting)}개" if ko else f"{len(waiting)} pull requests in review", waiting, ko, texts)
+    out += fold(f"알린 문제 {len(issues)}개" if ko else f"{len(issues)} issues reported", issues, ko, texts)
+    out += fold(f"닫힌 PR {len(closed)}개" if ko else f"{len(closed)} closed pull requests", closed, ko, texts)
     out += [END]
     return "\n".join(out)
 

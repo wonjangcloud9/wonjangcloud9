@@ -13,15 +13,19 @@
 ### vibing
 
 <p align="center">
-  <img src="./assets/vibing/banner.jpg" width="100%" alt="vibing — snap your meal, see it together">
+  <a href="https://apps.apple.com/kr/app/id6815520523"><img src="./assets/vibing/banner.jpg" width="100%" alt="vibing — snap your meal, see it together"></a>
 </p>
 
-Snap a photo of what you eat and a turtle coach named **Bibi** logs the calories and protein. Bibi also plans the day's gym session — it sets the weights from your sex, muscle mass and a photo of your InBody sheet, tells you the next set while you rest, and remembers the exercises you'd rather skip. You and your friends see each other's meals. It's my eleventh weight-loss or fitness app, and the first one to reach a store.
+Snap a photo of what you eat and a turtle coach named **Bibi** logs the calories and protein. Bibi also plans the day's gym session. It sets the weights from your sex, muscle mass and a photo of your InBody sheet, tells you the next set while you rest, and remembers the exercises you'd rather skip. You and your friends see each other's meals. It's my eleventh weight-loss or fitness app, and the first one to reach a store.
 
 <p align="center">
   <img src="./assets/vibing/home.jpg" width="31%" alt="One photo, and calories left update right away">
   <img src="./assets/vibing/meal.jpg" width="31%" alt="Bibi logs calories and protein for every meal">
   <img src="./assets/vibing/coach.jpg" width="31%" alt="Bibi picks today's workout, weights included">
+</p>
+
+<p align="center">
+  <a href="https://apps.apple.com/kr/app/id6815520523"><img src="./assets/vibing/app-store-en.svg" height="48" alt="Download on the App Store"></a>
 </p>
 
 <p align="center"><sub><a href="https://apps.apple.com/kr/app/id6815520523">On the App Store</a> since October 2026 · Google Play in closed testing · Next.js · Supabase · Capacitor · records on screen are from a test account</sub></p>
@@ -30,36 +34,16 @@ Snap a photo of what you eat and a turtle coach named **Bibi** logs the calories
 
 ### AI game battles
 
-I give an AI a few lines of request, let it build a game, then play it myself and post the result on YouTube. Sometimes two AIs get the same one-line prompt and compete; sometimes the winner gets one more day. The games are published exactly as the AI wrote them — click a picture to play in the browser. The games are in Korean.
+I ask an AI for a game in a few lines, play what it builds, and post the result on YouTube. Twice I gave two AIs the same one-line prompt and let them compete, and once the winner got an extra day. The code is published exactly as the AI wrote it. Click a picture and it runs in the browser. The games are in Korean.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/aurora-fall-2.jpg" width="100%" alt="Aurora Fall 2 — 3D battle royale"></a>
-<b>Aurora Fall 2</b> · 3D battle royale<br>
-<sub>Claude Fable 5.2 · 13 hours · 13,359 lines · vehicles and a bot squad</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/sundrift-gp.jpg" width="100%" alt="Sundrift GP — 3D kart racing"></a>
-<b>Sundrift GP</b> · 3D kart racing<br>
-<sub>Claude Fable 5.2 · 92 minutes · 5,620 lines · drift to charge the boost</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/lens-answer.jpg" width="100%" alt="The Answer in the Lens — Sitting an exam with AI glasses"></a>
-<b>The Answer in the Lens</b> · Sitting an exam with AI glasses<br>
-<sub>Claude Fable 5.2 · 9 h 48 min · 10,294 lines · 10 endings · fictional scenario</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/seoul-632.jpg" width="100%" alt="Seoul, 632 years — Seoul growing in 3D since 1394"></a>
-<b>Seoul, 632 years</b> · Seoul growing in 3D since 1394<br>
-<sub>Claude Opus 5.5 · 3,253 lines · 328,000 building-register rows + OpenStreetMap</sub>
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/aurora-fall-2.en.jpg" width="49%" alt="Aurora Fall 2, a 3D battle royale"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/sundrift-gp.en.jpg" width="49%" alt="Sundrift GP, 3D kart racing"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/lens-answer.en.jpg" width="49%" alt="The Answer in the Lens, an exam with AI glasses"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/seoul-632.en.jpg" width="49%" alt="Seoul, 632 years: the city growing in 3D since 1394"></a>
+</p>
 
-<p align="center"><sub>November 2026 · the <a href="https://wonjangcloud9.github.io/ai-game-battle/">full list</a> also has the games GPT-6 made · no-build HTML · the three games use zero external libraries (Seoul uses three.js) · PC keyboard + mouse · <a href="https://github.com/wonjangcloud9/ai-game-battle">code</a></sub></p>
+<p align="center"><sub>November 2026 · no-build HTML · PC keyboard and mouse · <a href="https://wonjangcloud9.github.io/ai-game-battle/">see all of them, including the ones GPT-6 made</a> · <a href="https://github.com/wonjangcloud9/ai-game-battle">code</a></sub></p>
 
 <br>
 
@@ -114,16 +98,16 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <table>
 <tr><td width="92" align="center"><b>2019</b><br><sub>2 repos</sub></td><td>
-First commit. I started by <b>cloning</b> — KakaoTalk, Netflix.
+First commit. I started by cloning KakaoTalk and Netflix.
 </td></tr>
 <tr><td align="center"><b>2020–21</b><br><sub>385 commits</sub></td><td>
 The years I didn't use GitHub. I didn't know it mattered, so the code stayed on my laptop. <b>Zero commits in 2020.</b>
 </td></tr>
 <tr><td align="center"><b>2022</b><br><sub>91 repos</sub><br><sub>1,160 commits</sub></td><td>
-React, Next.js and Django — cloning Karrot Market, Airbnb and Twitter at eight repos a month.
+React, Next.js and Django. I cloned Karrot Market, Airbnb and Twitter, eight repos a month.
 </td></tr>
 <tr><td align="center"><b>2023</b><br><sub>116 repos</sub><br><sub>1,894 commits</sub></td><td>
-<b>My busiest year for repos.</b> Flutter, React Native and Jetpack Compose at once, plus my first real product attempts — a toilet finder, an education LMS, a complaint tracker, an AI companion.
+<b>My busiest year for repos.</b> Flutter, React Native and Jetpack Compose at once, plus my first real product attempts: a toilet finder, an education LMS, a complaint tracker and an AI companion.
 </td></tr>
 <tr><td align="center"><b>2024</b><br><sub>48 repos</sub><br><sub>1,314 commits</sub></td><td>
 LangChain and RAG put an LLM in a product for the first time.
@@ -165,147 +149,75 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I ran into while using a tool, fixed or reported. 37 pull requests (6 merged) · 14 issues.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 37 pull requests and 14 issues across 13 projects, 6 merged so far.
 
-<details open>
-<summary><b><a href="https://github.com/heygen-com/hyperframes">heygen-com/hyperframes</a></b> — 24 PRs · 5 merged · 8 issues</summary>
+**Merged**
 
+- [hyperframes #7700](https://github.com/heygen-com/hyperframes/pull/7700) fix(lint): say the audio overlap warning is about a shared Studio lane
+- [hyperframes #7699](https://github.com/heygen-com/hyperframes/pull/7699) fix(check): name a color-graded video by its own selector in layout findings
+- [hyperframes #7697](https://github.com/heygen-com/hyperframes/pull/7697) fix(cli): the render header names the quality preset and CRF it encodes with
+- [hyperframes #7689](https://github.com/heygen-com/hyperframes/pull/7689) fix(cli): stop the CLI build looking for the removed gsap skill
+- [hyperframes #7608](https://github.com/heygen-com/hyperframes/pull/7608) fix(cli): quote the project name in init's printed `cd` commands
+- [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
-- **merged** [#7700](https://github.com/heygen-com/hyperframes/pull/7700) fix(lint): say the audio overlap warning is about a shared Studio lane
-- **merged** [#7699](https://github.com/heygen-com/hyperframes/pull/7699) fix(check): name a color-graded video by its own selector in layout findings
-- **merged** [#7697](https://github.com/heygen-com/hyperframes/pull/7697) fix(cli): the render header names the quality preset and CRF it encodes with
-- **merged** [#7689](https://github.com/heygen-com/hyperframes/pull/7689) fix(cli): stop the CLI build looking for the removed gsap skill
-- **merged** [#7608](https://github.com/heygen-com/hyperframes/pull/7608) fix(cli): quote the project name in init's printed `cd` commands
-- in review [#7752](https://github.com/heygen-com/hyperframes/pull/7752) fix(check): mark a contrast finding by its severity and quote its text
-- in review [#7705](https://github.com/heygen-com/hyperframes/pull/7705) fix(check): a nested line's words stay out of the line around it
-- in review [#7704](https://github.com/heygen-com/hyperframes/pull/7704) fix(check): time a line the next scene repeats in place as one line
-- in review [#7703](https://github.com/heygen-com/hyperframes/pull/7703) fix(check): line_unread names the captions track that exempts a caption
-- in review [#7701](https://github.com/heygen-com/hyperframes/pull/7701) fix(lint): keep separate count-up objects apart in the repeated fromTo check
-- in review [#7698](https://github.com/heygen-com/hyperframes/pull/7698) fix(check): keep the outline a word inherits from its caption in contrast
-- in review [#7696](https://github.com/heygen-com/hyperframes/pull/7696) fix(lint): warn when a video's slot outlasts its source
-- in review [#7695](https://github.com/heygen-com/hyperframes/pull/7695) fix(cli): a low-disk render refusal names the extracted-frame cache and clean
-- in review [#7694](https://github.com/heygen-com/hyperframes/pull/7694) docs: credit the OpenStreetMap and CARTO sources of the korea-map block asset
-- in review [#7693](https://github.com/heygen-com/hyperframes/pull/7693) docs(skills): say a variable must be declared before data-var-* binds it
-- in review [#7692](https://github.com/heygen-com/hyperframes/pull/7692) docs(skills): say a later fromTo needs immediateRender: false
-- in review [#7691](https://github.com/heygen-com/hyperframes/pull/7691) fix(cli): say init's skills install is global and how to skip it
-- in review [#7690](https://github.com/heygen-com/hyperframes/pull/7690) fix(registry): caption components group a replaced transcript instead of crashing
-- in review [#7688](https://github.com/heygen-com/hyperframes/pull/7688) fix(cli): doctor stops reporting a failure when only optional checks are missing
-- in review [#7564](https://github.com/heygen-com/hyperframes/pull/7564) fix(cli): size exported caption cues by display width, so CJK cues fit like Latin ones
-- in review [#7559](https://github.com/heygen-com/hyperframes/pull/7559) fix(cli): refuse SRT and VTT files that are not UTF-8 instead of importing mojibake
-- in review [#7558](https://github.com/heygen-com/hyperframes/pull/7558) fix(registry): split typed and falling text by grapheme, not UTF-16 unit
-- in review [#7449](https://github.com/heygen-com/hyperframes/pull/7449) fix(studio): leave Enter and Escape to an IME that is still composing
-- in review [#7409](https://github.com/heygen-com/hyperframes/pull/7409) feat(check): warn when a line break cuts a Korean word in two
-- issue [#7753](https://github.com/heygen-com/hyperframes/issues/7753) check: a contrast finding on an id-less element is named from <body>, past ancestors that have an id
-- issue [#7713](https://github.com/heygen-com/hyperframes/issues/7713) Render progress bar sits at 77% when 95% of a long streaming render is done
-- issue [#7712](https://github.com/heygen-com/hyperframes/issues/7712) check: container_overflow "Nowrap text is wider than its container" fires for absolutely positioned titles in an unsized wrapper
-- issue [#7711](https://github.com/heygen-com/hyperframes/issues/7711) check: text hidden under an opaque cover is reported twice, as text_occluded and as a contrast failure against the cover
-- issue [#7710](https://github.com/heygen-com/hyperframes/issues/7710) check: text_below_floor repeats one style's finding once per scene file (74 warnings for one 27 px label class)
-- issue [#7709](https://github.com/heygen-com/hyperframes/issues/7709) check: line_unread reports every text chunk of a closing card as "the film's last line"
-- issue [#7707](https://github.com/heygen-com/hyperframes/issues/7707) New-project AGENTS.md tells agents to run `npm run check`, which the check docs say never to do
-- issue [#7706](https://github.com/heygen-com/hyperframes/issues/7706) check: a media-metadata rebind rewinds scene timelines to 0 between a seek and its read, so findings change between identical runs
+<details>
+<summary><b>31 pull requests in review</b></summary>
+
+<br>
+
+- [hyperframes #7752](https://github.com/heygen-com/hyperframes/pull/7752) fix(check): mark a contrast finding by its severity and quote its text
+- [validator.js #2962](https://github.com/validatorjs/validator.js/pull/2962) fix(isPassportNumber): accept South Korea's next-generation passport numbers
+- [hyperframes #7705](https://github.com/heygen-com/hyperframes/pull/7705) fix(check): a nested line's words stay out of the line around it
+- [hyperframes #7704](https://github.com/heygen-com/hyperframes/pull/7704) fix(check): time a line the next scene repeats in place as one line
+- [hyperframes #7703](https://github.com/heygen-com/hyperframes/pull/7703) fix(check): line_unread names the captions track that exempts a caption
+- [hyperframes #7701](https://github.com/heygen-com/hyperframes/pull/7701) fix(lint): keep separate count-up objects apart in the repeated fromTo check
+- [hyperframes #7698](https://github.com/heygen-com/hyperframes/pull/7698) fix(check): keep the outline a word inherits from its caption in contrast
+- [hyperframes #7696](https://github.com/heygen-com/hyperframes/pull/7696) fix(lint): warn when a video's slot outlasts its source
+- [hyperframes #7695](https://github.com/heygen-com/hyperframes/pull/7695) fix(cli): a low-disk render refusal names the extracted-frame cache and clean
+- [hyperframes #7694](https://github.com/heygen-com/hyperframes/pull/7694) docs: credit the OpenStreetMap and CARTO sources of the korea-map block asset
+- [hyperframes #7693](https://github.com/heygen-com/hyperframes/pull/7693) docs(skills): say a variable must be declared before data-var-* binds it
+- [hyperframes #7692](https://github.com/heygen-com/hyperframes/pull/7692) docs(skills): say a later fromTo needs immediateRender: false
+- [hyperframes #7691](https://github.com/heygen-com/hyperframes/pull/7691) fix(cli): say init's skills install is global and how to skip it
+- [hyperframes #7690](https://github.com/heygen-com/hyperframes/pull/7690) fix(registry): caption components group a replaced transcript instead of crashing
+- [hyperframes #7688](https://github.com/heygen-com/hyperframes/pull/7688) fix(cli): doctor stops reporting a failure when only optional checks are missing
+- [Fuse #861](https://github.com/krisk/Fuse/pull/861) fix(diacritics): compose Hangul back after stripping, so Korean search keeps working
+- [learnharness #698](https://github.com/amosblomqvist/learnharness/pull/698) fix: leave Enter and Escape to an IME composition in rename and folder fields
+- [hermes-agent #153803](https://github.com/NousResearch/hermes-agent/pull/153803) fix(desktop): leave Enter and Escape to an IME composition in log and page search
+- [hyperframes #7564](https://github.com/heygen-com/hyperframes/pull/7564) fix(cli): size exported caption cues by display width, so CJK cues fit like Latin ones
+- [hermes-agent #153677](https://github.com/NousResearch/hermes-agent/pull/153677) fix(bot-mode): print a teammate's reply as text, not \uXXXX escapes
+- [hyperframes #7559](https://github.com/heygen-com/hyperframes/pull/7559) fix(cli): refuse SRT and VTT files that are not UTF-8 instead of importing mojibake
+- [hyperframes #7558](https://github.com/heygen-com/hyperframes/pull/7558) fix(registry): split typed and falling text by grapheme, not UTF-16 unit
+- [kit #17717](https://github.com/sveltejs/kit/pull/17717) fix: percent-encode non-ASCII characters in redirect locations
+- [hermes-agent #152043](https://github.com/NousResearch/hermes-agent/pull/152043) fix(a2a): reject a non-ASCII bearer token with 401 instead of crashing
+- [hermes-agent #152042](https://github.com/NousResearch/hermes-agent/pull/152042) fix(kanban): leave Enter and Escape to an in-flight IME composition
+- [hermes-agent #152023](https://github.com/NousResearch/hermes-agent/pull/152023) fix(dashboard): leave Enter and Escape to an in-flight IME composition
+- [es-toolkit #2209](https://github.com/toss/es-toolkit/pull/2209) fix[compat/truncate]: count emoji sequences as one character like Lodash
+- [hyperframes #7449](https://github.com/heygen-com/hyperframes/pull/7449) fix(studio): leave Enter and Escape to an IME that is still composing
+- [hyperframes #7409](https://github.com/heygen-com/hyperframes/pull/7409) feat(check): warn when a line break cuts a Korean word in two
+- [awesome-claude-plugins #571](https://github.com/composio-community/awesome-claude-plugins/pull/571) Add wj-mods to Developer Productivity
+- [nlutter-study-2nd #9](https://github.com/nlutter-study/nlutter-study-2nd/pull/9) Day12 settings
 
 </details>
 
 <details>
-<summary><b><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></b> — 5 PRs</summary>
+<summary><b>14 issues reported</b></summary>
 
+<br>
 
-- in review [#153803](https://github.com/NousResearch/hermes-agent/pull/153803) fix(desktop): leave Enter and Escape to an IME composition in log and page search
-- in review [#153677](https://github.com/NousResearch/hermes-agent/pull/153677) fix(bot-mode): print a teammate's reply as text, not \uXXXX escapes
-- in review [#152043](https://github.com/NousResearch/hermes-agent/pull/152043) fix(a2a): reject a non-ASCII bearer token with 401 instead of crashing
-- in review [#152042](https://github.com/NousResearch/hermes-agent/pull/152042) fix(kanban): leave Enter and Escape to an in-flight IME composition
-- in review [#152023](https://github.com/NousResearch/hermes-agent/pull/152023) fix(dashboard): leave Enter and Escape to an in-flight IME composition
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/safety-research/bloom">safety-research/bloom</a></b> — 2 issues</summary>
-
-
-- issue · closed [#28](https://github.com/safety-research/bloom/issues/28) Noisy LiteLLM debug messages pollute output
-- issue · closed [#27](https://github.com/safety-research/bloom/issues/27) Pipeline hangs silently when API keys are missing
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/nlutter-study/nlutter-study-2nd">nlutter-study/nlutter-study-2nd</a></b> — 2 PRs · 1 merged</summary>
-
-
-- **merged** [#4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
-- in review [#9](https://github.com/nlutter-study/nlutter-study-2nd/pull/9) Day12 settings
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/ant-media/Ant-Media-Server">ant-media/Ant-Media-Server</a></b> — 2 issues</summary>
-
-
-- issue [#3989](https://github.com/ant-media/Ant-Media-Server/issues/3989) A phenomenon in which the microphone and speaker function of Bluetooth earphones go to a mobile phone when connecting webrtc with Javascript using peer.html while using Bluetooth earphones.
-- issue · closed [#4267](https://github.com/ant-media/Ant-Media-Server/issues/4267) Self-camera switching
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/amosblomqvist/learnharness">amosblomqvist/learnharness</a></b> — 1 PR</summary>
-
-
-- in review [#698](https://github.com/amosblomqvist/learnharness/pull/698) fix: leave Enter and Escape to an IME composition in rename and folder fields
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/composio-community/awesome-claude-plugins">composio-community/awesome-claude-plugins</a></b> — 1 PR</summary>
-
-
-- in review [#571](https://github.com/composio-community/awesome-claude-plugins/pull/571) Add wj-mods to Developer Productivity
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/krisk/Fuse">krisk/Fuse</a></b> — 1 PR</summary>
-
-
-- in review [#861](https://github.com/krisk/Fuse/pull/861) fix(diacritics): compose Hangul back after stripping, so Korean search keeps working
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/sveltejs/kit">sveltejs/kit</a></b> — 1 PR</summary>
-
-
-- in review [#17717](https://github.com/sveltejs/kit/pull/17717) fix: percent-encode non-ASCII characters in redirect locations
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/toss/es-toolkit">toss/es-toolkit</a></b> — 1 PR</summary>
-
-
-- in review [#2209](https://github.com/toss/es-toolkit/pull/2209) fix[compat/truncate]: count emoji sequences as one character like Lodash
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/validatorjs/validator.js">validatorjs/validator.js</a></b> — 1 PR</summary>
-
-
-- in review [#2962](https://github.com/validatorjs/validator.js/pull/2962) fix(isPassportNumber): accept South Korea's next-generation passport numbers
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/expo/expo">expo/expo</a></b> — 1 issue</summary>
-
-
-- issue · closed [#25561](https://github.com/expo/expo/issues/25561) Apk made with EAS, expo 49 version of easy does not allow api calls
-
-</details>
-
-<details>
-<summary><b><a href="https://github.com/sampotts/plyr">sampotts/plyr</a></b> — 1 issue</summary>
-
-
-- issue · closed [#2434](https://github.com/sampotts/plyr/issues/2434) mobile player Error
+- [hyperframes #7753](https://github.com/heygen-com/hyperframes/issues/7753) check: a contrast finding on an id-less element is named from <body>, past ancestors that have an id
+- [hyperframes #7713](https://github.com/heygen-com/hyperframes/issues/7713) Render progress bar sits at 77% when 95% of a long streaming render is done
+- [hyperframes #7712](https://github.com/heygen-com/hyperframes/issues/7712) check: container_overflow "Nowrap text is wider than its container" fires for absolutely positioned titles in an unsized wrapper
+- [hyperframes #7711](https://github.com/heygen-com/hyperframes/issues/7711) check: text hidden under an opaque cover is reported twice, as text_occluded and as a contrast failure against the cover
+- [hyperframes #7710](https://github.com/heygen-com/hyperframes/issues/7710) check: text_below_floor repeats one style's finding once per scene file (74 warnings for one 27 px label class)
+- [hyperframes #7709](https://github.com/heygen-com/hyperframes/issues/7709) check: line_unread reports every text chunk of a closing card as "the film's last line"
+- [hyperframes #7707](https://github.com/heygen-com/hyperframes/issues/7707) New-project AGENTS.md tells agents to run `npm run check`, which the check docs say never to do
+- [hyperframes #7706](https://github.com/heygen-com/hyperframes/issues/7706) check: a media-metadata rebind rewinds scene timelines to 0 between a seek and its read, so findings change between identical runs
+- [bloom #28](https://github.com/safety-research/bloom/issues/28) Noisy LiteLLM debug messages pollute output
+- [bloom #27](https://github.com/safety-research/bloom/issues/27) Pipeline hangs silently when API keys are missing
+- [expo #25561](https://github.com/expo/expo/issues/25561) Apk made with EAS, expo 49 version of easy does not allow api calls
+- [Ant-Media-Server #4267](https://github.com/ant-media/Ant-Media-Server/issues/4267) Self-camera switching
+- [plyr #2434](https://github.com/sampotts/plyr/issues/2434) mobile player Error
+- [Ant-Media-Server #3989](https://github.com/ant-media/Ant-Media-Server/issues/3989) A phenomenon in which the microphone and speaker function of Bluetooth earphones go to a mobile phone when connecting webrtc with Javascript using peer.html while using Bluetooth earphones.
 
 </details>
 
@@ -319,5 +231,5 @@ Problems I ran into while using a tool, fixed or reported. 37 pull requests (6 m
   <img src="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-light.svg" alt="A snake eating my contribution graph">
 </picture>
 
-<sub><b>195 of my 354 repos are private</b> — they hold keys or personal data. The numbers above include private commits.</sub>
+<sub>195 of my 354 repos are private because they hold keys or personal data. The numbers above include private commits.</sub>
 </div>
