@@ -48,9 +48,11 @@ def repo_table(rows, ko, about):
         n_is = len(items) - n_pr
         mine = []
         if n_pr:
-            mine.append(f"PR {n_pr}" + (f" (머지 {n_merged})" if ko and n_merged else f" ({n_merged} merged)" if n_merged else ""))
+            mine.append(f"PR&nbsp;{n_pr}")
+        if n_merged:
+            mine.append(f"머지&nbsp;{n_merged}" if ko else f"{n_merged}&nbsp;merged")
         if n_is:
-            mine.append(f"이슈 {n_is}" if ko else f"{n_is} issue" + ("s" if n_is > 1 else ""))
+            mine.append(f"이슈&nbsp;{n_is}" if ko else f"{n_is}&nbsp;issue" + ("s" if n_is > 1 else ""))
         what = about.get(repo, {}).get("ko" if ko else "en", "")
         name = repo if len(repo.split("/")[1]) < 4 else repo.split("/")[1]
         out.append(f'| **[{name}](https://github.com/{repo})**<br><sub>★ {stars(repo)}</sub> | {what} | {"<br>".join(mine)} |')

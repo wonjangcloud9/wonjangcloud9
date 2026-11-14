@@ -37,10 +37,10 @@ Snap a photo of what you eat and a turtle coach named **Bibi** logs the calories
 I ask an AI for a game in a few lines, play what it builds, and post the result on YouTube. Twice I gave two AIs the same one-line prompt and let them compete, and once the winner got an extra day. The code is published exactly as the AI wrote it. Click a picture and it runs in the browser. The games are in Korean.
 
 <p align="center">
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/aurora-fall-2.en.jpg" width="49%" alt="Aurora Fall 2, a 3D battle royale"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/sundrift-gp.en.jpg" width="49%" alt="Sundrift GP, 3D kart racing"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/lens-answer.en.jpg" width="49%" alt="The Answer in the Lens, an exam with AI glasses"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/seoul-632.en.jpg" width="49%" alt="Seoul, 632 years: the city growing in 3D since 1394"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/tile-aurora-fall-2.en.jpg" width="49%" alt="Aurora Fall 2, a 3D battle royale"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/tile-sundrift-gp.en.jpg" width="49%" alt="Sundrift GP, 3D kart racing"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/tile-lens-answer.en.jpg" width="49%" alt="The Answer in the Lens, an exam with AI glasses"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/tile-seoul-632.en.jpg" width="49%" alt="Seoul, 632 years: the city growing in 3D since 1394"></a>
 </p>
 
 <p align="center"><sub>November 2026 · no-build HTML · PC keyboard and mouse · <a href="https://wonjangcloud9.github.io/ai-game-battle/">see all of them, including the ones GPT-6 made</a> · <a href="https://github.com/wonjangcloud9/ai-game-battle">code</a></sub></p>
@@ -153,19 +153,19 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 84k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR 24 (5 merged)<br>8 issues |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 263k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR 5 |
-| **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2 issues |
-| **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Homework repo of a Flutter study group | PR 2 (1 merged) |
-| **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2 issues |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.4k</sub> | Agent harness for learning difficult things (TypeScript) | PR 1 |
-| **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR 1 |
-| **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1 issue |
-| **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR 1 |
-| **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1 issue |
-| **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR 1 |
-| **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR 1 |
-| **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR 1 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 84k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;24<br>5&nbsp;merged<br>8&nbsp;issues |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 263k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
+| **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2&nbsp;issues |
+| **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Homework repo of a Flutter study group | PR&nbsp;2<br>1&nbsp;merged |
+| **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2&nbsp;issues |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.4k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
+| **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;1 |
+| **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1&nbsp;issue |
+| **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR&nbsp;1 |
+| **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1&nbsp;issue |
+| **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR&nbsp;1 |
+| **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR&nbsp;1 |
+| **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR&nbsp;1 |
 
 **Merged**
 
