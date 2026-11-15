@@ -89,8 +89,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-eef17671a3.svg">
-  <img src="./assets/dashboard-light-eef17671a3.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-5135322898.svg">
+  <img src="./assets/dashboard-light-5135322898.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,154</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,166</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 여섯 개를 열었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
@@ -180,7 +180,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) Flutter 스터디 저장소에 `.gitignore` 추가
 
 <details>
-<summary><b>리뷰를 기다리는 PR 34개</b></summary>
+<summary><b>리뷰를 기다리는 PR 32개</b></summary>
 
 <br>
 
@@ -190,7 +190,6 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [hyperframes #7752](https://github.com/heygen-com/hyperframes/pull/7752) 경고인데 오류 표시(✗)로 나오던 것, 어떤 글자인지도 같이 보여 주게
 - [validator.js #2962](https://github.com/validatorjs/validator.js/pull/2962) 한국의 새 여권번호를 '틀린 번호'라고 하던 것
 - [hyperframes #7705](https://github.com/heygen-com/hyperframes/pull/7705) 문장 안에 든 다른 문장의 글자를 섞어 세던 것
-- [hyperframes #7704](https://github.com/heygen-com/hyperframes/pull/7704) 다음 장면까지 이어지는 문장을 한 문장으로 재게
 - [hyperframes #7703](https://github.com/heygen-com/hyperframes/pull/7703) '자막을 읽을 시간이 없다'는 경고에 예외로 두는 방법을 알려 주게
 - [hyperframes #7701](https://github.com/heygen-com/hyperframes/pull/7701) 서로 다른 숫자 올라가기 효과를 같은 것으로 착각하던 것
 - [hyperframes #7698](https://github.com/heygen-com/hyperframes/pull/7698) 글자 테두리가 있으면 '잘 안 보인다'고 잘못 경고하던 것
@@ -210,7 +209,6 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [hyperframes #7559](https://github.com/heygen-com/hyperframes/pull/7559) UTF-8이 아닌 자막 파일은 깨진 글자로 들여오지 않고 거절하게
 - [hyperframes #7558](https://github.com/heygen-com/hyperframes/pull/7558) 타이핑·떨어지는 글자 효과에서 이모지와 한글이 깨지지 않게
 - [sveltejs/kit #17717](https://github.com/sveltejs/kit/pull/17717) 이동할 주소에 한글이 있으면 깨지던 것
-- [hermes-agent #152043](https://github.com/NousResearch/hermes-agent/pull/152043) 토큰에 한글이 들어오면 서버가 죽던 것을 정상 거절로
 - [hermes-agent #152042](https://github.com/NousResearch/hermes-agent/pull/152042) 칸반에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게
 - [hermes-agent #152023](https://github.com/NousResearch/hermes-agent/pull/152023) 대시보드에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게
 - [es-toolkit #2209](https://github.com/toss/es-toolkit/pull/2209) 글자 수를 자를 때 가족 이모지 같은 묶음 이모지를 한 글자로 세게
@@ -240,6 +238,16 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [Ant-Media-Server #4267](https://github.com/ant-media/Ant-Media-Server/issues/4267) 통화 중에 앞·뒤 카메라를 바꾸는 방법
 - [plyr #2434](https://github.com/sampotts/plyr/issues/2434) 모바일에서 플레이어가 오류를 냅니다
 - [Ant-Media-Server #3989](https://github.com/ant-media/Ant-Media-Server/issues/3989) 블루투스 이어폰으로 통화를 연결하면 마이크와 스피커가 휴대폰으로 넘어갑니다
+
+</details>
+
+<details>
+<summary><b>닫힌 PR 2개</b></summary>
+
+<br>
+
+- [hyperframes #7704](https://github.com/heygen-com/hyperframes/pull/7704) 다음 장면까지 이어지는 문장을 한 문장으로 재게
+- [hermes-agent #152043](https://github.com/NousResearch/hermes-agent/pull/152043) 토큰에 한글이 들어오면 서버가 죽던 것을 정상 거절로
 
 </details>
 

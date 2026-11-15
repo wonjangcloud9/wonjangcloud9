@@ -89,8 +89,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-eef17671a3.svg">
-  <img src="./assets/dashboard-light-eef17671a3.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-5135322898.svg">
+  <img src="./assets/dashboard-light-5135322898.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,154 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,166 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened six of them. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
@@ -180,7 +180,7 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>34 pull requests in review</b></summary>
+<summary><b>32 pull requests in review</b></summary>
 
 <br>
 
@@ -190,7 +190,6 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [hyperframes #7752](https://github.com/heygen-com/hyperframes/pull/7752) fix(check): mark a contrast finding by its severity and quote its text
 - [validator.js #2962](https://github.com/validatorjs/validator.js/pull/2962) fix(isPassportNumber): accept South Korea's next-generation passport numbers
 - [hyperframes #7705](https://github.com/heygen-com/hyperframes/pull/7705) fix(check): a nested line's words stay out of the line around it
-- [hyperframes #7704](https://github.com/heygen-com/hyperframes/pull/7704) fix(check): time a line the next scene repeats in place as one line
 - [hyperframes #7703](https://github.com/heygen-com/hyperframes/pull/7703) fix(check): line_unread names the captions track that exempts a caption
 - [hyperframes #7701](https://github.com/heygen-com/hyperframes/pull/7701) fix(lint): keep separate count-up objects apart in the repeated fromTo check
 - [hyperframes #7698](https://github.com/heygen-com/hyperframes/pull/7698) fix(check): keep the outline a word inherits from its caption in contrast
@@ -210,7 +209,6 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [hyperframes #7559](https://github.com/heygen-com/hyperframes/pull/7559) fix(cli): refuse SRT and VTT files that are not UTF-8 instead of importing mojibake
 - [hyperframes #7558](https://github.com/heygen-com/hyperframes/pull/7558) fix(registry): split typed and falling text by grapheme, not UTF-16 unit
 - [sveltejs/kit #17717](https://github.com/sveltejs/kit/pull/17717) fix: percent-encode non-ASCII characters in redirect locations
-- [hermes-agent #152043](https://github.com/NousResearch/hermes-agent/pull/152043) fix(a2a): reject a non-ASCII bearer token with 401 instead of crashing
 - [hermes-agent #152042](https://github.com/NousResearch/hermes-agent/pull/152042) fix(kanban): leave Enter and Escape to an in-flight IME composition
 - [hermes-agent #152023](https://github.com/NousResearch/hermes-agent/pull/152023) fix(dashboard): leave Enter and Escape to an in-flight IME composition
 - [es-toolkit #2209](https://github.com/toss/es-toolkit/pull/2209) fix[compat/truncate]: count emoji sequences as one character like Lodash
@@ -240,6 +238,16 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [Ant-Media-Server #4267](https://github.com/ant-media/Ant-Media-Server/issues/4267) Self-camera switching
 - [plyr #2434](https://github.com/sampotts/plyr/issues/2434) mobile player Error
 - [Ant-Media-Server #3989](https://github.com/ant-media/Ant-Media-Server/issues/3989) A phenomenon in which the microphone and speaker function of Bluetooth earphones go to a mobile phone when connecting webrtc with Javascript using peer.html while using Bluetooth earphones.
+
+</details>
+
+<details>
+<summary><b>2 closed pull requests</b></summary>
+
+<br>
+
+- [hyperframes #7704](https://github.com/heygen-com/hyperframes/pull/7704) fix(check): time a line the next scene repeats in place as one line
+- [hermes-agent #152043](https://github.com/NousResearch/hermes-agent/pull/152043) fix(a2a): reject a non-ASCII bearer token with 401 instead of crashing
 
 </details>
 
