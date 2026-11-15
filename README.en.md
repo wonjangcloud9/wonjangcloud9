@@ -89,8 +89,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-5135322898.svg">
-  <img src="./assets/dashboard-light-5135322898.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-1750662648.svg">
+  <img src="./assets/dashboard-light-1750662648.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,166 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,186 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened six of them. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
@@ -149,17 +149,17 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 42 pull requests and 14 issues across 14 projects, 8 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 44 pull requests and 14 issues across 14 projects, 8 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 84k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;28<br>7&nbsp;merged<br>8&nbsp;issues |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 263k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 85k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;29<br>7&nbsp;merged<br>8&nbsp;issues |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2&nbsp;issues |
+| **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;2 |
 | **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Homework repo of a Flutter study group | PR&nbsp;2<br>1&nbsp;merged |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2&nbsp;issues |
 | **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.5k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
-| **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | Date utility library: arithmetic, formatting and parsing, with locales (TypeScript) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1&nbsp;issue |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR&nbsp;1 |
@@ -180,10 +180,12 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>32 pull requests in review</b></summary>
+<summary><b>34 pull requests in review</b></summary>
 
 <br>
 
+- [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) fix(cli): render --json gives each missing tool, a held slot and an old Node its own code
+- [awesome-claude-plugins #765](https://github.com/composio-community/awesome-claude-plugins/pull/765) Add brainres to Developer Productivity
 - [hyperframes #7816](https://github.com/heygen-com/hyperframes/pull/7816) fix(ci): a catalog publish run that main overtook ends clean instead of failing
 - [hyperframes #7805](https://github.com/heygen-com/hyperframes/pull/7805) fix(sdk-playground): the Vite config loads on Node 22 before 22.18
 - [date-fns #4463](https://github.com/date-fns/date-fns/pull/4463) Fix ko locale long and full time formats pairing 오전/오후 with a 24-hour hour
