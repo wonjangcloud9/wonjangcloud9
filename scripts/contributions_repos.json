@@ -6,6 +6,7 @@
   "sveltejs/kit": {"ko": "Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다", "en": "Svelte's full-stack web framework: routing, SSR, redirects"},
   "toss/es-toolkit": {"ko": "토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript)", "en": "Toss's small, fast utility library that replaces lodash (TypeScript)"},
   "validatorjs/validator.js": {"ko": "이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript)", "en": "String validation library: emails, passport numbers and so on (JavaScript)"},
+  "date-fns/date-fns": {"ko": "날짜를 더하고 빼고 원하는 모양으로 적어 주는 라이브러리. 나라별 표기도 들어 있습니다 (TypeScript)", "en": "Date utility library: arithmetic, formatting and parsing, with locales (TypeScript)"},
   "composio-community/awesome-claude-plugins": {"ko": "Claude Code 플러그인을 모아 둔 목록", "en": "Curated list of Claude Code plugins"},
   "safety-research/bloom": {"ko": "LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python)", "en": "Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python)"},
   "expo/expo": {"ko": "React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스", "en": "Framework and build service for Android, iOS and web apps in React"},
