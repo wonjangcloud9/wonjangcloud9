@@ -31,6 +31,7 @@
   "heygen-com/hyperframes#7712": "화면에선 멀쩡한 제목에 '칸보다 넓다'는 경고가 뜹니다",
   "heygen-com/hyperframes#7713": "긴 렌더가 95% 끝났는데 진행 막대는 77%에 서 있습니다",
   "heygen-com/hyperframes#7753": "경고가 가리키는 글자 이름이 너무 길어 찾기 어렵습니다",
+  "heygen-com/hyperframes#7803": "렌더가 실패하면 멈춘 일꾼 목록 대신 진짜 원인만 보여 줍니다",
   "NousResearch/hermes-agent#152023": "대시보드에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게",
   "NousResearch/hermes-agent#152042": "칸반에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게",
   "NousResearch/hermes-agent#152043": "토큰에 한글이 들어오면 서버가 죽던 것을 정상 거절로",
