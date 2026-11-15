@@ -34,6 +34,7 @@
   "heygen-com/hyperframes#7803": "렌더가 실패하면 멈춘 일꾼 목록 대신 진짜 원인만 보여 줍니다",
   "heygen-com/hyperframes#7804": "한글이나 러시아어 자막에서도 강조색과 이모지가 붙습니다",
   "heygen-com/hyperframes#7805": "Node 22 초반 버전에서도 전체 빌드가 끝까지 됩니다",
+  "heygen-com/hyperframes#7816": "main이 먼저 앞서간 카탈로그 발행 실행이 실패로 표시되지 않습니다",
   "date-fns/date-fns#4463": "한국어 시간이 '오후 14:07'로 나오던 것을 '오후 2:07'로 고쳤습니다",
   "NousResearch/hermes-agent#152023": "대시보드에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게",
   "NousResearch/hermes-agent#152042": "칸반에서 한글을 치는 중에 Enter·Esc를 눌러도 글자가 끊기지 않게",
