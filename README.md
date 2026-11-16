@@ -89,8 +89,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-d8e504a498.svg">
-  <img src="./assets/dashboard-light-d8e504a498.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-aacd280024.svg">
+  <img src="./assets/dashboard-light-aacd280024.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,218</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,221</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 여섯 개를 열었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
@@ -149,11 +149,11 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## 오픈소스에 보탠 것
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 17곳에 PR 47개와 이슈 14개를 냈고, 그중 8개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 17곳에 PR 49개와 이슈 14개를 냈고, 그중 8개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 85k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;29<br>머지&nbsp;7<br>이슈&nbsp;8 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 85k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;31<br>머지&nbsp;7<br>이슈&nbsp;8 |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | 터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python) | PR&nbsp;5 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | WebRTC로 0.5초 지연 방송을 하는 스트리밍 서버 (Java) | 이슈&nbsp;2 |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Claude Code 플러그인을 모아 둔 목록 | PR&nbsp;2 |
@@ -183,10 +183,12 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) Flutter 스터디 저장소에 `.gitignore` 추가
 
 <details>
-<summary><b>리뷰를 기다리는 PR 37개</b></summary>
+<summary><b>리뷰를 기다리는 PR 39개</b></summary>
 
 <br>
 
+- [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) 파일이 없어서 실패했는데 타임아웃을 늘리라고 잘못 안내하던 것
+- [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) 도움말에 기본값이 '(default: 5) (Default: 5)'처럼 두 번 찍히던 것
 - [xterm.js #6330](https://github.com/xtermjs/xterm.js/pull/6330) 한글을 치다 Shift+Enter로 줄을 바꾸면 마지막 글자가 다음 줄로 넘어가던 것
 - [date-holidays #728](https://github.com/commenthol/date-holidays/pull/728) 올해 공휴일이 된 노동절(5월 1일)이 평일로 나오던 것
 - [faker #4276](https://github.com/faker-js/faker/pull/4276) 한국 가짜 우편번호가 없어진 6자리나 없는 번호로 나오던 것

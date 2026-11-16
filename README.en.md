@@ -89,8 +89,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-d8e504a498.svg">
-  <img src="./assets/dashboard-light-d8e504a498.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-aacd280024.svg">
+  <img src="./assets/dashboard-light-aacd280024.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,218 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,221 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened six of them. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
@@ -149,11 +149,11 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 47 pull requests and 14 issues across 17 projects, 8 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 49 pull requests and 14 issues across 17 projects, 8 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 85k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;29<br>7&nbsp;merged<br>8&nbsp;issues |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 85k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;31<br>7&nbsp;merged<br>8&nbsp;issues |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2&nbsp;issues |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;2 |
@@ -183,10 +183,12 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>37 pull requests in review</b></summary>
+<summary><b>39 pull requests in review</b></summary>
 
 <br>
 
+- [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) fix(check): a media source that failed to load is not reported as a timeout
+- [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) fix(cli): help shows each option's default once
 - [xterm.js #6330](https://github.com/xtermjs/xterm.js/pull/6330) Send a committed IME composition before the custom key handler sees the key
 - [date-holidays #728](https://github.com/commenthol/date-holidays/pull/728) fix(KR): add Labour Day as a public holiday from 2026
 - [faker #4276](https://github.com/faker-js/faker/pull/4276) fix(locale): use five-digit postcodes with assigned prefixes for ko
