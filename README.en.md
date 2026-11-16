@@ -89,8 +89,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-1750662648.svg">
-  <img src="./assets/dashboard-light-1750662648.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-b3a4002d7d.svg">
+  <img src="./assets/dashboard-light-b3a4002d7d.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,186 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,216 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened six of them. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
@@ -149,7 +149,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 44 pull requests and 14 issues across 14 projects, 8 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 45 pull requests and 14 issues across 15 projects, 8 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
@@ -159,9 +159,10 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;2 |
 | **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Homework repo of a Flutter study group | PR&nbsp;2<br>1&nbsp;merged |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2&nbsp;issues |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.5k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.7k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | Date utility library: arithmetic, formatting and parsing, with locales (TypeScript) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1&nbsp;issue |
+| **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | Generates fake test data such as names, addresses and phone numbers, per locale (TypeScript) | PR&nbsp;1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR&nbsp;1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1&nbsp;issue |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR&nbsp;1 |
@@ -180,10 +181,11 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>34 pull requests in review</b></summary>
+<summary><b>35 pull requests in review</b></summary>
 
 <br>
 
+- [faker #4276](https://github.com/faker-js/faker/pull/4276) fix(locale): use five-digit postcodes with assigned prefixes for ko
 - [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) fix(cli): render --json gives each missing tool, a held slot and an old Node its own code
 - [awesome-claude-plugins #765](https://github.com/composio-community/awesome-claude-plugins/pull/765) Add brainres to Developer Productivity
 - [hyperframes #7816](https://github.com/heygen-com/hyperframes/pull/7816) fix(ci): a catalog publish run that main overtook ends clean instead of failing

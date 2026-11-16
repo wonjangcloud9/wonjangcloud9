@@ -16,16 +16,16 @@
   <rect x="0.5" y="0.5" width="879" height="619" rx="16" fill="#0d1117" stroke="#2a3038"/>
 
   <text x="48" y="52" class="h1">원장 실험실 · WONJANG LAB</text>
-  <text x="832" y="50" class="live" text-anchor="end">2026-11-15 기준</text>
+  <text x="832" y="50" class="live" text-anchor="end">2026-11-16 기준</text>
   <line x1="48" y1="76" x2="832" y2="76" stroke="#2a3038"/>
 
   <text x="48" y="134" class="big">357</text>
   <text x="48" y="157" class="cap">레포 · 공개 162</text>
-  <text x="182" y="134" class="big">9,813</text>
+  <text x="182" y="134" class="big">9,843</text>
   <text x="182" y="157" class="cap">커밋 · 비공개 포함</text>
-  <text x="316" y="134" class="big" fill="#D97757">4,186</text>
+  <text x="316" y="134" class="big" fill="#D97757">4,216</text>
   <text x="316" y="157" class="cap">올해 커밋</text>
-  <text x="450" y="134" class="big" fill="#3fb950">16</text>
+  <text x="450" y="134" class="big" fill="#3fb950">17</text>
   <text x="450" y="157" class="cap">연속 기록 · 일</text>
 
   <text x="596" y="104" class="sec">연도별 커밋</text>

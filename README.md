@@ -89,8 +89,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-1750662648.svg">
-  <img src="./assets/dashboard-light-1750662648.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-b3a4002d7d.svg">
+  <img src="./assets/dashboard-light-b3a4002d7d.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,186</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,216</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 여섯 개를 열었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
@@ -149,7 +149,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## 오픈소스에 보탠 것
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 14곳에 PR 44개와 이슈 14개를 냈고, 그중 8개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 15곳에 PR 45개와 이슈 14개를 냈고, 그중 8개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
@@ -159,9 +159,10 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Claude Code 플러그인을 모아 둔 목록 | PR&nbsp;2 |
 | **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Flutter 스터디 모임의 과제 저장소 | PR&nbsp;2<br>머지&nbsp;1 |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python) | 이슈&nbsp;2 |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.5k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.7k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | 날짜를 더하고 빼고 원하는 모양으로 적어 주는 라이브러리. 나라별 표기도 들어 있습니다 (TypeScript) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스 | 이슈&nbsp;1 |
+| **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 라이브러리 (TypeScript) | PR&nbsp;1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | 오타가 있어도 찾아 주는 가벼운 퍼지 검색 라이브러리 (JavaScript) | PR&nbsp;1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5·유튜브·비메오 영상 플레이어 (JavaScript) | 이슈&nbsp;1 |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다 | PR&nbsp;1 |
@@ -180,10 +181,11 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) Flutter 스터디 저장소에 `.gitignore` 추가
 
 <details>
-<summary><b>리뷰를 기다리는 PR 34개</b></summary>
+<summary><b>리뷰를 기다리는 PR 35개</b></summary>
 
 <br>
 
+- [faker #4276](https://github.com/faker-js/faker/pull/4276) 한국 가짜 우편번호가 없어진 6자리나 없는 번호로 나오던 것
 - [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) 렌더가 실패한 이유를 프로그램이 코드로 구분할 수 있게 했습니다
 - [awesome-claude-plugins #765](https://github.com/composio-community/awesome-claude-plugins/pull/765) 개발 생산성 목록에 brainres 플러그인을 추가합니다
 - [hyperframes #7816](https://github.com/heygen-com/hyperframes/pull/7816) main이 먼저 앞서간 카탈로그 발행 실행이 실패로 표시되지 않습니다
