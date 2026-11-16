@@ -149,7 +149,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## 오픈소스에 보탠 것
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 18곳에 PR 50개와 이슈 14개를 냈고, 그중 8개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 19곳에 PR 51개와 이슈 14개를 냈고, 그중 8개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
@@ -169,6 +169,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5·유튜브·비메오 영상 플레이어 (JavaScript) | 이슈&nbsp;1 |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다 | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | 토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript) | PR&nbsp;1 |
+| **[citty](https://github.com/unjs/citty)**<br><sub>★ 1.4k</sub> | Nuxt·unjs 쪽에서 쓰는 가벼운 CLI 만들기 라이브러리. 옵션 해석과 도움말을 만들어 줍니다 (TypeScript) | PR&nbsp;1 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | 이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript) | PR&nbsp;1 |
 | **[xterm.js](https://github.com/xtermjs/xterm.js)**<br><sub>★ 21k</sub> | VS Code·Cursor 같은 앱 안의 터미널 화면을 그리는 웹 터미널 라이브러리 (TypeScript) | PR&nbsp;1 |
 
@@ -184,10 +185,11 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) Flutter 스터디 저장소에 `.gitignore` 추가
 
 <details>
-<summary><b>리뷰를 기다리는 PR 40개</b></summary>
+<summary><b>리뷰를 기다리는 PR 41개</b></summary>
 
 <br>
 
+- [citty #300](https://github.com/unjs/citty/pull/300) 도움말이 알려준 '-out'을 그대로 치면 값이 엉뚱하게 'ut'로 들어가던 것
 - [python-stdnum #530](https://github.com/arthurdejong/python-stdnum/pull/530) 2020년 10월 이후 받은 주민등록번호를 틀린 번호라고 하던 것
 - [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) 파일이 없어서 실패했는데 타임아웃을 늘리라고 잘못 안내하던 것
 - [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) 도움말에 기본값이 '(default: 5) (Default: 5)'처럼 두 번 찍히던 것

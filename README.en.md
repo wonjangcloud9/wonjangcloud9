@@ -149,7 +149,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 50 pull requests and 14 issues across 18 projects, 8 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 51 pull requests and 14 issues across 19 projects, 8 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
@@ -169,6 +169,7 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1&nbsp;issue |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR&nbsp;1 |
+| **[citty](https://github.com/unjs/citty)**<br><sub>★ 1.4k</sub> | Lightweight CLI builder from unjs (Nuxt ecosystem): argument parsing and usage text (TypeScript) | PR&nbsp;1 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR&nbsp;1 |
 | **[xterm.js](https://github.com/xtermjs/xterm.js)**<br><sub>★ 21k</sub> | Web terminal library behind the terminals in VS Code, Cursor and other apps (TypeScript) | PR&nbsp;1 |
 
@@ -184,10 +185,11 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>40 pull requests in review</b></summary>
+<summary><b>41 pull requests in review</b></summary>
 
 <br>
 
+- [citty #300](https://github.com/unjs/citty/pull/300) fix(usage): render aliases longer than one character with two dashes
 - [python-stdnum #530](https://github.com/arthurdejong/python-stdnum/pull/530) Accept South Korean RRNs given out since October 2020
 - [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) fix(check): a media source that failed to load is not reported as a timeout
 - [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) fix(cli): help shows each option's default once
