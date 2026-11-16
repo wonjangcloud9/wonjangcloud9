@@ -57,5 +57,6 @@
   "safety-research/bloom#28": "디버그 메시지가 결과 화면을 뒤덮습니다",
   "sampotts/plyr#2434": "모바일에서 플레이어가 오류를 냅니다",
   "composio-community/awesome-claude-plugins#765": "개발 생산성 목록에 brainres 플러그인을 추가합니다",
-  "faker-js/faker#4276": "한국 가짜 우편번호가 없어진 6자리나 없는 번호로 나오던 것"
+  "faker-js/faker#4276": "한국 가짜 우편번호가 없어진 6자리나 없는 번호로 나오던 것",
+  "commenthol/date-holidays#728": "올해 공휴일이 된 노동절(5월 1일)이 평일로 나오던 것"
 }
