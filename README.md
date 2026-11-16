@@ -89,8 +89,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-b33ee67457.svg">
-  <img src="./assets/dashboard-light-b33ee67457.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-d8e504a498.svg">
+  <img src="./assets/dashboard-light-d8e504a498.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,217</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,218</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 여섯 개를 열었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
@@ -149,7 +149,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## 오픈소스에 보탠 것
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 16곳에 PR 46개와 이슈 14개를 냈고, 그중 8개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 17곳에 PR 47개와 이슈 14개를 냈고, 그중 8개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
@@ -169,6 +169,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다 | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | 토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript) | PR&nbsp;1 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | 이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript) | PR&nbsp;1 |
+| **[xterm.js](https://github.com/xtermjs/xterm.js)**<br><sub>★ 21k</sub> | VS Code·Cursor 같은 앱 안의 터미널 화면을 그리는 웹 터미널 라이브러리 (TypeScript) | PR&nbsp;1 |
 
 **머지된 것**
 
@@ -182,10 +183,11 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) Flutter 스터디 저장소에 `.gitignore` 추가
 
 <details>
-<summary><b>리뷰를 기다리는 PR 36개</b></summary>
+<summary><b>리뷰를 기다리는 PR 37개</b></summary>
 
 <br>
 
+- [xterm.js #6330](https://github.com/xtermjs/xterm.js/pull/6330) 한글을 치다 Shift+Enter로 줄을 바꾸면 마지막 글자가 다음 줄로 넘어가던 것
 - [date-holidays #728](https://github.com/commenthol/date-holidays/pull/728) 올해 공휴일이 된 노동절(5월 1일)이 평일로 나오던 것
 - [faker #4276](https://github.com/faker-js/faker/pull/4276) 한국 가짜 우편번호가 없어진 6자리나 없는 번호로 나오던 것
 - [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) 렌더가 실패한 이유를 프로그램이 코드로 구분할 수 있게 했습니다

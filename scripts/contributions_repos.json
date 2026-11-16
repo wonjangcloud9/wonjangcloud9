@@ -9,6 +9,7 @@
   "date-fns/date-fns": {"ko": "날짜를 더하고 빼고 원하는 모양으로 적어 주는 라이브러리. 나라별 표기도 들어 있습니다 (TypeScript)", "en": "Date utility library: arithmetic, formatting and parsing, with locales (TypeScript)"},
   "faker-js/faker": {"ko": "테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 라이브러리 (TypeScript)", "en": "Generates fake test data such as names, addresses and phone numbers, per locale (TypeScript)"},
   "commenthol/date-holidays": {"ko": "나라·지역별 공휴일을 계산해 주는 라이브러리. 음력 명절과 대체공휴일 규칙도 다룹니다 (JavaScript)", "en": "Library that computes public holidays by country and region, including lunar festivals and substitute-holiday rules (JavaScript)"},
+  "xtermjs/xterm.js": {"ko": "VS Code·Cursor 같은 앱 안의 터미널 화면을 그리는 웹 터미널 라이브러리 (TypeScript)", "en": "Web terminal library behind the terminals in VS Code, Cursor and other apps (TypeScript)"},
   "composio-community/awesome-claude-plugins": {"ko": "Claude Code 플러그인을 모아 둔 목록", "en": "Curated list of Claude Code plugins"},
   "safety-research/bloom": {"ko": "LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python)", "en": "Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python)"},
   "expo/expo": {"ko": "React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스", "en": "Framework and build service for Android, iOS and web apps in React"},

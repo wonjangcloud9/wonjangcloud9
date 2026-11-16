@@ -89,8 +89,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-b33ee67457.svg">
-  <img src="./assets/dashboard-light-b33ee67457.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-d8e504a498.svg">
+  <img src="./assets/dashboard-light-d8e504a498.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,217 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,218 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened six of them. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
@@ -149,7 +149,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 46 pull requests and 14 issues across 16 projects, 8 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 47 pull requests and 14 issues across 17 projects, 8 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
@@ -169,6 +169,7 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR&nbsp;1 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR&nbsp;1 |
+| **[xterm.js](https://github.com/xtermjs/xterm.js)**<br><sub>★ 21k</sub> | Web terminal library behind the terminals in VS Code, Cursor and other apps (TypeScript) | PR&nbsp;1 |
 
 **Merged**
 
@@ -182,10 +183,11 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>36 pull requests in review</b></summary>
+<summary><b>37 pull requests in review</b></summary>
 
 <br>
 
+- [xterm.js #6330](https://github.com/xtermjs/xterm.js/pull/6330) Send a committed IME composition before the custom key handler sees the key
 - [date-holidays #728](https://github.com/commenthol/date-holidays/pull/728) fix(KR): add Labour Day as a public holiday from 2026
 - [faker #4276](https://github.com/faker-js/faker/pull/4276) fix(locale): use five-digit postcodes with assigned prefixes for ko
 - [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) fix(cli): render --json gives each missing tool, a held slot and an old Node its own code
