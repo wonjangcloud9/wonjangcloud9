@@ -149,7 +149,7 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 49 pull requests and 14 issues across 17 projects, 8 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 50 pull requests and 14 issues across 18 projects, 8 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
@@ -160,6 +160,7 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 | **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Homework repo of a Flutter study group | PR&nbsp;2<br>1&nbsp;merged |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2&nbsp;issues |
 | **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.7k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
+| **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 610</sub> | Python library that validates hundreds of national and international number formats such as tax IDs, IBANs and ID numbers | PR&nbsp;1 |
 | **[date-holidays](https://github.com/commenthol/date-holidays)**<br><sub>★ 1.1k</sub> | Library that computes public holidays by country and region, including lunar festivals and substitute-holiday rules (JavaScript) | PR&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | Date utility library: arithmetic, formatting and parsing, with locales (TypeScript) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1&nbsp;issue |
@@ -183,10 +184,11 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>39 pull requests in review</b></summary>
+<summary><b>40 pull requests in review</b></summary>
 
 <br>
 
+- [python-stdnum #530](https://github.com/arthurdejong/python-stdnum/pull/530) Accept South Korean RRNs given out since October 2020
 - [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) fix(check): a media source that failed to load is not reported as a timeout
 - [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) fix(cli): help shows each option's default once
 - [xterm.js #6330](https://github.com/xtermjs/xterm.js/pull/6330) Send a committed IME composition before the custom key handler sees the key
