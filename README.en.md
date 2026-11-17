@@ -149,16 +149,17 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 54 pull requests and 14 issues across 21 projects, 14 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 58 pull requests and 14 issues across 23 projects, 14 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;32<br>13&nbsp;merged<br>8&nbsp;issues |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;33<br>13&nbsp;merged<br>8&nbsp;issues |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2&nbsp;issues |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;2 |
 | **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Homework repo of a Flutter study group | PR&nbsp;2<br>1&nbsp;merged |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2&nbsp;issues |
+| **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR&nbsp;2 |
 | **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.8k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
 | **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 610</sub> | Python library that validates hundreds of national and international number formats such as tax IDs, IBANs and ID numbers | PR&nbsp;1 |
 | **[date-holidays](https://github.com/commenthol/date-holidays)**<br><sub>★ 1.1k</sub> | Library that computes public holidays by country and region, including lunar festivals and substitute-holiday rules (JavaScript) | PR&nbsp;1 |
@@ -168,11 +169,12 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 | **[definitions](https://github.com/holidays/definitions)**<br><sub>★ 119</sub> | Per-country public holiday definitions in YAML, the data behind the Ruby holidays gem | PR&nbsp;1 |
 | **[faker](https://github.com/joke2k/faker)**<br><sub>★ 19k</sub> | Python library that generates fake test data such as names, addresses and phone numbers, per locale | PR&nbsp;1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR&nbsp;1 |
+| **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML | PR&nbsp;1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1&nbsp;issue |
+| **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 412</sub> | PHP library that calculates public holidays per country | PR&nbsp;1 |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR&nbsp;1 |
 | **[citty](https://github.com/unjs/citty)**<br><sub>★ 1.4k</sub> | Lightweight CLI builder from unjs (Nuxt ecosystem): argument parsing and usage text (TypeScript) | PR&nbsp;1 |
-| **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR&nbsp;1 |
 | **[xterm.js](https://github.com/xtermjs/xterm.js)**<br><sub>★ 21k</sub> | Web terminal library behind the terminals in VS Code, Cursor and other apps (TypeScript) | PR&nbsp;1 |
 
 **Merged**
@@ -193,10 +195,14 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>38 pull requests in review</b></summary>
+<summary><b>42 pull requests in review</b></summary>
 
 <br>
 
+- [countries #613](https://github.com/mledoze/countries/pull/613) Fix Korean translations copied from other countries (IO, DM, GS) and update TR, MN, SO
+- [validator.js #2963](https://github.com/validatorjs/validator.js/pull/2963) fix(isMobilePhone): reject pipes in ko-KR numbers
+- [holidays #359](https://github.com/spatie/holidays/pull/359) Fix Korea's Christmas date (December 25, not 15)
+- [hyperframes #8084](https://github.com/heygen-com/hyperframes/pull/8084) fix(check): a number with a separator counts as one word in line reading time
 - [hyperframes #8083](https://github.com/heygen-com/hyperframes/pull/8083) fix(cli): a render that failed on a video file says to check the file, not to try Docker
 - [definitions #412](https://github.com/holidays/definitions/pull/412) Add kr Labour Day and make Constitution Day a holiday from 2026
 - [faker #2544](https://github.com/joke2k/faker/pull/2544) Generate ko_KR postcodes with assigned prefixes only
