@@ -149,11 +149,11 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 53 pull requests and 14 issues across 21 projects, 14 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 54 pull requests and 14 issues across 21 projects, 14 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;31<br>13&nbsp;merged<br>8&nbsp;issues |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;32<br>13&nbsp;merged<br>8&nbsp;issues |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2&nbsp;issues |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;2 |
@@ -193,10 +193,11 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>37 pull requests in review</b></summary>
+<summary><b>38 pull requests in review</b></summary>
 
 <br>
 
+- [hyperframes #8083](https://github.com/heygen-com/hyperframes/pull/8083) fix(cli): a render that failed on a video file says to check the file, not to try Docker
 - [definitions #412](https://github.com/holidays/definitions/pull/412) Add kr Labour Day and make Constitution Day a holiday from 2026
 - [faker #2544](https://github.com/joke2k/faker/pull/2544) Generate ko_KR postcodes with assigned prefixes only
 - [citty #300](https://github.com/unjs/citty/pull/300) fix(usage): render aliases longer than one character with two dashes

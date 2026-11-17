@@ -149,11 +149,11 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## 오픈소스에 보탠 것
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 21곳에 PR 53개와 이슈 14개를 냈고, 그중 14개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 21곳에 PR 54개와 이슈 14개를 냈고, 그중 14개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;31<br>머지&nbsp;13<br>이슈&nbsp;8 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;32<br>머지&nbsp;13<br>이슈&nbsp;8 |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | 터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python) | PR&nbsp;5 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | WebRTC로 0.5초 지연 방송을 하는 스트리밍 서버 (Java) | 이슈&nbsp;2 |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Claude Code 플러그인을 모아 둔 목록 | PR&nbsp;2 |
@@ -193,10 +193,11 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) Flutter 스터디 저장소에 `.gitignore` 추가
 
 <details>
-<summary><b>리뷰를 기다리는 PR 37개</b></summary>
+<summary><b>리뷰를 기다리는 PR 38개</b></summary>
 
 <br>
 
+- [hyperframes #8083](https://github.com/heygen-com/hyperframes/pull/8083) 영상 파일이 깨져서 렌더가 실패했는데 도커로 해 보라고 안내하던 것
 - [definitions #412](https://github.com/holidays/definitions/pull/412) 올해 공휴일이 된 노동절(5월 1일)과 제헌절(7월 17일)이 빠져 있던 것
 - [faker #2544](https://github.com/joke2k/faker/pull/2544) 한국 가짜 우편번호가 없는 지역 번호로 나오던 것 (파이썬판)
 - [citty #300](https://github.com/unjs/citty/pull/300) 도움말이 알려준 '-out'을 그대로 치면 값이 엉뚱하게 'ut'로 들어가던 것
