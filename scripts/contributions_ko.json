@@ -63,5 +63,7 @@
   "heygen-com/hyperframes#7953": "도움말에 기본값이 '(default: 5) (Default: 5)'처럼 두 번 찍히던 것",
   "heygen-com/hyperframes#7954": "파일이 없어서 실패했는데 타임아웃을 늘리라고 잘못 안내하던 것",
   "arthurdejong/python-stdnum#530": "2020년 10월 이후 받은 주민등록번호를 틀린 번호라고 하던 것",
-  "unjs/citty#300": "도움말이 알려준 '-out'을 그대로 치면 값이 엉뚱하게 'ut'로 들어가던 것"
+  "unjs/citty#300": "도움말이 알려준 '-out'을 그대로 치면 값이 엉뚱하게 'ut'로 들어가던 것",
+  "joke2k/faker#2544": "한국 가짜 우편번호가 없는 지역 번호로 나오던 것 (파이썬판)",
+  "holidays/definitions#412": "올해 공휴일이 된 노동절(5월 1일)과 제헌절(7월 17일)이 빠져 있던 것"
 }

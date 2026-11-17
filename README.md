@@ -89,8 +89,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-aacd280024.svg">
-  <img src="./assets/dashboard-light-aacd280024.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-a43146d1e2.svg">
+  <img src="./assets/dashboard-light-a43146d1e2.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,221</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,426</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 여섯 개를 열었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
@@ -149,22 +149,24 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## 오픈소스에 보탠 것
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 19곳에 PR 51개와 이슈 14개를 냈고, 그중 8개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 21곳에 PR 53개와 이슈 14개를 냈고, 그중 14개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 85k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;31<br>머지&nbsp;7<br>이슈&nbsp;8 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;31<br>머지&nbsp;13<br>이슈&nbsp;8 |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | 터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python) | PR&nbsp;5 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | WebRTC로 0.5초 지연 방송을 하는 스트리밍 서버 (Java) | 이슈&nbsp;2 |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Claude Code 플러그인을 모아 둔 목록 | PR&nbsp;2 |
 | **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Flutter 스터디 모임의 과제 저장소 | PR&nbsp;2<br>머지&nbsp;1 |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python) | 이슈&nbsp;2 |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.7k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.8k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
 | **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 610</sub> | 세금번호·IBAN·주민번호 같은 나라별 번호 수백 가지를 검증하는 파이썬 라이브러리 | PR&nbsp;1 |
 | **[date-holidays](https://github.com/commenthol/date-holidays)**<br><sub>★ 1.1k</sub> | 나라·지역별 공휴일을 계산해 주는 라이브러리. 음력 명절과 대체공휴일 규칙도 다룹니다 (JavaScript) | PR&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | 날짜를 더하고 빼고 원하는 모양으로 적어 주는 라이브러리. 나라별 표기도 들어 있습니다 (TypeScript) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스 | 이슈&nbsp;1 |
 | **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 라이브러리 (TypeScript) | PR&nbsp;1 |
+| **[definitions](https://github.com/holidays/definitions)**<br><sub>★ 119</sub> | 나라별 공휴일을 YAML로 적어 둔 정의 파일 모음. Ruby holidays 젬이 이걸 읽습니다 | PR&nbsp;1 |
+| **[faker](https://github.com/joke2k/faker)**<br><sub>★ 19k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 파이썬 라이브러리 | PR&nbsp;1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | 오타가 있어도 찾아 주는 가벼운 퍼지 검색 라이브러리 (JavaScript) | PR&nbsp;1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5·유튜브·비메오 영상 플레이어 (JavaScript) | 이슈&nbsp;1 |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다 | PR&nbsp;1 |
@@ -175,8 +177,14 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 
 **머지된 것**
 
+- [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) 파일이 없어서 실패했는데 타임아웃을 늘리라고 잘못 안내하던 것
+- [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) 도움말에 기본값이 '(default: 5) (Default: 5)'처럼 두 번 찍히던 것
+- [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) 렌더가 실패한 이유를 프로그램이 코드로 구분할 수 있게 했습니다
+- [hyperframes #7816](https://github.com/heygen-com/hyperframes/pull/7816) main이 먼저 앞서간 카탈로그 발행 실행이 실패로 표시되지 않습니다
+- [hyperframes #7805](https://github.com/heygen-com/hyperframes/pull/7805) Node 22 초반 버전에서도 전체 빌드가 끝까지 됩니다
 - [hyperframes #7804](https://github.com/heygen-com/hyperframes/pull/7804) 한글이나 러시아어 자막에서도 강조색과 이모지가 붙습니다
 - [hyperframes #7803](https://github.com/heygen-com/hyperframes/pull/7803) 렌더가 실패하면 멈춘 일꾼 목록 대신 진짜 원인만 보여 줍니다
+- [hyperframes #7752](https://github.com/heygen-com/hyperframes/pull/7752) 경고인데 오류 표시(✗)로 나오던 것, 어떤 글자인지도 같이 보여 주게
 - [hyperframes #7700](https://github.com/heygen-com/hyperframes/pull/7700) 소리 겹침 경고가 무슨 뜻인지 알 수 있게
 - [hyperframes #7699](https://github.com/heygen-com/hyperframes/pull/7699) 색 보정한 영상의 경고가 내가 붙인 이름으로 나오게
 - [hyperframes #7697](https://github.com/heygen-com/hyperframes/pull/7697) 렌더를 시작할 때 실제로 쓰는 화질 설정을 보여 주게
@@ -185,23 +193,19 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) Flutter 스터디 저장소에 `.gitignore` 추가
 
 <details>
-<summary><b>리뷰를 기다리는 PR 41개</b></summary>
+<summary><b>리뷰를 기다리는 PR 37개</b></summary>
 
 <br>
 
+- [definitions #412](https://github.com/holidays/definitions/pull/412) 올해 공휴일이 된 노동절(5월 1일)과 제헌절(7월 17일)이 빠져 있던 것
+- [faker #2544](https://github.com/joke2k/faker/pull/2544) 한국 가짜 우편번호가 없는 지역 번호로 나오던 것 (파이썬판)
 - [citty #300](https://github.com/unjs/citty/pull/300) 도움말이 알려준 '-out'을 그대로 치면 값이 엉뚱하게 'ut'로 들어가던 것
 - [python-stdnum #530](https://github.com/arthurdejong/python-stdnum/pull/530) 2020년 10월 이후 받은 주민등록번호를 틀린 번호라고 하던 것
-- [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) 파일이 없어서 실패했는데 타임아웃을 늘리라고 잘못 안내하던 것
-- [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) 도움말에 기본값이 '(default: 5) (Default: 5)'처럼 두 번 찍히던 것
 - [xterm.js #6330](https://github.com/xtermjs/xterm.js/pull/6330) 한글을 치다 Shift+Enter로 줄을 바꾸면 마지막 글자가 다음 줄로 넘어가던 것
 - [date-holidays #728](https://github.com/commenthol/date-holidays/pull/728) 올해 공휴일이 된 노동절(5월 1일)이 평일로 나오던 것
 - [faker #4276](https://github.com/faker-js/faker/pull/4276) 한국 가짜 우편번호가 없어진 6자리나 없는 번호로 나오던 것
-- [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) 렌더가 실패한 이유를 프로그램이 코드로 구분할 수 있게 했습니다
 - [awesome-claude-plugins #765](https://github.com/composio-community/awesome-claude-plugins/pull/765) 개발 생산성 목록에 brainres 플러그인을 추가합니다
-- [hyperframes #7816](https://github.com/heygen-com/hyperframes/pull/7816) main이 먼저 앞서간 카탈로그 발행 실행이 실패로 표시되지 않습니다
-- [hyperframes #7805](https://github.com/heygen-com/hyperframes/pull/7805) Node 22 초반 버전에서도 전체 빌드가 끝까지 됩니다
 - [date-fns #4463](https://github.com/date-fns/date-fns/pull/4463) 한국어 시간이 '오후 14:07'로 나오던 것을 '오후 2:07'로 고쳤습니다
-- [hyperframes #7752](https://github.com/heygen-com/hyperframes/pull/7752) 경고인데 오류 표시(✗)로 나오던 것, 어떤 글자인지도 같이 보여 주게
 - [validator.js #2962](https://github.com/validatorjs/validator.js/pull/2962) 한국의 새 여권번호를 '틀린 번호'라고 하던 것
 - [hyperframes #7705](https://github.com/heygen-com/hyperframes/pull/7705) 문장 안에 든 다른 문장의 글자를 섞어 세던 것
 - [hyperframes #7703](https://github.com/heygen-com/hyperframes/pull/7703) '자막을 읽을 시간이 없다'는 경고에 예외로 두는 방법을 알려 주게
@@ -275,5 +279,5 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
   <img src="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-light.svg" alt="잔디를 먹어치우는 뱀">
 </picture>
 
-<sub>레포 356개 중 195개는 비공개입니다. 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
+<sub>레포 357개 중 195개는 비공개입니다. 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
 </div>

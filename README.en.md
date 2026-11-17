@@ -89,8 +89,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-aacd280024.svg">
-  <img src="./assets/dashboard-light-aacd280024.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-a43146d1e2.svg">
+  <img src="./assets/dashboard-light-a43146d1e2.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,221 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,426 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened six of them. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
@@ -149,22 +149,24 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 51 pull requests and 14 issues across 19 projects, 8 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 53 pull requests and 14 issues across 21 projects, 14 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 85k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;31<br>7&nbsp;merged<br>8&nbsp;issues |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;31<br>13&nbsp;merged<br>8&nbsp;issues |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2&nbsp;issues |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;2 |
 | **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Homework repo of a Flutter study group | PR&nbsp;2<br>1&nbsp;merged |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2&nbsp;issues |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.7k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.8k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
 | **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 610</sub> | Python library that validates hundreds of national and international number formats such as tax IDs, IBANs and ID numbers | PR&nbsp;1 |
 | **[date-holidays](https://github.com/commenthol/date-holidays)**<br><sub>★ 1.1k</sub> | Library that computes public holidays by country and region, including lunar festivals and substitute-holiday rules (JavaScript) | PR&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | Date utility library: arithmetic, formatting and parsing, with locales (TypeScript) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1&nbsp;issue |
 | **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | Generates fake test data such as names, addresses and phone numbers, per locale (TypeScript) | PR&nbsp;1 |
+| **[definitions](https://github.com/holidays/definitions)**<br><sub>★ 119</sub> | Per-country public holiday definitions in YAML, the data behind the Ruby holidays gem | PR&nbsp;1 |
+| **[faker](https://github.com/joke2k/faker)**<br><sub>★ 19k</sub> | Python library that generates fake test data such as names, addresses and phone numbers, per locale | PR&nbsp;1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR&nbsp;1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1&nbsp;issue |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR&nbsp;1 |
@@ -175,8 +177,14 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 
 **Merged**
 
+- [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) fix(check): a media source that failed to load is not reported as a timeout
+- [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) fix(cli): help shows each option's default once
+- [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) fix(cli): render --json gives each missing tool, a held slot and an old Node its own code
+- [hyperframes #7816](https://github.com/heygen-com/hyperframes/pull/7816) fix(ci): a catalog publish run that main overtook ends clean instead of failing
+- [hyperframes #7805](https://github.com/heygen-com/hyperframes/pull/7805) fix(sdk-playground): the Vite config loads on Node 22 before 22.18
 - [hyperframes #7804](https://github.com/heygen-com/hyperframes/pull/7804) fix(registry): caption keywords, emoji and aftershock work for words outside a-z
 - [hyperframes #7803](https://github.com/heygen-com/hyperframes/pull/7803) fix(engine): a failed parallel capture names the worker that failed, not the peers it stopped
+- [hyperframes #7752](https://github.com/heygen-com/hyperframes/pull/7752) fix(check): mark a contrast finding by its severity and quote its text
 - [hyperframes #7700](https://github.com/heygen-com/hyperframes/pull/7700) fix(lint): say the audio overlap warning is about a shared Studio lane
 - [hyperframes #7699](https://github.com/heygen-com/hyperframes/pull/7699) fix(check): name a color-graded video by its own selector in layout findings
 - [hyperframes #7697](https://github.com/heygen-com/hyperframes/pull/7697) fix(cli): the render header names the quality preset and CRF it encodes with
@@ -185,23 +193,19 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>41 pull requests in review</b></summary>
+<summary><b>37 pull requests in review</b></summary>
 
 <br>
 
+- [definitions #412](https://github.com/holidays/definitions/pull/412) Add kr Labour Day and make Constitution Day a holiday from 2026
+- [faker #2544](https://github.com/joke2k/faker/pull/2544) Generate ko_KR postcodes with assigned prefixes only
 - [citty #300](https://github.com/unjs/citty/pull/300) fix(usage): render aliases longer than one character with two dashes
 - [python-stdnum #530](https://github.com/arthurdejong/python-stdnum/pull/530) Accept South Korean RRNs given out since October 2020
-- [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) fix(check): a media source that failed to load is not reported as a timeout
-- [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) fix(cli): help shows each option's default once
 - [xterm.js #6330](https://github.com/xtermjs/xterm.js/pull/6330) Send a committed IME composition before the custom key handler sees the key
 - [date-holidays #728](https://github.com/commenthol/date-holidays/pull/728) fix(KR): add Labour Day as a public holiday from 2026
 - [faker #4276](https://github.com/faker-js/faker/pull/4276) fix(locale): use five-digit postcodes with assigned prefixes for ko
-- [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) fix(cli): render --json gives each missing tool, a held slot and an old Node its own code
 - [awesome-claude-plugins #765](https://github.com/composio-community/awesome-claude-plugins/pull/765) Add brainres to Developer Productivity
-- [hyperframes #7816](https://github.com/heygen-com/hyperframes/pull/7816) fix(ci): a catalog publish run that main overtook ends clean instead of failing
-- [hyperframes #7805](https://github.com/heygen-com/hyperframes/pull/7805) fix(sdk-playground): the Vite config loads on Node 22 before 22.18
 - [date-fns #4463](https://github.com/date-fns/date-fns/pull/4463) Fix ko locale long and full time formats pairing 오전/오후 with a 24-hour hour
-- [hyperframes #7752](https://github.com/heygen-com/hyperframes/pull/7752) fix(check): mark a contrast finding by its severity and quote its text
 - [validator.js #2962](https://github.com/validatorjs/validator.js/pull/2962) fix(isPassportNumber): accept South Korea's next-generation passport numbers
 - [hyperframes #7705](https://github.com/heygen-com/hyperframes/pull/7705) fix(check): a nested line's words stay out of the line around it
 - [hyperframes #7703](https://github.com/heygen-com/hyperframes/pull/7703) fix(check): line_unread names the captions track that exempts a caption
@@ -275,5 +279,5 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
   <img src="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-light.svg" alt="A snake eating my contribution graph">
 </picture>
 
-<sub>195 of my 356 repos are private because they hold keys or personal data. The numbers above include private commits.</sub>
+<sub>195 of my 357 repos are private because they hold keys or personal data. The numbers above include private commits.</sub>
 </div>
