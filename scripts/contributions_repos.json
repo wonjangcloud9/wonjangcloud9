@@ -17,7 +17,6 @@
   "expo/expo": {"ko": "React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스", "en": "Framework and build service for Android, iOS and web apps in React"},
   "ant-media/Ant-Media-Server": {"ko": "WebRTC로 0.5초 지연 방송을 하는 스트리밍 서버 (Java)", "en": "Streaming server with ~0.5 s latency over WebRTC (Java)"},
   "sampotts/plyr": {"ko": "HTML5·유튜브·비메오 영상 플레이어 (JavaScript)", "en": "HTML5, YouTube and Vimeo media player (JavaScript)"},
-  "nlutter-study/nlutter-study-2nd": {"ko": "Flutter 스터디 모임의 과제 저장소", "en": "Homework repo of a Flutter study group"},
   "joke2k/faker": {"ko": "테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 파이썬 라이브러리", "en": "Python library that generates fake test data such as names, addresses and phone numbers, per locale"},
   "holidays/definitions": {"ko": "나라별 공휴일을 YAML로 적어 둔 정의 파일 모음. Ruby holidays 젬이 이걸 읽습니다", "en": "Per-country public holiday definitions in YAML, the data behind the Ruby holidays gem"},
   "spatie/holidays": {"ko": "나라별 공휴일을 계산해 주는 PHP 라이브러리", "en": "PHP library that calculates public holidays per country"},

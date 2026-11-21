@@ -8,7 +8,11 @@ gh로 남의 저장소에 낸 PR·이슈를 전부 가져와 README.md / README.
 한국어 설명은 scripts/contributions_ko.json ("owner/repo#번호": "설명")에서 읽고,
 없으면 원래 제목을 쓴다 (실행하면 빠진 항목을 알려 준다).
 저장소 한 줄 설명은 scripts/contributions_repos.json, 별 수는 실행할 때 가져온다.
+
+길어지지 않게 프로젝트 표는 위 TOP_REPOS곳, 머지된 것은 최근 RECENT_MERGED개만
+바로 보이고 나머지는 접힌다. EXCLUDE의 저장소는 목록에 넣지 않는다.
 """
+import functools
 import json
 import pathlib
 import subprocess
@@ -17,6 +21,9 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ME = "wonjangcloud9"
 START, END = "<!-- contributions:start -->", "<!-- contributions:end -->"
+EXCLUDE = {"nlutter-study/nlutter-study-2nd"}
+TOP_REPOS = 6
+RECENT_MERGED = 5
 
 
 def search(kind):
@@ -24,15 +31,22 @@ def search(kind):
         ["gh", "search", kind, f"--author={ME}", "--limit", "1000",
          "--json", "repository,title,url,number,state,createdAt"],
         check=True, capture_output=True, text=True).stdout
-    rows = [r for r in json.loads(out) if not r["repository"]["nameWithOwner"].startswith(ME + "/")]
+    rows = [r for r in json.loads(out)
+            if not r["repository"]["nameWithOwner"].startswith(ME + "/")
+            and r["repository"]["nameWithOwner"] not in EXCLUDE]
     for r in rows:
         r["kind"], r["repo"] = kind, r["repository"]["nameWithOwner"]
     return rows
 
 
+@functools.cache
+def star_count(repo):
+    return int(subprocess.run(["gh", "api", f"repos/{repo}", "-q", ".stargazers_count"],
+                              check=True, capture_output=True, text=True).stdout)
+
+
 def stars(repo):
-    n = int(subprocess.run(["gh", "api", f"repos/{repo}", "-q", ".stargazers_count"],
-                           check=True, capture_output=True, text=True).stdout)
+    n = star_count(repo)
     return f"{n / 1000:.0f}k" if n >= 10000 else f"{n / 1000:.1f}k" if n >= 1000 else str(n)
 
 
@@ -40,8 +54,10 @@ def repo_table(rows, ko, about):
     repos = {}
     for r in rows:
         repos.setdefault(r["repo"], []).append(r)
-    ranked = sorted(repos.items(), key=lambda kv: (-len(kv[1]), kv[0].lower()))
-    out = ["| 프로젝트 | 어떤 저장소인가 | 낸 것 |" if ko else "| Project | What it is | Mine |", "|---|---|---|"]
+    ranked = sorted(repos.items(), key=lambda kv: (
+        -sum(r["state"] == "merged" for r in kv[1]), -len(kv[1]), -star_count(kv[0]), kv[0].lower()))
+    head = ["| 프로젝트 | 어떤 저장소인가 | 낸 것 |" if ko else "| Project | What it is | Mine |", "|---|---|---|"]
+    out = []
     for repo, items in ranked:
         n_pr = sum(r["kind"] == "prs" for r in items)
         n_merged = sum(r["state"] == "merged" for r in items)
@@ -56,7 +72,11 @@ def repo_table(rows, ko, about):
         what = about.get(repo, {}).get("ko" if ko else "en", "")
         name = repo if len(repo.split("/")[1]) < 4 else repo.split("/")[1]
         out.append(f'| **[{name}](https://github.com/{repo})**<br><sub>★ {stars(repo)}</sub> | {what} | {"<br>".join(mine)} |')
-    return out + [""]
+    top, rest = out[:TOP_REPOS], out[TOP_REPOS:]
+    if not rest:
+        return head + top + [""]
+    title = f"나머지 프로젝트 {len(rest)}곳" if ko else f"{len(rest)} more projects"
+    return head + top + ["", "<details>", f"<summary><b>{title}</b></summary>", "", "<br>", ""] + head + rest + ["", "</details>", ""]
 
 
 def line(r, ko, texts):
@@ -84,13 +104,15 @@ def block(rows, ko, texts, about):
         out += ["## 오픈소스에 보탠 것", "",
                 f"쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 {repos}곳에 PR {len(prs)}개와 이슈 {len(issues)}개를 냈고, 그중 {len(merged)}개가 머지됐습니다.", "",
                 *repo_table(rows, ko, about),
-                "**머지된 것**", ""]
+                "**최근 머지된 것**", ""]
     else:
         out += ["## Contributions to other people's projects", "",
                 f"Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. {len(prs)} pull requests and {len(issues)} issues across {repos} projects, {len(merged)} merged so far.", "",
                 *repo_table(rows, ko, about),
-                "**Merged**", ""]
-    out += [line(r, ko, texts) for r in merged] + [""]
+                "**Recently merged**", ""]
+    recent, older = merged[:RECENT_MERGED], merged[RECENT_MERGED:]
+    out += [line(r, ko, texts) for r in recent] + [""]
+    out += fold(f"그 전에 머지된 PR {len(older)}개" if ko else f"{len(older)} earlier merged pull requests", older, ko, texts)
     out += fold(f"리뷰를 기다리는 PR {len(waiting)}개" if ko else f"{len(waiting)} pull requests in review", waiting, ko, texts)
     out += fold(f"알린 문제 {len(issues)}개" if ko else f"{len(issues)} issues reported", issues, ko, texts)
     out += fold(f"닫힌 PR {len(closed)}개" if ko else f"{len(closed)} closed pull requests", closed, ko, texts)
