@@ -89,8 +89,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-a43146d1e2.svg">
-  <img src="./assets/dashboard-light-a43146d1e2.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-30c69fca3f.svg">
+  <img src="./assets/dashboard-light-30c69fca3f.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 47</sub><br><sub>커밋 4,426</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,877</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 여섯 개를 열었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
@@ -149,29 +149,32 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## 오픈소스에 보탠 것
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 23곳에 PR 58개와 이슈 14개를 냈고, 그중 14개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 26곳에 PR 65개와 이슈 14개를 냈고, 그중 20개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;33<br>머지&nbsp;13<br>이슈&nbsp;8 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | 터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python) | PR&nbsp;5 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 88k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;34<br>머지&nbsp;16<br>이슈&nbsp;8 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 265k</sub> | 터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python) | PR&nbsp;5 |
+| **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 411</sub> | 나라별 공휴일을 계산해 주는 PHP 라이브러리 | PR&nbsp;3<br>머지&nbsp;1 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | WebRTC로 0.5초 지연 방송을 하는 스트리밍 서버 (Java) | 이슈&nbsp;2 |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Claude Code 플러그인을 모아 둔 목록 | PR&nbsp;2 |
+| **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 라이브러리 (TypeScript) | PR&nbsp;2<br>머지&nbsp;1 |
 | **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Flutter 스터디 모임의 과제 저장소 | PR&nbsp;2<br>머지&nbsp;1 |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python) | 이슈&nbsp;2 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | 이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript) | PR&nbsp;2 |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.8k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
-| **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 610</sub> | 세금번호·IBAN·주민번호 같은 나라별 번호 수백 가지를 검증하는 파이썬 라이브러리 | PR&nbsp;1 |
+| **[phone](https://github.com/AfterShip/phone)**<br><sub>★ 922</sub> | 휴대폰 번호를 검사하고 국제 표기(+82…)로 맞춰 주는 라이브러리 (TypeScript) | PR&nbsp;1 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 11k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
+| **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 609</sub> | 세금번호·IBAN·주민번호 같은 나라별 번호 수백 가지를 검증하는 파이썬 라이브러리 | PR&nbsp;1 |
 | **[date-holidays](https://github.com/commenthol/date-holidays)**<br><sub>★ 1.1k</sub> | 나라·지역별 공휴일을 계산해 주는 라이브러리. 음력 명절과 대체공휴일 규칙도 다룹니다 (JavaScript) | PR&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | 날짜를 더하고 빼고 원하는 모양으로 적어 주는 라이브러리. 나라별 표기도 들어 있습니다 (TypeScript) | PR&nbsp;1 |
+| **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | Vue 3용 UI 컴포넌트 라이브러리 (TypeScript) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스 | 이슈&nbsp;1 |
-| **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 라이브러리 (TypeScript) | PR&nbsp;1 |
 | **[definitions](https://github.com/holidays/definitions)**<br><sub>★ 119</sub> | 나라별 공휴일을 YAML로 적어 둔 정의 파일 모음. Ruby holidays 젬이 이걸 읽습니다 | PR&nbsp;1 |
-| **[faker](https://github.com/joke2k/faker)**<br><sub>★ 19k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 파이썬 라이브러리 | PR&nbsp;1 |
+| **[faker](https://github.com/joke2k/faker)**<br><sub>★ 20k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 파이썬 라이브러리 | PR&nbsp;1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | 오타가 있어도 찾아 주는 가벼운 퍼지 검색 라이브러리 (JavaScript) | PR&nbsp;1 |
-| **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | 세계 나라 정보(이름·수도·통화·번역)를 JSON·CSV·XML·YAML로 담은 데이터 모음 | PR&nbsp;1 |
+| **[business-day](https://github.com/kylekatarnls/business-day)**<br><sub>★ 405</sub> | 날짜 라이브러리 Carbon에 영업일·공휴일 계산을 더해 주는 PHP 확장 | PR&nbsp;1 |
+| **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | 세계 나라 정보(이름·수도·통화·번역)를 JSON·CSV·XML·YAML로 담은 데이터 모음 | PR&nbsp;1<br>머지&nbsp;1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5·유튜브·비메오 영상 플레이어 (JavaScript) | 이슈&nbsp;1 |
-| **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 412</sub> | 나라별 공휴일을 계산해 주는 PHP 라이브러리 | PR&nbsp;1 |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다 | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | 토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript) | PR&nbsp;1 |
 | **[citty](https://github.com/unjs/citty)**<br><sub>★ 1.4k</sub> | Nuxt·unjs 쪽에서 쓰는 가벼운 CLI 만들기 라이브러리. 옵션 해석과 도움말을 만들어 줍니다 (TypeScript) | PR&nbsp;1 |
@@ -179,8 +182,14 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 
 **머지된 것**
 
+- [hyperframes #8261](https://github.com/heygen-com/hyperframes/pull/8261) 세로 영상 안전 영역 설명서의 숫자가 실제 검사 기준과 달랐던 것
+- [countries #613](https://github.com/mledoze/countries/pull/613) 도미니카연방이 '도미니카 공화국', 영국령 인도양 지역이 '인도'로 적혀 있던 한국어 국가명
+- [holidays #359](https://github.com/spatie/holidays/pull/359) 한국 크리스마스가 12월 15일로 들어가 있던 것
+- [hyperframes #8084](https://github.com/heygen-com/hyperframes/pull/8084) '1,080'이나 '3.5%' 같은 숫자를 두 단어로 세서 자막 최소 노출 시간이 늘어나던 것
+- [hyperframes #8083](https://github.com/heygen-com/hyperframes/pull/8083) 영상 파일이 깨져서 렌더가 실패했는데 도커로 해 보라고 안내하던 것
 - [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) 파일이 없어서 실패했는데 타임아웃을 늘리라고 잘못 안내하던 것
 - [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) 도움말에 기본값이 '(default: 5) (Default: 5)'처럼 두 번 찍히던 것
+- [faker #4276](https://github.com/faker-js/faker/pull/4276) 한국 가짜 우편번호가 없어진 6자리나 없는 번호로 나오던 것
 - [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) 렌더가 실패한 이유를 프로그램이 코드로 구분할 수 있게 했습니다
 - [hyperframes #7816](https://github.com/heygen-com/hyperframes/pull/7816) main이 먼저 앞서간 카탈로그 발행 실행이 실패로 표시되지 않습니다
 - [hyperframes #7805](https://github.com/heygen-com/hyperframes/pull/7805) Node 22 초반 버전에서도 전체 빌드가 끝까지 됩니다
@@ -195,22 +204,23 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) Flutter 스터디 저장소에 `.gitignore` 추가
 
 <details>
-<summary><b>리뷰를 기다리는 PR 42개</b></summary>
+<summary><b>리뷰를 기다리는 PR 43개</b></summary>
 
 <br>
 
-- [countries #613](https://github.com/mledoze/countries/pull/613) 도미니카연방이 '도미니카 공화국', 영국령 인도양 지역이 '인도'로 적혀 있던 한국어 국가명
+- [phone #470](https://github.com/AfterShip/phone/pull/470) 한국 휴대폰 번호 검사가 없어진 011·016~019 번호를 통과시키던 것
+- [element-plus #25109](https://github.com/element-plus/element-plus/pull/25109) 한국어 화면에 영어로 남아 있던 문구 29개 번역, 서로 뒤바뀐 '값 증가'·'값 감소' 바로잡기
+- [business-day #165](https://github.com/kylekatarnls/business-day/pull/165) 한국 대체공휴일과 올해 공휴일이 된 노동절·제헌절이 빠져 있던 것
+- [holidays #361](https://github.com/spatie/holidays/pull/361) 한국 음력 명절을 중국 달력으로 계산해 부처님오신날 같은 날짜가 어긋나던 것
+- [holidays #360](https://github.com/spatie/holidays/pull/360) 한국 대체공휴일과 올해 공휴일이 된 노동절·제헌절이 빠져 있던 것
+- [faker #4279](https://github.com/faker-js/faker/pull/4279) 한국 가짜 주소에 없어진 광주광역시·전라남도가 나오던 것 (전남광주통합특별시로 교체)
 - [validator.js #2963](https://github.com/validatorjs/validator.js/pull/2963) 한국 휴대폰 번호 검사가 '01|-1234-5678'처럼 세로줄이 든 번호를 통과시키던 것
-- [holidays #359](https://github.com/spatie/holidays/pull/359) 한국 크리스마스가 12월 15일로 들어가 있던 것
-- [hyperframes #8084](https://github.com/heygen-com/hyperframes/pull/8084) '1,080'이나 '3.5%' 같은 숫자를 두 단어로 세서 자막 최소 노출 시간이 늘어나던 것
-- [hyperframes #8083](https://github.com/heygen-com/hyperframes/pull/8083) 영상 파일이 깨져서 렌더가 실패했는데 도커로 해 보라고 안내하던 것
 - [definitions #412](https://github.com/holidays/definitions/pull/412) 올해 공휴일이 된 노동절(5월 1일)과 제헌절(7월 17일)이 빠져 있던 것
 - [faker #2544](https://github.com/joke2k/faker/pull/2544) 한국 가짜 우편번호가 없는 지역 번호로 나오던 것 (파이썬판)
 - [citty #300](https://github.com/unjs/citty/pull/300) 도움말이 알려준 '-out'을 그대로 치면 값이 엉뚱하게 'ut'로 들어가던 것
 - [python-stdnum #530](https://github.com/arthurdejong/python-stdnum/pull/530) 2020년 10월 이후 받은 주민등록번호를 틀린 번호라고 하던 것
 - [xterm.js #6330](https://github.com/xtermjs/xterm.js/pull/6330) 한글을 치다 Shift+Enter로 줄을 바꾸면 마지막 글자가 다음 줄로 넘어가던 것
 - [date-holidays #728](https://github.com/commenthol/date-holidays/pull/728) 올해 공휴일이 된 노동절(5월 1일)이 평일로 나오던 것
-- [faker #4276](https://github.com/faker-js/faker/pull/4276) 한국 가짜 우편번호가 없어진 6자리나 없는 번호로 나오던 것
 - [awesome-claude-plugins #765](https://github.com/composio-community/awesome-claude-plugins/pull/765) 개발 생산성 목록에 brainres 플러그인을 추가합니다
 - [date-fns #4463](https://github.com/date-fns/date-fns/pull/4463) 한국어 시간이 '오후 14:07'로 나오던 것을 '오후 2:07'로 고쳤습니다
 - [validator.js #2962](https://github.com/validatorjs/validator.js/pull/2962) 한국의 새 여권번호를 '틀린 번호'라고 하던 것

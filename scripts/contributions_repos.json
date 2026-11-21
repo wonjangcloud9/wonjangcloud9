@@ -21,5 +21,8 @@
   "joke2k/faker": {"ko": "테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 파이썬 라이브러리", "en": "Python library that generates fake test data such as names, addresses and phone numbers, per locale"},
   "holidays/definitions": {"ko": "나라별 공휴일을 YAML로 적어 둔 정의 파일 모음. Ruby holidays 젬이 이걸 읽습니다", "en": "Per-country public holiday definitions in YAML, the data behind the Ruby holidays gem"},
   "spatie/holidays": {"ko": "나라별 공휴일을 계산해 주는 PHP 라이브러리", "en": "PHP library that calculates public holidays per country"},
-  "mledoze/countries": {"ko": "세계 나라 정보(이름·수도·통화·번역)를 JSON·CSV·XML·YAML로 담은 데이터 모음", "en": "World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML"}
+  "mledoze/countries": {"ko": "세계 나라 정보(이름·수도·통화·번역)를 JSON·CSV·XML·YAML로 담은 데이터 모음", "en": "World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML"},
+  "kylekatarnls/business-day": {"ko": "날짜 라이브러리 Carbon에 영업일·공휴일 계산을 더해 주는 PHP 확장", "en": "PHP extension that adds business-day and holiday calculations to the Carbon date library"},
+  "element-plus/element-plus": {"ko": "Vue 3용 UI 컴포넌트 라이브러리 (TypeScript)", "en": "UI component library for Vue 3 (TypeScript)"},
+  "AfterShip/phone": {"ko": "휴대폰 번호를 검사하고 국제 표기(+82…)로 맞춰 주는 라이브러리 (TypeScript)", "en": "Validates mobile phone numbers and normalizes them to E.164 (TypeScript)"}
 }

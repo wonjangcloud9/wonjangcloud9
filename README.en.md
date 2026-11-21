@@ -89,8 +89,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-a43146d1e2.svg">
-  <img src="./assets/dashboard-light-a43146d1e2.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-30c69fca3f.svg">
+  <img src="./assets/dashboard-light-30c69fca3f.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -115,7 +115,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>47 repos</sub><br><sub>4,426 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,877 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened six of them. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
@@ -149,29 +149,32 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 <!-- contributions:start -->
 ## Contributions to other people's projects
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 58 pull requests and 14 issues across 23 projects, 14 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 65 pull requests and 14 issues across 26 projects, 20 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 86k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;33<br>13&nbsp;merged<br>8&nbsp;issues |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 264k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 88k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;34<br>16&nbsp;merged<br>8&nbsp;issues |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 265k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
+| **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 411</sub> | PHP library that calculates public holidays per country | PR&nbsp;3<br>1&nbsp;merged |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2&nbsp;issues |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;2 |
+| **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | Generates fake test data such as names, addresses and phone numbers, per locale (TypeScript) | PR&nbsp;2<br>1&nbsp;merged |
 | **[nlutter-study-2nd](https://github.com/nlutter-study/nlutter-study-2nd)**<br><sub>★ 1</sub> | Homework repo of a Flutter study group | PR&nbsp;2<br>1&nbsp;merged |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2&nbsp;issues |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR&nbsp;2 |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 9.8k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
-| **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 610</sub> | Python library that validates hundreds of national and international number formats such as tax IDs, IBANs and ID numbers | PR&nbsp;1 |
+| **[phone](https://github.com/AfterShip/phone)**<br><sub>★ 922</sub> | Validates mobile phone numbers and normalizes them to E.164 (TypeScript) | PR&nbsp;1 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 11k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
+| **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 609</sub> | Python library that validates hundreds of national and international number formats such as tax IDs, IBANs and ID numbers | PR&nbsp;1 |
 | **[date-holidays](https://github.com/commenthol/date-holidays)**<br><sub>★ 1.1k</sub> | Library that computes public holidays by country and region, including lunar festivals and substitute-holiday rules (JavaScript) | PR&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | Date utility library: arithmetic, formatting and parsing, with locales (TypeScript) | PR&nbsp;1 |
+| **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | UI component library for Vue 3 (TypeScript) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1&nbsp;issue |
-| **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | Generates fake test data such as names, addresses and phone numbers, per locale (TypeScript) | PR&nbsp;1 |
 | **[definitions](https://github.com/holidays/definitions)**<br><sub>★ 119</sub> | Per-country public holiday definitions in YAML, the data behind the Ruby holidays gem | PR&nbsp;1 |
-| **[faker](https://github.com/joke2k/faker)**<br><sub>★ 19k</sub> | Python library that generates fake test data such as names, addresses and phone numbers, per locale | PR&nbsp;1 |
+| **[faker](https://github.com/joke2k/faker)**<br><sub>★ 20k</sub> | Python library that generates fake test data such as names, addresses and phone numbers, per locale | PR&nbsp;1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR&nbsp;1 |
-| **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML | PR&nbsp;1 |
+| **[business-day](https://github.com/kylekatarnls/business-day)**<br><sub>★ 405</sub> | PHP extension that adds business-day and holiday calculations to the Carbon date library | PR&nbsp;1 |
+| **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML | PR&nbsp;1<br>1&nbsp;merged |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1&nbsp;issue |
-| **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 412</sub> | PHP library that calculates public holidays per country | PR&nbsp;1 |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR&nbsp;1 |
 | **[citty](https://github.com/unjs/citty)**<br><sub>★ 1.4k</sub> | Lightweight CLI builder from unjs (Nuxt ecosystem): argument parsing and usage text (TypeScript) | PR&nbsp;1 |
@@ -179,8 +182,14 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 
 **Merged**
 
+- [hyperframes #8261](https://github.com/heygen-com/hyperframes/pull/8261) docs(skills): give the 9:16 safe band that `check` enforces
+- [countries #613](https://github.com/mledoze/countries/pull/613) Fix Korean translations copied from other countries (IO, DM, GS) and update TR, MN, SO
+- [holidays #359](https://github.com/spatie/holidays/pull/359) Fix Korea's Christmas date (December 25, not 15)
+- [hyperframes #8084](https://github.com/heygen-com/hyperframes/pull/8084) fix(check): a number with a separator counts as one word in line reading time
+- [hyperframes #8083](https://github.com/heygen-com/hyperframes/pull/8083) fix(cli): a render that failed on a video file says to check the file, not to try Docker
 - [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) fix(check): a media source that failed to load is not reported as a timeout
 - [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) fix(cli): help shows each option's default once
+- [faker #4276](https://github.com/faker-js/faker/pull/4276) fix(locale): use five-digit postcodes with assigned prefixes for ko
 - [hyperframes #7842](https://github.com/heygen-com/hyperframes/pull/7842) fix(cli): render --json gives each missing tool, a held slot and an old Node its own code
 - [hyperframes #7816](https://github.com/heygen-com/hyperframes/pull/7816) fix(ci): a catalog publish run that main overtook ends clean instead of failing
 - [hyperframes #7805](https://github.com/heygen-com/hyperframes/pull/7805) fix(sdk-playground): the Vite config loads on Node 22 before 22.18
@@ -195,22 +204,23 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [nlutter-study-2nd #4](https://github.com/nlutter-study/nlutter-study-2nd/pull/4) add .gitignore
 
 <details>
-<summary><b>42 pull requests in review</b></summary>
+<summary><b>43 pull requests in review</b></summary>
 
 <br>
 
-- [countries #613](https://github.com/mledoze/countries/pull/613) Fix Korean translations copied from other countries (IO, DM, GS) and update TR, MN, SO
+- [phone #470](https://github.com/AfterShip/phone/pull/470) Update South Korea to 010-only mobile numbers
+- [element-plus #25109](https://github.com/element-plus/element-plus/pull/25109) fix(locale): [ko] translate missing strings
+- [business-day #165](https://github.com/kylekatarnls/business-day/pull/165) Add Korean substitute holidays, Labor Day and Constitution Day
+- [holidays #361](https://github.com/spatie/holidays/pull/361) Use the Korean lunar calendar for Korea's lunar holidays
+- [holidays #360](https://github.com/spatie/holidays/pull/360) Add Korea's substitute holidays and the 2026 Labour Day and Constitution Day
+- [faker #4279](https://github.com/faker-js/faker/pull/4279) fix(locale): replace Gwangju and South Jeolla with the Jeonnam-Gwangju special city for ko
 - [validator.js #2963](https://github.com/validatorjs/validator.js/pull/2963) fix(isMobilePhone): reject pipes in ko-KR numbers
-- [holidays #359](https://github.com/spatie/holidays/pull/359) Fix Korea's Christmas date (December 25, not 15)
-- [hyperframes #8084](https://github.com/heygen-com/hyperframes/pull/8084) fix(check): a number with a separator counts as one word in line reading time
-- [hyperframes #8083](https://github.com/heygen-com/hyperframes/pull/8083) fix(cli): a render that failed on a video file says to check the file, not to try Docker
 - [definitions #412](https://github.com/holidays/definitions/pull/412) Add kr Labour Day and make Constitution Day a holiday from 2026
 - [faker #2544](https://github.com/joke2k/faker/pull/2544) Generate ko_KR postcodes with assigned prefixes only
 - [citty #300](https://github.com/unjs/citty/pull/300) fix(usage): render aliases longer than one character with two dashes
 - [python-stdnum #530](https://github.com/arthurdejong/python-stdnum/pull/530) Accept South Korean RRNs given out since October 2020
 - [xterm.js #6330](https://github.com/xtermjs/xterm.js/pull/6330) Send a committed IME composition before the custom key handler sees the key
 - [date-holidays #728](https://github.com/commenthol/date-holidays/pull/728) fix(KR): add Labour Day as a public holiday from 2026
-- [faker #4276](https://github.com/faker-js/faker/pull/4276) fix(locale): use five-digit postcodes with assigned prefixes for ko
 - [awesome-claude-plugins #765](https://github.com/composio-community/awesome-claude-plugins/pull/765) Add brainres to Developer Productivity
 - [date-fns #4463](https://github.com/date-fns/date-fns/pull/4463) Fix ko locale long and full time formats pairing 오전/오후 with a 24-hour hour
 - [validator.js #2962](https://github.com/validatorjs/validator.js/pull/2962) fix(isPassportNumber): accept South Korea's next-generation passport numbers
