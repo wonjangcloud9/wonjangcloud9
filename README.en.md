@@ -34,16 +34,35 @@ Snap a photo of what you eat and a turtle coach named **Bibi** logs the calories
 
 ### AI game battles
 
-I ask an AI for a game in a few lines, play what it builds, and post the result on YouTube. Twice I gave two AIs the same one-line prompt and let them compete, and once the winner got an extra day. The code is published exactly as the AI wrote it. Click a picture and it runs in the browser. The games are in Korean.
+I ask an AI for a game in a few lines, play what it builds, and post the result on YouTube. Twice I gave two AIs the same one-line prompt and let them compete, and once the winner got an extra day. Lately I play the one-line first draft, tell the AI what felt off, and have it rebuild the same game a few times. The code is published exactly as the AI wrote it. Click a picture and it runs in the browser. The games are in Korean.
 
 <p align="center">
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/tile-aurora-fall-2.en.jpg" width="49%" alt="Aurora Fall 2, a 3D battle royale"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/tile-sundrift-gp.en.jpg" width="49%" alt="Sundrift GP, 3D kart racing"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/tile-lens-answer.en.jpg" width="49%" alt="The Answer in the Lens, an exam with AI glasses"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v3/"><img src="./assets/games/tile-twilight-front.en.jpg" width="49%" alt="Twilight Front, a 5v5 MOBA"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep06/v1/"><img src="./assets/games/tile-lantern-keeper.en.jpg" width="49%" alt="The Lantern Keeper, a 2D side-scrolling RPG"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/tile-seoul-632.en.jpg" width="49%" alt="Seoul, 632 years: the city growing in 3D since 1394"></a>
 </p>
 
 <p align="center"><sub>November 2026 · no-build HTML · PC keyboard and mouse · <a href="https://wonjangcloud9.github.io/ai-game-battle/">see all of them, including the ones GPT-6 made</a> · <a href="https://github.com/wonjangcloud9/ai-game-battle">code</a></sub></p>
+
+<br>
+
+### Custo
+
+<p align="center">
+  <a href="https://custo-kr.vercel.app/"><img src="./assets/custo/banner.jpg" width="100%" alt="Custo, a CUTIE STREET fan hub: kawaii, all the way to the world"></a>
+</p>
+
+An unofficial fan site for Korean fans of the Japanese idol group CUTIE STREET. It gathers the members, videos, schedule, discography and TV appearances in one place, and every six hours it rechecks the official news and schedule and updates itself. There's also a 3D story that tells the road from debut to NHK's Kohaku as a climb up Mount Fuji, and a globe that fills in each place the group has performed. It started in April as a site for learning Japanese, and I rebuilt it as a fan site in November. The site is in Korean.
+
+<p align="center">
+  <a href="https://custo-kr.vercel.app/journey/"><img src="./assets/custo/journey.jpg" width="49%" alt="Journey to the top: a 3D story of the road from debut to Kohaku as a climb up Mount Fuji"></a>
+  <a href="https://custo-kr.vercel.app/world/"><img src="./assets/custo/world.jpg" width="49%" alt="World map: a globe that fills in each place the group has performed"></a>
+</p>
+
+<p align="center"><sub>November 2026 · VitePress · Vue 3 · three.js · d3 · about 550 videos · member photos only as official embeds · <a href="https://github.com/wonjangcloud9/custo">code</a></sub></p>
 
 <br>
 
@@ -89,8 +108,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-aa9d0d3069.svg">
-  <img src="./assets/dashboard-light-aa9d0d3069.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-8d90d1ad9a.svg">
+  <img src="./assets/dashboard-light-8d90d1ad9a.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
 </picture>
 </div>
 
@@ -115,8 +134,8 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,889 commits</sub></td><td>
-Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened six of them. <b>My highest-commit year, and it's only November.</b>
+<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,898 commits</sub></td><td>
+Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened ten of them, and rebuilt Custo as a CUTIE STREET fan site. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
 
@@ -131,7 +150,7 @@ Shipped agent tools to npm and PyPI. In September I opened eight web services in
 |---|---|---|
 | 🤖 **Agents & LLMs** | 26 | Following courses → writing my own → **four packages on npm and PyPI** |
 | 🏃 **Weight & fitness** | 11 | The eleventh, vibing, is the first to reach the App Store. The first ten taught me what to cut |
-| 🎌 **Fandom & Japanese** | 7 | Consolidated into [custo](https://wonjangcloud9.github.io/custo/) |
+| 🎌 **Fandom & Japanese** | 7 | Consolidated into [Custo](https://custo-kr.vercel.app/), now a CUTIE STREET fan site |
 | ⏱️ **Pomodoro** | 6 | One per new framework I picked up |
 | 🎵 **TikTok clones** | 3 | Where I actually learned Flutter animations |
 | 😴 **Sleep** | 3 | [Jammanbo](https://life-save-with-claude-code-multi-se.vercel.app) is the one that stuck |
@@ -316,5 +335,5 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
   <img src="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-light.svg" alt="A snake eating my contribution graph">
 </picture>
 
-<sub>195 of my 357 repos are private because they hold keys or personal data. The numbers above include private commits.</sub>
+<sub>196 of my 358 repos are private because they hold keys or personal data. The numbers above include private commits.</sub>
 </div>

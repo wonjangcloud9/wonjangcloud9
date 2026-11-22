@@ -34,16 +34,35 @@
 
 ### AI 게임 대결
 
-AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 본 뒤 유튜브에 올립니다. 같은 한 줄을 두 AI에게 줘서 겨루게 한 적도 있고, 이긴 쪽에 하루를 더 준 적도 있습니다. 코드는 AI가 쓴 그대로 올려 뒀습니다. 그림을 누르면 브라우저에서 바로 됩니다.
+AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 본 뒤 유튜브에 올립니다. 같은 한 줄을 두 AI에게 줘서 겨루게 한 적도 있고, 이긴 쪽에 하루를 더 준 적도 있습니다. 요즘은 한 줄로 받은 초안을 직접 해 보고, 아쉬운 점을 말해서 같은 게임을 몇 번씩 다시 만들게 합니다. 코드는 AI가 쓴 그대로 올려 뒀습니다. 그림을 누르면 브라우저에서 바로 됩니다.
 
 <p align="center">
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/tile-aurora-fall-2.jpg" width="49%" alt="오로라 폴 2, 3D 배틀로얄"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/tile-sundrift-gp.jpg" width="49%" alt="선드리프트 GP, 3D 카트 레이싱"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/tile-lens-answer.jpg" width="49%" alt="렌즈 속 정답, AI 안경 끼고 시험 보기"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v3/"><img src="./assets/games/tile-twilight-front.jpg" width="49%" alt="어스름 전선, 5대5 AOS"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep06/v1/"><img src="./assets/games/tile-lantern-keeper.jpg" width="49%" alt="등불지기, 2D 횡스크롤 RPG"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/tile-seoul-632.jpg" width="49%" alt="서울 632년, 1394년부터 자라는 서울 3D"></a>
 </p>
 
 <p align="center"><sub>2026년 11월 · 빌드 없는 HTML · PC 키보드와 마우스 · <a href="https://wonjangcloud9.github.io/ai-game-battle/">GPT-6가 만든 쪽까지 전부 보기</a> · <a href="https://github.com/wonjangcloud9/ai-game-battle">코드</a></sub></p>
+
+<br>
+
+### Custo
+
+<p align="center">
+  <a href="https://custo-kr.vercel.app/"><img src="./assets/custo/banner.jpg" width="100%" alt="Custo — 큐티스트리트 팬허브, 귀여움으로 세계까지"></a>
+</p>
+
+일본 아이돌 큐티스트리트(CUTIE STREET)를 좋아하는 한국 팬을 위한 비공식 팬페이지입니다. 멤버, 영상, 스케줄, 디스코그래피, 방송 출연 기록을 한곳에 모았고, 여섯 시간마다 공식 소식과 일정을 다시 확인해서 고칩니다. 데뷔부터 홍백가합전까지를 후지산 등반에 빗댄 3D 스토리와, 공연한 곳을 하나씩 칠해 가는 지구본도 있습니다. 4월에 일본어 공부 사이트로 시작했다가 11월에 팬페이지로 다시 지었습니다.
+
+<p align="center">
+  <a href="https://custo-kr.vercel.app/journey/"><img src="./assets/custo/journey.jpg" width="49%" alt="정상까지의 여정, 데뷔부터 홍백까지를 후지산 등반으로 보는 3D 스토리"></a>
+  <a href="https://custo-kr.vercel.app/world/"><img src="./assets/custo/world.jpg" width="49%" alt="큐스트 월드맵, 공연한 곳을 칠해 가는 지구본"></a>
+</p>
+
+<p align="center"><sub>2026년 11월 · VitePress · Vue 3 · three.js · d3 · 영상 550여 편 · 멤버 사진은 공식 임베드만 · <a href="https://github.com/wonjangcloud9/custo">코드</a></sub></p>
 
 <br>
 
@@ -89,8 +108,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-aa9d0d3069.svg">
-  <img src="./assets/dashboard-light-aa9d0d3069.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-8d90d1ad9a.svg">
+  <img src="./assets/dashboard-light-8d90d1ad9a.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
 </picture>
 </div>
 
@@ -115,8 +134,8 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,889</sub></td><td>
-에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 여섯 개를 열었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
+<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,898</sub></td><td>
+에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 열 개를 열었고, 큐티스트리트 팬페이지 Custo를 다시 지었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
 
@@ -131,7 +150,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 |---|---|---|
 | 🤖 **에이전트·LLM** | 26개 | 강의 따라하기 → 직접 짜기 → **npm·PyPI 배포 4개** |
 | 🏃 **감량·운동** | 11개 | 열한 번째 vibing이 처음으로 앱스토어까지 갔습니다. 앞의 열 개가 뭘 빼야 하는지 알려줬습니다 |
-| 🎌 **덕질·일본어** | 7개 | [custo](https://wonjangcloud9.github.io/custo/)로 정리됐습니다 |
+| 🎌 **덕질·일본어** | 7개 | [Custo](https://custo-kr.vercel.app/)로 정리됐습니다. 지금은 큐티스트리트 팬페이지입니다 |
 | ⏱️ **포모도로** | 6개 | 새 프레임워크를 배울 때마다 하나씩 |
 | 🎵 **틱톡 클론** | 3개 | Flutter 애니메이션은 여기서 익혔습니다 |
 | 😴 **수면** | 3개 | [잠만보](https://life-save-with-claude-code-multi-se.vercel.app)가 남았습니다 |
@@ -316,5 +335,5 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
   <img src="https://raw.githubusercontent.com/wonjangcloud9/wonjangcloud9/output/snake-light.svg" alt="잔디를 먹어치우는 뱀">
 </picture>
 
-<sub>레포 357개 중 195개는 비공개입니다. 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
+<sub>레포 358개 중 196개는 비공개입니다. 키나 개인 데이터가 들어 있어서요. 위 숫자는 비공개 커밋을 포함합니다.</sub>
 </div>
