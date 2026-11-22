@@ -40,7 +40,7 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/tile-aurora-fall-2.jpg" width="49%" alt="오로라 폴 2, 3D 배틀로얄"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/tile-sundrift-gp.jpg" width="49%" alt="선드리프트 GP, 3D 카트 레이싱"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/tile-lens-answer.jpg" width="49%" alt="렌즈 속 정답, AI 안경 끼고 시험 보기"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v3/"><img src="./assets/games/tile-twilight-front.jpg" width="49%" alt="어스름 전선, 5대5 AOS"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v4/"><img src="./assets/games/tile-twilight-front.jpg" width="49%" alt="어스름 전선, 5대5 AOS"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep06/v1/"><img src="./assets/games/tile-lantern-keeper.jpg" width="49%" alt="등불지기, 2D 횡스크롤 RPG"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/tile-seoul-632.jpg" width="49%" alt="서울 632년, 1394년부터 자라는 서울 3D"></a>
 </p>
@@ -108,8 +108,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-2213eb1829.svg">
-  <img src="./assets/dashboard-light-2213eb1829.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-3a09d4dedd.svg">
+  <img src="./assets/dashboard-light-3a09d4dedd.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
 </picture>
 </div>
 
@@ -300,7 +300,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,899</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,901</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 열 개를 열었고, 큐티스트리트 팬페이지 Custo를 다시 지었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>

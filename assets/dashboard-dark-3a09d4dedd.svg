@@ -21,9 +21,9 @@
 
   <text x="48" y="134" class="big">358</text>
   <text x="48" y="157" class="cap">레포 · 공개 162</text>
-  <text x="182" y="134" class="big">10,526</text>
+  <text x="182" y="134" class="big">10,528</text>
   <text x="182" y="157" class="cap">커밋 · 비공개 포함</text>
-  <text x="316" y="134" class="big" fill="#D97757">4,899</text>
+  <text x="316" y="134" class="big" fill="#D97757">4,901</text>
   <text x="316" y="157" class="cap">올해 커밋</text>
   <text x="450" y="134" class="big" fill="#3fb950">23</text>
   <text x="450" y="157" class="cap">연속 기록 · 일</text>

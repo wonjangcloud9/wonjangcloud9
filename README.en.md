@@ -40,7 +40,7 @@ I ask an AI for a game in a few lines, play what it builds, and post the result 
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/tile-aurora-fall-2.en.jpg" width="49%" alt="Aurora Fall 2, a 3D battle royale"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/tile-sundrift-gp.en.jpg" width="49%" alt="Sundrift GP, 3D kart racing"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/tile-lens-answer.en.jpg" width="49%" alt="The Answer in the Lens, an exam with AI glasses"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v3/"><img src="./assets/games/tile-twilight-front.en.jpg" width="49%" alt="Twilight Front, a 5v5 MOBA"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v4/"><img src="./assets/games/tile-twilight-front.en.jpg" width="49%" alt="Twilight Front, a 5v5 MOBA"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep06/v1/"><img src="./assets/games/tile-lantern-keeper.en.jpg" width="49%" alt="The Lantern Keeper, a 2D side-scrolling RPG"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/tile-seoul-632.en.jpg" width="49%" alt="Seoul, 632 years: the city growing in 3D since 1394"></a>
 </p>
@@ -108,8 +108,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-2213eb1829.svg">
-  <img src="./assets/dashboard-light-2213eb1829.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects, open-source contributions" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-3a09d4dedd.svg">
+  <img src="./assets/dashboard-light-3a09d4dedd.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects, open-source contributions" width="100%">
 </picture>
 </div>
 
@@ -300,7 +300,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,899 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,901 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened ten of them, and rebuilt Custo as a CUTIE STREET fan site. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>
