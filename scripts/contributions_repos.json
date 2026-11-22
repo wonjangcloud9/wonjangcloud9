@@ -23,5 +23,7 @@
   "mledoze/countries": {"ko": "세계 나라 정보(이름·수도·통화·번역)를 JSON·CSV·XML·YAML로 담은 데이터 모음", "en": "World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML"},
   "kylekatarnls/business-day": {"ko": "날짜 라이브러리 Carbon에 영업일·공휴일 계산을 더해 주는 PHP 확장", "en": "PHP extension that adds business-day and holiday calculations to the Carbon date library"},
   "element-plus/element-plus": {"ko": "Vue 3용 UI 컴포넌트 라이브러리 (TypeScript)", "en": "UI component library for Vue 3 (TypeScript)"},
-  "AfterShip/phone": {"ko": "휴대폰 번호를 검사하고 국제 표기(+82…)로 맞춰 주는 라이브러리 (TypeScript)", "en": "Validates mobile phone numbers and normalizes them to E.164 (TypeScript)"}
+  "AfterShip/phone": {"ko": "휴대폰 번호를 검사하고 국제 표기(+82…)로 맞춰 주는 라이브러리 (TypeScript)", "en": "Validates mobile phone numbers and normalizes them to E.164 (TypeScript)"},
+  "mui/mui-x": {"ko": "MUI의 고급 React 컴포넌트 모음 (데이터 그리드·날짜 선택기·차트)", "en": "MUI's advanced React components (Data Grid, Date Pickers, Charts)"},
+  "lk-geimfari/mimesis": {"ko": "테스트용 가짜 데이터를 여러 언어로 만들어 주는 Python 라이브러리", "en": "Python library that generates fake test data in many locales"}
 }
