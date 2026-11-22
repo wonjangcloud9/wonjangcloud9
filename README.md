@@ -108,65 +108,16 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-8d90d1ad9a.svg">
-  <img src="./assets/dashboard-light-8d90d1ad9a.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-2213eb1829.svg">
+  <img src="./assets/dashboard-light-2213eb1829.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
 </picture>
 </div>
 
-<br>
-
-<table>
-<tr><td width="92" align="center"><b>2019</b><br><sub>레포 2</sub></td><td>
-첫 커밋. 코코아톡과 넷플릭스를 따라 만들면서 시작했습니다.
-</td></tr>
-<tr><td align="center"><b>2020–21</b><br><sub>커밋 385</sub></td><td>
-깃허브를 쓰지 않던 시기. 중요한 줄 몰라서 코드가 로컬에만 쌓였습니다. 2020년 커밋 <b>0개</b>.
-</td></tr>
-<tr><td align="center"><b>2022</b><br><sub>레포 91</sub><br><sub>커밋 1,160</sub></td><td>
-React·Next.js·Django. 당근마켓, 에어비앤비, 트위터를 클론하며 한 달에 8개씩 레포를 열었습니다.
-</td></tr>
-<tr><td align="center"><b>2023</b><br><sub>레포 116</sub><br><sub>커밋 1,894</sub></td><td>
-<b>역대 최다 레포.</b> Flutter·React Native·Jetpack Compose를 동시에 다뤘고, 처음으로 제품을 시도했습니다. 화장실 찾기, 교육 LMS, 민원 처리, AI 컴패니언이었습니다.
-</td></tr>
-<tr><td align="center"><b>2024</b><br><sub>레포 48</sub><br><sub>커밋 1,314</sub></td><td>
-LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
-</td></tr>
-<tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
-건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
-</td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,898</sub></td><td>
-에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 열 개를 열었고, 큐티스트리트 팬페이지 Custo를 다시 지었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
-</td></tr>
-</table>
-
-## 오래 매달렸던 주제
-
-<details>
-<summary><b>주제별로 몇 개, 어디까지 갔나</b></summary>
-
-<br>
-
-| 주제 | 레포 | 어디까지 갔나 |
-|---|---|---|
-| 🤖 **에이전트·LLM** | 26개 | 강의 따라하기 → 직접 짜기 → **npm·PyPI 배포 4개** |
-| 🏃 **감량·운동** | 11개 | 열한 번째 vibing이 처음으로 앱스토어까지 갔습니다. 앞의 열 개가 뭘 빼야 하는지 알려줬습니다 |
-| 🎌 **덕질·일본어** | 7개 | [Custo](https://custo-kr.vercel.app/)로 정리됐습니다. 지금은 큐티스트리트 팬페이지입니다 |
-| ⏱️ **포모도로** | 6개 | 새 프레임워크를 배울 때마다 하나씩 |
-| 🎵 **틱톡 클론** | 3개 | Flutter 애니메이션은 여기서 익혔습니다 |
-| 😴 **수면** | 3개 | [잠만보](https://life-save-with-claude-code-multi-se.vercel.app)가 남았습니다 |
-
-한 주제를 오래 붙잡는 편입니다.
-
-</details>
-
-## 쓰는 것
-
-TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supabase · PostgreSQL · three.js · Claude Code
-
-<br>
-
 <!-- contributions:start -->
-## 오픈소스에 보탠 것
+<details>
+<summary><b>오픈소스에 보탠 것 하나씩 보기</b></summary>
+
+<br>
 
 쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 27곳에 PR 66개와 이슈 14개를 냈고, 그중 20개가 머지됐습니다.
 
@@ -325,7 +276,58 @@ TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supa
 
 </details>
 
+</details>
 <!-- contributions:end -->
+
+<br>
+
+<table>
+<tr><td width="92" align="center"><b>2019</b><br><sub>레포 2</sub></td><td>
+첫 커밋. 코코아톡과 넷플릭스를 따라 만들면서 시작했습니다.
+</td></tr>
+<tr><td align="center"><b>2020–21</b><br><sub>커밋 385</sub></td><td>
+깃허브를 쓰지 않던 시기. 중요한 줄 몰라서 코드가 로컬에만 쌓였습니다. 2020년 커밋 <b>0개</b>.
+</td></tr>
+<tr><td align="center"><b>2022</b><br><sub>레포 91</sub><br><sub>커밋 1,160</sub></td><td>
+React·Next.js·Django. 당근마켓, 에어비앤비, 트위터를 클론하며 한 달에 8개씩 레포를 열었습니다.
+</td></tr>
+<tr><td align="center"><b>2023</b><br><sub>레포 116</sub><br><sub>커밋 1,894</sub></td><td>
+<b>역대 최다 레포.</b> Flutter·React Native·Jetpack Compose를 동시에 다뤘고, 처음으로 제품을 시도했습니다. 화장실 찾기, 교육 LMS, 민원 처리, AI 컴패니언이었습니다.
+</td></tr>
+<tr><td align="center"><b>2024</b><br><sub>레포 48</sub><br><sub>커밋 1,314</sub></td><td>
+LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
+</td></tr>
+<tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
+건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
+</td></tr>
+<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,899</sub></td><td>
+에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 열 개를 열었고, 큐티스트리트 팬페이지 Custo를 다시 지었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
+</td></tr>
+</table>
+
+## 오래 매달렸던 주제
+
+<details>
+<summary><b>주제별로 몇 개, 어디까지 갔나</b></summary>
+
+<br>
+
+| 주제 | 레포 | 어디까지 갔나 |
+|---|---|---|
+| 🤖 **에이전트·LLM** | 26개 | 강의 따라하기 → 직접 짜기 → **npm·PyPI 배포 4개** |
+| 🏃 **감량·운동** | 11개 | 열한 번째 vibing이 처음으로 앱스토어까지 갔습니다. 앞의 열 개가 뭘 빼야 하는지 알려줬습니다 |
+| 🎌 **덕질·일본어** | 7개 | [Custo](https://custo-kr.vercel.app/)로 정리됐습니다. 지금은 큐티스트리트 팬페이지입니다 |
+| ⏱️ **포모도로** | 6개 | 새 프레임워크를 배울 때마다 하나씩 |
+| 🎵 **틱톡 클론** | 3개 | Flutter 애니메이션은 여기서 익혔습니다 |
+| 😴 **수면** | 3개 | [잠만보](https://life-save-with-claude-code-multi-se.vercel.app)가 남았습니다 |
+
+한 주제를 오래 붙잡는 편입니다.
+
+</details>
+
+## 쓰는 것
+
+TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supabase · PostgreSQL · three.js · Claude Code
 
 <br>
 

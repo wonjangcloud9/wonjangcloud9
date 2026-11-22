@@ -108,65 +108,16 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-8d90d1ad9a.svg">
-  <img src="./assets/dashboard-light-8d90d1ad9a.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-2213eb1829.svg">
+  <img src="./assets/dashboard-light-2213eb1829.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects, open-source contributions" width="100%">
 </picture>
 </div>
 
-<br>
-
-<table>
-<tr><td width="92" align="center"><b>2019</b><br><sub>2 repos</sub></td><td>
-First commit. I started by cloning KakaoTalk and Netflix.
-</td></tr>
-<tr><td align="center"><b>2020–21</b><br><sub>385 commits</sub></td><td>
-The years I didn't use GitHub. I didn't know it mattered, so the code stayed on my laptop. <b>Zero commits in 2020.</b>
-</td></tr>
-<tr><td align="center"><b>2022</b><br><sub>91 repos</sub><br><sub>1,160 commits</sub></td><td>
-React, Next.js and Django. I cloned Karrot Market, Airbnb and Twitter, eight repos a month.
-</td></tr>
-<tr><td align="center"><b>2023</b><br><sub>116 repos</sub><br><sub>1,894 commits</sub></td><td>
-<b>My busiest year for repos.</b> Flutter, React Native and Jetpack Compose at once, plus my first real product attempts: a toilet finder, an education LMS, a complaint tracker and an AI companion.
-</td></tr>
-<tr><td align="center"><b>2024</b><br><sub>48 repos</sub><br><sub>1,314 commits</sub></td><td>
-LangChain and RAG put an LLM in a product for the first time.
-</td></tr>
-<tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
-Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
-</td></tr>
-<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,898 commits</sub></td><td>
-Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened ten of them, and rebuilt Custo as a CUTIE STREET fan site. <b>My highest-commit year, and it's only November.</b>
-</td></tr>
-</table>
-
-## Subjects I kept coming back to
-
-<details>
-<summary><b>How many repos each, and how far they got</b></summary>
-
-<br>
-
-| Subject | Repos | How far it got |
-|---|---|---|
-| 🤖 **Agents & LLMs** | 26 | Following courses → writing my own → **four packages on npm and PyPI** |
-| 🏃 **Weight & fitness** | 11 | The eleventh, vibing, is the first to reach the App Store. The first ten taught me what to cut |
-| 🎌 **Fandom & Japanese** | 7 | Consolidated into [Custo](https://custo-kr.vercel.app/), now a CUTIE STREET fan site |
-| ⏱️ **Pomodoro** | 6 | One per new framework I picked up |
-| 🎵 **TikTok clones** | 3 | Where I actually learned Flutter animations |
-| 😴 **Sleep** | 3 | [Jammanbo](https://life-save-with-claude-code-multi-se.vercel.app) is the one that stuck |
-
-I tend to stay on one subject for a long time.
-
-</details>
-
-## Tools
-
-TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supabase · PostgreSQL · three.js · Claude Code
-
-<br>
-
 <!-- contributions:start -->
-## Contributions to other people's projects
+<details>
+<summary><b>Every pull request and issue I sent to other projects</b></summary>
+
+<br>
 
 Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 66 pull requests and 14 issues across 27 projects, 20 merged so far.
 
@@ -325,7 +276,58 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 
 </details>
 
+</details>
 <!-- contributions:end -->
+
+<br>
+
+<table>
+<tr><td width="92" align="center"><b>2019</b><br><sub>2 repos</sub></td><td>
+First commit. I started by cloning KakaoTalk and Netflix.
+</td></tr>
+<tr><td align="center"><b>2020–21</b><br><sub>385 commits</sub></td><td>
+The years I didn't use GitHub. I didn't know it mattered, so the code stayed on my laptop. <b>Zero commits in 2020.</b>
+</td></tr>
+<tr><td align="center"><b>2022</b><br><sub>91 repos</sub><br><sub>1,160 commits</sub></td><td>
+React, Next.js and Django. I cloned Karrot Market, Airbnb and Twitter, eight repos a month.
+</td></tr>
+<tr><td align="center"><b>2023</b><br><sub>116 repos</sub><br><sub>1,894 commits</sub></td><td>
+<b>My busiest year for repos.</b> Flutter, React Native and Jetpack Compose at once, plus my first real product attempts: a toilet finder, an education LMS, a complaint tracker and an AI companion.
+</td></tr>
+<tr><td align="center"><b>2024</b><br><sub>48 repos</sub><br><sub>1,314 commits</sub></td><td>
+LangChain and RAG put an LLM in a product for the first time.
+</td></tr>
+<tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
+Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
+</td></tr>
+<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,899 commits</sub></td><td>
+Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened ten of them, and rebuilt Custo as a CUTIE STREET fan site. <b>My highest-commit year, and it's only November.</b>
+</td></tr>
+</table>
+
+## Subjects I kept coming back to
+
+<details>
+<summary><b>How many repos each, and how far they got</b></summary>
+
+<br>
+
+| Subject | Repos | How far it got |
+|---|---|---|
+| 🤖 **Agents & LLMs** | 26 | Following courses → writing my own → **four packages on npm and PyPI** |
+| 🏃 **Weight & fitness** | 11 | The eleventh, vibing, is the first to reach the App Store. The first ten taught me what to cut |
+| 🎌 **Fandom & Japanese** | 7 | Consolidated into [Custo](https://custo-kr.vercel.app/), now a CUTIE STREET fan site |
+| ⏱️ **Pomodoro** | 6 | One per new framework I picked up |
+| 🎵 **TikTok clones** | 3 | Where I actually learned Flutter animations |
+| 😴 **Sleep** | 3 | [Jammanbo](https://life-save-with-claude-code-multi-se.vercel.app) is the one that stuck |
+
+I tend to stay on one subject for a long time.
+
+</details>
+
+## Tools
+
+TypeScript · Next.js · React · Capacitor · Python · Rust · Flutter · Supabase · PostgreSQL · three.js · Claude Code
 
 <br>
 

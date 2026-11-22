@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""README 맨 아래 '오픈소스에 보탠 것' 목록을 다시 만든다.
+"""README의 현황판(원장 실험실) 바로 아래에 접혀 있는 '오픈소스에 보탠 것' 목록을 다시 만든다.
 
     python3 scripts/contributions.py
 
@@ -9,8 +9,10 @@ gh로 남의 저장소에 낸 PR·이슈를 전부 가져와 README.md / README.
 없으면 원래 제목을 쓴다 (실행하면 빠진 항목을 알려 준다).
 저장소 한 줄 설명은 scripts/contributions_repos.json, 별 수는 실행할 때 가져온다.
 
-길어지지 않게 프로젝트 표는 위 TOP_REPOS곳, 머지된 것은 최근 RECENT_MERGED개만
-바로 보이고 나머지는 접힌다. EXCLUDE의 저장소는 목록에 넣지 않는다.
+숫자 요약(PR·머지·이슈, 위 세 곳)은 현황판 카드 안에 있고 scripts/dashboard.mjs가 그린다.
+여기서 만드는 건 그 아래 전체 목록이라 통째로 접어 둔다. 펼치면 프로젝트 표는
+위 TOP_REPOS곳, 머지된 것은 최근 RECENT_MERGED개만 바로 보이고 나머지는 한 번 더 접힌다.
+EXCLUDE의 저장소는 목록에 넣지 않는다 (고치면 dashboard.mjs의 OSS_EXCLUDE도 같이).
 """
 import functools
 import json
@@ -99,14 +101,14 @@ def block(rows, ko, texts, about):
     closed = [r for r in prs if r["state"] == "closed"]
     issues = [r for r in rows if r["kind"] == "issues"]
     repos = len({r["repo"] for r in rows})
-    out = [START]
+    out = [START, "<details>"]
     if ko:
-        out += ["## 오픈소스에 보탠 것", "",
+        out += ["<summary><b>오픈소스에 보탠 것 하나씩 보기</b></summary>", "", "<br>", "",
                 f"쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 {repos}곳에 PR {len(prs)}개와 이슈 {len(issues)}개를 냈고, 그중 {len(merged)}개가 머지됐습니다.", "",
                 *repo_table(rows, ko, about),
                 "**최근 머지된 것**", ""]
     else:
-        out += ["## Contributions to other people's projects", "",
+        out += ["<summary><b>Every pull request and issue I sent to other projects</b></summary>", "", "<br>", "",
                 f"Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. {len(prs)} pull requests and {len(issues)} issues across {repos} projects, {len(merged)} merged so far.", "",
                 *repo_table(rows, ko, about),
                 "**Recently merged**", ""]
@@ -116,7 +118,7 @@ def block(rows, ko, texts, about):
     out += fold(f"리뷰를 기다리는 PR {len(waiting)}개" if ko else f"{len(waiting)} pull requests in review", waiting, ko, texts)
     out += fold(f"알린 문제 {len(issues)}개" if ko else f"{len(issues)} issues reported", issues, ko, texts)
     out += fold(f"닫힌 PR {len(closed)}개" if ko else f"{len(closed)} closed pull requests", closed, ko, texts)
-    out += [END]
+    out += ["</details>", END]
     return "\n".join(out)
 
 

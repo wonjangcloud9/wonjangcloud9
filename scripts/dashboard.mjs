@@ -125,6 +125,63 @@ for (const r of repos) {
 const langs = Object.entries(langCount).sort((a, b) => b[1] - a[1]).slice(0, 7);
 const langTotal = langs.reduce((a, [, n]) => a + n, 0);
 
+// ── 3-2. 남의 저장소에 보탠 것 (PR·이슈) ─────────────────────
+// 세는 기준은 scripts/contributions.py와 같다: 내 저장소와 OSS_EXCLUDE는 뺀다.
+// 거기 EXCLUDE를 고치면 여기도 같이 고칠 것.
+const OSS_EXCLUDE = new Set(['nlutter-study/nlutter-study-2nd']);
+const OSS_TOP = 3;
+
+const ossFound = [];
+for (let page = 1; ; page++) {
+  const q = encodeURIComponent(`author:${USER} -user:${USER}`);
+  const res = await fetch(`https://api.github.com/search/issues?q=${q}&per_page=100&page=${page}`, {
+    headers: { Authorization: `bearer ${TOKEN}`, Accept: 'application/vnd.github+json' },
+  });
+  if (!res.ok) throw new Error(`기여 검색 실패: ${res.status} ${await res.text()}`);
+  const json = await res.json();
+  ossFound.push(...json.items);
+  if (json.items.length === 0 || ossFound.length >= json.total_count) break;
+}
+
+const ossByRepo = new Map();
+for (const it of ossFound) {
+  const repo = it.repository_url.split('/repos/')[1];
+  if (OSS_EXCLUDE.has(repo)) continue;
+  const row = ossByRepo.get(repo) ?? { repo, prs: 0, merged: 0, open: 0, issues: 0 };
+  if (it.pull_request) {
+    row.prs++;
+    if (it.pull_request.merged_at) row.merged++;
+    else if (it.state === 'open') row.open++;
+  } else {
+    row.issues++;
+  }
+  ossByRepo.set(repo, row);
+}
+const ossRepos = [...ossByRepo.values()];
+const sum = (key) => ossRepos.reduce((a, r) => a + r[key], 0);
+const oss = { repos: ossRepos.length, prs: sum('prs'), merged: sum('merged'), open: sum('open'), issues: sum('issues') };
+
+// 카드에 이름을 올릴 곳: 머지가 많은 순, 같으면 낸 것이 많은 순 (README 표와 같은 순서).
+// 별 수는 그 순서를 가르는 마지막 기준이라, 후보만 추려서 한 번에 묻는다.
+const ossRank = (a, b) => b.merged - a.merged || b.prs + b.issues - (a.prs + a.issues);
+const ossCandidates = ossRepos.sort(ossRank).slice(0, OSS_TOP * 3);
+if (ossCandidates.length) {
+  const starData = await gql(`{ ${ossCandidates
+    .map((r, i) => {
+      const [owner, name] = r.repo.split('/');
+      return `s${i}: repository(owner:"${owner}", name:"${name}"){ stargazerCount }`;
+    })
+    .join(' ')} }`);
+  ossCandidates.forEach((r, i) => (r.stars = starData[`s${i}`]?.stargazerCount ?? 0));
+}
+const ossTop = ossCandidates
+  .sort((a, b) => ossRank(a, b) || b.stars - a.stars || a.repo.toLowerCase().localeCompare(b.repo.toLowerCase()))
+  .slice(0, OSS_TOP);
+
+// README 표와 같은 표기: 88k, 6.3k, 411 / 저장소 이름이 너무 짧으면(kit) 주인까지 적는다.
+const starText = (n) => (n >= 10000 ? `${(n / 1000).toFixed(0)}k` : n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n));
+const ossName = (repo) => (repo.split('/')[1].length < 4 ? repo : repo.split('/')[1]);
+
 // ── 4. SVG 그리기 ────────────────────────────────────────────
 // 수직 리듬을 상수로 못박아 둔다. 눈대중으로 고치지 말 것.
 const W = 880;
@@ -161,7 +218,19 @@ const THEME_TRACK_W = 420;
 const THEME_NUM_X = THEME_TRACK_X + THEME_TRACK_W + 34; // 오른쪽 정렬 기준
 const THEME_YEAR_X = THEME_NUM_X + 22;
 
-const FOOT_Y = THEME_BAR_Y0 + THEME_STEP * counted.length + 30;
+// 오픈소스 기여 — 주제 막대 아래에 한 구역 더.
+// 왼쪽은 위 숫자 줄과 같은 칸(STAT_X)에 큰 숫자 셋, 오른쪽은 넷째 칸부터 프로젝트 이름.
+const THEME_END_Y = THEME_BAR_Y0 + THEME_STEP * (counted.length - 1) + THEME_BAR_H; // 마지막 막대 아랫변
+const RULE4_Y = THEME_END_Y + 26;
+const OSS_LABEL_Y = RULE4_Y + 28;
+const OSS_NUM_Y = OSS_LABEL_Y + 50;  // 큰 숫자 베이스라인
+const OSS_CAP_Y = OSS_NUM_Y + 23;    // 그 아래 설명 (위 숫자 줄과 같은 간격)
+const OSS_ROW_X = STAT_X[3];         // 프로젝트 이름
+const OSS_STAR_X = SPARK_X + 24;     // 별 수
+const OSS_ROW_Y0 = OSS_NUM_Y - 22;   // 첫 줄 베이스라인 — 세 줄이 숫자+설명 높이에 들어온다
+const OSS_ROW_STEP = 22;
+
+const FOOT_Y = OSS_CAP_Y + 44;
 const H = FOOT_Y + 26;
 
 const THEME_COLORS = {
@@ -238,6 +307,18 @@ function svg(mode) {
     })
     .join('');
 
+  // 오픈소스 기여 — 이름 · 별 수 · 낸 것 (오른쪽 끝 정렬)
+  const ossRows = ossTop
+    .map((r, i) => {
+      const y = OSS_ROW_Y0 + i * OSS_ROW_STEP;
+      const mine = [`PR ${r.prs}`, r.merged ? `머지 ${r.merged}` : '', r.issues ? `이슈 ${r.issues}` : ''].filter(Boolean).join(' · ');
+      return `
+    <text x="${OSS_ROW_X}" y="${y}" class="rowlbl">${esc(ossName(r.repo))}</text>
+    <text x="${OSS_STAR_X}" y="${y}" class="rowsub">★ ${starText(r.stars)}</text>
+    <text x="${W - PAD}" y="${y}" class="rowsub" text-anchor="end">${esc(mine)}</text>`;
+    })
+    .join('');
+
   const rule = (y) => `<line x1="${PAD}" y1="${y}" x2="${W - PAD}" y2="${y}" stroke="${t.line}"/>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Pretendard','Malgun Gothic','Segoe UI',sans-serif">
@@ -281,6 +362,16 @@ function svg(mode) {
   ${rule(RULE3_Y)}
   <text x="${PAD}" y="${THEME_LABEL_Y}" class="sec">오래 파고든 주제</text>
   ${bars}
+
+  ${rule(RULE4_Y)}
+  <text x="${PAD}" y="${OSS_LABEL_Y}" class="sec">오픈소스에 보탠 것 · 남의 저장소 ${oss.repos}곳</text>
+  <text x="${STAT_X[0]}" y="${OSS_NUM_Y}" class="big">${fmt(oss.prs)}</text>
+  <text x="${STAT_X[0]}" y="${OSS_CAP_Y}" class="cap">보낸 PR · 리뷰 대기 ${oss.open}</text>
+  <text x="${STAT_X[1]}" y="${OSS_NUM_Y}" class="big" fill="#3fb950">${fmt(oss.merged)}</text>
+  <text x="${STAT_X[1]}" y="${OSS_CAP_Y}" class="cap">머지된 PR</text>
+  <text x="${STAT_X[2]}" y="${OSS_NUM_Y}" class="big">${fmt(oss.issues)}</text>
+  <text x="${STAT_X[2]}" y="${OSS_CAP_Y}" class="cap">알린 문제</text>
+  ${ossRows}
 
   <text x="${PAD}" y="${FOOT_Y}" class="foot">최장 연속 ${longestStreak}일  ·  지금 만드는 것 · vibing, AI 게임 대결, Custo</text>
 </svg>
