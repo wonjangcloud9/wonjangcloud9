@@ -40,8 +40,8 @@ I ask an AI for a game in a few lines, play what it builds, and post the result 
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/tile-aurora-fall-2.en.jpg" width="49%" alt="Aurora Fall 2, a 3D battle royale"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/tile-sundrift-gp.en.jpg" width="49%" alt="Sundrift GP, 3D kart racing"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/tile-lens-answer.en.jpg" width="49%" alt="The Answer in the Lens, an exam with AI glasses"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v4/"><img src="./assets/games/tile-twilight-front.en.jpg" width="49%" alt="Twilight Front, a 5v5 MOBA"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep06/v1/"><img src="./assets/games/tile-lantern-keeper.en.jpg" width="49%" alt="The Lantern Keeper, a 2D side-scrolling RPG"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v13/"><img src="./assets/games/tile-twilight-front.en.jpg" width="49%" alt="Twilight Front, a 5v5 MOBA"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep06/v14/"><img src="./assets/games/tile-lantern-keeper.en.jpg" width="49%" alt="The Lantern Keeper, a 2D side-scrolling RPG"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/tile-seoul-632.en.jpg" width="49%" alt="Seoul, 632 years: the city growing in 3D since 1394"></a>
 </p>
 
@@ -108,8 +108,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-3a09d4dedd.svg">
-  <img src="./assets/dashboard-light-3a09d4dedd.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects, open-source contributions" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-c0a28f0573.svg">
+  <img src="./assets/dashboard-light-c0a28f0573.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects, open-source contributions" width="100%">
 </picture>
 </div>
 
@@ -119,40 +119,43 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <br>
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 66 pull requests and 14 issues across 27 projects, 20 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 72 pull requests and 14 issues across 30 projects, 23 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 88k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;34<br>16&nbsp;merged<br>8&nbsp;issues |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 89k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;34<br>16&nbsp;merged<br>8&nbsp;issues |
+| **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | Generates fake test data such as names, addresses and phone numbers, per locale (TypeScript) | PR&nbsp;2<br>2&nbsp;merged |
+| **[mui-x](https://github.com/mui/mui-x)**<br><sub>★ 5.9k</sub> | MUI's advanced React components (Data Grid, Date Pickers, Charts) | PR&nbsp;3<br>1&nbsp;merged |
 | **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 411</sub> | PHP library that calculates public holidays per country | PR&nbsp;3<br>1&nbsp;merged |
-| **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | Generates fake test data such as names, addresses and phone numbers, per locale (TypeScript) | PR&nbsp;2<br>1&nbsp;merged |
 | **[business-day](https://github.com/kylekatarnls/business-day)**<br><sub>★ 405</sub> | PHP extension that adds business-day and holiday calculations to the Carbon date library | PR&nbsp;2<br>1&nbsp;merged |
-| **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML | PR&nbsp;1<br>1&nbsp;merged |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 265k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
+| **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | UI component library for Vue 3 (TypeScript) | PR&nbsp;1<br>1&nbsp;merged |
 
 <details>
-<summary><b>21 more projects</b></summary>
+<summary><b>24 more projects</b></summary>
 
 <br>
 
 | Project | What it is | Mine |
 |---|---|---|
+| **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML | PR&nbsp;1<br>1&nbsp;merged |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 266k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR&nbsp;2 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2&nbsp;issues |
+| **[countries](https://github.com/countries/countries)**<br><sub>★ 2.4k</sub> | Ruby library with ISO country data: codes, currencies and phone number rules (Ruby) | PR&nbsp;2 |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;2 |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2&nbsp;issues |
+| **[memos](https://github.com/usememos/memos)**<br><sub>★ 65k</sub> | Open-source self-hosted note-taking app that collects your thoughts in a personal timeline (Go) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | Framework and build service for Android, iOS and web apps in React | 1&nbsp;issue |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | Date utility library: arithmetic, formatting and parsing, with locales (TypeScript) | PR&nbsp;1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5, YouTube and Vimeo media player (JavaScript) | 1&nbsp;issue |
-| **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | UI component library for Vue 3 (TypeScript) | PR&nbsp;1 |
 | **[xterm.js](https://github.com/xtermjs/xterm.js)**<br><sub>★ 21k</sub> | Web terminal library behind the terminals in VS Code, Cursor and other apps (TypeScript) | PR&nbsp;1 |
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte's full-stack web framework: routing, SSR, redirects | PR&nbsp;1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR&nbsp;1 |
 | **[faker](https://github.com/joke2k/faker)**<br><sub>★ 20k</sub> | Python library that generates fake test data such as names, addresses and phone numbers, per locale | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR&nbsp;1 |
 | **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 11k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
-| **[mui-x](https://github.com/mui/mui-x)**<br><sub>★ 5.9k</sub> | MUI's advanced React components (Data Grid, Date Pickers, Charts) | PR&nbsp;1 |
 | **[mimesis](https://github.com/lk-geimfari/mimesis)**<br><sub>★ 4.9k</sub> | Python library that generates fake test data in many locales | PR&nbsp;1 |
+| **[Spoolman](https://github.com/Donkie/Spoolman)**<br><sub>★ 3.1k</sub> | Self-hosted inventory tracker for 3D-printer filament spools (Python) | PR&nbsp;1 |
 | **[citty](https://github.com/unjs/citty)**<br><sub>★ 1.4k</sub> | Lightweight CLI builder from unjs (Nuxt ecosystem): argument parsing and usage text (TypeScript) | PR&nbsp;1 |
 | **[date-holidays](https://github.com/commenthol/date-holidays)**<br><sub>★ 1.1k</sub> | Library that computes public holidays by country and region, including lunar festivals and substitute-holiday rules (JavaScript) | PR&nbsp;1 |
 | **[phone](https://github.com/AfterShip/phone)**<br><sub>★ 922</sub> | Validates mobile phone numbers and normalizes them to E.164 (TypeScript) | PR&nbsp;1 |
@@ -163,17 +166,20 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 
 **Recently merged**
 
+- [mui-x #24295](https://github.com/mui/mui-x/pull/24295) [l10n] Improve Korean (ko-KR) locale
+- [element-plus #25109](https://github.com/element-plus/element-plus/pull/25109) fix(locale): [ko] translate missing strings
 - [business-day #165](https://github.com/kylekatarnls/business-day/pull/165) Add Korean substitute holidays, Labor Day and Constitution Day
+- [faker #4279](https://github.com/faker-js/faker/pull/4279) fix(locale): replace Gwangju and South Jeolla with the Jeonnam-Gwangju special city for ko
 - [hyperframes #8261](https://github.com/heygen-com/hyperframes/pull/8261) docs(skills): give the 9:16 safe band that `check` enforces
-- [countries #613](https://github.com/mledoze/countries/pull/613) Fix Korean translations copied from other countries (IO, DM, GS) and update TR, MN, SO
-- [holidays #359](https://github.com/spatie/holidays/pull/359) Fix Korea's Christmas date (December 25, not 15)
-- [hyperframes #8084](https://github.com/heygen-com/hyperframes/pull/8084) fix(check): a number with a separator counts as one word in line reading time
 
 <details>
-<summary><b>15 earlier merged pull requests</b></summary>
+<summary><b>18 earlier merged pull requests</b></summary>
 
 <br>
 
+- [countries #613](https://github.com/mledoze/countries/pull/613) Fix Korean translations copied from other countries (IO, DM, GS) and update TR, MN, SO
+- [holidays #359](https://github.com/spatie/holidays/pull/359) Fix Korea's Christmas date (December 25, not 15)
+- [hyperframes #8084](https://github.com/heygen-com/hyperframes/pull/8084) fix(check): a number with a separator counts as one word in line reading time
 - [hyperframes #8083](https://github.com/heygen-com/hyperframes/pull/8083) fix(cli): a render that failed on a video file says to check the file, not to try Docker
 - [hyperframes #7954](https://github.com/heygen-com/hyperframes/pull/7954) fix(check): a media source that failed to load is not reported as a timeout
 - [hyperframes #7953](https://github.com/heygen-com/hyperframes/pull/7953) fix(cli): help shows each option's default once
@@ -193,18 +199,21 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 </details>
 
 <details>
-<summary><b>43 pull requests in review</b></summary>
+<summary><b>46 pull requests in review</b></summary>
 
 <br>
 
+- [countries #977](https://github.com/countries/countries/pull/977) Update South Korean subdivisions: Gangwon (KR-42), Jeonbuk (KR-45), Sejong (KR-50)
+- [countries #976](https://github.com/countries/countries/pull/976) Allow 10-digit national numbers for South Korea (KR)
+- [memos #6616](https://github.com/usememos/memos/pull/6616) chore(i18n): translate the remaining English strings in Korean
+- [mui-x #24308](https://github.com/mui/mui-x/pull/24308) [l10n][charts] Add Korean (ko-KR) locale
+- [Spoolman #1339](https://github.com/Donkie/Spoolman/pull/1339) Keep the label sort toggle on one line in CJK and Thai
+- [mui-x #24303](https://github.com/mui/mui-x/pull/24303) [l10n][scheduler] Improve Korean (ko-KR) locale
 - [mimesis #1768](https://github.com/lk-geimfari/mimesis/pull/1768) fix(ko): use the current names of South Korea's first-level regions
-- [mui-x #24295](https://github.com/mui/mui-x/pull/24295) [l10n] Improve Korean (ko-KR) locale
 - [business-day #166](https://github.com/kylekatarnls/business-day/pull/166) Use the Korean lunar calendar for Korean lunar holidays
 - [phone #470](https://github.com/AfterShip/phone/pull/470) Update South Korea to 010-only mobile numbers
-- [element-plus #25109](https://github.com/element-plus/element-plus/pull/25109) fix(locale): [ko] translate missing strings
 - [holidays #361](https://github.com/spatie/holidays/pull/361) Use the Korean lunar calendar for Korea's lunar holidays
 - [holidays #360](https://github.com/spatie/holidays/pull/360) Add Korea's substitute holidays and the 2026 Labour Day and Constitution Day
-- [faker #4279](https://github.com/faker-js/faker/pull/4279) fix(locale): replace Gwangju and South Jeolla with the Jeonnam-Gwangju special city for ko
 - [validator.js #2963](https://github.com/validatorjs/validator.js/pull/2963) fix(isMobilePhone): reject pipes in ko-KR numbers
 - [definitions #412](https://github.com/holidays/definitions/pull/412) Add kr Labour Day and make Constitution Day a holiday from 2026
 - [faker #2544](https://github.com/joke2k/faker/pull/2544) Generate ko_KR postcodes with assigned prefixes only
@@ -300,7 +309,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,901 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,938 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened ten of them, and rebuilt Custo as a CUTIE STREET fan site. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>

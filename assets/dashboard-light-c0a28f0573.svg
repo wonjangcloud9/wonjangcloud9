@@ -16,16 +16,16 @@
   <rect x="0.5" y="0.5" width="879" height="742" rx="16" fill="#ffffff" stroke="#d8dee4"/>
 
   <text x="48" y="52" class="h1">원장 실험실 · WONJANG LAB</text>
-  <text x="832" y="50" class="live" text-anchor="end">2026-11-22 기준</text>
+  <text x="832" y="50" class="live" text-anchor="end">2026-11-23 기준</text>
   <line x1="48" y1="76" x2="832" y2="76" stroke="#d8dee4"/>
 
   <text x="48" y="134" class="big">358</text>
   <text x="48" y="157" class="cap">레포 · 공개 162</text>
-  <text x="182" y="134" class="big">10,528</text>
+  <text x="182" y="134" class="big">10,565</text>
   <text x="182" y="157" class="cap">커밋 · 비공개 포함</text>
-  <text x="316" y="134" class="big" fill="#D97757">4,901</text>
+  <text x="316" y="134" class="big" fill="#D97757">4,938</text>
   <text x="316" y="157" class="cap">올해 커밋</text>
-  <text x="450" y="134" class="big" fill="#3fb950">23</text>
+  <text x="450" y="134" class="big" fill="#3fb950">24</text>
   <text x="450" y="157" class="cap">연속 기록 · 일</text>
 
   <text x="596" y="104" class="sec">연도별 커밋</text>
@@ -45,9 +45,9 @@
       <animate attributeName="y" values="182;166" dur="0.7s" begin="0.24s" fill="freeze"/>
     </rect>
     <text x="673.5" y="199" class="tick" text-anchor="middle">'22</text>
-    <rect x="695" y="156" width="23" height="26" rx="3" fill="#d8dee4">
-      <animate attributeName="height" values="0;26" dur="0.7s" begin="0.36s" fill="freeze"/>
-      <animate attributeName="y" values="182;156" dur="0.7s" begin="0.36s" fill="freeze"/>
+    <rect x="695" y="157" width="23" height="25" rx="3" fill="#d8dee4">
+      <animate attributeName="height" values="0;25" dur="0.7s" begin="0.36s" fill="freeze"/>
+      <animate attributeName="y" values="182;157" dur="0.7s" begin="0.36s" fill="freeze"/>
     </rect>
     <text x="706.5" y="199" class="tick" text-anchor="middle">'23</text>
     <rect x="728" y="164" width="23" height="18" rx="3" fill="#d8dee4">
@@ -146,23 +146,23 @@
     <text x="656" y="541.5" class="rowsub">2023년부터</text>
 
   <line x1="48" y1="572" x2="832" y2="572" stroke="#d8dee4"/>
-  <text x="48" y="600" class="sec">오픈소스에 보탠 것 · 남의 저장소 27곳</text>
-  <text x="48" y="650" class="big">66</text>
-  <text x="48" y="673" class="cap">보낸 PR · 리뷰 대기 43</text>
-  <text x="182" y="650" class="big" fill="#3fb950">20</text>
+  <text x="48" y="600" class="sec">오픈소스에 보탠 것 · 남의 저장소 31곳</text>
+  <text x="48" y="650" class="big">73</text>
+  <text x="48" y="673" class="cap">보낸 PR · 리뷰 대기 47</text>
+  <text x="182" y="650" class="big" fill="#3fb950">23</text>
   <text x="182" y="673" class="cap">머지된 PR</text>
   <text x="316" y="650" class="big">14</text>
   <text x="316" y="673" class="cap">알린 문제</text>
   
     <text x="450" y="628" class="rowlbl">hyperframes</text>
-    <text x="620" y="628" class="rowsub">★ 88k</text>
+    <text x="620" y="628" class="rowsub">★ 89k</text>
     <text x="832" y="628" class="rowsub" text-anchor="end">PR 34 · 머지 16 · 이슈 8</text>
-    <text x="450" y="650" class="rowlbl">holidays</text>
-    <text x="620" y="650" class="rowsub">★ 411</text>
-    <text x="832" y="650" class="rowsub" text-anchor="end">PR 3 · 머지 1</text>
-    <text x="450" y="672" class="rowlbl">faker</text>
-    <text x="620" y="672" class="rowsub">★ 16k</text>
-    <text x="832" y="672" class="rowsub" text-anchor="end">PR 2 · 머지 1</text>
+    <text x="450" y="650" class="rowlbl">faker</text>
+    <text x="620" y="650" class="rowsub">★ 16k</text>
+    <text x="832" y="650" class="rowsub" text-anchor="end">PR 2 · 머지 2</text>
+    <text x="450" y="672" class="rowlbl">mui-x</text>
+    <text x="620" y="672" class="rowsub">★ 5.9k</text>
+    <text x="832" y="672" class="rowsub" text-anchor="end">PR 3 · 머지 1</text>
 
   <text x="48" y="717" class="foot">최장 연속 123일  ·  지금 만드는 것 · vibing, AI 게임 대결, Custo</text>
 </svg>
