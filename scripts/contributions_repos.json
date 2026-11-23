@@ -28,5 +28,9 @@
   "lk-geimfari/mimesis": {"ko": "테스트용 가짜 데이터를 여러 언어로 만들어 주는 Python 라이브러리", "en": "Python library that generates fake test data in many locales"},
   "usememos/memos": {"ko": "내 서버에 직접 띄우는 오픈소스 메모 앱. 생각을 타임라인으로 모아 둡니다 (Go)", "en": "Open-source self-hosted note-taking app that collects your thoughts in a personal timeline (Go)"},
   "Donkie/Spoolman": {"ko": "3D 프린터 필라멘트 스풀 재고 관리 서버 (Python)", "en": "Self-hosted inventory tracker for 3D-printer filament spools (Python)"},
-  "countries/countries": {"ko": "나라마다 국가 코드·통화·전화번호 규칙 같은 정보를 담은 라이브러리 (Ruby)", "en": "Ruby library with ISO country data: codes, currencies and phone number rules (Ruby)"}
+  "countries/countries": {"ko": "나라마다 국가 코드·통화·전화번호 규칙 같은 정보를 담은 라이브러리 (Ruby)", "en": "Ruby library with ISO country data: codes, currencies and phone number rules (Ruby)"},
+  "infiniflow/ragflow": {"ko": "문서를 읽어 근거와 함께 답하는 RAG 엔진, 에이전트용 컨텍스트 저장소로 커졌습니다 (Go·TypeScript)", "en": "RAG engine that answers from your documents with citations, grown into context infrastructure for agents (Go, TypeScript)"},
+  "strapi/strapi": {"ko": "오픈소스 헤드리스 CMS (TypeScript)", "en": "Open-source headless CMS (TypeScript)"},
+  "filamentphp/filament": {"ko": "Laravel로 관리자 화면·업무용 앱을 빠르게 만드는 프레임워크 (PHP)", "en": "Framework for building admin panels and business apps with Laravel (PHP)"},
+  "nager/Nager.Date": {"ko": "200여 나라의 공휴일을 알려 주는 .NET 라이브러리·REST API (C#)", "en": "Public holidays for 200+ countries as a .NET library and REST API (C#)"}
 }

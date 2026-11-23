@@ -40,7 +40,7 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/tile-aurora-fall-2.jpg" width="49%" alt="오로라 폴 2, 3D 배틀로얄"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/tile-sundrift-gp.jpg" width="49%" alt="선드리프트 GP, 3D 카트 레이싱"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/tile-lens-answer.jpg" width="49%" alt="렌즈 속 정답, AI 안경 끼고 시험 보기"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v13/"><img src="./assets/games/tile-twilight-front.jpg" width="49%" alt="어스름 전선, 5대5 AOS"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v17/"><img src="./assets/games/tile-twilight-front.jpg" width="49%" alt="어스름 전선, 5대5 AOS"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep06/v14/"><img src="./assets/games/tile-lantern-keeper.jpg" width="49%" alt="등불지기, 2D 횡스크롤 RPG"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/tile-seoul-632.jpg" width="49%" alt="서울 632년, 1394년부터 자라는 서울 3D"></a>
 </p>
@@ -108,8 +108,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-c0a28f0573.svg">
-  <img src="./assets/dashboard-light-c0a28f0573.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-261a71bae3.svg">
+  <img src="./assets/dashboard-light-261a71bae3.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
 </picture>
 </div>
 
@@ -119,7 +119,7 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <br>
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 30곳에 PR 72개와 이슈 14개를 냈고, 그중 23개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 34곳에 PR 76개와 이슈 14개를 냈고, 그중 25개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
@@ -128,15 +128,17 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 | **[mui-x](https://github.com/mui/mui-x)**<br><sub>★ 5.9k</sub> | MUI의 고급 React 컴포넌트 모음 (데이터 그리드·날짜 선택기·차트) | PR&nbsp;3<br>머지&nbsp;1 |
 | **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 411</sub> | 나라별 공휴일을 계산해 주는 PHP 라이브러리 | PR&nbsp;3<br>머지&nbsp;1 |
 | **[business-day](https://github.com/kylekatarnls/business-day)**<br><sub>★ 405</sub> | 날짜 라이브러리 Carbon에 영업일·공휴일 계산을 더해 주는 PHP 확장 | PR&nbsp;2<br>머지&nbsp;1 |
-| **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | Vue 3용 UI 컴포넌트 라이브러리 (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
+| **[memos](https://github.com/usememos/memos)**<br><sub>★ 65k</sub> | 내 서버에 직접 띄우는 오픈소스 메모 앱. 생각을 타임라인으로 모아 둡니다 (Go) | PR&nbsp;1<br>머지&nbsp;1 |
 
 <details>
-<summary><b>나머지 프로젝트 24곳</b></summary>
+<summary><b>나머지 프로젝트 28곳</b></summary>
 
 <br>
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
+| **[filament](https://github.com/filamentphp/filament)**<br><sub>★ 33k</sub> | Laravel로 관리자 화면·업무용 앱을 빠르게 만드는 프레임워크 (PHP) | PR&nbsp;1<br>머지&nbsp;1 |
+| **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | Vue 3용 UI 컴포넌트 라이브러리 (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | 세계 나라 정보(이름·수도·통화·번역)를 JSON·CSV·XML·YAML로 담은 데이터 모음 | PR&nbsp;1<br>머지&nbsp;1 |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 266k</sub> | 터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python) | PR&nbsp;5 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | 이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript) | PR&nbsp;2 |
@@ -144,7 +146,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 | **[countries](https://github.com/countries/countries)**<br><sub>★ 2.4k</sub> | 나라마다 국가 코드·통화·전화번호 규칙 같은 정보를 담은 라이브러리 (Ruby) | PR&nbsp;2 |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Claude Code 플러그인을 모아 둔 목록 | PR&nbsp;2 |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python) | 이슈&nbsp;2 |
-| **[memos](https://github.com/usememos/memos)**<br><sub>★ 65k</sub> | 내 서버에 직접 띄우는 오픈소스 메모 앱. 생각을 타임라인으로 모아 둡니다 (Go) | PR&nbsp;1 |
+| **[ragflow](https://github.com/infiniflow/ragflow)**<br><sub>★ 95k</sub> | 문서를 읽어 근거와 함께 답하는 RAG 엔진, 에이전트용 컨텍스트 저장소로 커졌습니다 (Go·TypeScript) | PR&nbsp;1 |
+| **[strapi](https://github.com/strapi/strapi)**<br><sub>★ 74k</sub> | 오픈소스 헤드리스 CMS (TypeScript) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스 | 이슈&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | 날짜를 더하고 빼고 원하는 모양으로 적어 주는 라이브러리. 나라별 표기도 들어 있습니다 (TypeScript) | PR&nbsp;1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5·유튜브·비메오 영상 플레이어 (JavaScript) | 이슈&nbsp;1 |
@@ -152,31 +155,34 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 | **[sveltejs/kit](https://github.com/sveltejs/kit)**<br><sub>★ 21k</sub> | Svelte의 풀스택 웹 프레임워크. 라우팅·SSR·리다이렉트를 맡습니다 | PR&nbsp;1 |
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | 오타가 있어도 찾아 주는 가벼운 퍼지 검색 라이브러리 (JavaScript) | PR&nbsp;1 |
 | **[faker](https://github.com/joke2k/faker)**<br><sub>★ 20k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 파이썬 라이브러리 | PR&nbsp;1 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 12k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | 토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript) | PR&nbsp;1 |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 11k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
 | **[mimesis](https://github.com/lk-geimfari/mimesis)**<br><sub>★ 4.9k</sub> | 테스트용 가짜 데이터를 여러 언어로 만들어 주는 Python 라이브러리 | PR&nbsp;1 |
 | **[Spoolman](https://github.com/Donkie/Spoolman)**<br><sub>★ 3.1k</sub> | 3D 프린터 필라멘트 스풀 재고 관리 서버 (Python) | PR&nbsp;1 |
+| **[Nager.Date](https://github.com/nager/Nager.Date)**<br><sub>★ 1.4k</sub> | 200여 나라의 공휴일을 알려 주는 .NET 라이브러리·REST API (C#) | PR&nbsp;1 |
 | **[citty](https://github.com/unjs/citty)**<br><sub>★ 1.4k</sub> | Nuxt·unjs 쪽에서 쓰는 가벼운 CLI 만들기 라이브러리. 옵션 해석과 도움말을 만들어 줍니다 (TypeScript) | PR&nbsp;1 |
 | **[date-holidays](https://github.com/commenthol/date-holidays)**<br><sub>★ 1.1k</sub> | 나라·지역별 공휴일을 계산해 주는 라이브러리. 음력 명절과 대체공휴일 규칙도 다룹니다 (JavaScript) | PR&nbsp;1 |
 | **[phone](https://github.com/AfterShip/phone)**<br><sub>★ 922</sub> | 휴대폰 번호를 검사하고 국제 표기(+82…)로 맞춰 주는 라이브러리 (TypeScript) | PR&nbsp;1 |
-| **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 609</sub> | 세금번호·IBAN·주민번호 같은 나라별 번호 수백 가지를 검증하는 파이썬 라이브러리 | PR&nbsp;1 |
+| **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 610</sub> | 세금번호·IBAN·주민번호 같은 나라별 번호 수백 가지를 검증하는 파이썬 라이브러리 | PR&nbsp;1 |
 | **[definitions](https://github.com/holidays/definitions)**<br><sub>★ 119</sub> | 나라별 공휴일을 YAML로 적어 둔 정의 파일 모음. Ruby holidays 젬이 이걸 읽습니다 | PR&nbsp;1 |
 
 </details>
 
 **최근 머지된 것**
 
+- [filament #21085](https://github.com/filamentphp/filament/pull/21085) 한국어에 빠져 있던 문구 247개를 영어 파일과 같은 구조로 채우기
+- [memos #6616](https://github.com/usememos/memos/pull/6616) 사용량 제한 설정 등 한국어 화면에 영어로 남아 있던 문구 46개 번역
 - [mui-x #24295](https://github.com/mui/mui-x/pull/24295) 데이터 그리드 한국어 화면에 영어로 남아 있던 문구 100개 번역, 페이지 표시의 'of'와 잘못 옮겨진 메뉴 2개 바로잡기
 - [element-plus #25109](https://github.com/element-plus/element-plus/pull/25109) 한국어 화면에 영어로 남아 있던 문구 29개 번역, 서로 뒤바뀐 '값 증가'·'값 감소' 바로잡기
 - [business-day #165](https://github.com/kylekatarnls/business-day/pull/165) 한국 대체공휴일과 올해 공휴일이 된 노동절·제헌절이 빠져 있던 것
-- [faker #4279](https://github.com/faker-js/faker/pull/4279) 한국 가짜 주소에 없어진 광주광역시·전라남도가 나오던 것 (전남광주통합특별시로 교체)
-- [hyperframes #8261](https://github.com/heygen-com/hyperframes/pull/8261) 세로 영상 안전 영역 설명서의 숫자가 실제 검사 기준과 달랐던 것
 
 <details>
-<summary><b>그 전에 머지된 PR 18개</b></summary>
+<summary><b>그 전에 머지된 PR 20개</b></summary>
 
 <br>
 
+- [faker #4279](https://github.com/faker-js/faker/pull/4279) 한국 가짜 주소에 없어진 광주광역시·전라남도가 나오던 것 (전남광주통합특별시로 교체)
+- [hyperframes #8261](https://github.com/heygen-com/hyperframes/pull/8261) 세로 영상 안전 영역 설명서의 숫자가 실제 검사 기준과 달랐던 것
 - [countries #613](https://github.com/mledoze/countries/pull/613) 도미니카연방이 '도미니카 공화국', 영국령 인도양 지역이 '인도'로 적혀 있던 한국어 국가명
 - [holidays #359](https://github.com/spatie/holidays/pull/359) 한국 크리스마스가 12월 15일로 들어가 있던 것
 - [hyperframes #8084](https://github.com/heygen-com/hyperframes/pull/8084) '1,080'이나 '3.5%' 같은 숫자를 두 단어로 세서 자막 최소 노출 시간이 늘어나던 것
@@ -199,13 +205,15 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 </details>
 
 <details>
-<summary><b>리뷰를 기다리는 PR 46개</b></summary>
+<summary><b>리뷰를 기다리는 PR 48개</b></summary>
 
 <br>
 
+- [ragflow #22696](https://github.com/infiniflow/ragflow/pull/22696) 한국어 화면에 영어로 나오던 문구 1,123개를 번역하고, 더는 안 쓰는 키 29개 정리
+- [strapi #28771](https://github.com/strapi/strapi/pull/28771) 관리자 화면 한국어 번역에 빠져 있던 문구 615개를 채워 다시 전부 한국어로
+- [Nager.Date #1215](https://github.com/nager/Nager.Date/pull/1215) 2023년부터 생긴 크리스마스 대체공휴일이 빠져 있던 것
 - [countries #977](https://github.com/countries/countries/pull/977) 이름이 바뀐 강원특별자치도·전북특별자치도와 빠져 있던 세종시를 한국 행정구역에 반영
 - [countries #976](https://github.com/countries/countries/pull/976) 한국 휴대폰 번호(010-XXXX-XXXX)가 길이 검사에서 틀린 번호로 걸리던 것 바로잡기
-- [memos #6616](https://github.com/usememos/memos/pull/6616) 사용량 제한 설정 등 한국어 화면에 영어로 남아 있던 문구 46개 번역
 - [mui-x #24308](https://github.com/mui/mui-x/pull/24308) 차트에 한국어(ko-KR) 언어 추가, 124개 문구를 엑셀과 같은 차트 이름으로 번역
 - [Spoolman #1339](https://github.com/Donkie/Spoolman/pull/1339) 라벨 인쇄 화면의 정렬 버튼에서 '최신순'이 한 글자씩 세로로 꺾이던 것 바로잡기 (중국어·태국어도)
 - [mui-x #24303](https://github.com/mui/mui-x/pull/24303) 스케줄러 한국어 화면에 주석으로 비어 있던 문구 164개를 전부 번역
@@ -309,7 +317,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,938</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,941</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 열 개를 열었고, 큐티스트리트 팬페이지 Custo를 다시 지었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
