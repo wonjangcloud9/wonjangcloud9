@@ -88,5 +88,20 @@
   "infiniflow/ragflow#22696": "한국어 화면에 영어로 나오던 문구 1,123개를 번역하고, 더는 안 쓰는 키 29개 정리",
   "strapi/strapi#28771": "관리자 화면 한국어 번역에 빠져 있던 문구 615개를 채워 다시 전부 한국어로",
   "filamentphp/filament#21085": "한국어에 빠져 있던 문구 247개를 영어 파일과 같은 구조로 채우기",
-  "nager/Nager.Date#1215": "2023년부터 생긴 크리스마스 대체공휴일이 빠져 있던 것"
+  "nager/Nager.Date#1215": "2023년부터 생긴 크리스마스 대체공휴일이 빠져 있던 것",
+  "microsoft/vscode#350145": "터미널 파일 링크가 \"：src/a.ts。\"처럼 중국어·일본어 문장부호까지 삼키지 않게",
+  "microsoft/vscode#350141": "커맨드 팔레트에서 ㅌ만 쳐도 터미널이 검색되게, 조합 중인 마지막 한 글자도 매칭",
+  "microsoft/vscode#350140": "새 UI에서 터미널 한글 조합 글자가 커서보다 반 줄 아래에 그려지던 것 수정",
+  "JetBrains/thinkrail#1475": "한국어 번역 추가 (3,034개), 설정의 언어 목록에 한국어가 생깁니다",
+  "cloudflare/cloudflare-os#1279": "컨텍스트 라이브러리에서 한글로 이름 짓고 Enter 치면 두 번 만들어지던 것 막기",
+  "clerk/javascript#10976": "비어 있던 한국어 번역 736개 채움 (SSO 설정, 결제, MFA, 오류 메시지)",
+  "tusen-ai/naive-ui#8270": "주 선택 칸의 영어 \"Select Week\"를 한국어로",
+  "DouyinFE/semi-design#4117": "업로드 자르기 창이 중국어로 뜨던 것과 AM이 '아침', Expand가 '배포'로 나오던 오역 11개 수정",
+  "mrdoob/three.js#35694": "three.js 에디터에서 한국어만 영어로 남아 있던 14개 번역",
+  "heygen-com/hyperframes#8701": "구간 렌더(--start/--end)에 Lambda용 2GB 제한이 걸리던 것 해제",
+  "hoppscotch/hoppscotch#6829": "한국어 번역 완성: 빠진 키 1,270개 + 영어로 남은 354개",
+  "joaomatossilva/DateTimeExtensions#290": "2028년 추석이 개천절과 겹치면 멈추던 버그, 대체공휴일 확대, 제헌절 추가",
+  "TryGhost/Ghost#33258": "비어 있던 한국어 100개 채움 (멤버십 선물하기 흐름)",
+  "squirephp/squire#132": "강원특별자치도 이름 반영, 빠져 있던 세종 추가",
+  "ant-design/ant-design#59978": "입력창 지우기 버튼과 OTP 칸 라벨의 한국어 추가"
 }

@@ -32,5 +32,17 @@
   "infiniflow/ragflow": {"ko": "문서를 읽어 근거와 함께 답하는 RAG 엔진, 에이전트용 컨텍스트 저장소로 커졌습니다 (Go·TypeScript)", "en": "RAG engine that answers from your documents with citations, grown into context infrastructure for agents (Go, TypeScript)"},
   "strapi/strapi": {"ko": "오픈소스 헤드리스 CMS (TypeScript)", "en": "Open-source headless CMS (TypeScript)"},
   "filamentphp/filament": {"ko": "Laravel로 관리자 화면·업무용 앱을 빠르게 만드는 프레임워크 (PHP)", "en": "Framework for building admin panels and business apps with Laravel (PHP)"},
-  "nager/Nager.Date": {"ko": "200여 나라의 공휴일을 알려 주는 .NET 라이브러리·REST API (C#)", "en": "Public holidays for 200+ countries as a .NET library and REST API (C#)"}
+  "nager/Nager.Date": {"ko": "200여 나라의 공휴일을 알려 주는 .NET 라이브러리·REST API (C#)", "en": "Public holidays for 200+ countries as a .NET library and REST API (C#)"},
+  "microsoft/vscode": {"ko": "마이크로소프트의 코드 에디터 VS Code (TypeScript)", "en": "Microsoft's code editor VS Code (TypeScript)"},
+  "JetBrains/thinkrail": {"ko": "JetBrains가 만든 AI 코딩 에이전트용 데스크톱·웹 IDE (TypeScript)", "en": "JetBrains' desktop and web IDE for AI coding agents (TypeScript)"},
+  "cloudflare/cloudflare-os": {"ko": "Cloudflare Workers 위에서 도는 에이전트 작업 공간 (TypeScript)", "en": "Agent workspace built on Cloudflare Workers (TypeScript)"},
+  "clerk/javascript": {"ko": "로그인·회원 관리 서비스 Clerk의 JavaScript SDK와 UI (TypeScript)", "en": "JavaScript SDKs and UI for Clerk, the auth and user-management service (TypeScript)"},
+  "tusen-ai/naive-ui": {"ko": "Vue 3 UI 컴포넌트 라이브러리 (TypeScript)", "en": "Vue 3 UI component library (TypeScript)"},
+  "DouyinFE/semi-design": {"ko": "틱톡(더우인) 팀이 만든 React UI 디자인 시스템 (TypeScript)", "en": "React UI design system from the Douyin (TikTok) team (TypeScript)"},
+  "mrdoob/three.js": {"ko": "웹 3D 그래픽 라이브러리 three.js와 그 에디터 (JavaScript)", "en": "three.js, the 3D graphics library for the web, and its editor (JavaScript)"},
+  "hoppscotch/hoppscotch": {"ko": "오픈소스 API 클라이언트, Postman 대안 (TypeScript)", "en": "Open-source API client, a Postman alternative (TypeScript)"},
+  "joaomatossilva/DateTimeExtensions": {"ko": "나라별 공휴일과 영업일을 계산하는 .NET 라이브러리 (C#)", "en": ".NET library for per-country holidays and working days (C#)"},
+  "TryGhost/Ghost": {"ko": "뉴스레터·멤버십 기능이 있는 출판 플랫폼 Ghost (JavaScript)", "en": "Ghost, the publishing platform with newsletters and memberships (JavaScript)"},
+  "squirephp/squire": {"ko": "국가·지역·통화 같은 기준 데이터를 주는 Laravel 패키지 (PHP)", "en": "Laravel package with reference data such as countries, regions and currencies (PHP)"},
+  "ant-design/ant-design": {"ko": "엔터프라이즈용 React UI 라이브러리 Ant Design (TypeScript)", "en": "Ant Design, the enterprise React UI library (TypeScript)"}
 }
