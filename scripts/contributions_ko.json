@@ -103,5 +103,10 @@
   "joaomatossilva/DateTimeExtensions#290": "2028년 추석이 개천절과 겹치면 멈추던 버그, 대체공휴일 확대, 제헌절 추가",
   "TryGhost/Ghost#33258": "비어 있던 한국어 100개 채움 (멤버십 선물하기 흐름)",
   "squirephp/squire#132": "강원특별자치도 이름 반영, 빠져 있던 세종 추가",
-  "ant-design/ant-design#59978": "입력창 지우기 버튼과 OTP 칸 라벨의 한국어 추가"
+  "ant-design/ant-design#59978": "입력창 지우기 버튼과 OTP 칸 라벨의 한국어 추가",
+  "cloudflare/cloudflare-os#1289": "컨텍스트 라이브러리에서 한글로 이름 짓고 Enter 치면 두 번 만들어지던 것 막기 (#1279를 템플릿에 맞춰 다시 올림)",
+  "ant-design/ant-design#59982": "폼 검증 문구 21개의 어순·조사 수정 (\"3이어야 합니다 이름\" → \"이름은(는) 3개여야 합니다\")",
+  "microsoft/vscode#350153": "스크린샷 주석에서 한글·일본어 조합 중 Esc를 누르면 쓰던 글자가 다 날아가던 것 수정",
+  "microsoft/vscode#350151": "CJK 고정폭 폰트에서 에디터 줄바꿈이 화면 밖으로 넘치던 것 수정 (전각 폭을 한자로 측정)",
+  "microsoft/vscode#350152": "스크린샷 주석 도구의 IME 조합 중 Esc 문제를 이슈로 보고"
 }

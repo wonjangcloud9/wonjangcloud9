@@ -108,8 +108,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-9dc9bed507.svg">
-  <img src="./assets/dashboard-light-9dc9bed507.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects, open-source contributions" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-afbc674b58.svg">
+  <img src="./assets/dashboard-light-afbc674b58.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects, open-source contributions" width="100%">
 </picture>
 </div>
 
@@ -119,16 +119,16 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <br>
 
-Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 91 pull requests and 14 issues across 46 projects, 28 merged so far.
+Problems I hit while using a tool, fixed or reported. Many only show up when you work in Korean, such as IME input and Korean captions. 95 pull requests and 15 issues across 46 projects, 31 merged so far.
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 89k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;35<br>16&nbsp;merged<br>8&nbsp;issues |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 90k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;35<br>16&nbsp;merged<br>8&nbsp;issues |
+| **[ant-design](https://github.com/ant-design/ant-design)**<br><sub>★ 100k</sub> | Ant Design, the enterprise React UI library (TypeScript) | PR&nbsp;2<br>2&nbsp;merged |
 | **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | Generates fake test data such as names, addresses and phone numbers, per locale (TypeScript) | PR&nbsp;2<br>2&nbsp;merged |
 | **[mui-x](https://github.com/mui/mui-x)**<br><sub>★ 5.9k</sub> | MUI's advanced React components (Data Grid, Date Pickers, Charts) | PR&nbsp;3<br>1&nbsp;merged |
 | **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 411</sub> | PHP library that calculates public holidays per country | PR&nbsp;3<br>1&nbsp;merged |
 | **[business-day](https://github.com/kylekatarnls/business-day)**<br><sub>★ 405</sub> | PHP extension that adds business-day and holiday calculations to the Carbon date library | PR&nbsp;2<br>1&nbsp;merged |
-| **[three.js](https://github.com/mrdoob/three.js)**<br><sub>★ 119k</sub> | three.js, the 3D graphics library for the web, and its editor (JavaScript) | PR&nbsp;1<br>1&nbsp;merged |
 
 <details>
 <summary><b>40 more projects</b></summary>
@@ -137,20 +137,22 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 
 | Project | What it is | Mine |
 |---|---|---|
+| **[three.js](https://github.com/mrdoob/three.js)**<br><sub>★ 119k</sub> | three.js, the 3D graphics library for the web, and its editor (JavaScript) | PR&nbsp;1<br>1&nbsp;merged |
 | **[ragflow](https://github.com/infiniflow/ragflow)**<br><sub>★ 95k</sub> | RAG engine that answers from your documents with citations, grown into context infrastructure for agents (Go, TypeScript) | PR&nbsp;1<br>1&nbsp;merged |
 | **[memos](https://github.com/usememos/memos)**<br><sub>★ 65k</sub> | Open-source self-hosted note-taking app that collects your thoughts in a personal timeline (Go) | PR&nbsp;1<br>1&nbsp;merged |
 | **[filament](https://github.com/filamentphp/filament)**<br><sub>★ 33k</sub> | Framework for building admin panels and business apps with Laravel (PHP) | PR&nbsp;1<br>1&nbsp;merged |
 | **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | UI component library for Vue 3 (TypeScript) | PR&nbsp;1<br>1&nbsp;merged |
+| **[thinkrail](https://github.com/JetBrains/thinkrail)**<br><sub>★ 8.4k</sub> | JetBrains' desktop and web IDE for AI coding agents (TypeScript) | PR&nbsp;1<br>1&nbsp;merged |
 | **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML | PR&nbsp;1<br>1&nbsp;merged |
 | **[squire](https://github.com/squirephp/squire)**<br><sub>★ 1.1k</sub> | Laravel package with reference data such as countries, regions and currencies (PHP) | PR&nbsp;1<br>1&nbsp;merged |
+| **[vscode](https://github.com/microsoft/vscode)**<br><sub>★ 196k</sub> | Microsoft's code editor VS Code (TypeScript) | PR&nbsp;5<br>1&nbsp;issue |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 266k</sub> | Autonomous AI agent for the terminal, desktop and chat apps, with a dashboard and an agent-to-agent server (Python) | PR&nbsp;5 |
-| **[vscode](https://github.com/microsoft/vscode)**<br><sub>★ 196k</sub> | Microsoft's code editor VS Code (TypeScript) | PR&nbsp;3 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | String validation library: emails, passport numbers and so on (JavaScript) | PR&nbsp;2 |
+| **[cloudflare-os](https://github.com/cloudflare/cloudflare-os)**<br><sub>★ 12k</sub> | Agent workspace built on Cloudflare Workers (TypeScript) | PR&nbsp;2 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | Streaming server with ~0.5 s latency over WebRTC (Java) | 2&nbsp;issues |
 | **[countries](https://github.com/countries/countries)**<br><sub>★ 2.4k</sub> | Ruby library with ISO country data: codes, currencies and phone number rules (Ruby) | PR&nbsp;2 |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Curated list of Claude Code plugins | PR&nbsp;2 |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | Pipeline that automatically evaluates how often an LLM shows a given behaviour (Python) | 2&nbsp;issues |
-| **[ant-design](https://github.com/ant-design/ant-design)**<br><sub>★ 100k</sub> | Ant Design, the enterprise React UI library (TypeScript) | PR&nbsp;1 |
 | **[hoppscotch](https://github.com/hoppscotch/hoppscotch)**<br><sub>★ 81k</sub> | Open-source API client, a Postman alternative (TypeScript) | PR&nbsp;1 |
 | **[strapi](https://github.com/strapi/strapi)**<br><sub>★ 74k</sub> | Open-source headless CMS (TypeScript) | PR&nbsp;1 |
 | **[Ghost](https://github.com/TryGhost/Ghost)**<br><sub>★ 56k</sub> | Ghost, the publishing platform with newsletters and memberships (JavaScript) | PR&nbsp;1 |
@@ -162,11 +164,9 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR&nbsp;1 |
 | **[faker](https://github.com/joke2k/faker)**<br><sub>★ 20k</sub> | Python library that generates fake test data such as names, addresses and phone numbers, per locale | PR&nbsp;1 |
 | **[naive-ui](https://github.com/tusen-ai/naive-ui)**<br><sub>★ 19k</sub> | Vue 3 UI component library (TypeScript) | PR&nbsp;1 |
-| **[cloudflare-os](https://github.com/cloudflare/cloudflare-os)**<br><sub>★ 12k</sub> | Agent workspace built on Cloudflare Workers (TypeScript) | PR&nbsp;1 |
 | **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 12k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR&nbsp;1 |
 | **[semi-design](https://github.com/DouyinFE/semi-design)**<br><sub>★ 10k</sub> | React UI design system from the Douyin (TikTok) team (TypeScript) | PR&nbsp;1 |
-| **[thinkrail](https://github.com/JetBrains/thinkrail)**<br><sub>★ 8.4k</sub> | JetBrains' desktop and web IDE for AI coding agents (TypeScript) | PR&nbsp;1 |
 | **[mimesis](https://github.com/lk-geimfari/mimesis)**<br><sub>★ 4.9k</sub> | Python library that generates fake test data in many locales | PR&nbsp;1 |
 | **[Spoolman](https://github.com/Donkie/Spoolman)**<br><sub>★ 3.1k</sub> | Self-hosted inventory tracker for 3D-printer filament spools (Python) | PR&nbsp;1 |
 | **[javascript](https://github.com/clerk/javascript)**<br><sub>★ 1.8k</sub> | JavaScript SDKs and UI for Clerk, the auth and user-management service (TypeScript) | PR&nbsp;1 |
@@ -182,17 +182,20 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 
 **Recently merged**
 
+- [ant-design #59982](https://github.com/ant-design/ant-design/pull/59982) fix(locale): fix word order and particles in ko_KR form validation messages
+- [thinkrail #1475](https://github.com/JetBrains/thinkrail/pull/1475) feat(locales): add a Korean translation
 - [three.js #35694](https://github.com/mrdoob/three.js/pull/35694) Editor: Translate the remaining English strings in Korean.
 - [squire #132](https://github.com/squirephp/squire/pull/132) Update South Korean regions: rename KR-42 Gangwon, add KR-50 Sejong
-- [ragflow #22696](https://github.com/infiniflow/ragflow/pull/22696) i18n(ko): fill in missing Korean translations and sync ko.ts with en.ts
-- [filament #21085](https://github.com/filamentphp/filament/pull/21085) Add missing Korean translations
-- [memos #6616](https://github.com/usememos/memos/pull/6616) chore(i18n): translate the remaining English strings in Korean
+- [ant-design #59978](https://github.com/ant-design/ant-design/pull/59978) fix(locale): add missing ko_KR clear and OTP cell labels
 
 <details>
-<summary><b>23 earlier merged pull requests</b></summary>
+<summary><b>26 earlier merged pull requests</b></summary>
 
 <br>
 
+- [ragflow #22696](https://github.com/infiniflow/ragflow/pull/22696) i18n(ko): fill in missing Korean translations and sync ko.ts with en.ts
+- [filament #21085](https://github.com/filamentphp/filament/pull/21085) Add missing Korean translations
+- [memos #6616](https://github.com/usememos/memos/pull/6616) chore(i18n): translate the remaining English strings in Korean
 - [mui-x #24295](https://github.com/mui/mui-x/pull/24295) [l10n] Improve Korean (ko-KR) locale
 - [element-plus #25109](https://github.com/element-plus/element-plus/pull/25109) fix(locale): [ko] translate missing strings
 - [business-day #165](https://github.com/kylekatarnls/business-day/pull/165) Add Korean substitute holidays, Labor Day and Constitution Day
@@ -220,14 +223,16 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 </details>
 
 <details>
-<summary><b>59 pull requests in review</b></summary>
+<summary><b>60 pull requests in review</b></summary>
 
 <br>
 
+- [cloudflare-os #1289](https://github.com/cloudflare/cloudflare-os/pull/1289) Context: don't commit a name on an IME composition Enter
+- [vscode #350153](https://github.com/microsoft/vscode/pull/350153) Screenshot annotation: leave Escape and Enter to an IME that is still composing
+- [vscode #350151](https://github.com/microsoft/vscode/pull/350151) Editor: measure the fullwidth character width with a CJK ideograph
 - [vscode #350145](https://github.com/microsoft/vscode/pull/350145) Terminal: keep CJK sentence and list punctuation out of local file links
 - [vscode #350141](https://github.com/microsoft/vscode/pull/350141) Quick pick: match the Hangul syllable an IME is still composing
 - [vscode #350140](https://github.com/microsoft/vscode/pull/350140) Fix terminal IME composition rendering below the cursor in Modern UI
-- [thinkrail #1475](https://github.com/JetBrains/thinkrail/pull/1475) feat(locales): add a Korean translation
 - [javascript #10976](https://github.com/clerk/javascript/pull/10976) chore(localizations): Fill in the missing Korean (ko-KR) translations
 - [naive-ui #8270](https://github.com/tusen-ai/naive-ui/pull/8270) fix(locale): translate weekPlaceholder in the Korean locale
 - [semi-design #4117](https://github.com/DouyinFE/semi-design/pull/4117) fix(locale): add missing Korean Upload crop text and fix wrong ko_KR strings
@@ -235,7 +240,6 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 - [hoppscotch #6829](https://github.com/hoppscotch/hoppscotch/pull/6829) chore(common): complete Korean (ko) translations
 - [DateTimeExtensions #290](https://github.com/joaomatossilva/DateTimeExtensions/pull/290) Fix ko-KR substitute holidays (Chuseok 2028 hang) and add Jeheonjeol
 - [Ghost #33258](https://github.com/TryGhost/Ghost/pull/33258) 🌐 Filled empty Korean (ko) translations
-- [ant-design #59978](https://github.com/ant-design/ant-design/pull/59978) fix(locale): add missing ko_KR clear and OTP cell labels
 - [strapi #28771](https://github.com/strapi/strapi/pull/28771) chore(translations): complete Korean (ko) admin translations
 - [Nager.Date #1215](https://github.com/nager/Nager.Date/pull/1215) South Korea: add the substitute holiday for Christmas from 2023
 - [countries #977](https://github.com/countries/countries/pull/977) Update South Korean subdivisions: Gangwon (KR-42), Jeonbuk (KR-45), Sejong (KR-50)
@@ -287,10 +291,11 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 </details>
 
 <details>
-<summary><b>14 issues reported</b></summary>
+<summary><b>15 issues reported</b></summary>
 
 <br>
 
+- [vscode #350152](https://github.com/microsoft/vscode/issues/350152) Screenshot annotation: Escape during an IME composition discards the text being typed
 - [hyperframes #7753](https://github.com/heygen-com/hyperframes/issues/7753) check: a contrast finding on an id-less element is named from <body>, past ancestors that have an id
 - [hyperframes #7713](https://github.com/heygen-com/hyperframes/issues/7713) Render progress bar sits at 77% when 95% of a long streaming render is done
 - [hyperframes #7712](https://github.com/heygen-com/hyperframes/issues/7712) check: container_overflow "Nowrap text is wider than its container" fires for absolutely positioned titles in an unsized wrapper
@@ -344,7 +349,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,964 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>4,970 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened ten of them, and rebuilt Custo as a CUTIE STREET fan site. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>

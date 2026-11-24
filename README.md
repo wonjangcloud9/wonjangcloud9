@@ -108,8 +108,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-9dc9bed507.svg">
-  <img src="./assets/dashboard-light-9dc9bed507.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-afbc674b58.svg">
+  <img src="./assets/dashboard-light-afbc674b58.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
 </picture>
 </div>
 
@@ -119,16 +119,16 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <br>
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 46곳에 PR 91개와 이슈 14개를 냈고, 그중 28개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 46곳에 PR 95개와 이슈 15개를 냈고, 그중 31개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 89k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;35<br>머지&nbsp;16<br>이슈&nbsp;8 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 90k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;35<br>머지&nbsp;16<br>이슈&nbsp;8 |
+| **[ant-design](https://github.com/ant-design/ant-design)**<br><sub>★ 100k</sub> | 엔터프라이즈용 React UI 라이브러리 Ant Design (TypeScript) | PR&nbsp;2<br>머지&nbsp;2 |
 | **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 라이브러리 (TypeScript) | PR&nbsp;2<br>머지&nbsp;2 |
 | **[mui-x](https://github.com/mui/mui-x)**<br><sub>★ 5.9k</sub> | MUI의 고급 React 컴포넌트 모음 (데이터 그리드·날짜 선택기·차트) | PR&nbsp;3<br>머지&nbsp;1 |
 | **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 411</sub> | 나라별 공휴일을 계산해 주는 PHP 라이브러리 | PR&nbsp;3<br>머지&nbsp;1 |
 | **[business-day](https://github.com/kylekatarnls/business-day)**<br><sub>★ 405</sub> | 날짜 라이브러리 Carbon에 영업일·공휴일 계산을 더해 주는 PHP 확장 | PR&nbsp;2<br>머지&nbsp;1 |
-| **[three.js](https://github.com/mrdoob/three.js)**<br><sub>★ 119k</sub> | 웹 3D 그래픽 라이브러리 three.js와 그 에디터 (JavaScript) | PR&nbsp;1<br>머지&nbsp;1 |
 
 <details>
 <summary><b>나머지 프로젝트 40곳</b></summary>
@@ -137,20 +137,22 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
+| **[three.js](https://github.com/mrdoob/three.js)**<br><sub>★ 119k</sub> | 웹 3D 그래픽 라이브러리 three.js와 그 에디터 (JavaScript) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[ragflow](https://github.com/infiniflow/ragflow)**<br><sub>★ 95k</sub> | 문서를 읽어 근거와 함께 답하는 RAG 엔진, 에이전트용 컨텍스트 저장소로 커졌습니다 (Go·TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[memos](https://github.com/usememos/memos)**<br><sub>★ 65k</sub> | 내 서버에 직접 띄우는 오픈소스 메모 앱. 생각을 타임라인으로 모아 둡니다 (Go) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[filament](https://github.com/filamentphp/filament)**<br><sub>★ 33k</sub> | Laravel로 관리자 화면·업무용 앱을 빠르게 만드는 프레임워크 (PHP) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | Vue 3용 UI 컴포넌트 라이브러리 (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
+| **[thinkrail](https://github.com/JetBrains/thinkrail)**<br><sub>★ 8.4k</sub> | JetBrains가 만든 AI 코딩 에이전트용 데스크톱·웹 IDE (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | 세계 나라 정보(이름·수도·통화·번역)를 JSON·CSV·XML·YAML로 담은 데이터 모음 | PR&nbsp;1<br>머지&nbsp;1 |
 | **[squire](https://github.com/squirephp/squire)**<br><sub>★ 1.1k</sub> | 국가·지역·통화 같은 기준 데이터를 주는 Laravel 패키지 (PHP) | PR&nbsp;1<br>머지&nbsp;1 |
+| **[vscode](https://github.com/microsoft/vscode)**<br><sub>★ 196k</sub> | 마이크로소프트의 코드 에디터 VS Code (TypeScript) | PR&nbsp;5<br>이슈&nbsp;1 |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 266k</sub> | 터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python) | PR&nbsp;5 |
-| **[vscode](https://github.com/microsoft/vscode)**<br><sub>★ 196k</sub> | 마이크로소프트의 코드 에디터 VS Code (TypeScript) | PR&nbsp;3 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | 이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript) | PR&nbsp;2 |
+| **[cloudflare-os](https://github.com/cloudflare/cloudflare-os)**<br><sub>★ 12k</sub> | Cloudflare Workers 위에서 도는 에이전트 작업 공간 (TypeScript) | PR&nbsp;2 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | WebRTC로 0.5초 지연 방송을 하는 스트리밍 서버 (Java) | 이슈&nbsp;2 |
 | **[countries](https://github.com/countries/countries)**<br><sub>★ 2.4k</sub> | 나라마다 국가 코드·통화·전화번호 규칙 같은 정보를 담은 라이브러리 (Ruby) | PR&nbsp;2 |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Claude Code 플러그인을 모아 둔 목록 | PR&nbsp;2 |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python) | 이슈&nbsp;2 |
-| **[ant-design](https://github.com/ant-design/ant-design)**<br><sub>★ 100k</sub> | 엔터프라이즈용 React UI 라이브러리 Ant Design (TypeScript) | PR&nbsp;1 |
 | **[hoppscotch](https://github.com/hoppscotch/hoppscotch)**<br><sub>★ 81k</sub> | 오픈소스 API 클라이언트, Postman 대안 (TypeScript) | PR&nbsp;1 |
 | **[strapi](https://github.com/strapi/strapi)**<br><sub>★ 74k</sub> | 오픈소스 헤드리스 CMS (TypeScript) | PR&nbsp;1 |
 | **[Ghost](https://github.com/TryGhost/Ghost)**<br><sub>★ 56k</sub> | 뉴스레터·멤버십 기능이 있는 출판 플랫폼 Ghost (JavaScript) | PR&nbsp;1 |
@@ -162,11 +164,9 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | 오타가 있어도 찾아 주는 가벼운 퍼지 검색 라이브러리 (JavaScript) | PR&nbsp;1 |
 | **[faker](https://github.com/joke2k/faker)**<br><sub>★ 20k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 파이썬 라이브러리 | PR&nbsp;1 |
 | **[naive-ui](https://github.com/tusen-ai/naive-ui)**<br><sub>★ 19k</sub> | Vue 3 UI 컴포넌트 라이브러리 (TypeScript) | PR&nbsp;1 |
-| **[cloudflare-os](https://github.com/cloudflare/cloudflare-os)**<br><sub>★ 12k</sub> | Cloudflare Workers 위에서 도는 에이전트 작업 공간 (TypeScript) | PR&nbsp;1 |
 | **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 12k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | 토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript) | PR&nbsp;1 |
 | **[semi-design](https://github.com/DouyinFE/semi-design)**<br><sub>★ 10k</sub> | 틱톡(더우인) 팀이 만든 React UI 디자인 시스템 (TypeScript) | PR&nbsp;1 |
-| **[thinkrail](https://github.com/JetBrains/thinkrail)**<br><sub>★ 8.4k</sub> | JetBrains가 만든 AI 코딩 에이전트용 데스크톱·웹 IDE (TypeScript) | PR&nbsp;1 |
 | **[mimesis](https://github.com/lk-geimfari/mimesis)**<br><sub>★ 4.9k</sub> | 테스트용 가짜 데이터를 여러 언어로 만들어 주는 Python 라이브러리 | PR&nbsp;1 |
 | **[Spoolman](https://github.com/Donkie/Spoolman)**<br><sub>★ 3.1k</sub> | 3D 프린터 필라멘트 스풀 재고 관리 서버 (Python) | PR&nbsp;1 |
 | **[javascript](https://github.com/clerk/javascript)**<br><sub>★ 1.8k</sub> | 로그인·회원 관리 서비스 Clerk의 JavaScript SDK와 UI (TypeScript) | PR&nbsp;1 |
@@ -182,17 +182,20 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 **최근 머지된 것**
 
+- [ant-design #59982](https://github.com/ant-design/ant-design/pull/59982) 폼 검증 문구 21개의 어순·조사 수정 ("3이어야 합니다 이름" → "이름은(는) 3개여야 합니다")
+- [thinkrail #1475](https://github.com/JetBrains/thinkrail/pull/1475) 한국어 번역 추가 (3,034개), 설정의 언어 목록에 한국어가 생깁니다
 - [three.js #35694](https://github.com/mrdoob/three.js/pull/35694) three.js 에디터에서 한국어만 영어로 남아 있던 14개 번역
 - [squire #132](https://github.com/squirephp/squire/pull/132) 강원특별자치도 이름 반영, 빠져 있던 세종 추가
-- [ragflow #22696](https://github.com/infiniflow/ragflow/pull/22696) 한국어 화면에 영어로 나오던 문구 1,123개를 번역하고, 더는 안 쓰는 키 29개 정리
-- [filament #21085](https://github.com/filamentphp/filament/pull/21085) 한국어에 빠져 있던 문구 247개를 영어 파일과 같은 구조로 채우기
-- [memos #6616](https://github.com/usememos/memos/pull/6616) 사용량 제한 설정 등 한국어 화면에 영어로 남아 있던 문구 46개 번역
+- [ant-design #59978](https://github.com/ant-design/ant-design/pull/59978) 입력창 지우기 버튼과 OTP 칸 라벨의 한국어 추가
 
 <details>
-<summary><b>그 전에 머지된 PR 23개</b></summary>
+<summary><b>그 전에 머지된 PR 26개</b></summary>
 
 <br>
 
+- [ragflow #22696](https://github.com/infiniflow/ragflow/pull/22696) 한국어 화면에 영어로 나오던 문구 1,123개를 번역하고, 더는 안 쓰는 키 29개 정리
+- [filament #21085](https://github.com/filamentphp/filament/pull/21085) 한국어에 빠져 있던 문구 247개를 영어 파일과 같은 구조로 채우기
+- [memos #6616](https://github.com/usememos/memos/pull/6616) 사용량 제한 설정 등 한국어 화면에 영어로 남아 있던 문구 46개 번역
 - [mui-x #24295](https://github.com/mui/mui-x/pull/24295) 데이터 그리드 한국어 화면에 영어로 남아 있던 문구 100개 번역, 페이지 표시의 'of'와 잘못 옮겨진 메뉴 2개 바로잡기
 - [element-plus #25109](https://github.com/element-plus/element-plus/pull/25109) 한국어 화면에 영어로 남아 있던 문구 29개 번역, 서로 뒤바뀐 '값 증가'·'값 감소' 바로잡기
 - [business-day #165](https://github.com/kylekatarnls/business-day/pull/165) 한국 대체공휴일과 올해 공휴일이 된 노동절·제헌절이 빠져 있던 것
@@ -220,14 +223,16 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 </details>
 
 <details>
-<summary><b>리뷰를 기다리는 PR 59개</b></summary>
+<summary><b>리뷰를 기다리는 PR 60개</b></summary>
 
 <br>
 
+- [cloudflare-os #1289](https://github.com/cloudflare/cloudflare-os/pull/1289) 컨텍스트 라이브러리에서 한글로 이름 짓고 Enter 치면 두 번 만들어지던 것 막기 (#1279를 템플릿에 맞춰 다시 올림)
+- [vscode #350153](https://github.com/microsoft/vscode/pull/350153) 스크린샷 주석에서 한글·일본어 조합 중 Esc를 누르면 쓰던 글자가 다 날아가던 것 수정
+- [vscode #350151](https://github.com/microsoft/vscode/pull/350151) CJK 고정폭 폰트에서 에디터 줄바꿈이 화면 밖으로 넘치던 것 수정 (전각 폭을 한자로 측정)
 - [vscode #350145](https://github.com/microsoft/vscode/pull/350145) 터미널 파일 링크가 "：src/a.ts。"처럼 중국어·일본어 문장부호까지 삼키지 않게
 - [vscode #350141](https://github.com/microsoft/vscode/pull/350141) 커맨드 팔레트에서 ㅌ만 쳐도 터미널이 검색되게, 조합 중인 마지막 한 글자도 매칭
 - [vscode #350140](https://github.com/microsoft/vscode/pull/350140) 새 UI에서 터미널 한글 조합 글자가 커서보다 반 줄 아래에 그려지던 것 수정
-- [thinkrail #1475](https://github.com/JetBrains/thinkrail/pull/1475) 한국어 번역 추가 (3,034개), 설정의 언어 목록에 한국어가 생깁니다
 - [javascript #10976](https://github.com/clerk/javascript/pull/10976) 비어 있던 한국어 번역 736개 채움 (SSO 설정, 결제, MFA, 오류 메시지)
 - [naive-ui #8270](https://github.com/tusen-ai/naive-ui/pull/8270) 주 선택 칸의 영어 "Select Week"를 한국어로
 - [semi-design #4117](https://github.com/DouyinFE/semi-design/pull/4117) 업로드 자르기 창이 중국어로 뜨던 것과 AM이 '아침', Expand가 '배포'로 나오던 오역 11개 수정
@@ -235,7 +240,6 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 - [hoppscotch #6829](https://github.com/hoppscotch/hoppscotch/pull/6829) 한국어 번역 완성: 빠진 키 1,270개 + 영어로 남은 354개
 - [DateTimeExtensions #290](https://github.com/joaomatossilva/DateTimeExtensions/pull/290) 2028년 추석이 개천절과 겹치면 멈추던 버그, 대체공휴일 확대, 제헌절 추가
 - [Ghost #33258](https://github.com/TryGhost/Ghost/pull/33258) 비어 있던 한국어 100개 채움 (멤버십 선물하기 흐름)
-- [ant-design #59978](https://github.com/ant-design/ant-design/pull/59978) 입력창 지우기 버튼과 OTP 칸 라벨의 한국어 추가
 - [strapi #28771](https://github.com/strapi/strapi/pull/28771) 관리자 화면 한국어 번역에 빠져 있던 문구 615개를 채워 다시 전부 한국어로
 - [Nager.Date #1215](https://github.com/nager/Nager.Date/pull/1215) 2023년부터 생긴 크리스마스 대체공휴일이 빠져 있던 것
 - [countries #977](https://github.com/countries/countries/pull/977) 이름이 바뀐 강원특별자치도·전북특별자치도와 빠져 있던 세종시를 한국 행정구역에 반영
@@ -287,10 +291,11 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 </details>
 
 <details>
-<summary><b>알린 문제 14개</b></summary>
+<summary><b>알린 문제 15개</b></summary>
 
 <br>
 
+- [vscode #350152](https://github.com/microsoft/vscode/issues/350152) 스크린샷 주석 도구의 IME 조합 중 Esc 문제를 이슈로 보고
 - [hyperframes #7753](https://github.com/heygen-com/hyperframes/issues/7753) 경고가 가리키는 글자 이름이 너무 길어 찾기 어렵습니다
 - [hyperframes #7713](https://github.com/heygen-com/hyperframes/issues/7713) 긴 렌더가 95% 끝났는데 진행 막대는 77%에 서 있습니다
 - [hyperframes #7712](https://github.com/heygen-com/hyperframes/issues/7712) 화면에선 멀쩡한 제목에 '칸보다 넓다'는 경고가 뜹니다
@@ -344,7 +349,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,964</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,970</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 열 개를 열었고, 큐티스트리트 팬페이지 Custo를 다시 지었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
