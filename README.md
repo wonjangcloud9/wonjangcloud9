@@ -108,8 +108,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-afbc674b58.svg">
-  <img src="./assets/dashboard-light-afbc674b58.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-fb4d40a99f.svg">
+  <img src="./assets/dashboard-light-fb4d40a99f.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
 </picture>
 </div>
 
@@ -119,19 +119,19 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <br>
 
-쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 46곳에 PR 95개와 이슈 15개를 냈고, 그중 31개가 머지됐습니다.
+쓰다가 걸린 문제를 고쳐서 보내거나 알렸습니다. 한글 입력이나 한국어 자막처럼, 한국어로 써야 보이는 문제가 많습니다. 프로젝트 54곳에 PR 104개와 이슈 16개를 냈고, 그중 37개가 머지됐습니다.
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 90k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;35<br>머지&nbsp;16<br>이슈&nbsp;8 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 90k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;36<br>머지&nbsp;16<br>이슈&nbsp;8 |
+| **[mui-x](https://github.com/mui/mui-x)**<br><sub>★ 5.9k</sub> | MUI의 고급 React 컴포넌트 모음 (데이터 그리드·날짜 선택기·차트) | PR&nbsp;3<br>머지&nbsp;2 |
 | **[ant-design](https://github.com/ant-design/ant-design)**<br><sub>★ 100k</sub> | 엔터프라이즈용 React UI 라이브러리 Ant Design (TypeScript) | PR&nbsp;2<br>머지&nbsp;2 |
 | **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 라이브러리 (TypeScript) | PR&nbsp;2<br>머지&nbsp;2 |
-| **[mui-x](https://github.com/mui/mui-x)**<br><sub>★ 5.9k</sub> | MUI의 고급 React 컴포넌트 모음 (데이터 그리드·날짜 선택기·차트) | PR&nbsp;3<br>머지&nbsp;1 |
 | **[holidays](https://github.com/spatie/holidays)**<br><sub>★ 411</sub> | 나라별 공휴일을 계산해 주는 PHP 라이브러리 | PR&nbsp;3<br>머지&nbsp;1 |
 | **[business-day](https://github.com/kylekatarnls/business-day)**<br><sub>★ 405</sub> | 날짜 라이브러리 Carbon에 영업일·공휴일 계산을 더해 주는 PHP 확장 | PR&nbsp;2<br>머지&nbsp;1 |
 
 <details>
-<summary><b>나머지 프로젝트 40곳</b></summary>
+<summary><b>나머지 프로젝트 48곳</b></summary>
 
 <br>
 
@@ -144,19 +144,27 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 | **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | Vue 3용 UI 컴포넌트 라이브러리 (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[thinkrail](https://github.com/JetBrains/thinkrail)**<br><sub>★ 8.4k</sub> | JetBrains가 만든 AI 코딩 에이전트용 데스크톱·웹 IDE (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | 세계 나라 정보(이름·수도·통화·번역)를 JSON·CSV·XML·YAML로 담은 데이터 모음 | PR&nbsp;1<br>머지&nbsp;1 |
+| **[mimesis](https://github.com/lk-geimfari/mimesis)**<br><sub>★ 4.9k</sub> | 테스트용 가짜 데이터를 여러 언어로 만들어 주는 Python 라이브러리 | PR&nbsp;1<br>머지&nbsp;1 |
+| **[match-sorter](https://github.com/kentcdodds/match-sorter)**<br><sub>★ 4.1k</sub> | 검색어와 가장 잘 맞는 순서로 목록을 걸러 정렬해 주는 JavaScript 라이브러리 | PR&nbsp;1<br>머지&nbsp;1 |
+| **[datafaker](https://github.com/datafaker-net/datafaker)**<br><sub>★ 1.8k</sub> | 테스트용 가짜 데이터를 만드는 Java 라이브러리 (Java Faker의 후속) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[squire](https://github.com/squirephp/squire)**<br><sub>★ 1.1k</sub> | 국가·지역·통화 같은 기준 데이터를 주는 Laravel 패키지 (PHP) | PR&nbsp;1<br>머지&nbsp;1 |
+| **[phone](https://github.com/AfterShip/phone)**<br><sub>★ 922</sub> | 휴대폰 번호를 검사하고 국제 표기(+82…)로 맞춰 주는 라이브러리 (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
+| **[country-region-data](https://github.com/country-regions/country-region-data)**<br><sub>★ 448</sub> | 나라별 시·도 목록을 ISO 3166-2 기준으로 모아 둔 데이터 패키지 | PR&nbsp;1<br>머지&nbsp;1 |
 | **[vscode](https://github.com/microsoft/vscode)**<br><sub>★ 196k</sub> | 마이크로소프트의 코드 에디터 VS Code (TypeScript) | PR&nbsp;5<br>이슈&nbsp;1 |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)**<br><sub>★ 266k</sub> | 터미널·데스크톱·메신저에서 도는 자율 AI 에이전트. 대시보드와 에이전트끼리 통신하는 서버가 있습니다 (Python) | PR&nbsp;5 |
+| **[Ghost](https://github.com/TryGhost/Ghost)**<br><sub>★ 56k</sub> | 뉴스레터·멤버십 기능이 있는 출판 플랫폼 Ghost (JavaScript) | PR&nbsp;2 |
 | **[validator.js](https://github.com/validatorjs/validator.js)**<br><sub>★ 24k</sub> | 이메일·여권번호 같은 문자열 형식을 검사하는 라이브러리 (JavaScript) | PR&nbsp;2 |
 | **[cloudflare-os](https://github.com/cloudflare/cloudflare-os)**<br><sub>★ 12k</sub> | Cloudflare Workers 위에서 도는 에이전트 작업 공간 (TypeScript) | PR&nbsp;2 |
 | **[Ant-Media-Server](https://github.com/ant-media/Ant-Media-Server)**<br><sub>★ 4.7k</sub> | WebRTC로 0.5초 지연 방송을 하는 스트리밍 서버 (Java) | 이슈&nbsp;2 |
 | **[countries](https://github.com/countries/countries)**<br><sub>★ 2.4k</sub> | 나라마다 국가 코드·통화·전화번호 규칙 같은 정보를 담은 라이브러리 (Ruby) | PR&nbsp;2 |
 | **[awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins)**<br><sub>★ 2.0k</sub> | Claude Code 플러그인을 모아 둔 목록 | PR&nbsp;2 |
 | **[bloom](https://github.com/safety-research/bloom)**<br><sub>★ 1.4k</sub> | LLM이 특정 행동을 얼마나 하는지 자동으로 평가하는 파이프라인 (Python) | 이슈&nbsp;2 |
+| **[material-ui](https://github.com/mui/material-ui)**<br><sub>★ 99k</sub> | 구글 머티리얼 디자인을 구현한 React 컴포넌트 라이브러리 MUI | PR&nbsp;1 |
 | **[hoppscotch](https://github.com/hoppscotch/hoppscotch)**<br><sub>★ 81k</sub> | 오픈소스 API 클라이언트, Postman 대안 (TypeScript) | PR&nbsp;1 |
 | **[strapi](https://github.com/strapi/strapi)**<br><sub>★ 74k</sub> | 오픈소스 헤드리스 CMS (TypeScript) | PR&nbsp;1 |
-| **[Ghost](https://github.com/TryGhost/Ghost)**<br><sub>★ 56k</sub> | 뉴스레터·멤버십 기능이 있는 출판 플랫폼 Ghost (JavaScript) | PR&nbsp;1 |
+| **[marktext](https://github.com/marktext/marktext)**<br><sub>★ 64k</sub> | 실시간 미리보기 마크다운 에디터 MarkText (Electron) | PR&nbsp;1 |
 | **[expo](https://github.com/expo/expo)**<br><sub>★ 54k</sub> | React로 안드로이드·iOS·웹 앱을 만드는 프레임워크와 빌드 서비스 | 이슈&nbsp;1 |
+| **[colinhacks/zod](https://github.com/colinhacks/zod)**<br><sub>★ 44k</sub> | TypeScript 우선 스키마 검증 라이브러리. 오류 메시지를 여러 언어로 번역해 둔 로케일이 있습니다 | 이슈&nbsp;1 |
 | **[date-fns](https://github.com/date-fns/date-fns)**<br><sub>★ 37k</sub> | 날짜를 더하고 빼고 원하는 모양으로 적어 주는 라이브러리. 나라별 표기도 들어 있습니다 (TypeScript) | PR&nbsp;1 |
 | **[plyr](https://github.com/sampotts/plyr)**<br><sub>★ 30k</sub> | HTML5·유튜브·비메오 영상 플레이어 (JavaScript) | 이슈&nbsp;1 |
 | **[xterm.js](https://github.com/xtermjs/xterm.js)**<br><sub>★ 21k</sub> | VS Code·Cursor 같은 앱 안의 터미널 화면을 그리는 웹 터미널 라이브러리 (TypeScript) | PR&nbsp;1 |
@@ -166,37 +174,43 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 | **[naive-ui](https://github.com/tusen-ai/naive-ui)**<br><sub>★ 19k</sub> | Vue 3 UI 컴포넌트 라이브러리 (TypeScript) | PR&nbsp;1 |
 | **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 12k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | 토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript) | PR&nbsp;1 |
-| **[semi-design](https://github.com/DouyinFE/semi-design)**<br><sub>★ 10k</sub> | 틱톡(더우인) 팀이 만든 React UI 디자인 시스템 (TypeScript) | PR&nbsp;1 |
-| **[mimesis](https://github.com/lk-geimfari/mimesis)**<br><sub>★ 4.9k</sub> | 테스트용 가짜 데이터를 여러 언어로 만들어 주는 Python 라이브러리 | PR&nbsp;1 |
+| **[semi-design](https://github.com/DouyinFE/semi-design)**<br><sub>★ 11k</sub> | 틱톡(더우인) 팀이 만든 React UI 디자인 시스템 (TypeScript) | PR&nbsp;1 |
 | **[Spoolman](https://github.com/Donkie/Spoolman)**<br><sub>★ 3.1k</sub> | 3D 프린터 필라멘트 스풀 재고 관리 서버 (Python) | PR&nbsp;1 |
 | **[javascript](https://github.com/clerk/javascript)**<br><sub>★ 1.8k</sub> | 로그인·회원 관리 서비스 Clerk의 JavaScript SDK와 UI (TypeScript) | PR&nbsp;1 |
 | **[Nager.Date](https://github.com/nager/Nager.Date)**<br><sub>★ 1.4k</sub> | 200여 나라의 공휴일을 알려 주는 .NET 라이브러리·REST API (C#) | PR&nbsp;1 |
 | **[citty](https://github.com/unjs/citty)**<br><sub>★ 1.4k</sub> | Nuxt·unjs 쪽에서 쓰는 가벼운 CLI 만들기 라이브러리. 옵션 해석과 도움말을 만들어 줍니다 (TypeScript) | PR&nbsp;1 |
 | **[date-holidays](https://github.com/commenthol/date-holidays)**<br><sub>★ 1.1k</sub> | 나라·지역별 공휴일을 계산해 주는 라이브러리. 음력 명절과 대체공휴일 규칙도 다룹니다 (JavaScript) | PR&nbsp;1 |
-| **[phone](https://github.com/AfterShip/phone)**<br><sub>★ 922</sub> | 휴대폰 번호를 검사하고 국제 표기(+82…)로 맞춰 주는 라이브러리 (TypeScript) | PR&nbsp;1 |
+| **[table](https://github.com/gajus/table)**<br><sub>★ 977</sub> | 터미널에 표를 그려 주는 Node.js 라이브러리. 주간 다운로드 수천만 회 | PR&nbsp;1 |
+| **[addressing](https://github.com/commerceguys/addressing)**<br><sub>★ 973</sub> | 나라별 주소 형식과 행정구역 데이터를 담은 PHP 라이브러리 (Drupal Commerce가 사용) | PR&nbsp;1 |
 | **[DateTimeExtensions](https://github.com/joaomatossilva/DateTimeExtensions)**<br><sub>★ 902</sub> | 나라별 공휴일과 영업일을 계산하는 .NET 라이브러리 (C#) | PR&nbsp;1 |
-| **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 610</sub> | 세금번호·IBAN·주민번호 같은 나라별 번호 수백 가지를 검증하는 파이썬 라이브러리 | PR&nbsp;1 |
+| **[python-stdnum](https://github.com/arthurdejong/python-stdnum)**<br><sub>★ 611</sub> | 세금번호·IBAN·주민번호 같은 나라별 번호 수백 가지를 검증하는 파이썬 라이브러리 | PR&nbsp;1 |
 | **[definitions](https://github.com/holidays/definitions)**<br><sub>★ 118</sub> | 나라별 공휴일을 YAML로 적어 둔 정의 파일 모음. Ruby holidays 젬이 이걸 읽습니다 | PR&nbsp;1 |
 
 </details>
 
 **최근 머지된 것**
 
+- [match-sorter #174](https://github.com/kentcdodds/match-sorter/pull/174) 맥 파일명처럼 자모가 분리된(NFD) 한글을 일반 입력으로 검색하면 안 나오던 것 수정
+- [country-region-data #173](https://github.com/country-regions/country-region-data/pull/173) 강원도를 ISO 3166-2 이름(강원특별자치도)으로 갱신
+- [datafaker #1995](https://github.com/datafaker-net/datafaker/pull/1995) 전남·광주 통합(전남광주)과 실제 우편번호 앞자리 반영
 - [ant-design #59982](https://github.com/ant-design/ant-design/pull/59982) 폼 검증 문구 21개의 어순·조사 수정 ("3이어야 합니다 이름" → "이름은(는) 3개여야 합니다")
 - [thinkrail #1475](https://github.com/JetBrains/thinkrail/pull/1475) 한국어 번역 추가 (3,034개), 설정의 언어 목록에 한국어가 생깁니다
-- [three.js #35694](https://github.com/mrdoob/three.js/pull/35694) three.js 에디터에서 한국어만 영어로 남아 있던 14개 번역
-- [squire #132](https://github.com/squirephp/squire/pull/132) 강원특별자치도 이름 반영, 빠져 있던 세종 추가
-- [ant-design #59978](https://github.com/ant-design/ant-design/pull/59978) 입력창 지우기 버튼과 OTP 칸 라벨의 한국어 추가
 
 <details>
-<summary><b>그 전에 머지된 PR 26개</b></summary>
+<summary><b>그 전에 머지된 PR 32개</b></summary>
 
 <br>
 
+- [three.js #35694](https://github.com/mrdoob/three.js/pull/35694) three.js 에디터에서 한국어만 영어로 남아 있던 14개 번역
+- [squire #132](https://github.com/squirephp/squire/pull/132) 강원특별자치도 이름 반영, 빠져 있던 세종 추가
+- [ant-design #59978](https://github.com/ant-design/ant-design/pull/59978) 입력창 지우기 버튼과 OTP 칸 라벨의 한국어 추가
 - [ragflow #22696](https://github.com/infiniflow/ragflow/pull/22696) 한국어 화면에 영어로 나오던 문구 1,123개를 번역하고, 더는 안 쓰는 키 29개 정리
 - [filament #21085](https://github.com/filamentphp/filament/pull/21085) 한국어에 빠져 있던 문구 247개를 영어 파일과 같은 구조로 채우기
 - [memos #6616](https://github.com/usememos/memos/pull/6616) 사용량 제한 설정 등 한국어 화면에 영어로 남아 있던 문구 46개 번역
+- [mui-x #24308](https://github.com/mui/mui-x/pull/24308) 차트에 한국어(ko-KR) 언어 추가, 124개 문구를 엑셀과 같은 차트 이름으로 번역
+- [mimesis #1768](https://github.com/lk-geimfari/mimesis/pull/1768) 한국 가짜 주소에 없어진 강원도·전라북도·광주광역시·전라남도가 나오던 것 (지금 이름으로 교체)
 - [mui-x #24295](https://github.com/mui/mui-x/pull/24295) 데이터 그리드 한국어 화면에 영어로 남아 있던 문구 100개 번역, 페이지 표시의 'of'와 잘못 옮겨진 메뉴 2개 바로잡기
+- [phone #470](https://github.com/AfterShip/phone/pull/470) 한국 휴대폰 번호 검사가 없어진 011·016~019 번호를 통과시키던 것
 - [element-plus #25109](https://github.com/element-plus/element-plus/pull/25109) 한국어 화면에 영어로 남아 있던 문구 29개 번역, 서로 뒤바뀐 '값 증가'·'값 감소' 바로잡기
 - [business-day #165](https://github.com/kylekatarnls/business-day/pull/165) 한국 대체공휴일과 올해 공휴일이 된 노동절·제헌절이 빠져 있던 것
 - [faker #4279](https://github.com/faker-js/faker/pull/4279) 한국 가짜 주소에 없어진 광주광역시·전라남도가 나오던 것 (전남광주통합특별시로 교체)
@@ -223,11 +237,16 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 </details>
 
 <details>
-<summary><b>리뷰를 기다리는 PR 60개</b></summary>
+<summary><b>리뷰를 기다리는 PR 62개</b></summary>
 
 <br>
 
-- [cloudflare-os #1289](https://github.com/cloudflare/cloudflare-os/pull/1289) 컨텍스트 라이브러리에서 한글로 이름 짓고 Enter 치면 두 번 만들어지던 것 막기 (#1279를 템플릿에 맞춰 다시 올림)
+- [table #248](https://github.com/gajus/table/pull/248) 맥 파일명처럼 자모가 분리된(NFD) 한글이 음절 중간에서 줄바꿈되고 폭이 두 배로 잡히던 것 수정
+- [hyperframes #8852](https://github.com/heygen-com/hyperframes/pull/8852) 렌더를 직접 취소했는데도 "Try --docker" 안내가 뜨던 것 수정
+- [Ghost #33302](https://github.com/TryGhost/Ghost/pull/33302) 관리자 화면 제목에서 일본어 가타카나가 작은 합자 글리프로 바뀌어 보이던 것 수정
+- [marktext #6140](https://github.com/marktext/marktext/pull/6140) IME로 글자를 확정할 때 커서 정보가 비어 있으면 앱이 오류를 내고 입력이 사라지던 것 수정
+- [addressing #256](https://github.com/commerceguys/addressing/pull/256) 강원특별자치도·전북특별자치도 이름 반영, 군위군을 경북에서 대구로 이동
+- [material-ui #49913](https://github.com/mui/material-ui/pull/49913) 별점·페이지 이동 한국어 문구 수정 ('빈 텍스트' → '평점 없음', '3 번째 페이지' → '3페이지')
 - [vscode #350153](https://github.com/microsoft/vscode/pull/350153) 스크린샷 주석에서 한글·일본어 조합 중 Esc를 누르면 쓰던 글자가 다 날아가던 것 수정
 - [vscode #350151](https://github.com/microsoft/vscode/pull/350151) CJK 고정폭 폰트에서 에디터 줄바꿈이 화면 밖으로 넘치던 것 수정 (전각 폭을 한자로 측정)
 - [vscode #350145](https://github.com/microsoft/vscode/pull/350145) 터미널 파일 링크가 "：src/a.ts。"처럼 중국어·일본어 문장부호까지 삼키지 않게
@@ -244,12 +263,9 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 - [Nager.Date #1215](https://github.com/nager/Nager.Date/pull/1215) 2023년부터 생긴 크리스마스 대체공휴일이 빠져 있던 것
 - [countries #977](https://github.com/countries/countries/pull/977) 이름이 바뀐 강원특별자치도·전북특별자치도와 빠져 있던 세종시를 한국 행정구역에 반영
 - [countries #976](https://github.com/countries/countries/pull/976) 한국 휴대폰 번호(010-XXXX-XXXX)가 길이 검사에서 틀린 번호로 걸리던 것 바로잡기
-- [mui-x #24308](https://github.com/mui/mui-x/pull/24308) 차트에 한국어(ko-KR) 언어 추가, 124개 문구를 엑셀과 같은 차트 이름으로 번역
 - [Spoolman #1339](https://github.com/Donkie/Spoolman/pull/1339) 라벨 인쇄 화면의 정렬 버튼에서 '최신순'이 한 글자씩 세로로 꺾이던 것 바로잡기 (중국어·태국어도)
 - [mui-x #24303](https://github.com/mui/mui-x/pull/24303) 스케줄러 한국어 화면에 주석으로 비어 있던 문구 164개를 전부 번역
-- [mimesis #1768](https://github.com/lk-geimfari/mimesis/pull/1768) 한국 가짜 주소에 없어진 강원도·전라북도·광주광역시·전라남도가 나오던 것 (지금 이름으로 교체)
 - [business-day #166](https://github.com/kylekatarnls/business-day/pull/166) 한국 음력 명절을 중국 달력으로 계산해 2027년 설날·2023년 부처님오신날이 하루씩 어긋나던 것 (천문연 음력표로 교체)
-- [phone #470](https://github.com/AfterShip/phone/pull/470) 한국 휴대폰 번호 검사가 없어진 011·016~019 번호를 통과시키던 것
 - [holidays #361](https://github.com/spatie/holidays/pull/361) 한국 음력 명절을 중국 달력으로 계산해 부처님오신날 같은 날짜가 어긋나던 것
 - [holidays #360](https://github.com/spatie/holidays/pull/360) 한국 대체공휴일과 올해 공휴일이 된 노동절·제헌절이 빠져 있던 것
 - [validator.js #2963](https://github.com/validatorjs/validator.js/pull/2963) 한국 휴대폰 번호 검사가 '01|-1234-5678'처럼 세로줄이 든 번호를 통과시키던 것
@@ -291,10 +307,11 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 </details>
 
 <details>
-<summary><b>알린 문제 15개</b></summary>
+<summary><b>알린 문제 16개</b></summary>
 
 <br>
 
+- [colinhacks/zod #6780](https://github.com/colinhacks/zod/issues/6780) 한국어 오류 메시지의 띄어쓰기·조사·영어 타입명 문제를 이슈로 보고
 - [vscode #350152](https://github.com/microsoft/vscode/issues/350152) 스크린샷 주석 도구의 IME 조합 중 Esc 문제를 이슈로 보고
 - [hyperframes #7753](https://github.com/heygen-com/hyperframes/issues/7753) 경고가 가리키는 글자 이름이 너무 길어 찾기 어렵습니다
 - [hyperframes #7713](https://github.com/heygen-com/hyperframes/issues/7713) 긴 렌더가 95% 끝났는데 진행 막대는 77%에 서 있습니다
@@ -314,10 +331,11 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 </details>
 
 <details>
-<summary><b>닫힌 PR 4개</b></summary>
+<summary><b>닫힌 PR 5개</b></summary>
 
 <br>
 
+- [cloudflare-os #1289](https://github.com/cloudflare/cloudflare-os/pull/1289) 컨텍스트 라이브러리에서 한글로 이름 짓고 Enter 치면 두 번 만들어지던 것 막기 (#1279를 템플릿에 맞춰 다시 올림)
 - [cloudflare-os #1279](https://github.com/cloudflare/cloudflare-os/pull/1279) 컨텍스트 라이브러리에서 한글로 이름 짓고 Enter 치면 두 번 만들어지던 것 막기
 - [hyperframes #7704](https://github.com/heygen-com/hyperframes/pull/7704) 다음 장면까지 이어지는 문장을 한 문장으로 재게
 - [Fuse #861](https://github.com/krisk/Fuse/pull/861) 악센트 무시 옵션을 켜면 한글 검색이 안 되던 것
@@ -349,7 +367,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 4,970</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 5,008</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 열 개를 열었고, 큐티스트리트 팬페이지 Custo를 다시 지었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>

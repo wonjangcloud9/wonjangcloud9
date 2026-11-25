@@ -44,5 +44,13 @@
   "joaomatossilva/DateTimeExtensions": {"ko": "나라별 공휴일과 영업일을 계산하는 .NET 라이브러리 (C#)", "en": ".NET library for per-country holidays and working days (C#)"},
   "TryGhost/Ghost": {"ko": "뉴스레터·멤버십 기능이 있는 출판 플랫폼 Ghost (JavaScript)", "en": "Ghost, the publishing platform with newsletters and memberships (JavaScript)"},
   "squirephp/squire": {"ko": "국가·지역·통화 같은 기준 데이터를 주는 Laravel 패키지 (PHP)", "en": "Laravel package with reference data such as countries, regions and currencies (PHP)"},
-  "ant-design/ant-design": {"ko": "엔터프라이즈용 React UI 라이브러리 Ant Design (TypeScript)", "en": "Ant Design, the enterprise React UI library (TypeScript)"}
+  "ant-design/ant-design": {"ko": "엔터프라이즈용 React UI 라이브러리 Ant Design (TypeScript)", "en": "Ant Design, the enterprise React UI library (TypeScript)"},
+  "colinhacks/zod": {"ko": "TypeScript 우선 스키마 검증 라이브러리. 오류 메시지를 여러 언어로 번역해 둔 로케일이 있습니다", "en": "TypeScript-first schema validation library, with translated error-message locales"},
+  "commerceguys/addressing": {"ko": "나라별 주소 형식과 행정구역 데이터를 담은 PHP 라이브러리 (Drupal Commerce가 사용)", "en": "PHP library of address formats and subdivision data for every country (used by Drupal Commerce)"},
+  "country-regions/country-region-data": {"ko": "나라별 시·도 목록을 ISO 3166-2 기준으로 모아 둔 데이터 패키지", "en": "Country and region lists, aligned with ISO 3166-2"},
+  "datafaker-net/datafaker": {"ko": "테스트용 가짜 데이터를 만드는 Java 라이브러리 (Java Faker의 후속)", "en": "Java library for generating fake test data (the successor to Java Faker)"},
+  "gajus/table": {"ko": "터미널에 표를 그려 주는 Node.js 라이브러리. 주간 다운로드 수천만 회", "en": "Node.js library that draws text tables in the terminal, with tens of millions of weekly downloads"},
+  "kentcdodds/match-sorter": {"ko": "검색어와 가장 잘 맞는 순서로 목록을 걸러 정렬해 주는 JavaScript 라이브러리", "en": "JavaScript library that filters and sorts a list by how well each item matches a query"},
+  "marktext/marktext": {"ko": "실시간 미리보기 마크다운 에디터 MarkText (Electron)", "en": "MarkText, a Markdown editor with live preview (Electron)"},
+  "mui/material-ui": {"ko": "구글 머티리얼 디자인을 구현한 React 컴포넌트 라이브러리 MUI", "en": "MUI, the React component library implementing Google's Material Design"}
 }
