@@ -40,7 +40,7 @@ I ask an AI for a game in a few lines, play what it builds, and post the result 
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/tile-aurora-fall-2.en.jpg" width="49%" alt="Aurora Fall 2, a 3D battle royale"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/tile-sundrift-gp.en.jpg" width="49%" alt="Sundrift GP, 3D kart racing"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/tile-lens-answer.en.jpg" width="49%" alt="The Answer in the Lens, an exam with AI glasses"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v17/"><img src="./assets/games/tile-twilight-front.en.jpg" width="49%" alt="Twilight Front, a 5v5 MOBA"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v19/"><img src="./assets/games/tile-twilight-front.en.jpg" width="49%" alt="Twilight Front, a 5v5 MOBA"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep06/v14/"><img src="./assets/games/tile-lantern-keeper.en.jpg" width="49%" alt="The Lantern Keeper, a 2D side-scrolling RPG"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/tile-seoul-632.en.jpg" width="49%" alt="Seoul, 632 years: the city growing in 3D since 1394"></a>
 </p>
@@ -108,8 +108,8 @@ The one I spent longest on is #006, the museum. I built a three-story hall and t
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-fb4d40a99f.svg">
-  <img src="./assets/dashboard-light-fb4d40a99f.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects, open-source contributions" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-c21918f9e0.svg">
+  <img src="./assets/dashboard-light-c21918f9e0.svg" alt="Wonjang Lab dashboard — repos, commits, languages, subjects, open-source contributions" width="100%">
 </picture>
 </div>
 
@@ -123,7 +123,7 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 
 | Project | What it is | Mine |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 90k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;36<br>16&nbsp;merged<br>8&nbsp;issues |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 91k</sub> | Framework that renders HTML, CSS and GSAP to video frame by frame in headless Chrome, with a CLI linter and checker (TypeScript) | PR&nbsp;36<br>16&nbsp;merged<br>8&nbsp;issues |
 | **[mui-x](https://github.com/mui/mui-x)**<br><sub>★ 5.9k</sub> | MUI's advanced React components (Data Grid, Date Pickers, Charts) | PR&nbsp;3<br>2&nbsp;merged |
 | **[ant-design](https://github.com/ant-design/ant-design)**<br><sub>★ 100k</sub> | Ant Design, the enterprise React UI library (TypeScript) | PR&nbsp;2<br>2&nbsp;merged |
 | **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | Generates fake test data such as names, addresses and phone numbers, per locale (TypeScript) | PR&nbsp;2<br>2&nbsp;merged |
@@ -142,7 +142,7 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 | **[memos](https://github.com/usememos/memos)**<br><sub>★ 65k</sub> | Open-source self-hosted note-taking app that collects your thoughts in a personal timeline (Go) | PR&nbsp;1<br>1&nbsp;merged |
 | **[filament](https://github.com/filamentphp/filament)**<br><sub>★ 33k</sub> | Framework for building admin panels and business apps with Laravel (PHP) | PR&nbsp;1<br>1&nbsp;merged |
 | **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | UI component library for Vue 3 (TypeScript) | PR&nbsp;1<br>1&nbsp;merged |
-| **[thinkrail](https://github.com/JetBrains/thinkrail)**<br><sub>★ 8.4k</sub> | JetBrains' desktop and web IDE for AI coding agents (TypeScript) | PR&nbsp;1<br>1&nbsp;merged |
+| **[thinkrail](https://github.com/JetBrains/thinkrail)**<br><sub>★ 8.5k</sub> | JetBrains' desktop and web IDE for AI coding agents (TypeScript) | PR&nbsp;1<br>1&nbsp;merged |
 | **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | World countries data (names, capitals, currencies, translations) in JSON, CSV, XML and YAML | PR&nbsp;1<br>1&nbsp;merged |
 | **[mimesis](https://github.com/lk-geimfari/mimesis)**<br><sub>★ 4.9k</sub> | Python library that generates fake test data in many locales | PR&nbsp;1<br>1&nbsp;merged |
 | **[match-sorter](https://github.com/kentcdodds/match-sorter)**<br><sub>★ 4.1k</sub> | JavaScript library that filters and sorts a list by how well each item matches a query | PR&nbsp;1<br>1&nbsp;merged |
@@ -172,7 +172,7 @@ Problems I hit while using a tool, fixed or reported. Many only show up when you
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | Lightweight fuzzy-search library (JavaScript) | PR&nbsp;1 |
 | **[faker](https://github.com/joke2k/faker)**<br><sub>★ 20k</sub> | Python library that generates fake test data such as names, addresses and phone numbers, per locale | PR&nbsp;1 |
 | **[naive-ui](https://github.com/tusen-ai/naive-ui)**<br><sub>★ 19k</sub> | Vue 3 UI component library (TypeScript) | PR&nbsp;1 |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 12k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 13k</sub> | Agent harness for learning difficult things (TypeScript) | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | Toss's small, fast utility library that replaces lodash (TypeScript) | PR&nbsp;1 |
 | **[semi-design](https://github.com/DouyinFE/semi-design)**<br><sub>★ 11k</sub> | React UI design system from the Douyin (TikTok) team (TypeScript) | PR&nbsp;1 |
 | **[Spoolman](https://github.com/Donkie/Spoolman)**<br><sub>★ 3.1k</sub> | Self-hosted inventory tracker for 3D-printer filament spools (Python) | PR&nbsp;1 |
@@ -367,7 +367,7 @@ LangChain and RAG put an LLM in a product for the first time.
 <tr><td align="center"><b>2025</b><br><sub>45 repos</sub><br><sub>852 commits</sub></td><td>
 Five health apps. Late in the year I stopped using other people's agents and <b>started writing my own</b>.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>5,008 commits</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>48 repos</sub><br><sub>5,065 commits</sub></td><td>
 Shipped agent tools to npm and PyPI. In September I opened eight web services in four days with nanika; in October vibing went out on the App Store. In November I had AI build games and opened ten of them, and rebuilt Custo as a CUTIE STREET fan site. <b>My highest-commit year, and it's only November.</b>
 </td></tr>
 </table>

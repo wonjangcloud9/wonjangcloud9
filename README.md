@@ -40,7 +40,7 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep02/"><img src="./assets/games/tile-aurora-fall-2.jpg" width="49%" alt="오로라 폴 2, 3D 배틀로얄"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep03/claude/"><img src="./assets/games/tile-sundrift-gp.jpg" width="49%" alt="선드리프트 GP, 3D 카트 레이싱"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep04/"><img src="./assets/games/tile-lens-answer.jpg" width="49%" alt="렌즈 속 정답, AI 안경 끼고 시험 보기"></a>
-  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v17/"><img src="./assets/games/tile-twilight-front.jpg" width="49%" alt="어스름 전선, 5대5 AOS"></a>
+  <a href="https://wonjangcloud9.github.io/ai-game-battle/ep05/v19/"><img src="./assets/games/tile-twilight-front.jpg" width="49%" alt="어스름 전선, 5대5 AOS"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/ep06/v14/"><img src="./assets/games/tile-lantern-keeper.jpg" width="49%" alt="등불지기, 2D 횡스크롤 RPG"></a>
   <a href="https://wonjangcloud9.github.io/ai-game-battle/seoul/"><img src="./assets/games/tile-seoul-632.jpg" width="49%" alt="서울 632년, 1394년부터 자라는 서울 3D"></a>
 </p>
@@ -108,8 +108,8 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-fb4d40a99f.svg">
-  <img src="./assets/dashboard-light-fb4d40a99f.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dashboard-dark-c21918f9e0.svg">
+  <img src="./assets/dashboard-light-c21918f9e0.svg" alt="원장 실험실 현황판 — 레포·커밋·언어·주제·오픈소스 기여" width="100%">
 </picture>
 </div>
 
@@ -123,7 +123,7 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 
 | 프로젝트 | 어떤 저장소인가 | 낸 것 |
 |---|---|---|
-| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 90k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;36<br>머지&nbsp;16<br>이슈&nbsp;8 |
+| **[hyperframes](https://github.com/heygen-com/hyperframes)**<br><sub>★ 91k</sub> | HTML·CSS·GSAP로 쓴 화면을 헤드리스 크롬으로 프레임마다 찍어 영상으로 만드는 프레임워크. CLI에 린트·검사기가 딸려 있습니다 (TypeScript) | PR&nbsp;36<br>머지&nbsp;16<br>이슈&nbsp;8 |
 | **[mui-x](https://github.com/mui/mui-x)**<br><sub>★ 5.9k</sub> | MUI의 고급 React 컴포넌트 모음 (데이터 그리드·날짜 선택기·차트) | PR&nbsp;3<br>머지&nbsp;2 |
 | **[ant-design](https://github.com/ant-design/ant-design)**<br><sub>★ 100k</sub> | 엔터프라이즈용 React UI 라이브러리 Ant Design (TypeScript) | PR&nbsp;2<br>머지&nbsp;2 |
 | **[faker](https://github.com/faker-js/faker)**<br><sub>★ 16k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 라이브러리 (TypeScript) | PR&nbsp;2<br>머지&nbsp;2 |
@@ -142,7 +142,7 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 | **[memos](https://github.com/usememos/memos)**<br><sub>★ 65k</sub> | 내 서버에 직접 띄우는 오픈소스 메모 앱. 생각을 타임라인으로 모아 둡니다 (Go) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[filament](https://github.com/filamentphp/filament)**<br><sub>★ 33k</sub> | Laravel로 관리자 화면·업무용 앱을 빠르게 만드는 프레임워크 (PHP) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[element-plus](https://github.com/element-plus/element-plus)**<br><sub>★ 28k</sub> | Vue 3용 UI 컴포넌트 라이브러리 (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
-| **[thinkrail](https://github.com/JetBrains/thinkrail)**<br><sub>★ 8.4k</sub> | JetBrains가 만든 AI 코딩 에이전트용 데스크톱·웹 IDE (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
+| **[thinkrail](https://github.com/JetBrains/thinkrail)**<br><sub>★ 8.5k</sub> | JetBrains가 만든 AI 코딩 에이전트용 데스크톱·웹 IDE (TypeScript) | PR&nbsp;1<br>머지&nbsp;1 |
 | **[countries](https://github.com/mledoze/countries)**<br><sub>★ 6.3k</sub> | 세계 나라 정보(이름·수도·통화·번역)를 JSON·CSV·XML·YAML로 담은 데이터 모음 | PR&nbsp;1<br>머지&nbsp;1 |
 | **[mimesis](https://github.com/lk-geimfari/mimesis)**<br><sub>★ 4.9k</sub> | 테스트용 가짜 데이터를 여러 언어로 만들어 주는 Python 라이브러리 | PR&nbsp;1<br>머지&nbsp;1 |
 | **[match-sorter](https://github.com/kentcdodds/match-sorter)**<br><sub>★ 4.1k</sub> | 검색어와 가장 잘 맞는 순서로 목록을 걸러 정렬해 주는 JavaScript 라이브러리 | PR&nbsp;1<br>머지&nbsp;1 |
@@ -172,7 +172,7 @@ AI에게 몇 줄로 부탁해서 게임을 만들게 하고, 제가 직접 해 �
 | **[Fuse](https://github.com/krisk/Fuse)**<br><sub>★ 21k</sub> | 오타가 있어도 찾아 주는 가벼운 퍼지 검색 라이브러리 (JavaScript) | PR&nbsp;1 |
 | **[faker](https://github.com/joke2k/faker)**<br><sub>★ 20k</sub> | 테스트용 가짜 이름·주소·전화번호를 나라별로 만들어 주는 파이썬 라이브러리 | PR&nbsp;1 |
 | **[naive-ui](https://github.com/tusen-ai/naive-ui)**<br><sub>★ 19k</sub> | Vue 3 UI 컴포넌트 라이브러리 (TypeScript) | PR&nbsp;1 |
-| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 12k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
+| **[learnharness](https://github.com/amosblomqvist/learnharness)**<br><sub>★ 13k</sub> | 어려운 걸 배울 때 쓰는 에이전트 하네스 (TypeScript) | PR&nbsp;1 |
 | **[es-toolkit](https://github.com/toss/es-toolkit)**<br><sub>★ 11k</sub> | 토스가 만든, lodash를 대신하는 작고 빠른 유틸리티 라이브러리 (TypeScript) | PR&nbsp;1 |
 | **[semi-design](https://github.com/DouyinFE/semi-design)**<br><sub>★ 11k</sub> | 틱톡(더우인) 팀이 만든 React UI 디자인 시스템 (TypeScript) | PR&nbsp;1 |
 | **[Spoolman](https://github.com/Donkie/Spoolman)**<br><sub>★ 3.1k</sub> | 3D 프린터 필라멘트 스풀 재고 관리 서버 (Python) | PR&nbsp;1 |
@@ -367,7 +367,7 @@ LangChain·RAG로 LLM을 처음 제품에 붙였습니다.
 <tr><td align="center"><b>2025</b><br><sub>레포 45</sub><br><sub>커밋 852</sub></td><td>
 건강·운동 앱을 다섯 개 만들었습니다. 후반엔 에이전트를 직접 짜기 시작했습니다.
 </td></tr>
-<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 5,008</sub></td><td>
+<tr><td align="center"><b>2026</b><br><sub>레포 48</sub><br><sub>커밋 5,065</sub></td><td>
 에이전트 도구를 npm과 PyPI에 올렸습니다. 9월엔 nanika로 나흘 동안 서비스 여덟 개를 열었고, 10월엔 vibing을 앱스토어에 냈습니다. 11월엔 AI에게 게임을 만들게 해서 열 개를 열었고, 큐티스트리트 팬페이지 Custo를 다시 지었습니다. <b>역대 최다 커밋, 아직 11월입니다.</b>
 </td></tr>
 </table>
